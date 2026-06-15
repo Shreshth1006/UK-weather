@@ -23,7 +23,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install playwright==1.44.0
+          pip install playwright
           playwright install chromium
           playwright install-deps chromium
 
