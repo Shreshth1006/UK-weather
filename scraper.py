@@ -62,18 +62,20 @@ HEADERS = {
 def parse_daily_cards(text: str) -> list[dict]:
     days = []
 
-    # Match each day card block
-    # Pattern: day label, then condition before semicolon, then max temp, then min temp
+    # The page uses "Maximum daytime temperature: 23 degrees Celsius"
+    # and "Minimum nighttime temperature: 13 degrees Celsius"
+    # The ° symbol may be garbled as Â° — so we match on "degrees Celsius" instead
+
     pattern = re.compile(
-        r"(Today|Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+\d*\s*"   # day label
-        r"(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)?\s*\d*\s*\w*\s*"  # repeated label
-        r"([A-Za-z][^;]{2,40});\s*"                          # condition
-        r"(\d+)°\s+Maximum[^;]+;\s*"                         # max temp
-        r"(\d+)°\s+Minimum",                                 # min temp
+        r"(Today|Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+\d*\s*"       # day label e.g. "Today" or "Mon 15"
+        r"(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)?\s*\d*\s*\w*\s*"    # optional repeated label
+        r"([A-Za-z][^;]{2,50});\s*"                            # condition e.g. "Sunny day"
+        r"\d+[^\d]+Maximum daytime temperature:\s*(\d+)\s*degrees Celsius;\s*"  # max temp
+        r"\d+[^\d]+Minimum nighttime temperature:\s*(\d+)\s*degrees Celsius",   # min temp
         re.IGNORECASE
     )
 
-    # Also extract dates from href patterns in raw text
+    # Extract dates from href patterns
     date_pattern = re.compile(r"date=(\d{4}-\d{2}-\d{2})")
     dates = date_pattern.findall(text)
 
@@ -82,8 +84,9 @@ def parse_daily_cards(text: str) -> list[dict]:
     for i, m in enumerate(matches):
         label, condition, temp_max, temp_min = m
         condition = condition.strip().rstrip(";").strip()
-        # Clean up condition - remove trailing day names or numbers
+        # Remove trailing numbers or day names that may bleed in
         condition = re.sub(r'\s+\d+$', '', condition).strip()
+        condition = re.sub(r'\s+(Mon|Tue|Wed|Thu|Fri|Sat|Sun).*$', '', condition, flags=re.IGNORECASE).strip()
 
         date_str = dates[i] if i < len(dates) else None
 
