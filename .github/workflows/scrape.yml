@@ -21,16 +21,11 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Fix libasound2 dependency
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libasound2t64
-          sudo ln -sf /usr/lib/x86_64-linux-gnu/libasound.so.2 /usr/lib/x86_64-linux-gnu/libasound.so.2.0.0 || true
-
-      - name: Install Playwright and Chromium
+      - name: Install dependencies
         run: |
           pip install playwright==1.44.0
-          python -m playwright install --with-deps chromium
+          playwright install chromium
+          playwright install-deps chromium
 
       - name: Run scraper
         run: python scraper.py
