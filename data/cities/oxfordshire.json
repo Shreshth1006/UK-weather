@@ -2,41 +2,34 @@
   "city": "Oxfordshire",
   "geohash": "gcpue0tpf",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcpue0tpf",
-  "scraped_at": "2026-06-15T07:57:03.935419+00:00",
+  "scraped_at": "2026-06-15T08:10:16.136769+00:00",
   "source_updated": null,
   "today": {
     "date": "2026-06-15",
-    "day": "Today",
-    "condition": null,
-    "temp_max": null,
+    "condition": "Sunny intervals",
+    "temp_max": 24,
     "temp_min": null,
     "feels_like_high": 21,
-    "feels_like_low": 13,
+    "feels_like_low": 14,
     "wind_gust_mph": 25,
-    "humidity_high_pct": 83,
+    "humidity_high_pct": 78,
     "humidity_low_pct": 41,
     "uv_level": "High",
     "visibility_high": "30km",
-    "visibility_low": "16km",
+    "visibility_low": "19km",
     "air_pollution": "Low",
     "pollen": "Very High",
     "sunrise": "04:44",
     "sunset": "21:19",
     "current": {
-      "temp_c": 15,
-      "condition": "Light rain",
-      "feels_like": 14,
-      "rain_chance": "40%",
-      "wind_gust_mph": 19,
+      "temp_c": 17,
+      "condition": "Light showers",
+      "feels_like": 15,
+      "rain_chance": null,
+      "wind_gust_mph": 20,
       "pollen": "Very High pollen"
     },
     "hourly": [
-      {
-        "time": "8am",
-        "temp_c": 14,
-        "rain_chance": "60%",
-        "wind_mph": 7
-      },
       {
         "time": "9am",
         "temp_c": 15,
@@ -129,5 +122,42 @@
       }
     ]
   },
-  "forecast": []
+  "forecast": [
+    {
+      "date": "2026-06-16",
+      "condition": "Sunny intervals",
+      "temp_max": 26,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-17",
+      "condition": "Sunny intervals",
+      "temp_max": 24,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-18",
+      "condition": "Sunny",
+      "temp_max": 27,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-19",
+      "condition": "Sunny",
+      "temp_max": 29,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-20",
+      "condition": "Sunny intervals",
+      "temp_max": 27,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-21",
+      "condition": "Sunny",
+      "temp_max": 29,
+      "temp_min": null
+    }
+  ]
 }

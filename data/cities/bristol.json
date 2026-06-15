@@ -2,13 +2,12 @@
   "city": "Bristol",
   "geohash": "gcjkmy91s",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcjkmy91s",
-  "scraped_at": "2026-06-15T07:56:55.841432+00:00",
+  "scraped_at": "2026-06-15T08:10:01.524637+00:00",
   "source_updated": "5:59am on 15 June 2026",
   "today": {
     "date": "2026-06-15",
-    "day": "Today",
-    "condition": null,
-    "temp_max": null,
+    "condition": "Sunny",
+    "temp_max": 24,
     "temp_min": null,
     "feels_like_high": 21,
     "feels_like_low": 13,
@@ -23,20 +22,14 @@
     "sunrise": "04:57",
     "sunset": "21:33",
     "current": {
-      "temp_c": 17,
-      "condition": "Rain",
-      "feels_like": 15,
+      "temp_c": 19,
+      "condition": "Sunny",
+      "feels_like": 16,
       "rain_chance": "<5%",
-      "wind_gust_mph": 26,
+      "wind_gust_mph": 25,
       "pollen": "High pollen"
     },
     "hourly": [
-      {
-        "time": "8am",
-        "temp_c": 16,
-        "rain_chance": "<5%",
-        "wind_mph": 13
-      },
       {
         "time": "9am",
         "temp_c": 17,
@@ -129,5 +122,42 @@
       }
     ]
   },
-  "forecast": []
+  "forecast": [
+    {
+      "date": "2026-06-16",
+      "condition": "Light rain",
+      "temp_max": 19,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-17",
+      "condition": "Light rain",
+      "temp_max": 18,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-18",
+      "condition": "Overcast",
+      "temp_max": 22,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-19",
+      "condition": "Cloudy",
+      "temp_max": 22,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-20",
+      "condition": "Cloudy",
+      "temp_max": 22,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-21",
+      "condition": "Sunny intervals",
+      "temp_max": 24,
+      "temp_min": null
+    }
+  ]
 }

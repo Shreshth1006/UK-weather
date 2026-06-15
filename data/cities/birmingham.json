@@ -2,16 +2,15 @@
   "city": "Birmingham",
   "geohash": "gcqyd2ux3",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcqyd2ux3",
-  "scraped_at": "2026-06-15T07:56:52.819951+00:00",
+  "scraped_at": "2026-06-15T08:09:58.879679+00:00",
   "source_updated": "5:59am on 15 June 2026",
   "today": {
     "date": "2026-06-15",
-    "day": "Today",
-    "condition": null,
-    "temp_max": null,
+    "condition": "Cloudy",
+    "temp_max": 19,
     "temp_min": null,
     "feels_like_high": 17,
-    "feels_like_low": 9,
+    "feels_like_low": 10,
     "wind_gust_mph": 21,
     "humidity_high_pct": 85,
     "humidity_low_pct": 68,
@@ -23,20 +22,14 @@
     "sunrise": "04:40",
     "sunset": "21:35",
     "current": {
-      "temp_c": 12,
+      "temp_c": 13,
       "condition": "Cloudy",
-      "feels_like": 10,
-      "rain_chance": "10%",
+      "feels_like": 11,
+      "rain_chance": "30%",
       "wind_gust_mph": 19,
       "pollen": "High pollen"
     },
     "hourly": [
-      {
-        "time": "8am",
-        "temp_c": 11,
-        "rain_chance": "10%",
-        "wind_mph": 7
-      },
       {
         "time": "9am",
         "temp_c": 12,
@@ -129,5 +122,42 @@
       }
     ]
   },
-  "forecast": []
+  "forecast": [
+    {
+      "date": "2026-06-16",
+      "condition": "Overcast",
+      "temp_max": 22,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-17",
+      "condition": "Overcast",
+      "temp_max": 21,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-18",
+      "condition": "Sunny intervals",
+      "temp_max": 23,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-19",
+      "condition": "Sunny intervals",
+      "temp_max": 23,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-20",
+      "condition": "Sunny intervals",
+      "temp_max": 22,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-21",
+      "condition": "Sunny intervals",
+      "temp_max": 24,
+      "temp_min": null
+    }
+  ]
 }

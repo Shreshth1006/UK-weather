@@ -2,16 +2,15 @@
   "city": "Belfast",
   "geohash": "gcey94cuf",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcey94cuf",
-  "scraped_at": "2026-06-15T07:57:00.177349+00:00",
+  "scraped_at": "2026-06-15T08:10:09.391039+00:00",
   "source_updated": "5:59am on 15 June 2026",
   "today": {
     "date": "2026-06-15",
-    "day": "Today",
-    "condition": null,
-    "temp_max": null,
+    "condition": "Cloudy",
+    "temp_max": 17,
     "temp_min": null,
     "feels_like_high": 15,
-    "feels_like_low": 11,
+    "feels_like_low": 12,
     "wind_gust_mph": 26,
     "humidity_high_pct": 88,
     "humidity_low_pct": 73,
@@ -23,20 +22,14 @@
     "sunrise": "04:47",
     "sunset": "22:01",
     "current": {
-      "temp_c": 13,
-      "condition": "Cloudy",
+      "temp_c": 14,
+      "condition": "Overcast",
       "feels_like": 12,
       "rain_chance": "20%",
-      "wind_gust_mph": 26,
+      "wind_gust_mph": 25,
       "pollen": "High pollen"
     },
     "hourly": [
-      {
-        "time": "8am",
-        "temp_c": 13,
-        "rain_chance": "10%",
-        "wind_mph": 9
-      },
       {
         "time": "9am",
         "temp_c": 13,
@@ -129,5 +122,42 @@
       }
     ]
   },
-  "forecast": []
+  "forecast": [
+    {
+      "date": "2026-06-16",
+      "condition": "Cloudy",
+      "temp_max": 20,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-17",
+      "condition": "Cloudy",
+      "temp_max": 20,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-18",
+      "condition": "Light showers",
+      "temp_max": 20,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-19",
+      "condition": "Cloudy",
+      "temp_max": 20,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-20",
+      "condition": "Cloudy",
+      "temp_max": 19,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-21",
+      "condition": "Cloudy",
+      "temp_max": 19,
+      "temp_min": null
+    }
+  ]
 }

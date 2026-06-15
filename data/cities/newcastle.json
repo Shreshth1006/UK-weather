@@ -2,16 +2,15 @@
   "city": "Newcastle",
   "geohash": "gcsbptbvu",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcsbptbvu",
-  "scraped_at": "2026-06-15T07:57:04.899096+00:00",
+  "scraped_at": "2026-06-15T08:10:17.494186+00:00",
   "source_updated": "5:59am on 15 June 2026",
   "today": {
     "date": "2026-06-15",
-    "day": "Today",
-    "condition": null,
-    "temp_max": null,
+    "condition": "Cloudy",
+    "temp_max": 21,
     "temp_min": null,
     "feels_like_high": 19,
-    "feels_like_low": 11,
+    "feels_like_low": 12,
     "wind_gust_mph": 28,
     "humidity_high_pct": 95,
     "humidity_low_pct": 71,
@@ -23,20 +22,14 @@
     "sunrise": "04:49",
     "sunset": "21:47",
     "current": {
-      "temp_c": 14,
+      "temp_c": 15,
       "condition": "Sunny intervals",
-      "feels_like": 12,
+      "feels_like": 13,
       "rain_chance": "40%",
-      "wind_gust_mph": 28,
+      "wind_gust_mph": 27,
       "pollen": "High pollen"
     },
     "hourly": [
-      {
-        "time": "8am",
-        "temp_c": 14,
-        "rain_chance": "70%",
-        "wind_mph": 12
-      },
       {
         "time": "9am",
         "temp_c": 14,
@@ -129,5 +122,42 @@
       }
     ]
   },
-  "forecast": []
+  "forecast": [
+    {
+      "date": "2026-06-16",
+      "condition": "Light rain",
+      "temp_max": 17,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-17",
+      "condition": "Sunny intervals",
+      "temp_max": 18,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-18",
+      "condition": "Overcast",
+      "temp_max": 18,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-19",
+      "condition": "Overcast",
+      "temp_max": 18,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-20",
+      "condition": "Cloudy",
+      "temp_max": 19,
+      "temp_min": null
+    },
+    {
+      "date": "2026-06-21",
+      "condition": "Cloudy",
+      "temp_max": 21,
+      "temp_min": null
+    }
+  ]
 }
