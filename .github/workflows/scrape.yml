@@ -3,14 +3,14 @@ name: Scrape Met Office Weather
 on:
   schedule:
     - cron: "30 2 * * *"   # 2:30 AM UTC = 8:00 AM IST daily
-  workflow_dispatch:         # manual trigger from GitHub UI
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
   scrape:
-    runs-on: ubuntu-22.04    # use 22.04 — avoids libasound2 issue on 24.04
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
@@ -21,10 +21,19 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
+      - name: Install Playwright
+        run: pip install playwright==1.44.0
+
+      - name: Install Chromium (no system deps flag)
+        run: python -m playwright install chromium
+
+      - name: Install Chromium system dependencies manually
         run: |
-          pip install playwright==1.44.0
-          python -m playwright install chromium --with-deps
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 libnspr4 libatk1.0-0 libatk-bridge2.0-0 \
+            libcups2 libdrm2 libxkbcommon0 libxcomposite1 \
+            libxdamage1 libxfixes3 libxrandr2 libgbm1 libasound2t64
 
       - name: Run scraper
         run: python scraper.py
