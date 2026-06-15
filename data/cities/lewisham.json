@@ -2,17 +2,17 @@
   "city": "Lewisham",
   "geohash": "gcpvjn89k",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcpvjn89k",
-  "scraped_at": "2026-06-15T08:22:46.269460+00:00",
+  "scraped_at": "2026-06-15T09:04:20.495870+00:00",
   "source_updated": "Updated: 7:59am on 15 June 2026",
   "today": {
     "date": "2026-06-15",
     "condition": "Light rain",
     "temp_max": 24,
-    "temp_min": null,
+    "temp_min": 15,
     "feels_like_high": 22,
-    "feels_like_low": 14,
+    "feels_like_low": 15,
     "wind_gust_mph": 25,
-    "humidity_high_pct": 84,
+    "humidity_high_pct": 78,
     "humidity_low_pct": 40,
     "uv_level": "High",
     "visibility_high": "30km",
@@ -22,20 +22,14 @@
     "sunrise": "04:43",
     "sunset": "21:19",
     "current": {
-      "temp_c": 16,
-      "condition": "Light showers",
-      "feels_like": 15,
-      "rain_chance": null,
-      "wind_gust_mph": 20,
+      "temp_c": 17,
+      "condition": "Sunny intervals",
+      "feels_like": 16,
+      "rain_chance": "30%",
+      "wind_gust_mph": 21,
       "pollen": "Very High pollen"
     },
     "hourly": [
-      {
-        "time": "9am",
-        "temp_c": 15,
-        "rain_chance": "80%",
-        "wind_mph": 7
-      },
       {
         "time": "10am",
         "temp_c": 16,
@@ -125,39 +119,39 @@
   "forecast": [
     {
       "date": "2026-06-16",
-      "condition": "Sunny intervals",
       "temp_max": 26,
-      "temp_min": null
+      "temp_min": 17,
+      "condition": "Sunny intervals"
     },
     {
       "date": "2026-06-17",
-      "condition": "Sunny intervals",
       "temp_max": 25,
-      "temp_min": null
+      "temp_min": 16,
+      "condition": "Sunny intervals"
     },
     {
       "date": "2026-06-18",
-      "condition": "Sunny intervals",
       "temp_max": 28,
-      "temp_min": null
+      "temp_min": 18,
+      "condition": "Sunny intervals"
     },
     {
       "date": "2026-06-19",
-      "condition": "Sunny",
       "temp_max": 29,
-      "temp_min": null
+      "temp_min": 18,
+      "condition": "Sunny"
     },
     {
       "date": "2026-06-20",
-      "condition": "Sunny intervals",
       "temp_max": 28,
-      "temp_min": null
+      "temp_min": 19,
+      "condition": "Sunny intervals"
     },
     {
       "date": "2026-06-21",
-      "condition": "Sunny",
       "temp_max": 30,
-      "temp_min": null
+      "temp_min": 19,
+      "condition": "Sunny"
     }
   ]
 }

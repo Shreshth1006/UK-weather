@@ -2,8 +2,8 @@ name: Scrape Met Office Weather
 
 on:
   schedule:
-    - cron: "0 */3 * * *"   # every 3 hours
-  workflow_dispatch:          # manual trigger from GitHub UI
+    - cron: "30 2 * * *"   # 2:30 AM UTC = 8:00 AM IST daily
+  workflow_dispatch:         # manual trigger from GitHub UI
 
 permissions:
   contents: write
@@ -22,7 +22,9 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
+        run: |
+          pip install playwright==1.44.0
+          python -m playwright install chromium --with-deps
 
       - name: Run scraper
         run: python scraper.py

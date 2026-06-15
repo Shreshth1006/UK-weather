@@ -2,21 +2,21 @@
   "city": "Birmingham",
   "geohash": "gcqyd2ux3",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcqyd2ux3",
-  "scraped_at": "2026-06-15T08:22:33.959580+00:00",
-  "source_updated": "Updated: 5:59am on 15 June 2026",
+  "scraped_at": "2026-06-15T09:04:08.137896+00:00",
+  "source_updated": "Updated: 7:59am on 15 June 2026",
   "today": {
     "date": "2026-06-15",
     "condition": "Cloudy",
     "temp_max": 19,
-    "temp_min": null,
+    "temp_min": 12,
     "feels_like_high": 17,
-    "feels_like_low": 10,
+    "feels_like_low": 11,
     "wind_gust_mph": 21,
     "humidity_high_pct": 85,
     "humidity_low_pct": 68,
     "uv_level": "High",
     "visibility_high": "24km",
-    "visibility_low": "18km",
+    "visibility_low": "16km",
     "air_pollution": "Low",
     "pollen": "High",
     "sunrise": "04:40",
@@ -24,40 +24,34 @@
     "current": {
       "temp_c": 13,
       "condition": "Cloudy",
-      "feels_like": 11,
-      "rain_chance": "30%",
+      "feels_like": 12,
+      "rain_chance": "50%",
       "wind_gust_mph": 19,
       "pollen": "High pollen"
     },
     "hourly": [
       {
-        "time": "9am",
-        "temp_c": 12,
-        "rain_chance": "10%",
-        "wind_mph": 7
-      },
-      {
         "time": "10am",
-        "temp_c": 13,
+        "temp_c": 12,
         "rain_chance": "30%",
         "wind_mph": 8
       },
       {
         "time": "11am",
-        "temp_c": 14,
+        "temp_c": 13,
         "rain_chance": "50%",
         "wind_mph": 8
       },
       {
         "time": "12pm",
-        "temp_c": 15,
-        "rain_chance": "60%",
+        "temp_c": 14,
+        "rain_chance": "70%",
         "wind_mph": 8
       },
       {
         "time": "1pm",
         "temp_c": 15,
-        "rain_chance": "40%",
+        "rain_chance": "50%",
         "wind_mph": 9
       },
       {
@@ -81,13 +75,13 @@
       {
         "time": "5pm",
         "temp_c": 18,
-        "rain_chance": "10%",
+        "rain_chance": "<5%",
         "wind_mph": 9
       },
       {
         "time": "6pm",
         "temp_c": 18,
-        "rain_chance": "10%",
+        "rain_chance": "<5%",
         "wind_mph": 8
       },
       {
@@ -105,7 +99,7 @@
       {
         "time": "9pm",
         "temp_c": 15,
-        "rain_chance": "10%",
+        "rain_chance": "<5%",
         "wind_mph": 7
       },
       {
@@ -117,7 +111,7 @@
       {
         "time": "11pm",
         "temp_c": 13,
-        "rain_chance": "30%",
+        "rain_chance": "40%",
         "wind_mph": 5
       }
     ]
@@ -125,39 +119,39 @@
   "forecast": [
     {
       "date": "2026-06-16",
-      "condition": "Overcast",
       "temp_max": 22,
-      "temp_min": null
+      "temp_min": 14,
+      "condition": "Overcast"
     },
     {
       "date": "2026-06-17",
-      "condition": "Overcast",
       "temp_max": 21,
-      "temp_min": null
+      "temp_min": 11,
+      "condition": "Overcast"
     },
     {
       "date": "2026-06-18",
-      "condition": "Sunny intervals",
       "temp_max": 23,
-      "temp_min": null
+      "temp_min": 14,
+      "condition": "Sunny intervals"
     },
     {
       "date": "2026-06-19",
-      "condition": "Sunny intervals",
       "temp_max": 23,
-      "temp_min": null
+      "temp_min": 12,
+      "condition": "Sunny intervals"
     },
     {
       "date": "2026-06-20",
-      "condition": "Sunny intervals",
       "temp_max": 22,
-      "temp_min": null
+      "temp_min": 12,
+      "condition": "Sunny intervals"
     },
     {
       "date": "2026-06-21",
-      "condition": "Sunny intervals",
-      "temp_max": 24,
-      "temp_min": null
+      "temp_max": 25,
+      "temp_min": 14,
+      "condition": "Sunny intervals"
     }
   ]
 }

@@ -2,13 +2,13 @@
   "city": "Cardiff",
   "geohash": "gcjszevgx",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcjszevgx",
-  "scraped_at": "2026-06-15T08:22:41.856290+00:00",
+  "scraped_at": "2026-06-15T09:04:15.740350+00:00",
   "source_updated": "Updated: 7am on 15 June 2026",
   "today": {
     "date": "2026-06-15",
     "condition": "Sunny",
     "temp_max": 24,
-    "temp_min": null,
+    "temp_min": 14,
     "feels_like_high": 22,
     "feels_like_low": 13,
     "wind_gust_mph": 25,
@@ -22,20 +22,14 @@
     "sunrise": "04:55",
     "sunset": "21:31",
     "current": {
-      "temp_c": 18,
+      "temp_c": 19,
       "condition": "Sunny intervals",
-      "feels_like": 16,
+      "feels_like": 18,
       "rain_chance": "<5%",
-      "wind_gust_mph": 23,
+      "wind_gust_mph": 22,
       "pollen": "High pollen"
     },
     "hourly": [
-      {
-        "time": "9am",
-        "temp_c": 17,
-        "rain_chance": "<5%",
-        "wind_mph": 12
-      },
       {
         "time": "10am",
         "temp_c": 18,
@@ -125,39 +119,39 @@
   "forecast": [
     {
       "date": "2026-06-16",
-      "condition": "Light rain",
       "temp_max": 21,
-      "temp_min": null
+      "temp_min": 15,
+      "condition": "Light rain"
     },
     {
       "date": "2026-06-17",
-      "condition": "Light rain",
       "temp_max": 20,
-      "temp_min": null
+      "temp_min": 14,
+      "condition": "Light rain"
     },
     {
       "date": "2026-06-18",
-      "condition": "Sunny intervals",
       "temp_max": 23,
-      "temp_min": null
+      "temp_min": 14,
+      "condition": "Sunny intervals"
     },
     {
       "date": "2026-06-19",
-      "condition": "Sunny intervals",
       "temp_max": 22,
-      "temp_min": null
+      "temp_min": 15,
+      "condition": "Sunny intervals"
     },
     {
       "date": "2026-06-20",
-      "condition": "Sunny intervals",
       "temp_max": 22,
-      "temp_min": null
+      "temp_min": 16,
+      "condition": "Sunny intervals"
     },
     {
       "date": "2026-06-21",
-      "condition": "Sunny intervals",
       "temp_max": 25,
-      "temp_min": null
+      "temp_min": 16,
+      "condition": "Sunny intervals"
     }
   ]
 }

@@ -2,40 +2,34 @@
   "city": "York",
   "geohash": "gcwf9nwyu",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcwf9nwyu",
-  "scraped_at": "2026-06-15T08:22:45.069937+00:00",
+  "scraped_at": "2026-06-15T09:04:19.073495+00:00",
   "source_updated": "Updated: 7am on 15 June 2026",
   "today": {
     "date": "2026-06-15",
     "condition": "Sunny intervals",
     "temp_max": 18,
-    "temp_min": null,
+    "temp_min": 11,
     "feels_like_high": 16,
     "feels_like_low": 11,
     "wind_gust_mph": 20,
     "humidity_high_pct": 84,
     "humidity_low_pct": 60,
     "uv_level": "High",
-    "visibility_high": "25km",
+    "visibility_high": "23km",
     "visibility_low": "12km",
     "air_pollution": "Low",
     "pollen": "High",
     "sunrise": "04:35",
     "sunset": "21:40",
     "current": {
-      "temp_c": 13,
+      "temp_c": 14,
       "condition": "Cloudy",
-      "feels_like": 12,
+      "feels_like": 13,
       "rain_chance": "<5%",
-      "wind_gust_mph": 16,
+      "wind_gust_mph": 17,
       "pollen": "High pollen"
     },
     "hourly": [
-      {
-        "time": "9am",
-        "temp_c": 12,
-        "rain_chance": "<5%",
-        "wind_mph": 6
-      },
       {
         "time": "10am",
         "temp_c": 13,
@@ -125,39 +119,39 @@
   "forecast": [
     {
       "date": "2026-06-16",
-      "condition": "Overcast",
       "temp_max": 22,
-      "temp_min": null
+      "temp_min": 14,
+      "condition": "Overcast"
     },
     {
       "date": "2026-06-17",
-      "condition": "Overcast",
       "temp_max": 20,
-      "temp_min": null
+      "temp_min": 11,
+      "condition": "Overcast"
     },
     {
       "date": "2026-06-18",
-      "condition": "Sunny intervals",
       "temp_max": 23,
-      "temp_min": null
+      "temp_min": 15,
+      "condition": "Sunny intervals"
     },
     {
       "date": "2026-06-19",
-      "condition": "Sunny intervals",
       "temp_max": 24,
-      "temp_min": null
+      "temp_min": 14,
+      "condition": "Sunny intervals"
     },
     {
       "date": "2026-06-20",
-      "condition": "Sunny intervals",
       "temp_max": 23,
-      "temp_min": null
+      "temp_min": 14,
+      "condition": "Sunny intervals"
     },
     {
       "date": "2026-06-21",
-      "condition": "Sunny intervals",
       "temp_max": 24,
-      "temp_min": null
+      "temp_min": 14,
+      "condition": "Sunny intervals"
     }
   ]
 }

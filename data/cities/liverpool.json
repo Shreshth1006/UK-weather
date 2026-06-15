@@ -2,51 +2,45 @@
   "city": "Liverpool",
   "geohash": "gcjvkr6ky",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcjvkr6ky",
-  "scraped_at": "2026-06-15T08:22:40.172971+00:00",
-  "source_updated": "Updated: 5:59am on 15 June 2026",
+  "scraped_at": "2026-06-15T09:04:14.882456+00:00",
+  "source_updated": "Updated: 7:59am on 15 June 2026",
   "today": {
     "date": "2026-06-15",
     "condition": "Sunny intervals",
     "temp_max": 24,
-    "temp_min": null,
+    "temp_min": 14,
     "feels_like_high": 22,
     "feels_like_low": 14,
     "wind_gust_mph": 24,
-    "humidity_high_pct": 89,
-    "humidity_low_pct": 55,
+    "humidity_high_pct": 90,
+    "humidity_low_pct": 56,
     "uv_level": "High",
-    "visibility_high": "28km",
-    "visibility_low": "15km",
+    "visibility_high": "30km",
+    "visibility_low": "13km",
     "air_pollution": "Low",
     "pollen": "High",
     "sunrise": "04:54",
     "sunset": "21:31",
     "current": {
-      "temp_c": 18,
+      "temp_c": 19,
       "condition": "Sunny intervals",
-      "feels_like": 16,
+      "feels_like": 18,
       "rain_chance": "<5%",
-      "wind_gust_mph": 21,
+      "wind_gust_mph": 22,
       "pollen": "High pollen"
     },
     "hourly": [
       {
-        "time": "9am",
-        "temp_c": 16,
-        "rain_chance": "<5%",
-        "wind_mph": 9
-      },
-      {
         "time": "10am",
         "temp_c": 18,
         "rain_chance": "<5%",
-        "wind_mph": 9
+        "wind_mph": 10
       },
       {
         "time": "11am",
         "temp_c": 19,
         "rain_chance": "<5%",
-        "wind_mph": 9
+        "wind_mph": 10
       },
       {
         "time": "12pm",
@@ -88,7 +82,7 @@
         "time": "6pm",
         "temp_c": 21,
         "rain_chance": "<5%",
-        "wind_mph": 11
+        "wind_mph": 12
       },
       {
         "time": "7pm",
@@ -105,59 +99,59 @@
       {
         "time": "9pm",
         "temp_c": 16,
-        "rain_chance": "10%",
+        "rain_chance": "20%",
         "wind_mph": 11
       },
       {
         "time": "10pm",
         "temp_c": 15,
-        "rain_chance": "20%",
+        "rain_chance": "30%",
         "wind_mph": 9
       },
       {
         "time": "11pm",
         "temp_c": 15,
         "rain_chance": "20%",
-        "wind_mph": 8
+        "wind_mph": 9
       }
     ]
   },
   "forecast": [
     {
       "date": "2026-06-16",
-      "condition": "Light rain",
       "temp_max": 21,
-      "temp_min": null
+      "temp_min": 15,
+      "condition": "Light rain"
     },
     {
       "date": "2026-06-17",
-      "condition": "Light rain",
       "temp_max": 20,
-      "temp_min": null
+      "temp_min": 14,
+      "condition": "Light rain"
     },
     {
       "date": "2026-06-18",
-      "condition": "Sunny intervals",
       "temp_max": 23,
-      "temp_min": null
+      "temp_min": 15,
+      "condition": "Sunny intervals"
     },
     {
       "date": "2026-06-19",
-      "condition": "Sunny intervals",
       "temp_max": 23,
-      "temp_min": null
+      "temp_min": 13,
+      "condition": "Sunny intervals"
     },
     {
       "date": "2026-06-20",
-      "condition": "Sunny intervals",
       "temp_max": 23,
-      "temp_min": null
+      "temp_min": 15,
+      "condition": "Sunny intervals"
     },
     {
       "date": "2026-06-21",
-      "condition": "Sunny intervals",
-      "temp_max": 26,
-      "temp_min": null
+      "temp_max": 27,
+      "temp_min": 16,
+      "condition": "Sunny intervals"
     }
   ]
 }

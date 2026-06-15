@@ -2,45 +2,39 @@
   "city": "Bristol",
   "geohash": "gcjkmy91s",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcjkmy91s",
-  "scraped_at": "2026-06-15T08:22:36.446158+00:00",
-  "source_updated": "Updated: 5:59am on 15 June 2026",
+  "scraped_at": "2026-06-15T09:04:10.812986+00:00",
+  "source_updated": "Updated: 7:59am on 15 June 2026",
   "today": {
     "date": "2026-06-15",
     "condition": "Sunny",
     "temp_max": 24,
-    "temp_min": null,
+    "temp_min": 14,
     "feels_like_high": 21,
     "feels_like_low": 13,
-    "wind_gust_mph": 26,
-    "humidity_high_pct": 96,
-    "humidity_low_pct": 63,
+    "wind_gust_mph": 25,
+    "humidity_high_pct": 97,
+    "humidity_low_pct": 61,
     "uv_level": "High",
-    "visibility_high": "28km",
-    "visibility_low": "2.8km",
+    "visibility_high": "26km",
+    "visibility_low": "2.5km",
     "air_pollution": "Low",
     "pollen": "High",
     "sunrise": "04:57",
     "sunset": "21:33",
     "current": {
-      "temp_c": 19,
-      "condition": "Sunny",
-      "feels_like": 16,
+      "temp_c": 20,
+      "condition": "Sunny intervals",
+      "feels_like": 17,
       "rain_chance": "<5%",
-      "wind_gust_mph": 25,
+      "wind_gust_mph": 24,
       "pollen": "High pollen"
     },
     "hourly": [
       {
-        "time": "9am",
-        "temp_c": 17,
-        "rain_chance": "<5%",
-        "wind_mph": 14
-      },
-      {
         "time": "10am",
         "temp_c": 19,
         "rain_chance": "<5%",
-        "wind_mph": 13
+        "wind_mph": 14
       },
       {
         "time": "11am",
@@ -58,7 +52,7 @@
         "time": "1pm",
         "temp_c": 22,
         "rain_chance": "<5%",
-        "wind_mph": 10
+        "wind_mph": 9
       },
       {
         "time": "2pm",
@@ -70,7 +64,7 @@
         "time": "3pm",
         "temp_c": 19,
         "rain_chance": "<5%",
-        "wind_mph": 10
+        "wind_mph": 11
       },
       {
         "time": "4pm",
@@ -87,77 +81,77 @@
       {
         "time": "6pm",
         "temp_c": 16,
-        "rain_chance": "<5%",
-        "wind_mph": 13
-      },
-      {
-        "time": "7pm",
-        "temp_c": 15,
         "rain_chance": "10%",
         "wind_mph": 13
       },
       {
+        "time": "7pm",
+        "temp_c": 16,
+        "rain_chance": "20%",
+        "wind_mph": 12
+      },
+      {
         "time": "8pm",
         "temp_c": 15,
-        "rain_chance": "40%",
+        "rain_chance": "50%",
         "wind_mph": 13
       },
       {
         "time": "9pm",
         "temp_c": 15,
-        "rain_chance": "40%",
+        "rain_chance": "50%",
         "wind_mph": 13
       },
       {
         "time": "10pm",
         "temp_c": 15,
-        "rain_chance": "40%",
+        "rain_chance": "50%",
         "wind_mph": 13
       },
       {
         "time": "11pm",
         "temp_c": 15,
-        "rain_chance": "20%",
-        "wind_mph": 13
+        "rain_chance": "30%",
+        "wind_mph": 14
       }
     ]
   },
   "forecast": [
     {
       "date": "2026-06-16",
-      "condition": "Light rain",
       "temp_max": 19,
-      "temp_min": null
+      "temp_min": 15,
+      "condition": "Light rain"
     },
     {
       "date": "2026-06-17",
-      "condition": "Light rain",
-      "temp_max": 18,
-      "temp_min": null
+      "temp_max": 19,
+      "temp_min": 14,
+      "condition": "Light rain"
     },
     {
       "date": "2026-06-18",
-      "condition": "Overcast",
       "temp_max": 22,
-      "temp_min": null
+      "temp_min": 14,
+      "condition": "Overcast"
     },
     {
       "date": "2026-06-19",
-      "condition": "Cloudy",
-      "temp_max": 22,
-      "temp_min": null
+      "temp_max": 21,
+      "temp_min": 14,
+      "condition": "Cloudy"
     },
     {
       "date": "2026-06-20",
-      "condition": "Cloudy",
       "temp_max": 22,
-      "temp_min": null
+      "temp_min": 14,
+      "condition": "Cloudy"
     },
     {
       "date": "2026-06-21",
-      "condition": "Sunny intervals",
-      "temp_max": 24,
-      "temp_min": null
+      "temp_max": 25,
+      "temp_min": 16,
+      "condition": "Sunny intervals"
     }
   ]
 }
