@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   scrape:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04    # use 22.04 — avoids libasound2 issue on 24.04
 
     steps:
       - name: Checkout repo
