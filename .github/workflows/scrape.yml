@@ -37,6 +37,5 @@ jobs:
           git add data/
           git diff --cached --quiet || (
             git commit -m "chore: update weather data $(date -u +'%Y-%m-%d %H:%M UTC')" &&
-            git pull --rebase origin main &&
-            git push origin main
+            git push origin main --force
           )
