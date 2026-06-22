@@ -403,6 +403,65 @@ async def parse_current(page) -> dict:
 
 
 # ─────────────────────────────────────────────
+#  PARSE WEATHER WARNINGS
+#  HTML: <li class="warning amber" data-date-range="2026-06-22T01:00+01:00/2026-06-23T23:59+01:00"
+#            data-impact="3" data-likelihood="3">
+#          <p class="warning-severity">Amber warning</p>
+#          <p class="warning-types">Extreme heat</p>
+#          <p class="warning-period"><time>Until Tuesday 11:59pm</time></p>
+#        </li>
+# ─────────────────────────────────────────────
+
+async def parse_warnings(page) -> list[dict]:
+    warnings = []
+
+    warning_els = await page.query_selector_all("ul.warningsAAG li[id^='warning_'], li.warning")
+
+    for el in warning_els:
+        # Severity class — amber / yellow / red
+        cls = await attr(el, "class")
+        severity_level = None
+        for level in ("red", "amber", "yellow"):
+            if level in cls.lower():
+                severity_level = level
+                break
+
+        date_range = await attr(el, "data-date-range")
+        impact = await attr(el, "data-impact")
+        likelihood = await attr(el, "data-likelihood")
+
+        severity_el = await el.query_selector(".warning-severity")
+        severity_text = await text(severity_el)
+
+        type_el = await el.query_selector(".warning-types")
+        warning_type = await text(type_el)
+
+        period_el = await el.query_selector(".warning-period")
+        period_text = await text(period_el)
+
+        # Split date_range "start/end" into two ISO strings
+        valid_from = None
+        valid_to = None
+        if date_range and "/" in date_range:
+            parts = date_range.split("/")
+            valid_from = parts[0] if len(parts) > 0 else None
+            valid_to = parts[1] if len(parts) > 1 else None
+
+        warnings.append({
+            "severity":      severity_level,
+            "severity_text": severity_text or None,
+            "type":          warning_type or None,
+            "valid_from":    valid_from,
+            "valid_to":      valid_to,
+            "period_text":   period_text or None,
+            "impact":        to_int(impact),
+            "likelihood":    to_int(likelihood),
+        })
+
+    return warnings
+
+
+# ─────────────────────────────────────────────
 #  SCRAPE ONE CITY
 # ─────────────────────────────────────────────
 
@@ -438,6 +497,7 @@ async def scrape_city(page, city_name: str, geohash: str) -> dict:
     hourly      = await parse_hourly(page)
     detailed    = await parse_detailed(page)
     current     = await parse_current(page)
+    warnings    = await parse_warnings(page)
 
     # First card = today, rest = forecast
     # Deduplicate by date
@@ -469,6 +529,7 @@ async def scrape_city(page, city_name: str, geohash: str) -> dict:
         "sunset":            detailed.get("sunset"),
         "current":           current,
         "hourly":            hourly,
+        "warnings":          warnings,
     }
 
     return {
