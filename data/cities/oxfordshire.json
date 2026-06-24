@@ -2,8 +2,8 @@
   "city": "Oxfordshire",
   "geohash": "gcpue0tpf",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcpue0tpf",
-  "scraped_at": "2026-06-24T05:32:00.954373+00:00",
-  "source_updated": "Updated: 4:59am on 24 June 2026",
+  "scraped_at": "2026-06-24T11:22:29.149549+00:00",
+  "source_updated": "Updated: 9am on 24 June 2026",
   "today": {
     "date": "2026-06-24",
     "condition": "Sunny",
@@ -11,64 +11,28 @@
     "temp_min": 20,
     "feels_like_high": 38,
     "feels_like_low": 25,
-    "wind_gust_mph": 22,
-    "humidity_high_pct": 82,
-    "humidity_low_pct": 37,
+    "wind_gust_mph": 21,
+    "humidity_high_pct": 63,
+    "humidity_low_pct": 35,
     "uv_level": "High",
     "visibility_high": "35km",
-    "visibility_low": "8.0km",
+    "visibility_low": "24km",
     "air_pollution": "Moderate",
     "pollen": "Very High",
     "sunrise": "04:45",
     "sunset": "21:21",
     "current": {
-      "temp_c": 24,
+      "temp_c": 34,
       "condition": "Sunny",
-      "feels_like": 26,
+      "feels_like": 35,
       "rain_chance": "<5%",
-      "wind_gust_mph": 11,
+      "wind_gust_mph": 17,
       "pollen": "Very High pollen"
     },
     "hourly": [
       {
-        "time": "6am",
-        "temp_c": 23,
-        "rain_chance": "<5%",
-        "wind_mph": 3
-      },
-      {
-        "time": "7am",
-        "temp_c": 24,
-        "rain_chance": "<5%",
-        "wind_mph": 4
-      },
-      {
-        "time": "8am",
-        "temp_c": 26,
-        "rain_chance": "<5%",
-        "wind_mph": 4
-      },
-      {
-        "time": "9am",
-        "temp_c": 28,
-        "rain_chance": "<5%",
-        "wind_mph": 6
-      },
-      {
-        "time": "10am",
-        "temp_c": 29,
-        "rain_chance": "<5%",
-        "wind_mph": 6
-      },
-      {
-        "time": "11am",
-        "temp_c": 31,
-        "rain_chance": "<5%",
-        "wind_mph": 6
-      },
-      {
         "time": "12pm",
-        "temp_c": 32,
+        "temp_c": 33,
         "rain_chance": "<5%",
         "wind_mph": 6
       },
@@ -76,35 +40,35 @@
         "time": "1pm",
         "temp_c": 34,
         "rain_chance": "<5%",
-        "wind_mph": 5
+        "wind_mph": 6
       },
       {
         "time": "2pm",
         "temp_c": 35,
         "rain_chance": "<5%",
-        "wind_mph": 5
+        "wind_mph": 6
       },
       {
         "time": "3pm",
         "temp_c": 36,
         "rain_chance": "<5%",
-        "wind_mph": 5
+        "wind_mph": 6
       },
       {
         "time": "4pm",
-        "temp_c": 36,
+        "temp_c": 37,
         "rain_chance": "<5%",
         "wind_mph": 6
       },
       {
         "time": "5pm",
-        "temp_c": 36,
+        "temp_c": 37,
         "rain_chance": "<5%",
-        "wind_mph": 7
+        "wind_mph": 6
       },
       {
         "time": "6pm",
-        "temp_c": 36,
+        "temp_c": 37,
         "rain_chance": "<5%",
         "wind_mph": 8
       },
@@ -112,7 +76,7 @@
         "time": "7pm",
         "temp_c": 35,
         "rain_chance": "<5%",
-        "wind_mph": 11
+        "wind_mph": 10
       },
       {
         "time": "8pm",
@@ -128,7 +92,7 @@
       },
       {
         "time": "10pm",
-        "temp_c": 27,
+        "temp_c": 28,
         "rain_chance": "<5%",
         "wind_mph": 11
       },
@@ -141,6 +105,16 @@
     ],
     "warnings": [
       {
+        "severity": "red",
+        "severity_text": "Red warning",
+        "type": "Extreme heat",
+        "valid_from": "2026-06-24T09:00+01:00",
+        "valid_to": "2026-06-25T23:59+01:00",
+        "period_text": "Until Thursday 11:59pm",
+        "impact": 4,
+        "likelihood": 4
+      },
+      {
         "severity": "amber",
         "severity_text": "Amber warning",
         "type": "Extreme heat",
@@ -151,14 +125,24 @@
         "likelihood": 3
       },
       {
-        "severity": "red",
-        "severity_text": "Red warning",
+        "severity": "amber",
+        "severity_text": "Amber warning",
         "type": "Extreme heat",
-        "valid_from": "2026-06-24T09:00+01:00",
-        "valid_to": "2026-06-25T21:00+01:00",
-        "period_text": "Today 9am to Thursday 9pm",
+        "valid_from": "2026-06-26T00:00+01:00",
+        "valid_to": "2026-06-26T23:59+01:00",
+        "period_text": "Friday midnight to 11:59pm",
         "impact": 4,
-        "likelihood": 4
+        "likelihood": 3
+      },
+      {
+        "severity": "amber",
+        "severity_text": "Amber warning",
+        "type": "Extreme heat",
+        "valid_from": "2026-06-27T00:00+01:00",
+        "valid_to": "2026-06-27T21:00+01:00",
+        "period_text": "Saturday midnight to 9pm",
+        "impact": 3,
+        "likelihood": 3
       }
     ]
   },
@@ -195,8 +179,8 @@
     },
     {
       "date": "2026-06-30",
-      "temp_max": 24,
-      "temp_min": 15,
+      "temp_max": 23,
+      "temp_min": 16,
       "condition": "Sunny intervals"
     }
   ]

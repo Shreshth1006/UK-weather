@@ -2,75 +2,39 @@
   "city": "Manchester",
   "geohash": "gcw2hzs1u",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcw2hzs1u",
-  "scraped_at": "2026-06-24T05:31:36.132461+00:00",
-  "source_updated": "Updated: 4:59am on 24 June 2026",
+  "scraped_at": "2026-06-24T11:22:04.855349+00:00",
+  "source_updated": "Updated: 9am on 24 June 2026",
   "today": {
     "date": "2026-06-24",
     "condition": "Sunny",
     "temp_max": 31,
     "temp_min": 20,
     "feels_like_high": 30,
-    "feels_like_low": 20,
-    "wind_gust_mph": 18,
-    "humidity_high_pct": 89,
+    "feels_like_low": 25,
+    "wind_gust_mph": 19,
+    "humidity_high_pct": 63,
     "humidity_low_pct": 41,
     "uv_level": "High",
     "visibility_high": "30km",
-    "visibility_low": "10km",
+    "visibility_low": "28km",
     "air_pollution": "Low",
     "pollen": "Very High",
     "sunrise": "04:41",
     "sunset": "21:42",
     "current": {
-      "temp_c": 20,
+      "temp_c": 29,
       "condition": "Sunny",
-      "feels_like": 22,
+      "feels_like": 30,
       "rain_chance": "<5%",
-      "wind_gust_mph": 8,
+      "wind_gust_mph": 15,
       "pollen": "Very High pollen"
     },
     "hourly": [
       {
-        "time": "6am",
-        "temp_c": 19,
-        "rain_chance": "<5%",
-        "wind_mph": 3
-      },
-      {
-        "time": "7am",
-        "temp_c": 20,
-        "rain_chance": "<5%",
-        "wind_mph": 2
-      },
-      {
-        "time": "8am",
-        "temp_c": 22,
-        "rain_chance": "<5%",
-        "wind_mph": 2
-      },
-      {
-        "time": "9am",
-        "temp_c": 23,
-        "rain_chance": "<5%",
-        "wind_mph": 2
-      },
-      {
-        "time": "10am",
-        "temp_c": 25,
-        "rain_chance": "<5%",
-        "wind_mph": 3
-      },
-      {
-        "time": "11am",
-        "temp_c": 27,
-        "rain_chance": "<5%",
-        "wind_mph": 3
-      },
-      {
         "time": "12pm",
         "temp_c": 28,
         "rain_chance": "<5%",
-        "wind_mph": 3
+        "wind_mph": 4
       },
       {
         "time": "1pm",
@@ -82,7 +46,7 @@
         "time": "2pm",
         "temp_c": 30,
         "rain_chance": "<5%",
-        "wind_mph": 5
+        "wind_mph": 6
       },
       {
         "time": "3pm",
@@ -100,17 +64,17 @@
         "time": "5pm",
         "temp_c": 30,
         "rain_chance": "<5%",
-        "wind_mph": 8
+        "wind_mph": 9
       },
       {
         "time": "6pm",
-        "temp_c": 30,
+        "temp_c": 29,
         "rain_chance": "<5%",
         "wind_mph": 8
       },
       {
         "time": "7pm",
-        "temp_c": 29,
+        "temp_c": 28,
         "rain_chance": "<5%",
         "wind_mph": 7
       },
@@ -118,13 +82,13 @@
         "time": "8pm",
         "temp_c": 28,
         "rain_chance": "<5%",
-        "wind_mph": 7
+        "wind_mph": 6
       },
       {
         "time": "9pm",
         "temp_c": 27,
         "rain_chance": "<5%",
-        "wind_mph": 7
+        "wind_mph": 6
       },
       {
         "time": "10pm",
@@ -136,7 +100,7 @@
         "time": "11pm",
         "temp_c": 24,
         "rain_chance": "<5%",
-        "wind_mph": 6
+        "wind_mph": 5
       }
     ],
     "warnings": [
@@ -147,6 +111,16 @@
         "valid_from": "2026-06-24T00:00+01:00",
         "valid_to": "2026-06-25T23:59+01:00",
         "period_text": "Until Thursday 11:59pm",
+        "impact": 4,
+        "likelihood": 3
+      },
+      {
+        "severity": "amber",
+        "severity_text": "Amber warning",
+        "type": "Extreme heat",
+        "valid_from": "2026-06-26T00:00+01:00",
+        "valid_to": "2026-06-26T23:59+01:00",
+        "period_text": "Friday midnight to 11:59pm",
         "impact": 4,
         "likelihood": 3
       }
@@ -185,7 +159,7 @@
     },
     {
       "date": "2026-06-30",
-      "temp_max": 22,
+      "temp_max": 21,
       "temp_min": 14,
       "condition": "Sunny intervals"
     }
