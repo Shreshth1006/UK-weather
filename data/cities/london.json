@@ -62,37 +62,37 @@
       },
       {
         "time": "12pm",
-        "temp_c": 32,
+        "temp_c": 33,
         "rain_chance": "<5%",
-        "wind_mph": 5
+        "wind_mph": 6
       },
       {
         "time": "1pm",
         "temp_c": 34,
         "rain_chance": "<5%",
-        "wind_mph": 4
+        "wind_mph": 6
       },
       {
         "time": "2pm",
         "temp_c": 35,
         "rain_chance": "<5%",
-        "wind_mph": 4
+        "wind_mph": 6
       },
       {
         "time": "3pm",
-        "temp_c": 35,
+        "temp_c": 36,
         "rain_chance": "<5%",
-        "wind_mph": 4
+        "wind_mph": 6
       },
       {
         "time": "4pm",
         "temp_c": 36,
         "rain_chance": "<5%",
-        "wind_mph": 5
+        "wind_mph": 6
       },
       {
         "time": "5pm",
-        "temp_c": 36,
+        "temp_c": 37,
         "rain_chance": "<5%",
         "wind_mph": 7
       },
@@ -100,11 +100,11 @@
         "time": "6pm",
         "temp_c": 36,
         "rain_chance": "<5%",
-        "wind_mph": 8
+        "wind_mph": 9
       },
       {
         "time": "7pm",
-        "temp_c": 34,
+        "temp_c": 35,
         "rain_chance": "<5%",
         "wind_mph": 10
       },
@@ -116,13 +116,13 @@
       },
       {
         "time": "9pm",
-        "temp_c": 30,
+        "temp_c": 31,
         "rain_chance": "<5%",
         "wind_mph": 10
       },
       {
         "time": "10pm",
-        "temp_c": 28,
+        "temp_c": 29,
         "rain_chance": "<5%",
         "wind_mph": 10
       },
@@ -135,6 +135,16 @@
     ],
     "warnings": [
       {
+        "severity": "red",
+        "severity_text": "Red warning",
+        "type": "Extreme heat",
+        "valid_from": "2026-06-24T09:00+01:00",
+        "valid_to": "2026-06-25T23:59+01:00",
+        "period_text": "Until Thursday 11:59pm",
+        "impact": 4,
+        "likelihood": 4
+      },
+      {
         "severity": "amber",
         "severity_text": "Amber warning",
         "type": "Extreme heat",
@@ -145,14 +155,24 @@
         "likelihood": 3
       },
       {
-        "severity": "red",
-        "severity_text": "Red warning",
+        "severity": "amber",
+        "severity_text": "Amber warning",
         "type": "Extreme heat",
-        "valid_from": "2026-06-24T09:00+01:00",
-        "valid_to": "2026-06-25T21:00+01:00",
-        "period_text": "Today 9am to Thursday 9pm",
+        "valid_from": "2026-06-26T00:00+01:00",
+        "valid_to": "2026-06-26T23:59+01:00",
+        "period_text": "Friday midnight to 11:59pm",
         "impact": 4,
-        "likelihood": 4
+        "likelihood": 3
+      },
+      {
+        "severity": "amber",
+        "severity_text": "Amber warning",
+        "type": "Extreme heat",
+        "valid_from": "2026-06-27T00:00+01:00",
+        "valid_to": "2026-06-27T21:00+01:00",
+        "period_text": "Saturday midnight to 9pm",
+        "impact": 3,
+        "likelihood": 3
       }
     ]
   },
@@ -165,20 +185,20 @@
     },
     {
       "date": "2026-06-26",
-      "temp_max": 37,
-      "temp_min": 22,
+      "temp_max": 36,
+      "temp_min": 21,
       "condition": "Sunny"
     },
     {
       "date": "2026-06-27",
       "temp_max": 32,
       "temp_min": 20,
-      "condition": "Sunny intervals"
+      "condition": "Sunny"
     },
     {
       "date": "2026-06-28",
       "temp_max": 27,
-      "temp_min": 15,
+      "temp_min": 16,
       "condition": "Sunny intervals"
     },
     {

@@ -9,7 +9,7 @@
     "condition": "Sunny",
     "temp_max": 32,
     "temp_min": 15,
-    "feels_like_high": 32,
+    "feels_like_high": 31,
     "feels_like_low": 18,
     "wind_gust_mph": 24,
     "humidity_high_pct": 83,
@@ -70,7 +70,7 @@
         "time": "1pm",
         "temp_c": 31,
         "rain_chance": "<5%",
-        "wind_mph": 11
+        "wind_mph": 10
       },
       {
         "time": "2pm",
@@ -82,7 +82,7 @@
         "time": "3pm",
         "temp_c": 29,
         "rain_chance": "<5%",
-        "wind_mph": 13
+        "wind_mph": 12
       },
       {
         "time": "4pm",
@@ -92,7 +92,7 @@
       },
       {
         "time": "5pm",
-        "temp_c": 26,
+        "temp_c": 27,
         "rain_chance": "<5%",
         "wind_mph": 12
       },
@@ -143,6 +143,26 @@
         "period_text": "Until Thursday 11:59pm",
         "impact": 4,
         "likelihood": 3
+      },
+      {
+        "severity": "amber",
+        "severity_text": "Amber warning",
+        "type": "Extreme heat",
+        "valid_from": "2026-06-26T00:00+01:00",
+        "valid_to": "2026-06-26T23:59+01:00",
+        "period_text": "Friday midnight to 11:59pm",
+        "impact": 4,
+        "likelihood": 3
+      },
+      {
+        "severity": "amber",
+        "severity_text": "Amber warning",
+        "type": "Extreme heat",
+        "valid_from": "2026-06-27T00:00+01:00",
+        "valid_to": "2026-06-27T21:00+01:00",
+        "period_text": "Saturday midnight to 9pm",
+        "impact": 3,
+        "likelihood": 3
       }
     ]
   },
@@ -155,8 +175,8 @@
     },
     {
       "date": "2026-06-26",
-      "temp_max": 37,
-      "temp_min": 18,
+      "temp_max": 38,
+      "temp_min": 17,
       "condition": "Sunny"
     },
     {
@@ -173,14 +193,14 @@
     },
     {
       "date": "2026-06-29",
-      "temp_max": 23,
+      "temp_max": 22,
       "temp_min": 13,
       "condition": "Sunny intervals"
     },
     {
       "date": "2026-06-30",
       "temp_max": 22,
-      "temp_min": 13,
+      "temp_min": 12,
       "condition": "Sunny intervals"
     }
   ]
