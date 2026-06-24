@@ -2,43 +2,151 @@
   "city": "York",
   "geohash": "gcwf9nwyu",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcwf9nwyu",
-  "scraped_at": "2026-06-23T21:18:02.228002+00:00",
-  "source_updated": "Updated: 6pm on 23 June 2026",
+  "scraped_at": "2026-06-24T03:56:41.161498+00:00",
+  "source_updated": "Updated: 2:58am on 24 June 2026",
   "today": {
-    "date": "2026-06-23",
+    "date": "2026-06-24",
     "condition": "Sunny",
-    "temp_max": 31,
-    "temp_min": 17,
-    "feels_like_high": 24,
-    "feels_like_low": 22,
-    "wind_gust_mph": 12,
-    "humidity_high_pct": 86,
-    "humidity_low_pct": 84,
+    "temp_max": 30,
+    "temp_min": 15,
+    "feels_like_high": 30,
+    "feels_like_low": 18,
+    "wind_gust_mph": 16,
+    "humidity_high_pct": 92,
+    "humidity_low_pct": 43,
     "uv_level": "High",
-    "visibility_high": "23km",
-    "visibility_low": "20km",
+    "visibility_high": "30km",
+    "visibility_low": "14km",
     "air_pollution": "Moderate",
     "pollen": "Very High",
     "sunrise": "04:36",
     "sunset": "21:42",
     "current": {
-      "temp_c": 21,
-      "condition": "Clear",
-      "feels_like": 22,
+      "temp_c": 18,
+      "condition": "Sunny",
+      "feels_like": 18,
       "rain_chance": "<5%",
-      "wind_gust_mph": 12,
+      "wind_gust_mph": 10,
       "pollen": "Very High pollen"
     },
     "hourly": [
       {
-        "time": "10pm",
+        "time": "6am",
+        "temp_c": 18,
+        "rain_chance": "<5%",
+        "wind_mph": 6
+      },
+      {
+        "time": "4am",
+        "temp_c": 18,
+        "rain_chance": "<5%",
+        "wind_mph": 5
+      },
+      {
+        "time": "5am",
+        "temp_c": 19,
+        "rain_chance": "<5%",
+        "wind_mph": 4
+      },
+      {
+        "time": "7am",
+        "temp_c": 21,
+        "rain_chance": "<5%",
+        "wind_mph": 3
+      },
+      {
+        "time": "8am",
+        "temp_c": 22,
+        "rain_chance": "<5%",
+        "wind_mph": 3
+      },
+      {
+        "time": "9am",
         "temp_c": 23,
+        "rain_chance": "<5%",
+        "wind_mph": 3
+      },
+      {
+        "time": "10am",
+        "temp_c": 24,
+        "rain_chance": "<5%",
+        "wind_mph": 3
+      },
+      {
+        "time": "11am",
+        "temp_c": 26,
+        "rain_chance": "<5%",
+        "wind_mph": 2
+      },
+      {
+        "time": "12pm",
+        "temp_c": 27,
+        "rain_chance": "<5%",
+        "wind_mph": 2
+      },
+      {
+        "time": "1pm",
+        "temp_c": 28,
+        "rain_chance": "<5%",
+        "wind_mph": 2
+      },
+      {
+        "time": "2pm",
+        "temp_c": 29,
+        "rain_chance": "<5%",
+        "wind_mph": 3
+      },
+      {
+        "time": "3pm",
+        "temp_c": 29,
+        "rain_chance": "<5%",
+        "wind_mph": 5
+      },
+      {
+        "time": "4pm",
+        "temp_c": 30,
+        "rain_chance": "<5%",
+        "wind_mph": 6
+      },
+      {
+        "time": "5pm",
+        "temp_c": 29,
+        "rain_chance": "<5%",
+        "wind_mph": 7
+      },
+      {
+        "time": "6pm",
+        "temp_c": 29,
+        "rain_chance": "<5%",
+        "wind_mph": 7
+      },
+      {
+        "time": "7pm",
+        "temp_c": 28,
+        "rain_chance": "<5%",
+        "wind_mph": 6
+      },
+      {
+        "time": "8pm",
+        "temp_c": 26,
+        "rain_chance": "<5%",
+        "wind_mph": 6
+      },
+      {
+        "time": "9pm",
+        "temp_c": 23,
+        "rain_chance": "<5%",
+        "wind_mph": 7
+      },
+      {
+        "time": "10pm",
+        "temp_c": 21,
         "rain_chance": "<5%",
         "wind_mph": 6
       },
       {
         "time": "11pm",
-        "temp_c": 21,
+        "temp_c": 19,
         "rain_chance": "<5%",
         "wind_mph": 6
       }
@@ -46,12 +154,6 @@
     "warnings": []
   },
   "forecast": [
-    {
-      "date": "2026-06-24",
-      "temp_max": 30,
-      "temp_min": 15,
-      "condition": "Sunny"
-    },
     {
       "date": "2026-06-25",
       "temp_max": 29,
@@ -61,8 +163,8 @@
     {
       "date": "2026-06-26",
       "temp_max": 32,
-      "temp_min": 16,
-      "condition": "Sunny intervals"
+      "temp_min": 15,
+      "condition": "Sunny"
     },
     {
       "date": "2026-06-27",
@@ -80,6 +182,12 @@
       "date": "2026-06-29",
       "temp_max": 20,
       "temp_min": 12,
+      "condition": "Sunny intervals"
+    },
+    {
+      "date": "2026-06-30",
+      "temp_max": 21,
+      "temp_min": 13,
       "condition": "Sunny intervals"
     }
   ]

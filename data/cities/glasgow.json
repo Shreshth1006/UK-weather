@@ -2,37 +2,145 @@
   "city": "Glasgow",
   "geohash": "gcw2p7ygw",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcw2p7ygw",
-  "scraped_at": "2026-06-23T21:17:50.381171+00:00",
-  "source_updated": "Updated: 7:59pm on 23 June 2026",
+  "scraped_at": "2026-06-24T03:56:20.215444+00:00",
+  "source_updated": "Updated: 2:58am on 24 June 2026",
   "today": {
-    "date": "2026-06-23",
+    "date": "2026-06-24",
     "condition": "Sunny",
-    "temp_max": 32,
-    "temp_min": 18,
-    "feels_like_high": 26,
-    "feels_like_low": 25,
-    "wind_gust_mph": 10,
-    "humidity_high_pct": 74,
-    "humidity_low_pct": 67,
+    "temp_max": 31,
+    "temp_min": 20,
+    "feels_like_high": 31,
+    "feels_like_low": 20,
+    "wind_gust_mph": 16,
+    "humidity_high_pct": 90,
+    "humidity_low_pct": 40,
     "uv_level": "High",
-    "visibility_high": "21km",
-    "visibility_low": "20km",
-    "air_pollution": "Moderate",
+    "visibility_high": "24km",
+    "visibility_low": "8.6km",
+    "air_pollution": "Low",
     "pollen": "Very High",
-    "sunrise": "04:40",
+    "sunrise": "04:41",
     "sunset": "21:41",
     "current": {
-      "temp_c": 24,
-      "condition": "Clear",
-      "feels_like": 25,
+      "temp_c": 19,
+      "condition": "Sunny",
+      "feels_like": 20,
       "rain_chance": "<5%",
-      "wind_gust_mph": 10,
+      "wind_gust_mph": 8,
       "pollen": "Very High pollen"
     },
     "hourly": [
       {
-        "time": "10pm",
+        "time": "6am",
+        "temp_c": 20,
+        "rain_chance": "<5%",
+        "wind_mph": 4
+      },
+      {
+        "time": "4am",
+        "temp_c": 19,
+        "rain_chance": "<5%",
+        "wind_mph": 3
+      },
+      {
+        "time": "5am",
+        "temp_c": 19,
+        "rain_chance": "<5%",
+        "wind_mph": 2
+      },
+      {
+        "time": "7am",
+        "temp_c": 20,
+        "rain_chance": "<5%",
+        "wind_mph": 2
+      },
+      {
+        "time": "8am",
+        "temp_c": 21,
+        "rain_chance": "<5%",
+        "wind_mph": 2
+      },
+      {
+        "time": "9am",
+        "temp_c": 23,
+        "rain_chance": "<5%",
+        "wind_mph": 2
+      },
+      {
+        "time": "10am",
         "temp_c": 25,
+        "rain_chance": "<5%",
+        "wind_mph": 3
+      },
+      {
+        "time": "11am",
+        "temp_c": 26,
+        "rain_chance": "<5%",
+        "wind_mph": 3
+      },
+      {
+        "time": "12pm",
+        "temp_c": 28,
+        "rain_chance": "<5%",
+        "wind_mph": 3
+      },
+      {
+        "time": "1pm",
+        "temp_c": 29,
+        "rain_chance": "<5%",
+        "wind_mph": 3
+      },
+      {
+        "time": "2pm",
+        "temp_c": 30,
+        "rain_chance": "<5%",
+        "wind_mph": 4
+      },
+      {
+        "time": "3pm",
+        "temp_c": 30,
+        "rain_chance": "<5%",
+        "wind_mph": 5
+      },
+      {
+        "time": "4pm",
+        "temp_c": 31,
+        "rain_chance": "<5%",
+        "wind_mph": 6
+      },
+      {
+        "time": "5pm",
+        "temp_c": 31,
+        "rain_chance": "<5%",
+        "wind_mph": 7
+      },
+      {
+        "time": "6pm",
+        "temp_c": 30,
+        "rain_chance": "<5%",
+        "wind_mph": 7
+      },
+      {
+        "time": "7pm",
+        "temp_c": 30,
+        "rain_chance": "<5%",
+        "wind_mph": 7
+      },
+      {
+        "time": "8pm",
+        "temp_c": 29,
+        "rain_chance": "<5%",
+        "wind_mph": 7
+      },
+      {
+        "time": "9pm",
+        "temp_c": 27,
+        "rain_chance": "<5%",
+        "wind_mph": 7
+      },
+      {
+        "time": "10pm",
+        "temp_c": 26,
         "rain_chance": "<5%",
         "wind_mph": 6
       },
@@ -40,7 +148,7 @@
         "time": "11pm",
         "temp_c": 24,
         "rain_chance": "<5%",
-        "wind_mph": 5
+        "wind_mph": 6
       }
     ],
     "warnings": [
@@ -50,7 +158,7 @@
         "type": "Extreme heat",
         "valid_from": "2026-06-24T00:00+01:00",
         "valid_to": "2026-06-25T23:59+01:00",
-        "period_text": "Wednesday midnight to Thursday 11:59pm",
+        "period_text": "Until Thursday 11:59pm",
         "impact": 4,
         "likelihood": 3
       }
@@ -58,22 +166,16 @@
   },
   "forecast": [
     {
-      "date": "2026-06-24",
-      "temp_max": 32,
-      "temp_min": 20,
-      "condition": "Sunny"
-    },
-    {
       "date": "2026-06-25",
-      "temp_max": 34,
-      "temp_min": 23,
+      "temp_max": 33,
+      "temp_min": 22,
       "condition": "Sunny"
     },
     {
       "date": "2026-06-26",
-      "temp_max": 34,
+      "temp_max": 33,
       "temp_min": 18,
-      "condition": "Sunny intervals"
+      "condition": "Sunny"
     },
     {
       "date": "2026-06-27",
@@ -90,6 +192,12 @@
     {
       "date": "2026-06-29",
       "temp_max": 20,
+      "temp_min": 13,
+      "condition": "Sunny intervals"
+    },
+    {
+      "date": "2026-06-30",
+      "temp_max": 21,
       "temp_min": 13,
       "condition": "Sunny intervals"
     }
