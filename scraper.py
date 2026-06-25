@@ -146,91 +146,101 @@ async def parse_daily_cards(page) -> list[dict]:
 #          </tbody>
 # ─────────────────────────────────────────────
 
-async def parse_all_hourly(page) -> dict:
-    """
-    Returns: { "2026-06-23": [ {time, temp_c, rain_chance, wind_mph}, ... ], "2026-06-24": [...], ... }
-    Scrapes ALL hourly tables present on the Detailed forecast page in one pass —
-    no clicking required, all 7 days' tables are in the DOM simultaneously.
-    """
-    result = {}
+async def parse_hourly(page) -> list[dict]:
+    today_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
-    tables = await page.query_selector_all("table.forecast-table.hourly-table")
+    # Find today's hourly table specifically
+    table = await page.query_selector(
+        f'table.forecast-table.hourly-table[data-date="{today_date}"]'
+    )
+    if not table:
+        # fallback — just grab first hourly table
+        table = await page.query_selector("table.forecast-table.hourly-table")
+    if not table:
+        return []
 
-    for table in tables:
-        date_str = await attr(table, "data-date")
-        if not date_str:
-            continue
+    # Times from thead
+    time_cells = await table.query_selector_all("thead td:not(.starting-time-step), thead th:not([scope='row'])")
+    # Also try the starting-time-step td which has the first time
+    start_td = await table.query_selector("td.starting-time-step")
+    times = []
+    if start_td:
+        times.append(await text(start_td))
+    for tc in time_cells:
+        t = await text(tc)
+        if re.match(r"\d{1,2}(am|pm)", t):
+            times.append(t)
 
-        # Times from thead
-        start_td = await table.query_selector("td.starting-time-step")
-        times = []
-        if start_td:
-            times.append(await text(start_td))
-        time_cells = await table.query_selector_all("thead td:not(.starting-time-step), thead th:not([scope='row'])")
-        for tc in time_cells:
-            t = await text(tc)
+    if not times:
+        # fallback: all tds in first tr of thead
+        header_tds = await table.query_selector_all("thead tr td")
+        for td in header_tds:
+            t = await text(td)
             if re.match(r"\d{1,2}(am|pm)", t):
                 times.append(t)
-        if not times:
-            header_tds = await table.query_selector_all("thead tr td")
-            for td in header_tds:
-                t = await text(td)
-                if re.match(r"\d{1,2}(am|pm)", t):
-                    times.append(t)
 
-        # Temperatures
-        temps = []
-        temp_row = await table.query_selector("tr.body-s.weather-temperature-row, tr.weather-temperature-row")
-        if temp_row:
-            temp_cells = await temp_row.query_selector_all("td")
-            for tc in temp_cells:
-                val = to_int(await text(tc))
-                if val is not None:
-                    temps.append(val)
+    # Temperatures
+    temps = []
+    temp_row = await table.query_selector("tr.body-s.weather-temperature-row, tr.weather-temperature-row")
+    if temp_row:
+        temp_cells = await temp_row.query_selector_all("td")
+        for tc in temp_cells:
+            t = await text(tc)
+            val = to_int(t)
+            if val is not None:
+                temps.append(val)
 
-        # Rain chances
-        rains = []
-        rain_row = await table.query_selector("tr.precipitation-chance-row")
-        if rain_row:
-            rain_cells = await rain_row.query_selector_all("td")
-            for rc in rain_cells:
-                t = re.sub(r"[^\d<%]", "", await text(rc)).strip()
-                rains.append(t if t else None)
+    # Rain chances
+    rains = []
+    rain_row = await table.query_selector("tr.precipitation-chance-row")
+    if rain_row:
+        rain_cells = await rain_row.query_selector_all("td")
+        for rc in rain_cells:
+            t = await text(rc)
+            # Clean up — may have icon text mixed in
+            t = re.sub(r"[^\d<%]", "", t).strip()
+            if t:
+                rains.append(t if t.startswith("<") else t)
+            else:
+                rains.append(None)
 
-        # Wind speeds
-        winds = []
-        wind_row = await table.query_selector(
-            "tr.wind-speed-row, tr.body-s.wind-speed-row, "
-            "tr[class*='wind-speed'], tr[class*='windspeed']"
-        )
-        if not wind_row:
-            all_rows = await table.query_selector_all("tbody tr")
-            for row in all_rows:
-                row_text = await row.inner_text()
-                if "mph" in row_text.lower():
-                    wind_row = row
-                    break
-        if wind_row:
-            wind_cells = await wind_row.query_selector_all("td")
-            for wc in wind_cells:
-                t = await text(wc)
-                m = re.search(r"(\d+)\s*mph", t, re.IGNORECASE)
-                winds.append(int(m.group(1)) if m else to_int(t))
+    # Wind speeds — try multiple possible class names
+    winds = []
+    wind_row = await table.query_selector(
+        "tr.wind-speed-row, tr.body-s.wind-speed-row, "
+        "tr[class*='wind-speed'], tr[class*='windspeed']"
+    )
+    if not wind_row:
+        # Fallback: find row containing "mph" values
+        all_rows = await table.query_selector_all("tbody tr")
+        for row in all_rows:
+            row_text = await row.inner_text()
+            if "mph" in row_text.lower():
+                wind_row = row
+                break
+    if wind_row:
+        wind_cells = await wind_row.query_selector_all("td")
+        for wc in wind_cells:
+            t = await text(wc)
+            # Extract just the number before mph
+            m = re.search(r"(\d+)\s*mph", t, re.IGNORECASE)
+            if m:
+                winds.append(int(m.group(1)))
+            else:
+                val = to_int(t)
+                winds.append(val)
 
-        day_hourly = []
-        for i, time in enumerate(times):
-            temp_c = temps[i] if i < len(temps) else None
-            day_hourly.append({
-                "time":        time,
-                "temp_c":      temp_c,
-                "temp_f":      round(temp_c * 9 / 5 + 32, 1) if temp_c is not None else None,
-                "rain_chance": rains[i] if i < len(rains) else None,
-                "wind_mph":    winds[i] if i < len(winds) else None,
-            })
+    # Zip together
+    hourly = []
+    for i, time in enumerate(times):
+        hourly.append({
+            "time":        time,
+            "temp_c":      temps[i] if i < len(temps) else None,
+            "rain_chance": rains[i] if i < len(rains) else None,
+            "wind_mph":    winds[i] if i < len(winds) else None,
+        })
 
-        result[date_str] = day_hourly
-
-    return result
+    return hourly
 
 
 # ─────────────────────────────────────────────
@@ -240,131 +250,103 @@ async def parse_all_hourly(page) -> dict:
 #        </div>
 # ─────────────────────────────────────────────
 
-async def parse_all_detailed(page) -> dict:
-    """
-    Returns: { "2026-06-23": {wind_gust_mph, feels_like_high, ...}, "2026-06-24": {...}, ... }
-    The Detailed forecast page repeats one card-block set per day. Each block sits inside
-    a container we identify via the 'Complete sun and moon data for ... date=YYYY-MM-DD' link,
-    which lets us recover the date for that block's wind/feels-like/humidity/etc cards.
-    """
-    result = {}
+async def parse_detailed(page) -> dict:
 
-    # Each day's detail section is a sibling block; the sunrise/sunset link contains the date
-    # Find all sun-rise-range containers — each belongs to one day's detail block
-    sun_links = await page.query_selector_all("a[href*='aa.usno.navy.mil'][href*='date=']")
+    async def card_value(selector: str) -> str:
+        el = await page.query_selector(selector)
+        return await text(el)
 
-    # Also grab all wind/feels-like/humidity/etc cards in document order
-    wind_cards     = await page.query_selector_all(".card.wind-card")
-    feels_cards    = await page.query_selector_all(".card.temperature-card")
-    hum_cards      = await page.query_selector_all(".card.humidity-card")
-    uv_cards       = await page.query_selector_all(".card.uv-card, .card-uv")
-    vis_cards      = await page.query_selector_all(".card.visibility-card")
-    pollution_cards = await page.query_selector_all(".card.air-pollution-card")
-    pollen_cards   = await page.query_selector_all(".card.pollen-card")
-    sun_ranges     = await page.query_selector_all(".sun-rise-range")
+    async def card_values(selector: str) -> list[str]:
+        els = await page.query_selector_all(selector)
+        return [await text(e) for e in els]
 
-    # Extract dates from the sun-and-moon links, in document order
-    dates = []
-    for link in sun_links:
-        href = await attr(link, "href")
-        m = re.search(r"date=(\d{4}-\d{2}-\d{2})", href)
-        dates.append(m.group(1) if m else None)
+    # Wind gust
+    wind_el = await page.query_selector(".card.wind-card .card-data")
+    wind_gust = to_int(await text(wind_el))
 
-    n_days = len(dates)
-    if n_days == 0:
-        return result
+    # Feels like — two .card-data values inside temperature-card
+    feels_card = await page.query_selector(".card.temperature-card")
+    feels_vals = []
+    if feels_card:
+        feels_data = await feels_card.query_selector_all(".card-data")
+        for fd in feels_data:
+            feels_vals.append(to_int(await text(fd)))
+    feels_high = feels_vals[0] if len(feels_vals) > 0 else None
+    feels_low  = feels_vals[1] if len(feels_vals) > 1 else None
 
-    for i in range(n_days):
-        date_str = dates[i]
-        if not date_str:
-            continue
+    # Humidity — two values inside humidity-card
+    hum_card = await page.query_selector(".card.humidity-card")
+    hum_vals = []
+    if hum_card:
+        hum_data = await hum_card.query_selector_all(".card-data")
+        for hd in hum_data:
+            v = await text(hd)
+            hum_vals.append(to_int(v.replace("%", "")))
+    hum_high = hum_vals[0] if len(hum_vals) > 0 else None
+    hum_low  = hum_vals[1] if len(hum_vals) > 1 else None
 
-        # Wind gust
-        wind_gust = None
-        if i < len(wind_cards):
-            wd = await wind_cards[i].query_selector(".card-data")
-            wind_gust = to_int(await text(wd))
+    # UV
+    uv_card = await page.query_selector(".card.uv-card .card-data, .card-uv .card-data")
+    uv = await text(uv_card)
 
-        # Feels like high/low
-        feels_high = feels_low = None
-        if i < len(feels_cards):
-            fd = await feels_cards[i].query_selector_all(".card-data")
-            vals = [to_int(await text(x)) for x in fd]
-            if len(vals) >= 1: feels_high = vals[0]
-            if len(vals) >= 2: feels_low = vals[1]
+    # Visibility — km values are in .card-data, labels in .card-description
+    # Structure: Daily high [Xkm] [label] | Daily low [Ykm] [label]
+    vis_card = await page.query_selector(".card.visibility-card")
+    vis_high = None
+    vis_low  = None
+    if vis_card:
+        vis_data = await vis_card.query_selector_all(".card-data")
+        km_vals = []
+        for vd in vis_data:
+            t = await text(vd)
+            if "km" in t.lower():
+                km_vals.append(t)
+        if len(km_vals) >= 1:
+            vis_high = km_vals[0]
+        if len(km_vals) >= 2:
+            vis_low = km_vals[1]
 
-        # Humidity high/low
-        hum_high = hum_low = None
-        if i < len(hum_cards):
-            hd = await hum_cards[i].query_selector_all(".card-data")
-            vals = [to_int((await text(x)).replace("%", "")) for x in hd]
-            if len(vals) >= 1: hum_high = vals[0]
-            if len(vals) >= 2: hum_low = vals[1]
+    # Air pollution
+    poll_card = await page.query_selector(".card.air-pollution-card .card-data")
+    air_pollution = await text(poll_card)
 
-        # UV
-        uv = None
-        if i < len(uv_cards):
-            ud = await uv_cards[i].query_selector(".card-data")
-            uv = await text(ud)
+    # Pollen
+    pollen_card = await page.query_selector(".card.pollen-card .card-data")
+    pollen = await text(pollen_card)
 
-        # Visibility high/low
-        vis_high = vis_low = None
-        if i < len(vis_cards):
-            vd = await vis_cards[i].query_selector_all(".card-data")
-            km_vals = [await text(x) for x in vd if "km" in (await text(x)).lower()]
-            if len(km_vals) >= 1: vis_high = km_vals[0]
-            if len(km_vals) >= 2: vis_low = km_vals[1]
+    # Sunrise / Sunset — <time datetime="2026-06-15T04:43:00+01:00">04:43</time>
+    time_els = await page.query_selector_all(".sun-rise-range time")
+    sunrise = await text(time_els[0]) if len(time_els) > 0 else None
+    sunset  = await text(time_els[1]) if len(time_els) > 1 else None
 
-        # Air pollution
-        air_pollution = None
-        if i < len(pollution_cards):
-            pd = await pollution_cards[i].query_selector(".card-data")
-            air_pollution = await text(pd)
-
-        # Pollen
-        pollen = None
-        if i < len(pollen_cards):
-            pld = await pollen_cards[i].query_selector(".card-data")
-            pollen = await text(pld)
-
-        # Sunrise / Sunset
-        sunrise = sunset = None
-        if i < len(sun_ranges):
-            time_els = await sun_ranges[i].query_selector_all("time")
-            if len(time_els) >= 1: sunrise = await text(time_els[0])
-            if len(time_els) >= 2: sunset = await text(time_els[1])
-
-        result[date_str] = {
-            "wind_gust_mph":     wind_gust,
-            "feels_like_high":   feels_high,
-            "feels_like_low":    feels_low,
-            "humidity_high_pct": hum_high,
-            "humidity_low_pct":  hum_low,
-            "uv_level":          uv or None,
-            "visibility_high":   vis_high or None,
-            "visibility_low":    vis_low or None,
-            "air_pollution":     air_pollution or None,
-            "pollen":            pollen or None,
-            "sunrise":           sunrise,
-            "sunset":            sunset,
-        }
-
-    return result
-
-
-async def parse_source_updated(page) -> str:
-    """Grabs the 'Updated: 12pm on 23 June 2026' timestamp."""
+    # Source last updated — try direct selector first, then regex fallback
     source_updated = None
     updated_el = await page.query_selector(".updated strong, .updated-time, [class*=updated] strong")
     if updated_el:
         source_updated = await text(updated_el)
     if not source_updated:
+        # Regex on just the forecast section text (faster than full body)
         forecast_el = await page.query_selector(".daily-forecast-section, #daily-forecast, main")
         search_text = await forecast_el.inner_text() if forecast_el else ""
         m = re.search(r"Updated:\s*(.+?(?:am|pm).+?\d{4})", search_text, re.IGNORECASE)
         if m:
             source_updated = m.group(1).strip()
-    return source_updated
+
+    return {
+        "source_updated":   source_updated,
+        "wind_gust_mph":    wind_gust,
+        "feels_like_high":  feels_high,
+        "feels_like_low":   feels_low,
+        "humidity_high_pct": hum_high,
+        "humidity_low_pct":  hum_low,
+        "uv_level":          uv or None,
+        "visibility_high":   vis_high or None,
+        "visibility_low":    vis_low or None,
+        "air_pollution":     air_pollution or None,
+        "pollen":            pollen or None,
+        "sunrise":           sunrise,
+        "sunset":            sunset,
+    }
 
 
 # ─────────────────────────────────────────────
@@ -488,14 +470,10 @@ async def scrape_city(page, city_name: str, geohash: str) -> dict:
     print(f"  Fetching {city_name}...")
 
     try:
+        # Load page — don't wait for networkidle (site has background requests)
         await page.goto(url, wait_until="domcontentloaded", timeout=30000)
+        # Wait specifically for the element we need
         await page.wait_for_selector(".snapshot.next-day", state="attached", timeout=30000)
-        # Scroll to bottom to trigger any lazy-loaded sections (Detailed forecast tables)
-        await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-        await page.wait_for_timeout(800)
-        await page.evaluate("window.scrollTo(0, 0)")
-        # Detailed forecast tables render lower on the page — wait for them too
-        await page.wait_for_selector("table.forecast-table.hourly-table", state="attached", timeout=30000)
     except PlaywrightTimeout:
         print(f"  ✗ Timeout: {city_name}")
         return {
@@ -515,86 +493,53 @@ async def scrape_city(page, city_name: str, geohash: str) -> dict:
 
     today_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
-    daily_cards     = await parse_daily_cards(page)      # quick summary: date/condition/temp_max/temp_min
-    hourly_by_date  = await parse_all_hourly(page)        # { date: [ {time,temp_c,temp_f,rain_chance,wind_mph}, ... ] }
-    detail_by_date  = await parse_all_detailed(page)      # { date: {wind_gust_mph, feels_like_high, ...} }
-    current         = await parse_current(page)           # next-hour snapshot
-    warnings        = await parse_warnings(page)           # list of active warnings with valid_from/valid_to
-    source_updated  = await parse_source_updated(page)
+    daily_cards = await parse_daily_cards(page)
+    hourly      = await parse_hourly(page)
+    detailed    = await parse_detailed(page)
+    current     = await parse_current(page)
+    warnings    = await parse_warnings(page)
 
-    # Map daily_cards by date for quick lookup (condition/temp_max/temp_min)
-    summary_by_date = {}
-    for c in daily_cards:
+    # First card = today, rest = forecast
+    # Deduplicate by date
+    today_card = daily_cards[0] if daily_cards else {}
+    seen = set()
+    forecast = []
+    for c in daily_cards[1:]:
         d = c.get("date")
-        if d and d not in summary_by_date:
-            summary_by_date[d] = c
+        if d and d not in seen:
+            seen.add(d)
+            forecast.append(c)
 
-    def warnings_for_date(date_str: str) -> list[dict]:
-        """Returns any warnings whose valid_from/valid_to range covers this date."""
-        matched = []
-        for w in warnings:
-            vf, vt = w.get("valid_from"), w.get("valid_to")
-            if not vf or not vt:
-                continue
-            try:
-                d_obj = datetime.strptime(date_str, "%Y-%m-%d").date()
-                from_date = datetime.fromisoformat(vf).date()
-                to_date = datetime.fromisoformat(vt).date()
-                if from_date <= d_obj <= to_date:
-                    matched.append(w)
-            except Exception:
-                continue
-        return matched
-
-    # Build forecastday[] — union of all dates seen across hourly + detail + summary
-    all_dates = sorted(set(hourly_by_date.keys()) | set(detail_by_date.keys()) | set(summary_by_date.keys()))
-
-    forecastday = []
-    for date_str in all_dates:
-        summary = summary_by_date.get(date_str, {})
-        detail  = detail_by_date.get(date_str, {})
-        hours   = hourly_by_date.get(date_str, [])
-
-        day_block = {
-            "date": date_str,
-            "is_today": date_str == today_date,
-            "astro": {
-                "sunrise": detail.get("sunrise"),
-                "sunset":  detail.get("sunset"),
-            },
-            "day": {
-                "maxtemp_c":           summary.get("temp_max"),
-                "mintemp_c":           summary.get("temp_min"),
-                "condition":           summary.get("condition"),
-                "feels_like_high":     detail.get("feels_like_high"),
-                "feels_like_low":      detail.get("feels_like_low"),
-                "wind_gust_mph":       detail.get("wind_gust_mph"),
-                "humidity_high_pct":   detail.get("humidity_high_pct"),
-                "humidity_low_pct":    detail.get("humidity_low_pct"),
-                "uv_level":            detail.get("uv_level"),
-                "visibility_high":     detail.get("visibility_high"),
-                "visibility_low":      detail.get("visibility_low"),
-                "air_pollution":       detail.get("air_pollution"),
-                "pollen":              detail.get("pollen"),
-                "daily_chance_of_rain": max(
-                    (to_int(h["rain_chance"]) or 0 for h in hours if h.get("rain_chance")),
-                    default=None
-                ),
-            },
-            "hour": hours,
-            "warnings": warnings_for_date(date_str),
-        }
-        forecastday.append(day_block)
+    today_block = {
+        "date":              today_date,
+        "condition":         today_card.get("condition"),
+        "temp_max":          today_card.get("temp_max"),
+        "temp_min":          today_card.get("temp_min"),
+        "feels_like_high":   detailed.get("feels_like_high"),
+        "feels_like_low":    detailed.get("feels_like_low"),
+        "wind_gust_mph":     detailed.get("wind_gust_mph"),
+        "humidity_high_pct": detailed.get("humidity_high_pct"),
+        "humidity_low_pct":  detailed.get("humidity_low_pct"),
+        "uv_level":          detailed.get("uv_level"),
+        "visibility_high":   detailed.get("visibility_high"),
+        "visibility_low":    detailed.get("visibility_low"),
+        "air_pollution":     detailed.get("air_pollution"),
+        "pollen":            detailed.get("pollen"),
+        "sunrise":           detailed.get("sunrise"),
+        "sunset":            detailed.get("sunset"),
+        "current":           current,
+        "hourly":            hourly,
+        "warnings":          warnings,
+    }
 
     return {
         "city":           city_name,
         "geohash":        geohash,
         "source_url":     url,
         "scraped_at":     datetime.now(timezone.utc).isoformat(),
-        "source_updated": source_updated,
-        "current":        current,
-        "active_warnings": warnings,
-        "forecastday":    forecastday,
+        "source_updated": detailed.get("source_updated"),
+        "today":          today_block,
+        "forecast":       forecast,
     }
 
 
