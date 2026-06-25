@@ -2,129 +2,45 @@
   "city": "Cardiff",
   "geohash": "gcjszevgx",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcjszevgx",
-  "scraped_at": "2026-06-25T07:49:08.228442+00:00",
-  "source_updated": "Updated: 6:59am on 25 June 2026",
+  "scraped_at": "2026-06-25T21:12:03.513373+00:00",
+  "source_updated": "Updated: 6:51pm on 25 June 2026",
   "today": {
     "date": "2026-06-25",
     "condition": "Sunny",
     "temp_max": 37,
     "temp_min": 21,
-    "feels_like_high": 36,
-    "feels_like_low": 25,
-    "wind_gust_mph": 28,
-    "humidity_high_pct": 76,
-    "humidity_low_pct": 40,
+    "feels_like_high": 29,
+    "feels_like_low": 28,
+    "wind_gust_mph": 19,
+    "humidity_high_pct": 66,
+    "humidity_low_pct": 66,
     "uv_level": "High",
-    "visibility_high": "28km",
-    "visibility_low": "17km",
+    "visibility_high": "26km",
+    "visibility_low": "24km",
     "air_pollution": "Moderate",
     "pollen": "Very High",
     "sunrise": "04:57",
     "sunset": "21:34",
     "current": {
       "temp_c": 26,
-      "condition": "Sunny",
-      "feels_like": 26,
-      "rain_chance": "<5%",
-      "wind_gust_mph": 22,
+      "condition": "Thunder showers",
+      "feels_like": 28,
+      "rain_chance": null,
+      "wind_gust_mph": 19,
       "pollen": "Very High pollen"
     },
     "hourly": [
       {
-        "time": "8am",
-        "temp_c": 25,
-        "rain_chance": "<5%",
-        "wind_mph": 10
-      },
-      {
-        "time": "9am",
-        "temp_c": 26,
-        "rain_chance": "<5%",
-        "wind_mph": 11
-      },
-      {
-        "time": "10am",
-        "temp_c": 28,
-        "rain_chance": "<5%",
-        "wind_mph": 12
-      },
-      {
-        "time": "11am",
-        "temp_c": 29,
-        "rain_chance": "<5%",
-        "wind_mph": 13
-      },
-      {
-        "time": "12pm",
-        "temp_c": 30,
-        "rain_chance": "<5%",
-        "wind_mph": 14
-      },
-      {
-        "time": "1pm",
-        "temp_c": 32,
-        "rain_chance": "<5%",
-        "wind_mph": 13
-      },
-      {
-        "time": "2pm",
-        "temp_c": 33,
-        "rain_chance": "<5%",
-        "wind_mph": 12
-      },
-      {
-        "time": "3pm",
-        "temp_c": 35,
-        "rain_chance": "<5%",
-        "wind_mph": 12
-      },
-      {
-        "time": "4pm",
-        "temp_c": 36,
-        "rain_chance": "<5%",
-        "wind_mph": 12
-      },
-      {
-        "time": "5pm",
-        "temp_c": 35,
-        "rain_chance": "<5%",
-        "wind_mph": 11
-      },
-      {
-        "time": "6pm",
-        "temp_c": 34,
-        "rain_chance": "<5%",
-        "wind_mph": 9
-      },
-      {
-        "time": "7pm",
-        "temp_c": 33,
-        "rain_chance": "<5%",
-        "wind_mph": 8
-      },
-      {
-        "time": "8pm",
-        "temp_c": 31,
-        "rain_chance": "10%",
-        "wind_mph": 8
-      },
-      {
-        "time": "9pm",
-        "temp_c": 28,
-        "rain_chance": "50%",
-        "wind_mph": 9
-      },
-      {
         "time": "10pm",
         "temp_c": 27,
-        "rain_chance": "70%",
-        "wind_mph": 8
+        "rain_chance": "20%",
+        "wind_mph": 6
       },
       {
         "time": "11pm",
-        "temp_c": 25,
-        "rain_chance": "80%",
-        "wind_mph": 8
+        "temp_c": 26,
+        "rain_chance": "70%",
+        "wind_mph": 6
       }
     ],
     "warnings": [
@@ -147,27 +63,47 @@
         "period_text": "Until 11:59pm today",
         "impact": 4,
         "likelihood": 3
+      },
+      {
+        "severity": "yellow",
+        "severity_text": "Yellow warning",
+        "type": "Thunderstorm",
+        "valid_from": "2026-06-25T18:00+01:00",
+        "valid_to": "2026-06-25T23:59+01:00",
+        "period_text": "Until 11:59pm today",
+        "impact": 3,
+        "likelihood": 1
+      },
+      {
+        "severity": "yellow",
+        "severity_text": "Yellow warning",
+        "type": "Thunderstorm",
+        "valid_from": "2026-06-26T00:00+01:00",
+        "valid_to": "2026-06-26T10:00+01:00",
+        "period_text": "Friday midnight to 10am",
+        "impact": 3,
+        "likelihood": 1
       }
     ]
   },
   "forecast": [
     {
       "date": "2026-06-26",
-      "temp_max": 27,
-      "temp_min": 17,
+      "temp_max": 25,
+      "temp_min": 16,
       "condition": "Sunny"
     },
     {
       "date": "2026-06-27",
-      "temp_max": 25,
+      "temp_max": 26,
       "temp_min": 16,
       "condition": "Sunny intervals"
     },
     {
       "date": "2026-06-28",
-      "temp_max": 21,
+      "temp_max": 20,
       "temp_min": 13,
-      "condition": "Sunny intervals"
+      "condition": "Light showers"
     },
     {
       "date": "2026-06-29",
