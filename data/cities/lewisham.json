@@ -2,17 +2,17 @@
   "city": "Lewisham",
   "geohash": "gcpvjn89k",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcpvjn89k",
-  "scraped_at": "2026-06-28T06:57:20.582216+00:00",
-  "source_updated": "Updated: 5:02am on 28 June 2026",
+  "scraped_at": "2026-06-28T10:11:12.472552+00:00",
+  "source_updated": "Updated: 8am on 28 June 2026",
   "today": {
     "date": "2026-06-28",
     "condition": "Sunny intervals",
-    "temp_max": 27,
-    "temp_min": 14,
+    "temp_max": 26,
+    "temp_min": 15,
     "feels_like_high": 23,
     "feels_like_low": 16,
-    "wind_gust_mph": 27,
-    "humidity_high_pct": 75,
+    "wind_gust_mph": 26,
+    "humidity_high_pct": 55,
     "humidity_low_pct": 40,
     "uv_level": "High",
     "visibility_high": "30km",
@@ -22,91 +22,67 @@
     "sunrise": "04:46",
     "sunset": "21:22",
     "current": {
-      "temp_c": 21,
-      "condition": "Sunny intervals",
-      "feels_like": 19,
+      "temp_c": 24,
+      "condition": "Cloudy",
+      "feels_like": 22,
       "rain_chance": "<5%",
       "wind_gust_mph": 25,
       "pollen": "High pollen"
     },
     "hourly": [
       {
-        "time": "7am",
-        "temp_c": 20,
-        "rain_chance": "<5%",
-        "wind_mph": 12
-      },
-      {
-        "time": "8am",
-        "temp_c": 21,
-        "rain_chance": "<5%",
-        "wind_mph": 12
-      },
-      {
-        "time": "9am",
-        "temp_c": 22,
-        "rain_chance": "<5%",
-        "wind_mph": 12
-      },
-      {
-        "time": "10am",
-        "temp_c": 23,
-        "rain_chance": "<5%",
-        "wind_mph": 12
-      },
-      {
         "time": "11am",
-        "temp_c": 23,
-        "rain_chance": "<5%",
-        "wind_mph": 11
+        "temp_c": 24,
+        "rain_chance": "30%",
+        "wind_mph": 12
       },
       {
         "time": "12pm",
         "temp_c": 24,
-        "rain_chance": "10%",
+        "rain_chance": "<5%",
         "wind_mph": 12
       },
       {
         "time": "1pm",
         "temp_c": 24,
-        "rain_chance": "10%",
+        "rain_chance": "30%",
         "wind_mph": 12
       },
       {
         "time": "2pm",
-        "temp_c": 25,
-        "rain_chance": "10%",
-        "wind_mph": 12
+        "temp_c": 24,
+        "rain_chance": "30%",
+        "wind_mph": 11
       },
       {
         "time": "3pm",
         "temp_c": 25,
-        "rain_chance": "<5%",
-        "wind_mph": 12
+        "rain_chance": "10%",
+        "wind_mph": 11
       },
       {
         "time": "4pm",
-        "temp_c": 26,
-        "rain_chance": "<5%",
-        "wind_mph": 12
+        "temp_c": 25,
+        "rain_chance": "10%",
+        "wind_mph": 11
       },
       {
         "time": "5pm",
         "temp_c": 25,
-        "rain_chance": "<5%",
-        "wind_mph": 11
+        "rain_chance": "10%",
+        "wind_mph": 10
       },
       {
         "time": "6pm",
         "temp_c": 25,
         "rain_chance": "<5%",
-        "wind_mph": 11
+        "wind_mph": 10
       },
       {
         "time": "7pm",
         "temp_c": 24,
         "rain_chance": "<5%",
-        "wind_mph": 11
+        "wind_mph": 10
       },
       {
         "time": "8pm",
@@ -133,18 +109,7 @@
         "wind_mph": 11
       }
     ],
-    "warnings": [
-      {
-        "severity": "amber",
-        "severity_text": "Amber warning",
-        "type": "Extreme heat",
-        "valid_from": "2026-06-27T00:00+01:00",
-        "valid_to": "2026-06-28T09:00+01:00",
-        "period_text": "Until 9am today",
-        "impact": 3,
-        "likelihood": 3
-      }
-    ]
+    "warnings": []
   },
   "forecast": [
     {
@@ -155,7 +120,7 @@
     },
     {
       "date": "2026-06-30",
-      "temp_max": 24,
+      "temp_max": 25,
       "temp_min": 16,
       "condition": "Sunny intervals"
     },
@@ -174,14 +139,14 @@
     {
       "date": "2026-07-03",
       "temp_max": 26,
-      "temp_min": 17,
+      "temp_min": 16,
       "condition": "Sunny"
     },
     {
       "date": "2026-07-04",
-      "temp_max": 28,
-      "temp_min": 18,
-      "condition": "Sunny"
+      "temp_max": 26,
+      "temp_min": 17,
+      "condition": "Sunny intervals"
     }
   ]
 }
