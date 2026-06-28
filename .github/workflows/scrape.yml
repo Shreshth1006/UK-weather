@@ -2,19 +2,22 @@ name: Scrape Met Office Weather
 
 on:
   schedule:
-    - cron: "0 2 * * *"     # 7:30 AM IST
-    - cron: "30 2 * * *"    # 8:00 AM IST
-    - cron: "0 4 * * *"     # 9:30 AM IST
-    - cron: "30 4 * * *"    # 10:00 AM IST
+    - cron: "7 2 * * *"     # ~7:37 AM IST
+    - cron: "37 2 * * *"    # ~8:07 AM IST
+    - cron: "7 4 * * *"     # ~9:37 AM IST
+    - cron: "37 4 * * *"    # ~10:07 AM IST
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: scrape-weather
+  cancel-in-progress: false
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -27,8 +30,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install playwright
-          playwright install chromium
-          playwright install-deps chromium
+          playwright install --with-deps chromium
 
       - name: Run scraper
         run: python scraper.py
@@ -38,7 +40,10 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          git diff --cached --quiet || (
-            git commit -m "chore: update weather data $(date -u +'%Y-%m-%d %H:%M UTC')" &&
-            git push origin main --force
-          )
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update weather data $(TZ=Europe/London date +'%Y-%m-%d %H:%M %Z')"
+            git pull --rebase origin main
+            git push origin main
+          fi
