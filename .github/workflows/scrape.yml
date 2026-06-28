@@ -6,6 +6,8 @@ on:
     - cron: "37 2 * * *"    # ~8:07 AM IST
     - cron: "7 4 * * *"     # ~9:37 AM IST
     - cron: "37 4 * * *"    # ~10:07 AM IST
+    - cron: "30 7 * * *"    # 1:00 PM IST (test)
+    - cron: "30 8 * * *"    # 2:00 PM IST (test)
   workflow_dispatch:
 
 permissions:
