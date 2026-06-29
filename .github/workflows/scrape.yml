@@ -6,8 +6,6 @@ on:
     - cron: "37 2 * * *"    # ~8:07 AM IST
     - cron: "7 4 * * *"     # ~9:37 AM IST
     - cron: "37 4 * * *"    # ~10:07 AM IST
-    - cron: "30 7 * * *"    # 1:00 PM IST (test)
-    - cron: "30 8 * * *"    # 2:00 PM IST (test)
   workflow_dispatch:
 
 permissions:
@@ -42,10 +40,29 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
+          # safety: never let a workflow-file change into the bot's push
+          if git diff --cached --name-only | grep -q '^\.github/workflows/'; then
+            echo "Refusing to push workflow changes with GITHUB_TOKEN."
+            git reset .github/workflows/
+          fi
           if git diff --cached --quiet; then
             echo "No changes to commit."
-          else
-            git commit -m "chore: update weather data $(TZ=Europe/London date +'%Y-%m-%d %H:%M %Z')"
-            git pull --rebase origin main
-            git push origin main
+            exit 0
           fi
+          git commit -m "chore: update weather data $(TZ=Europe/London date +'%Y-%m-%d %H:%M %Z')"
+          # fresh scrape always wins on data files; retry if remote moves
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            if git rebase -X theirs origin/main; then
+              if git push origin main; then
+                echo "Pushed on attempt $i."
+                exit 0
+              fi
+            else
+              git rebase --abort
+            fi
+            echo "Push attempt $i failed; retrying in 5s..."
+            sleep 5
+          done
+          echo "Failed to push after retries."
+          exit 1
