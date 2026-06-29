@@ -1,23 +1,15 @@
 name: Scrape Met Office Weather
 
 on:
-  schedule:
-    - cron: "7 2 * * *"     # ~7:37 AM IST
-    - cron: "37 2 * * *"    # ~8:07 AM IST
-    - cron: "7 4 * * *"     # ~9:37 AM IST
-    - cron: "37 4 * * *"    # ~10:07 AM IST
-  workflow_dispatch:
+  workflow_dispatch:    # triggered externally by cron-job.org
 
 permissions:
   contents: write
 
-concurrency:
-  group: scrape-weather
-  cancel-in-progress: false
-
 jobs:
   scrape:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -30,7 +22,8 @@ jobs:
       - name: Install dependencies
         run: |
           pip install playwright
-          playwright install --with-deps chromium
+          playwright install chromium
+          playwright install-deps chromium
 
       - name: Run scraper
         run: python scraper.py
@@ -40,29 +33,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          # safety: never let a workflow-file change into the bot's push
-          if git diff --cached --name-only | grep -q '^\.github/workflows/'; then
-            echo "Refusing to push workflow changes with GITHUB_TOKEN."
-            git reset .github/workflows/
-          fi
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-            exit 0
-          fi
-          git commit -m "chore: update weather data $(TZ=Europe/London date +'%Y-%m-%d %H:%M %Z')"
-          # fresh scrape always wins on data files; retry if remote moves
-          for i in 1 2 3 4 5; do
-            git fetch origin main
-            if git rebase -X theirs origin/main; then
-              if git push origin main; then
-                echo "Pushed on attempt $i."
-                exit 0
-              fi
-            else
-              git rebase --abort
-            fi
-            echo "Push attempt $i failed; retrying in 5s..."
-            sleep 5
-          done
-          echo "Failed to push after retries."
-          exit 1
+          git diff --cached --quiet || (
+            git commit -m "chore: update weather data $(date -u +'%Y-%m-%d %H:%M UTC')" &&
+            git push origin main --force
+          )
