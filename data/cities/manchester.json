@@ -2,44 +2,38 @@
   "city": "Manchester",
   "geohash": "gcw2hzs1u",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcw2hzs1u",
-  "scraped_at": "2026-07-02T02:31:15.782577+00:00",
-  "source_updated": "Updated: 12:58am on 2 July 2026",
+  "scraped_at": "2026-07-02T03:31:15.058314+00:00",
+  "source_updated": "Updated: 2:58am on 2 July 2026",
   "today": {
     "date": "2026-07-02",
     "condition": "Sunny intervals",
-    "temp_max": 19,
-    "temp_min": 12,
+    "temp_max": 20,
+    "temp_min": 13,
     "feels_like_high": 15,
     "feels_like_low": 11,
     "wind_gust_mph": 37,
-    "humidity_high_pct": 87,
-    "humidity_low_pct": 53,
+    "humidity_high_pct": 90,
+    "humidity_low_pct": 52,
     "uv_level": "High",
-    "visibility_high": "30km",
-    "visibility_low": "6.0km",
+    "visibility_high": "35km",
+    "visibility_low": "8.6km",
     "air_pollution": "Low",
     "pollen": "High",
     "sunrise": "04:46",
     "sunset": "21:40",
     "current": {
-      "temp_c": 16,
-      "condition": "Light showers",
-      "feels_like": 13,
-      "rain_chance": null,
-      "wind_gust_mph": 37,
+      "temp_c": 15,
+      "condition": "Overcast",
+      "feels_like": 12,
+      "rain_chance": "30%",
+      "wind_gust_mph": 35,
       "pollen": "High pollen"
     },
     "hourly": [
       {
         "time": "6am",
-        "temp_c": 17,
-        "rain_chance": "70%",
-        "wind_mph": 15
-      },
-      {
-        "time": "3am",
         "temp_c": 16,
-        "rain_chance": "80%",
+        "rain_chance": "20%",
         "wind_mph": 17
       },
       {
@@ -57,13 +51,13 @@
       {
         "time": "7am",
         "temp_c": 14,
-        "rain_chance": "10%",
+        "rain_chance": "20%",
         "wind_mph": 16
       },
       {
         "time": "8am",
         "temp_c": 15,
-        "rain_chance": "<5%",
+        "rain_chance": "10%",
         "wind_mph": 16
       },
       {
@@ -82,7 +76,7 @@
         "time": "11am",
         "temp_c": 17,
         "rain_chance": "<5%",
-        "wind_mph": 17
+        "wind_mph": 16
       },
       {
         "time": "12pm",
@@ -162,13 +156,13 @@
   "forecast": [
     {
       "date": "2026-07-03",
-      "temp_max": 23,
+      "temp_max": 22,
       "temp_min": 15,
       "condition": "Sunny intervals"
     },
     {
       "date": "2026-07-04",
-      "temp_max": 21,
+      "temp_max": 22,
       "temp_min": 16,
       "condition": "Overcast"
     },
@@ -182,19 +176,19 @@
       "date": "2026-07-06",
       "temp_max": 22,
       "temp_min": 16,
-      "condition": "Cloudy"
+      "condition": "Overcast"
     },
     {
       "date": "2026-07-07",
       "temp_max": 22,
       "temp_min": 17,
-      "condition": "Overcast"
+      "condition": "Cloudy"
     },
     {
       "date": "2026-07-08",
-      "temp_max": 24,
+      "temp_max": 23,
       "temp_min": 16,
-      "condition": "Cloudy"
+      "condition": "Overcast"
     }
   ]
 }
