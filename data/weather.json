@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-12T02:31:53.484063+00:00",
+  "generated_at": "2026-07-12T03:31:54.225859+00:00",
   "total_cities": 17,
   "cities": [
     {
       "city": "London",
       "geohash": "gcpvj0v07",
       "source_url": "https://weather.metoffice.gov.uk/forecast/gcpvj0v07",
-      "scraped_at": "2026-07-12T02:31:22.592734+00:00",
+      "scraped_at": "2026-07-12T03:31:22.927430+00:00",
       "source_updated": "Updated: 1:02am on 12 July 2026",
       "today": {
         "date": "2026-07-12",
@@ -28,7 +28,7 @@
         "current": {
           "temp_c": 17,
           "condition": "Overcast",
-          "feels_like": 16,
+          "feels_like": 17,
           "rain_chance": "<5%",
           "wind_gust_mph": 21,
           "pollen": "High pollen"
@@ -36,12 +36,6 @@
         "hourly": [
           {
             "time": "6am",
-            "temp_c": 17,
-            "rain_chance": "<5%",
-            "wind_mph": 9
-          },
-          {
-            "time": "3am",
             "temp_c": 17,
             "rain_chance": "<5%",
             "wind_mph": 9
@@ -206,8 +200,8 @@
       "city": "Manchester",
       "geohash": "gcw2hzs1u",
       "source_url": "https://weather.metoffice.gov.uk/forecast/gcw2hzs1u",
-      "scraped_at": "2026-07-12T02:31:23.901916+00:00",
-      "source_updated": "Updated: 11pm on 11 July 2026",
+      "scraped_at": "2026-07-12T03:31:24.301146+00:00",
+      "source_updated": "Updated: 3am on 12 July 2026",
       "today": {
         "date": "2026-07-12",
         "condition": "Sunny",
@@ -220,17 +214,17 @@
         "humidity_low_pct": 39,
         "uv_level": "7\nHigh",
         "visibility_high": "30km",
-        "visibility_low": "27km",
+        "visibility_low": "30km",
         "air_pollution": "Low",
         "pollen": "High",
         "sunrise": "04:56",
         "sunset": "21:33",
         "current": {
           "temp_c": 18,
-          "condition": "Partly cloudy",
+          "condition": "Sunny intervals",
           "feels_like": 17,
           "rain_chance": "<5%",
-          "wind_gust_mph": 21,
+          "wind_gust_mph": 22,
           "pollen": "High pollen"
         },
         "hourly": [
@@ -238,19 +232,13 @@
             "time": "6am",
             "temp_c": 18,
             "rain_chance": "<5%",
-            "wind_mph": 7
-          },
-          {
-            "time": "3am",
-            "temp_c": 18,
-            "rain_chance": "<5%",
-            "wind_mph": 7
+            "wind_mph": 8
           },
           {
             "time": "4am",
             "temp_c": 18,
             "rain_chance": "<5%",
-            "wind_mph": 7
+            "wind_mph": 8
           },
           {
             "time": "5am",
@@ -262,7 +250,7 @@
             "time": "7am",
             "temp_c": 18,
             "rain_chance": "<5%",
-            "wind_mph": 7
+            "wind_mph": 8
           },
           {
             "time": "8am",
@@ -272,7 +260,7 @@
           },
           {
             "time": "9am",
-            "temp_c": 21,
+            "temp_c": 20,
             "rain_chance": "<5%",
             "wind_mph": 7
           },
@@ -298,7 +286,7 @@
             "time": "1pm",
             "temp_c": 26,
             "rain_chance": "<5%",
-            "wind_mph": 9
+            "wind_mph": 10
           },
           {
             "time": "2pm",
@@ -316,19 +304,19 @@
             "time": "4pm",
             "temp_c": 27,
             "rain_chance": "<5%",
-            "wind_mph": 10
+            "wind_mph": 11
           },
           {
             "time": "5pm",
             "temp_c": 27,
             "rain_chance": "<5%",
-            "wind_mph": 10
+            "wind_mph": 11
           },
           {
             "time": "6pm",
             "temp_c": 26,
             "rain_chance": "<5%",
-            "wind_mph": 10
+            "wind_mph": 11
           },
           {
             "time": "7pm",
@@ -340,7 +328,7 @@
             "time": "8pm",
             "temp_c": 23,
             "rain_chance": "<5%",
-            "wind_mph": 9
+            "wind_mph": 10
           },
           {
             "time": "9pm",
@@ -367,37 +355,37 @@
         {
           "date": "2026-07-13",
           "temp_max": 26,
-          "temp_min": 15,
+          "temp_min": 14,
           "condition": "Sunny"
         },
         {
           "date": "2026-07-14",
           "temp_max": 27,
           "temp_min": 16,
-          "condition": "Sunny intervals"
+          "condition": "Sunny"
         },
         {
           "date": "2026-07-15",
           "temp_max": 29,
-          "temp_min": 17,
+          "temp_min": 16,
           "condition": "Sunny"
         },
         {
           "date": "2026-07-16",
           "temp_max": 29,
-          "temp_min": 17,
-          "condition": null
+          "temp_min": 18,
+          "condition": "Sunny"
         },
         {
           "date": "2026-07-17",
-          "temp_max": 27,
+          "temp_max": 28,
           "temp_min": 17,
           "condition": "Sunny intervals"
         },
         {
           "date": "2026-07-18",
-          "temp_max": 25,
-          "temp_min": 14,
+          "temp_max": 26,
+          "temp_min": 15,
           "condition": "Sunny intervals"
         }
       ]
@@ -406,51 +394,45 @@
       "city": "Birmingham",
       "geohash": "gcqyd2ux3",
       "source_url": "https://weather.metoffice.gov.uk/forecast/gcqyd2ux3",
-      "scraped_at": "2026-07-12T02:31:25.930693+00:00",
-      "source_updated": "Updated: 1:04am on 12 July 2026",
+      "scraped_at": "2026-07-12T03:31:25.958734+00:00",
+      "source_updated": "Updated: 3:03am on 12 July 2026",
       "today": {
         "date": "2026-07-12",
         "condition": "Sunny",
         "temp_max": 25,
-        "temp_min": 13,
+        "temp_min": 12,
         "feels_like_high": 22,
-        "feels_like_low": 14,
+        "feels_like_low": 13,
         "wind_gust_mph": 31,
-        "humidity_high_pct": 91,
+        "humidity_high_pct": 90,
         "humidity_low_pct": 40,
         "uv_level": "7\nHigh",
-        "visibility_high": "25km",
-        "visibility_low": "5.6km",
+        "visibility_high": "26km",
+        "visibility_low": "8.0km",
         "air_pollution": "Low",
         "pollen": "Moderate",
         "sunrise": "04:55",
         "sunset": "21:29",
         "current": {
-          "temp_c": 17,
+          "temp_c": 16,
           "condition": "Overcast",
-          "feels_like": 15,
+          "feels_like": 14,
           "rain_chance": "10%",
-          "wind_gust_mph": 25,
+          "wind_gust_mph": 26,
           "pollen": "Moderate pollen"
         },
         "hourly": [
           {
             "time": "6am",
             "temp_c": 17,
-            "rain_chance": "10%",
-            "wind_mph": 10
-          },
-          {
-            "time": "3am",
-            "temp_c": 17,
-            "rain_chance": "10%",
-            "wind_mph": 10
+            "rain_chance": "<5%",
+            "wind_mph": 11
           },
           {
             "time": "4am",
             "temp_c": 16,
             "rain_chance": "10%",
-            "wind_mph": 10
+            "wind_mph": 11
           },
           {
             "time": "5am",
@@ -468,7 +450,7 @@
             "time": "8am",
             "temp_c": 17,
             "rain_chance": "<5%",
-            "wind_mph": 10
+            "wind_mph": 11
           },
           {
             "time": "9am",
@@ -478,21 +460,21 @@
           },
           {
             "time": "10am",
-            "temp_c": 21,
+            "temp_c": 20,
             "rain_chance": "<5%",
-            "wind_mph": 11
+            "wind_mph": 13
           },
           {
             "time": "11am",
             "temp_c": 22,
             "rain_chance": "<5%",
-            "wind_mph": 11
+            "wind_mph": 13
           },
           {
             "time": "12pm",
             "temp_c": 24,
             "rain_chance": "<5%",
-            "wind_mph": 13
+            "wind_mph": 14
           },
           {
             "time": "1pm",
@@ -534,7 +516,7 @@
             "time": "7pm",
             "temp_c": 22,
             "rain_chance": "<5%",
-            "wind_mph": 11
+            "wind_mph": 13
           },
           {
             "time": "8pm",
@@ -566,20 +548,20 @@
       "forecast": [
         {
           "date": "2026-07-13",
-          "temp_max": 23,
+          "temp_max": 24,
           "temp_min": 13,
           "condition": "Sunny intervals"
         },
         {
           "date": "2026-07-14",
           "temp_max": 26,
-          "temp_min": 15,
+          "temp_min": 14,
           "condition": "Sunny intervals"
         },
         {
           "date": "2026-07-15",
           "temp_max": 27,
-          "temp_min": 15,
+          "temp_min": 14,
           "condition": "Sunny"
         },
         {
@@ -606,7 +588,7 @@
       "city": "Glasgow",
       "geohash": "gcw2p7ygw",
       "source_url": "https://weather.metoffice.gov.uk/forecast/gcw2p7ygw",
-      "scraped_at": "2026-07-12T02:31:27.349365+00:00",
+      "scraped_at": "2026-07-12T03:31:27.758826+00:00",
       "source_updated": "Updated: 1:01am on 12 July 2026",
       "today": {
         "date": "2026-07-12",
@@ -626,22 +608,16 @@
         "sunrise": "04:55",
         "sunset": "21:32",
         "current": {
-          "temp_c": 18,
-          "condition": "Partly cloudy",
+          "temp_c": 17,
+          "condition": "Sunny intervals",
           "feels_like": 17,
           "rain_chance": "<5%",
-          "wind_gust_mph": 22,
+          "wind_gust_mph": 21,
           "pollen": "High pollen"
         },
         "hourly": [
           {
             "time": "6am",
-            "temp_c": 18,
-            "rain_chance": "<5%",
-            "wind_mph": 6
-          },
-          {
-            "time": "3am",
             "temp_c": 18,
             "rain_chance": "<5%",
             "wind_mph": 6
@@ -806,18 +782,18 @@
       "city": "Bristol",
       "geohash": "gcjkmy91s",
       "source_url": "https://weather.metoffice.gov.uk/forecast/gcjkmy91s",
-      "scraped_at": "2026-07-12T02:31:29.655457+00:00",
-      "source_updated": "Updated: 1:04am on 12 July 2026",
+      "scraped_at": "2026-07-12T03:31:34.549405+00:00",
+      "source_updated": "Updated: 3:03am on 12 July 2026",
       "today": {
         "date": "2026-07-12",
         "condition": "Sunny",
         "temp_max": 31,
-        "temp_min": 16,
-        "feels_like_high": 28,
+        "temp_min": 15,
+        "feels_like_high": 27,
         "feels_like_low": 15,
         "wind_gust_mph": 34,
-        "humidity_high_pct": 79,
-        "humidity_low_pct": 36,
+        "humidity_high_pct": 78,
+        "humidity_low_pct": 38,
         "uv_level": "8\nVery High",
         "visibility_high": "23km",
         "visibility_low": "18km",
@@ -827,66 +803,60 @@
         "sunset": "21:27",
         "current": {
           "temp_c": 17,
-          "condition": "Clear",
+          "condition": "Sunny",
           "feels_like": 15,
           "rain_chance": "<5%",
-          "wind_gust_mph": 28,
+          "wind_gust_mph": 30,
           "pollen": "Very High pollen"
         },
         "hourly": [
           {
             "time": "6am",
-            "temp_c": 19,
+            "temp_c": 18,
             "rain_chance": "<5%",
             "wind_mph": 14
-          },
-          {
-            "time": "3am",
-            "temp_c": 17,
-            "rain_chance": "<5%",
-            "wind_mph": 13
           },
           {
             "time": "4am",
             "temp_c": 17,
             "rain_chance": "<5%",
-            "wind_mph": 13
+            "wind_mph": 14
           },
           {
             "time": "5am",
             "temp_c": 17,
             "rain_chance": "<5%",
-            "wind_mph": 14
+            "wind_mph": 15
           },
           {
             "time": "7am",
             "temp_c": 18,
             "rain_chance": "<5%",
-            "wind_mph": 15
+            "wind_mph": 17
           },
           {
             "time": "8am",
             "temp_c": 19,
             "rain_chance": "<5%",
-            "wind_mph": 17
+            "wind_mph": 19
           },
           {
             "time": "9am",
             "temp_c": 21,
             "rain_chance": "<5%",
-            "wind_mph": 18
+            "wind_mph": 19
           },
           {
             "time": "10am",
             "temp_c": 23,
             "rain_chance": "<5%",
-            "wind_mph": 18
+            "wind_mph": 19
           },
           {
             "time": "11am",
             "temp_c": 24,
             "rain_chance": "<5%",
-            "wind_mph": 18
+            "wind_mph": 19
           },
           {
             "time": "12pm",
@@ -926,39 +896,39 @@
           },
           {
             "time": "6pm",
-            "temp_c": 31,
+            "temp_c": 30,
             "rain_chance": "<5%",
-            "wind_mph": 16
+            "wind_mph": 17
           },
           {
             "time": "7pm",
-            "temp_c": 30,
+            "temp_c": 29,
             "rain_chance": "<5%",
-            "wind_mph": 15
+            "wind_mph": 16
           },
           {
             "time": "8pm",
             "temp_c": 28,
             "rain_chance": "<5%",
-            "wind_mph": 15
+            "wind_mph": 16
           },
           {
             "time": "9pm",
             "temp_c": 27,
             "rain_chance": "<5%",
-            "wind_mph": 15
+            "wind_mph": 17
           },
           {
             "time": "10pm",
-            "temp_c": 25,
+            "temp_c": 24,
             "rain_chance": "<5%",
-            "wind_mph": 18
+            "wind_mph": 19
           },
           {
             "time": "11pm",
             "temp_c": 23,
             "rain_chance": "<5%",
-            "wind_mph": 19
+            "wind_mph": 20
           }
         ],
         "warnings": []
@@ -967,7 +937,7 @@
         {
           "date": "2026-07-13",
           "temp_max": 28,
-          "temp_min": 17,
+          "temp_min": 16,
           "condition": "Sunny"
         },
         {
@@ -984,14 +954,14 @@
         },
         {
           "date": "2026-07-16",
-          "temp_max": 26,
-          "temp_min": 18,
-          "condition": "Sunny intervals"
+          "temp_max": 27,
+          "temp_min": 19,
+          "condition": "Sunny"
         },
         {
           "date": "2026-07-17",
-          "temp_max": 24,
-          "temp_min": 17,
+          "temp_max": 25,
+          "temp_min": 18,
           "condition": "Sunny intervals"
         },
         {
@@ -1006,18 +976,18 @@
       "city": "Leeds",
       "geohash": "gcwfhxhup",
       "source_url": "https://weather.metoffice.gov.uk/forecast/gcwfhxhup",
-      "scraped_at": "2026-07-12T02:31:31.353502+00:00",
-      "source_updated": "Updated: 12am on 12 July 2026",
+      "scraped_at": "2026-07-12T03:31:36.788150+00:00",
+      "source_updated": "Updated: 3:01am on 12 July 2026",
       "today": {
         "date": "2026-07-12",
         "condition": "Sunny",
-        "temp_max": 26,
+        "temp_max": 25,
         "temp_min": 12,
-        "feels_like_high": 24,
-        "feels_like_low": 15,
+        "feels_like_high": 23,
+        "feels_like_low": 14,
         "wind_gust_mph": 27,
-        "humidity_high_pct": 87,
-        "humidity_low_pct": 40,
+        "humidity_high_pct": 86,
+        "humidity_low_pct": 42,
         "uv_level": "7\nHigh",
         "visibility_high": "30km",
         "visibility_low": "16km",
@@ -1026,8 +996,8 @@
         "sunrise": "04:51",
         "sunset": "21:32",
         "current": {
-          "temp_c": 17,
-          "condition": "Overcast",
+          "temp_c": 16,
+          "condition": "Cloudy",
           "feels_like": 16,
           "rain_chance": "<5%",
           "wind_gust_mph": 19,
@@ -1041,20 +1011,14 @@
             "wind_mph": 7
           },
           {
-            "time": "3am",
-            "temp_c": 17,
-            "rain_chance": "<5%",
-            "wind_mph": 7
-          },
-          {
             "time": "4am",
-            "temp_c": 17,
+            "temp_c": 16,
             "rain_chance": "<5%",
             "wind_mph": 7
           },
           {
             "time": "5am",
-            "temp_c": 17,
+            "temp_c": 16,
             "rain_chance": "<5%",
             "wind_mph": 7
           },
@@ -1062,41 +1026,41 @@
             "time": "7am",
             "temp_c": 17,
             "rain_chance": "<5%",
-            "wind_mph": 7
+            "wind_mph": 8
           },
           {
             "time": "8am",
             "temp_c": 18,
             "rain_chance": "<5%",
-            "wind_mph": 7
+            "wind_mph": 8
           },
           {
             "time": "9am",
             "temp_c": 19,
             "rain_chance": "<5%",
-            "wind_mph": 8
+            "wind_mph": 9
           },
           {
             "time": "10am",
             "temp_c": 21,
             "rain_chance": "<5%",
-            "wind_mph": 8
+            "wind_mph": 9
           },
           {
             "time": "11am",
-            "temp_c": 23,
+            "temp_c": 22,
             "rain_chance": "<5%",
-            "wind_mph": 8
+            "wind_mph": 9
           },
           {
             "time": "12pm",
-            "temp_c": 24,
+            "temp_c": 23,
             "rain_chance": "<5%",
-            "wind_mph": 8
+            "wind_mph": 9
           },
           {
             "time": "1pm",
-            "temp_c": 25,
+            "temp_c": 24,
             "rain_chance": "<5%",
             "wind_mph": 9
           },
@@ -1166,7 +1130,7 @@
       "forecast": [
         {
           "date": "2026-07-13",
-          "temp_max": 23,
+          "temp_max": 24,
           "temp_min": 13,
           "condition": "Sunny intervals"
         },
@@ -1184,20 +1148,20 @@
         },
         {
           "date": "2026-07-16",
-          "temp_max": 27,
+          "temp_max": 28,
           "temp_min": 15,
-          "condition": null
+          "condition": "Sunny"
         },
         {
           "date": "2026-07-17",
-          "temp_max": 26,
-          "temp_min": 15,
+          "temp_max": 27,
+          "temp_min": 16,
           "condition": "Sunny intervals"
         },
         {
           "date": "2026-07-18",
-          "temp_max": 23,
-          "temp_min": 14,
+          "temp_max": 24,
+          "temp_min": 13,
           "condition": "Sunny intervals"
         }
       ]
@@ -1206,8 +1170,8 @@
       "city": "Edinburgh",
       "geohash": "gcvwr3zrw",
       "source_url": "https://weather.metoffice.gov.uk/forecast/gcvwr3zrw",
-      "scraped_at": "2026-07-12T02:31:33.527355+00:00",
-      "source_updated": "Updated: 1:01am on 12 July 2026",
+      "scraped_at": "2026-07-12T03:31:38.252248+00:00",
+      "source_updated": "Updated: 3:02am on 12 July 2026",
       "today": {
         "date": "2026-07-12",
         "condition": "Overcast",
@@ -1216,10 +1180,10 @@
         "feels_like_high": 15,
         "feels_like_low": 12,
         "wind_gust_mph": 21,
-        "humidity_high_pct": 97,
-        "humidity_low_pct": 67,
+        "humidity_high_pct": 96,
+        "humidity_low_pct": 66,
         "uv_level": "6\nHigh",
-        "visibility_high": "28km",
+        "visibility_high": "29km",
         "visibility_low": null,
         "air_pollution": "Low",
         "pollen": "High",
@@ -1227,21 +1191,15 @@
         "sunset": "21:52",
         "current": {
           "temp_c": 14,
-          "condition": "Fog",
+          "condition": "Mist",
           "feels_like": 12,
-          "rain_chance": "30%",
+          "rain_chance": "40%",
           "wind_gust_mph": 16,
           "pollen": "High pollen"
         },
         "hourly": [
           {
             "time": "6am",
-            "temp_c": 14,
-            "rain_chance": "20%",
-            "wind_mph": 9
-          },
-          {
-            "time": "3am",
             "temp_c": 14,
             "rain_chance": "30%",
             "wind_mph": 9
@@ -1284,13 +1242,13 @@
           },
           {
             "time": "11am",
-            "temp_c": 15,
+            "temp_c": 16,
             "rain_chance": "10%",
-            "wind_mph": 11
+            "wind_mph": 10
           },
           {
             "time": "12pm",
-            "temp_c": 16,
+            "temp_c": 17,
             "rain_chance": "10%",
             "wind_mph": 11
           },
@@ -1302,7 +1260,7 @@
           },
           {
             "time": "2pm",
-            "temp_c": 17,
+            "temp_c": 18,
             "rain_chance": "<5%",
             "wind_mph": 13
           },
@@ -1320,9 +1278,9 @@
           },
           {
             "time": "5pm",
-            "temp_c": 17,
+            "temp_c": 18,
             "rain_chance": "<5%",
-            "wind_mph": 11
+            "wind_mph": 12
           },
           {
             "time": "6pm",
@@ -1332,7 +1290,7 @@
           },
           {
             "time": "7pm",
-            "temp_c": 16,
+            "temp_c": 17,
             "rain_chance": "<5%",
             "wind_mph": 11
           },
@@ -1346,7 +1304,7 @@
             "time": "9pm",
             "temp_c": 15,
             "rain_chance": "<5%",
-            "wind_mph": 11
+            "wind_mph": 10
           },
           {
             "time": "10pm",
@@ -1373,26 +1331,26 @@
         {
           "date": "2026-07-14",
           "temp_max": 17,
-          "temp_min": 13,
+          "temp_min": 12,
           "condition": "Sunny intervals"
         },
         {
           "date": "2026-07-15",
-          "temp_max": 19,
+          "temp_max": 18,
           "temp_min": 13,
           "condition": "Sunny"
         },
         {
           "date": "2026-07-16",
-          "temp_max": 20,
+          "temp_max": 21,
           "temp_min": 14,
           "condition": "Sunny intervals"
         },
         {
           "date": "2026-07-17",
-          "temp_max": 22,
+          "temp_max": 21,
           "temp_min": 14,
-          "condition": "Sunny intervals"
+          "condition": "Sunny"
         },
         {
           "date": "2026-07-18",
@@ -1406,43 +1364,37 @@
       "city": "Liverpool",
       "geohash": "gcjvkr6ky",
       "source_url": "https://weather.metoffice.gov.uk/forecast/gcjvkr6ky",
-      "scraped_at": "2026-07-12T02:31:35.735514+00:00",
-      "source_updated": "Updated: 1am on 12 July 2026",
+      "scraped_at": "2026-07-12T03:31:39.803382+00:00",
+      "source_updated": "Updated: 3:01am on 12 July 2026",
       "today": {
         "date": "2026-07-12",
         "condition": "Sunny",
         "temp_max": 30,
-        "temp_min": 15,
+        "temp_min": 14,
         "feels_like_high": 28,
         "feels_like_low": 15,
         "wind_gust_mph": 31,
-        "humidity_high_pct": 79,
-        "humidity_low_pct": 34,
+        "humidity_high_pct": 78,
+        "humidity_low_pct": 35,
         "uv_level": "7\nHigh",
-        "visibility_high": "24km",
-        "visibility_low": "21km",
+        "visibility_high": "25km",
+        "visibility_low": "22km",
         "air_pollution": "Moderate",
         "pollen": "Very High",
         "sunrise": "05:09",
         "sunset": "21:26",
         "current": {
-          "temp_c": 16,
-          "condition": "Partly cloudy",
+          "temp_c": 17,
+          "condition": "Sunny intervals",
           "feels_like": 15,
           "rain_chance": "<5%",
-          "wind_gust_mph": 25,
+          "wind_gust_mph": 26,
           "pollen": "Very High pollen"
         },
         "hourly": [
           {
             "time": "6am",
             "temp_c": 17,
-            "rain_chance": "<5%",
-            "wind_mph": 11
-          },
-          {
-            "time": "3am",
-            "temp_c": 16,
             "rain_chance": "<5%",
             "wind_mph": 11
           },
@@ -1460,7 +1412,7 @@
           },
           {
             "time": "7am",
-            "temp_c": 17,
+            "temp_c": 18,
             "rain_chance": "<5%",
             "wind_mph": 13
           },
@@ -1490,15 +1442,15 @@
           },
           {
             "time": "12pm",
-            "temp_c": 26,
+            "temp_c": 25,
             "rain_chance": "<5%",
             "wind_mph": 13
           },
           {
             "time": "1pm",
-            "temp_c": 28,
+            "temp_c": 27,
             "rain_chance": "<5%",
-            "wind_mph": 13
+            "wind_mph": 14
           },
           {
             "time": "2pm",
@@ -1508,7 +1460,7 @@
           },
           {
             "time": "3pm",
-            "temp_c": 30,
+            "temp_c": 29,
             "rain_chance": "<5%",
             "wind_mph": 13
           },
@@ -1522,37 +1474,37 @@
             "time": "5pm",
             "temp_c": 30,
             "rain_chance": "<5%",
-            "wind_mph": 13
+            "wind_mph": 14
           },
           {
             "time": "6pm",
             "temp_c": 30,
             "rain_chance": "<5%",
-            "wind_mph": 13
+            "wind_mph": 14
           },
           {
             "time": "7pm",
             "temp_c": 29,
             "rain_chance": "<5%",
-            "wind_mph": 13
+            "wind_mph": 14
           },
           {
             "time": "8pm",
-            "temp_c": 28,
+            "temp_c": 27,
             "rain_chance": "<5%",
-            "wind_mph": 13
+            "wind_mph": 14
           },
           {
             "time": "9pm",
             "temp_c": 25,
             "rain_chance": "<5%",
-            "wind_mph": 13
+            "wind_mph": 14
           },
           {
             "time": "10pm",
             "temp_c": 23,
             "rain_chance": "<5%",
-            "wind_mph": 13
+            "wind_mph": 14
           },
           {
             "time": "11pm",
@@ -1573,26 +1525,26 @@
         {
           "date": "2026-07-14",
           "temp_max": 29,
-          "temp_min": 18,
+          "temp_min": 17,
           "condition": "Sunny"
         },
         {
           "date": "2026-07-15",
-          "temp_max": 30,
+          "temp_max": 29,
           "temp_min": 18,
           "condition": "Sunny intervals"
         },
         {
           "date": "2026-07-16",
           "temp_max": 29,
-          "temp_min": 18,
-          "condition": "Sunny intervals"
+          "temp_min": 19,
+          "condition": "Sunny"
         },
         {
           "date": "2026-07-17",
-          "temp_max": 26,
-          "temp_min": 16,
-          "condition": "Sunny intervals"
+          "temp_max": 27,
+          "temp_min": 17,
+          "condition": "Sunny"
         },
         {
           "date": "2026-07-18",
@@ -1606,7 +1558,7 @@
       "city": "Cardiff",
       "geohash": "gcjszevgx",
       "source_url": "https://weather.metoffice.gov.uk/forecast/gcjszevgx",
-      "scraped_at": "2026-07-12T02:31:37.706054+00:00",
+      "scraped_at": "2026-07-12T03:31:41.120239+00:00",
       "source_updated": "Updated: 1:01am on 12 July 2026",
       "today": {
         "date": "2026-07-12",
@@ -1627,21 +1579,15 @@
         "sunset": "21:26",
         "current": {
           "temp_c": 17,
-          "condition": "Partly cloudy",
+          "condition": "Sunny intervals",
           "feels_like": 15,
           "rain_chance": "<5%",
-          "wind_gust_mph": 26,
+          "wind_gust_mph": 27,
           "pollen": "Very High pollen"
         },
         "hourly": [
           {
             "time": "6am",
-            "temp_c": 18,
-            "rain_chance": "<5%",
-            "wind_mph": 13
-          },
-          {
-            "time": "3am",
             "temp_c": 17,
             "rain_chance": "<5%",
             "wind_mph": 13
@@ -1806,7 +1752,7 @@
       "city": "Sheffield",
       "geohash": "gcqy3k6sz",
       "source_url": "https://weather.metoffice.gov.uk/forecast/gcqy3k6sz",
-      "scraped_at": "2026-07-12T02:31:39.963547+00:00",
+      "scraped_at": "2026-07-12T03:31:42.713297+00:00",
       "source_updated": "Updated: 1:01am on 12 July 2026",
       "today": {
         "date": "2026-07-12",
@@ -1830,20 +1776,14 @@
           "condition": "Mist",
           "feels_like": 13,
           "rain_chance": "10%",
-          "wind_gust_mph": 25,
+          "wind_gust_mph": 26,
           "pollen": "Moderate pollen"
         },
         "hourly": [
           {
             "time": "6am",
-            "temp_c": 16,
-            "rain_chance": "10%",
-            "wind_mph": 13
-          },
-          {
-            "time": "3am",
             "temp_c": 15,
-            "rain_chance": "10%",
+            "rain_chance": "<5%",
             "wind_mph": 13
           },
           {
@@ -2006,7 +1946,7 @@
       "city": "Belfast",
       "geohash": "gcey94cuf",
       "source_url": "https://weather.metoffice.gov.uk/forecast/gcey94cuf",
-      "scraped_at": "2026-07-12T02:31:41.506638+00:00",
+      "scraped_at": "2026-07-12T03:31:44.004999+00:00",
       "source_updated": "Updated: 1:01am on 12 July 2026",
       "today": {
         "date": "2026-07-12",
@@ -2020,28 +1960,22 @@
         "humidity_low_pct": 58,
         "uv_level": "7\nHigh",
         "visibility_high": "25km",
-        "visibility_low": "12km",
+        "visibility_low": "17km",
         "air_pollution": "Low",
         "pollen": "High",
         "sunrise": "05:04",
         "sunset": "21:54",
         "current": {
           "temp_c": 17,
-          "condition": "Partly cloudy",
+          "condition": "Sunny intervals",
           "feels_like": 16,
           "rain_chance": "<5%",
-          "wind_gust_mph": 16,
+          "wind_gust_mph": 15,
           "pollen": "High pollen"
         },
         "hourly": [
           {
             "time": "6am",
-            "temp_c": 17,
-            "rain_chance": "<5%",
-            "wind_mph": 7
-          },
-          {
-            "time": "3am",
             "temp_c": 17,
             "rain_chance": "<5%",
             "wind_mph": 7
@@ -2206,7 +2140,7 @@
       "city": "York",
       "geohash": "gcwf9nwyu",
       "source_url": "https://weather.metoffice.gov.uk/forecast/gcwf9nwyu",
-      "scraped_at": "2026-07-12T02:31:43.061785+00:00",
+      "scraped_at": "2026-07-12T03:31:45.323943+00:00",
       "source_updated": "Updated: 1:03am on 12 July 2026",
       "today": {
         "date": "2026-07-12",
@@ -2220,7 +2154,7 @@
         "humidity_low_pct": 42,
         "uv_level": "7\nHigh",
         "visibility_high": "30km",
-        "visibility_low": "14km",
+        "visibility_low": "15km",
         "air_pollution": "Low",
         "pollen": "High",
         "sunrise": "04:51",
@@ -2228,7 +2162,7 @@
         "current": {
           "temp_c": 17,
           "condition": "Overcast",
-          "feels_like": 17,
+          "feels_like": 16,
           "rain_chance": "<5%",
           "wind_gust_mph": 19,
           "pollen": "High pollen"
@@ -2237,19 +2171,13 @@
           {
             "time": "6am",
             "temp_c": 17,
-            "rain_chance": "10%",
-            "wind_mph": 7
-          },
-          {
-            "time": "3am",
-            "temp_c": 17,
             "rain_chance": "<5%",
             "wind_mph": 7
           },
           {
             "time": "4am",
             "temp_c": 17,
-            "rain_chance": "10%",
+            "rain_chance": "<5%",
             "wind_mph": 7
           },
           {
@@ -2406,7 +2334,7 @@
       "city": "Lewisham",
       "geohash": "gcpvjn89k",
       "source_url": "https://weather.metoffice.gov.uk/forecast/gcpvjn89k",
-      "scraped_at": "2026-07-12T02:31:45.189720+00:00",
+      "scraped_at": "2026-07-12T03:31:46.832058+00:00",
       "source_updated": "Updated: 1:01am on 12 July 2026",
       "today": {
         "date": "2026-07-12",
@@ -2436,12 +2364,6 @@
         "hourly": [
           {
             "time": "6am",
-            "temp_c": 17,
-            "rain_chance": "<5%",
-            "wind_mph": 9
-          },
-          {
-            "time": "3am",
             "temp_c": 17,
             "rain_chance": "<5%",
             "wind_mph": 9
@@ -2606,7 +2528,7 @@
       "city": "Cambridgeshire",
       "geohash": "u12esxqub",
       "source_url": "https://weather.metoffice.gov.uk/forecast/u12esxqub",
-      "scraped_at": "2026-07-12T02:31:47.393897+00:00",
+      "scraped_at": "2026-07-12T03:31:48.443998+00:00",
       "source_updated": "Updated: 1:01am on 12 July 2026",
       "today": {
         "date": "2026-07-12",
@@ -2627,7 +2549,7 @@
         "sunset": "21:16",
         "current": {
           "temp_c": 17,
-          "condition": "Partly cloudy",
+          "condition": "Sunny intervals",
           "feels_like": 16,
           "rain_chance": "<5%",
           "wind_gust_mph": 20,
@@ -2636,12 +2558,6 @@
         "hourly": [
           {
             "time": "6am",
-            "temp_c": 17,
-            "rain_chance": "<5%",
-            "wind_mph": 9
-          },
-          {
-            "time": "3am",
             "temp_c": 17,
             "rain_chance": "<5%",
             "wind_mph": 9
@@ -2806,7 +2722,7 @@
       "city": "Nottingham",
       "geohash": "gcqs7kgbx",
       "source_url": "https://weather.metoffice.gov.uk/forecast/gcqs7kgbx",
-      "scraped_at": "2026-07-12T02:31:49.370509+00:00",
+      "scraped_at": "2026-07-12T03:31:50.025925+00:00",
       "source_updated": "Updated: 1:03am on 12 July 2026",
       "today": {
         "date": "2026-07-12",
@@ -2826,22 +2742,16 @@
         "sunrise": "04:59",
         "sunset": "21:28",
         "current": {
-          "temp_c": 18,
+          "temp_c": 17,
           "condition": "Overcast",
           "feels_like": 16,
           "rain_chance": "<5%",
-          "wind_gust_mph": 24,
+          "wind_gust_mph": 25,
           "pollen": "High pollen"
         },
         "hourly": [
           {
             "time": "6am",
-            "temp_c": 17,
-            "rain_chance": "<5%",
-            "wind_mph": 10
-          },
-          {
-            "time": "3am",
             "temp_c": 18,
             "rain_chance": "<5%",
             "wind_mph": 10
@@ -3006,8 +2916,8 @@
       "city": "Oxfordshire",
       "geohash": "gcpue0tpf",
       "source_url": "https://weather.metoffice.gov.uk/forecast/gcpue0tpf",
-      "scraped_at": "2026-07-12T02:31:51.330860+00:00",
-      "source_updated": "Updated: 1:04am on 12 July 2026",
+      "scraped_at": "2026-07-12T03:31:52.109437+00:00",
+      "source_updated": "Updated: 3:03am on 12 July 2026",
       "today": {
         "date": "2026-07-12",
         "condition": "Sunny",
@@ -3016,11 +2926,11 @@
         "feels_like_high": 27,
         "feels_like_low": 16,
         "wind_gust_mph": 31,
-        "humidity_high_pct": 85,
-        "humidity_low_pct": 38,
+        "humidity_high_pct": 84,
+        "humidity_low_pct": 37,
         "uv_level": "8\nVery High",
         "visibility_high": "30km",
-        "visibility_low": "21km",
+        "visibility_low": "20km",
         "air_pollution": "Low",
         "pollen": "High",
         "sunrise": "04:59",
@@ -3041,12 +2951,6 @@
             "wind_mph": 9
           },
           {
-            "time": "3am",
-            "temp_c": 17,
-            "rain_chance": "<5%",
-            "wind_mph": 9
-          },
-          {
             "time": "4am",
             "temp_c": 17,
             "rain_chance": "<5%",
@@ -3056,17 +2960,17 @@
             "time": "5am",
             "temp_c": 17,
             "rain_chance": "<5%",
-            "wind_mph": 9
+            "wind_mph": 8
           },
           {
             "time": "7am",
-            "temp_c": 18,
+            "temp_c": 17,
             "rain_chance": "<5%",
             "wind_mph": 8
           },
           {
             "time": "8am",
-            "temp_c": 19,
+            "temp_c": 18,
             "rain_chance": "<5%",
             "wind_mph": 8
           },
@@ -3074,7 +2978,7 @@
             "time": "9am",
             "temp_c": 20,
             "rain_chance": "<5%",
-            "wind_mph": 8
+            "wind_mph": 9
           },
           {
             "time": "10am",
@@ -3084,7 +2988,7 @@
           },
           {
             "time": "11am",
-            "temp_c": 26,
+            "temp_c": 25,
             "rain_chance": "<5%",
             "wind_mph": 10
           },
@@ -3102,7 +3006,7 @@
           },
           {
             "time": "2pm",
-            "temp_c": 29,
+            "temp_c": 28,
             "rain_chance": "<5%",
             "wind_mph": 11
           },
@@ -3114,7 +3018,7 @@
           },
           {
             "time": "4pm",
-            "temp_c": 29,
+            "temp_c": 28,
             "rain_chance": "<5%",
             "wind_mph": 11
           },
@@ -3179,7 +3083,7 @@
         {
           "date": "2026-07-15",
           "temp_max": 30,
-          "temp_min": 19,
+          "temp_min": 18,
           "condition": "Sunny"
         },
         {
@@ -3192,12 +3096,12 @@
           "date": "2026-07-17",
           "temp_max": 29,
           "temp_min": 19,
-          "condition": "Sunny intervals"
+          "condition": "Sunny"
         },
         {
           "date": "2026-07-18",
           "temp_max": 27,
-          "temp_min": 15,
+          "temp_min": 16,
           "condition": "Sunny intervals"
         }
       ]
@@ -3206,43 +3110,37 @@
       "city": "Newcastle",
       "geohash": "gcsbptbvu",
       "source_url": "https://weather.metoffice.gov.uk/forecast/gcsbptbvu",
-      "scraped_at": "2026-07-12T02:31:53.365676+00:00",
-      "source_updated": "Updated: 12am on 12 July 2026",
+      "scraped_at": "2026-07-12T03:31:54.108990+00:00",
+      "source_updated": "Updated: 1:01am on 12 July 2026",
       "today": {
         "date": "2026-07-12",
         "condition": "Sunny",
         "temp_max": 24,
         "temp_min": 15,
         "feels_like_high": 20,
-        "feels_like_low": 14,
-        "wind_gust_mph": 29,
+        "feels_like_low": 15,
+        "wind_gust_mph": 30,
         "humidity_high_pct": 85,
-        "humidity_low_pct": 63,
+        "humidity_low_pct": 64,
         "uv_level": "7\nHigh",
         "visibility_high": "24km",
-        "visibility_low": "17km",
+        "visibility_low": "16km",
         "air_pollution": "Low",
         "pollen": "Very High",
         "sunrise": "05:04",
         "sunset": "21:41",
         "current": {
-          "temp_c": 18,
-          "condition": "Clear",
+          "temp_c": 17,
+          "condition": "Sunny intervals",
           "feels_like": 15,
           "rain_chance": "<5%",
-          "wind_gust_mph": 29,
+          "wind_gust_mph": 27,
           "pollen": "Very High pollen"
         },
         "hourly": [
           {
             "time": "6am",
             "temp_c": 17,
-            "rain_chance": "<5%",
-            "wind_mph": 16
-          },
-          {
-            "time": "3am",
-            "temp_c": 18,
             "rain_chance": "<5%",
             "wind_mph": 16
           },
@@ -3262,13 +3160,13 @@
             "time": "7am",
             "temp_c": 18,
             "rain_chance": "<5%",
-            "wind_mph": 17
+            "wind_mph": 16
           },
           {
             "time": "8am",
             "temp_c": 18,
             "rain_chance": "<5%",
-            "wind_mph": 18
+            "wind_mph": 17
           },
           {
             "time": "9am",
@@ -3278,19 +3176,19 @@
           },
           {
             "time": "10am",
-            "temp_c": 20,
+            "temp_c": 19,
             "rain_chance": "<5%",
             "wind_mph": 18
           },
           {
             "time": "11am",
-            "temp_c": 21,
+            "temp_c": 20,
             "rain_chance": "<5%",
             "wind_mph": 18
           },
           {
             "time": "12pm",
-            "temp_c": 22,
+            "temp_c": 21,
             "rain_chance": "<5%",
             "wind_mph": 18
           },
@@ -3298,7 +3196,7 @@
             "time": "1pm",
             "temp_c": 22,
             "rain_chance": "<5%",
-            "wind_mph": 17
+            "wind_mph": 18
           },
           {
             "time": "2pm",
@@ -3358,7 +3256,7 @@
             "time": "11pm",
             "temp_c": 19,
             "rain_chance": "<5%",
-            "wind_mph": 17
+            "wind_mph": 18
           }
         ],
         "warnings": []
@@ -3372,7 +3270,7 @@
         },
         {
           "date": "2026-07-14",
-          "temp_max": 23,
+          "temp_max": 22,
           "temp_min": 16,
           "condition": "Sunny"
         },
@@ -3386,7 +3284,7 @@
           "date": "2026-07-16",
           "temp_max": 25,
           "temp_min": 18,
-          "condition": null
+          "condition": "Sunny intervals"
         },
         {
           "date": "2026-07-17",
