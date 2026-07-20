@@ -2,118 +2,34 @@
   "city": "Nottingham",
   "geohash": "gcqs7kgbx",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcqs7kgbx",
-  "scraped_at": "2026-07-20T04:31:43.799095+00:00",
-  "source_updated": "Updated: 3:02am on 20 July 2026",
+  "scraped_at": "2026-07-20T18:31:42.930302+00:00",
+  "source_updated": "Updated: 4:03pm on 20 July 2026",
   "today": {
     "date": "2026-07-20",
     "condition": "Sunny intervals",
-    "temp_max": 26,
+    "temp_max": 25,
     "temp_min": 10,
-    "feels_like_high": 24,
-    "feels_like_low": 7,
-    "wind_gust_mph": 20,
-    "humidity_high_pct": 86,
-    "humidity_low_pct": 35,
+    "feels_like_high": 22,
+    "feels_like_low": 16,
+    "wind_gust_mph": 19,
+    "humidity_high_pct": 66,
+    "humidity_low_pct": 40,
     "uv_level": "7\nHigh",
-    "visibility_high": "25km",
-    "visibility_low": "15km",
+    "visibility_high": "28km",
+    "visibility_low": "22km",
     "air_pollution": "Low",
     "pollen": "High",
     "sunrise": "05:09",
     "sunset": "21:19",
     "current": {
-      "temp_c": 8,
-      "condition": "Sunny",
-      "feels_like": 7,
-      "rain_chance": "10%",
-      "wind_gust_mph": 6,
+      "temp_c": 23,
+      "condition": "Sunny intervals",
+      "feels_like": 21,
+      "rain_chance": "<5%",
+      "wind_gust_mph": 18,
       "pollen": "High pollen"
     },
     "hourly": [
-      {
-        "time": "6am",
-        "temp_c": 8,
-        "rain_chance": "<5%",
-        "wind_mph": 2
-      },
-      {
-        "time": "5am",
-        "temp_c": 8,
-        "rain_chance": "10%",
-        "wind_mph": 2
-      },
-      {
-        "time": "7am",
-        "temp_c": 11,
-        "rain_chance": "<5%",
-        "wind_mph": 2
-      },
-      {
-        "time": "8am",
-        "temp_c": 15,
-        "rain_chance": "<5%",
-        "wind_mph": 2
-      },
-      {
-        "time": "9am",
-        "temp_c": 18,
-        "rain_chance": "<5%",
-        "wind_mph": 3
-      },
-      {
-        "time": "10am",
-        "temp_c": 20,
-        "rain_chance": "<5%",
-        "wind_mph": 5
-      },
-      {
-        "time": "11am",
-        "temp_c": 22,
-        "rain_chance": "<5%",
-        "wind_mph": 5
-      },
-      {
-        "time": "12pm",
-        "temp_c": 23,
-        "rain_chance": "<5%",
-        "wind_mph": 5
-      },
-      {
-        "time": "1pm",
-        "temp_c": 24,
-        "rain_chance": "<5%",
-        "wind_mph": 5
-      },
-      {
-        "time": "2pm",
-        "temp_c": 25,
-        "rain_chance": "<5%",
-        "wind_mph": 5
-      },
-      {
-        "time": "3pm",
-        "temp_c": 25,
-        "rain_chance": "<5%",
-        "wind_mph": 6
-      },
-      {
-        "time": "4pm",
-        "temp_c": 25,
-        "rain_chance": "<5%",
-        "wind_mph": 7
-      },
-      {
-        "time": "5pm",
-        "temp_c": 25,
-        "rain_chance": "<5%",
-        "wind_mph": 8
-      },
-      {
-        "time": "6pm",
-        "temp_c": 25,
-        "rain_chance": "<5%",
-        "wind_mph": 8
-      },
       {
         "time": "7pm",
         "temp_c": 24,
@@ -130,19 +46,19 @@
         "time": "9pm",
         "temp_c": 21,
         "rain_chance": "<5%",
-        "wind_mph": 6
+        "wind_mph": 7
       },
       {
         "time": "10pm",
         "temp_c": 19,
         "rain_chance": "<5%",
-        "wind_mph": 5
+        "wind_mph": 6
       },
       {
         "time": "11pm",
-        "temp_c": 17,
+        "temp_c": 16,
         "rain_chance": "<5%",
-        "wind_mph": 3
+        "wind_mph": 4
       }
     ],
     "warnings": []
@@ -150,14 +66,14 @@
   "forecast": [
     {
       "date": "2026-07-21",
-      "temp_max": 26,
+      "temp_max": 25,
       "temp_min": 12,
       "condition": "Sunny intervals"
     },
     {
       "date": "2026-07-22",
       "temp_max": 25,
-      "temp_min": 12,
+      "temp_min": 10,
       "condition": "Sunny intervals"
     },
     {
@@ -169,20 +85,20 @@
     {
       "date": "2026-07-24",
       "temp_max": 25,
-      "temp_min": 13,
+      "temp_min": 12,
       "condition": "Sunny intervals"
     },
     {
       "date": "2026-07-25",
-      "temp_max": 22,
-      "temp_min": 15,
+      "temp_max": 23,
+      "temp_min": 16,
       "condition": "Cloudy"
     },
     {
       "date": "2026-07-26",
-      "temp_max": 22,
-      "temp_min": 14,
-      "condition": "Sunny intervals"
+      "temp_max": 21,
+      "temp_min": 12,
+      "condition": "Cloudy"
     }
   ]
 }
