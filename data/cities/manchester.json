@@ -2,7 +2,7 @@
   "city": "Manchester",
   "geohash": "gcw2hzs1u",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcw2hzs1u",
-  "scraped_at": "2026-07-25T03:30:59.290847+00:00",
+  "scraped_at": "2026-07-25T04:30:58.792912+00:00",
   "source_updated": "Updated: 3am on 25 July 2026",
   "today": {
     "date": "2026-07-25",
@@ -18,26 +18,20 @@
     "visibility_high": "35km",
     "visibility_low": "7.0km",
     "air_pollution": "Low",
-    "pollen": "Low",
+    "pollen": "Moderate",
     "sunrise": "05:14",
     "sunset": "21:16",
     "current": {
-      "temp_c": 14,
+      "temp_c": 15,
       "condition": "Sunny intervals",
       "feels_like": 14,
-      "rain_chance": "10%",
-      "wind_gust_mph": 16,
-      "pollen": "Low pollen"
+      "rain_chance": "<5%",
+      "wind_gust_mph": 17,
+      "pollen": "Moderate pollen"
     },
     "hourly": [
       {
         "time": "6am",
-        "temp_c": 14,
-        "rain_chance": "<5%",
-        "wind_mph": 3
-      },
-      {
-        "time": "4am",
         "temp_c": 14,
         "rain_chance": "10%",
         "wind_mph": 4
