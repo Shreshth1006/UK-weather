@@ -2,89 +2,179 @@
   "city": "Belfast",
   "geohash": "gcey94cuf",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcey94cuf",
-  "scraped_at": "2026-08-08T18:31:13.455987+00:00",
-  "source_updated": "Updated: 5:01pm on 8 August 2026",
+  "scraped_at": "2026-08-09T02:31:30.858015+00:00",
+  "source_updated": "Updated: 12:01am on 9 August 2026",
   "today": {
-    "date": "2026-08-08",
-    "condition": "Cloudy",
-    "temp_max": 21,
-    "temp_min": 14,
-    "feels_like_high": 18,
-    "feels_like_low": 16,
-    "wind_gust_mph": 16,
-    "humidity_high_pct": 88,
-    "humidity_low_pct": 74,
+    "date": "2026-08-09",
+    "condition": "Light rain",
+    "temp_max": 18,
+    "temp_min": 10,
+    "feels_like_high": 17,
+    "feels_like_low": 13,
+    "wind_gust_mph": 20,
+    "humidity_high_pct": 92,
+    "humidity_low_pct": 76,
     "uv_level": "5\nModerate",
-    "visibility_high": "19km",
-    "visibility_low": "8.0km",
+    "visibility_high": "21km",
+    "visibility_low": "5.5km",
     "air_pollution": "Low",
-    "pollen": "Moderate",
-    "sunrise": "05:47",
-    "sunset": "21:10",
+    "pollen": "Low",
+    "sunrise": "05:49",
+    "sunset": "21:08",
     "current": {
-      "temp_c": 19,
-      "condition": "Overcast",
-      "feels_like": 18,
-      "rain_chance": "40%",
-      "wind_gust_mph": 15,
-      "pollen": "Moderate pollen"
+      "temp_c": 16,
+      "condition": "Light rain",
+      "feels_like": 15,
+      "rain_chance": null,
+      "wind_gust_mph": 13,
+      "pollen": "Low pollen"
     },
     "hourly": [
       {
-        "time": "7pm",
-        "temp_c": 19,
-        "rain_chance": "60%",
-        "wind_mph": 9
+        "time": "6am",
+        "temp_c": 16,
+        "rain_chance": "50%",
+        "wind_mph": 7
       },
       {
-        "time": "8pm",
-        "temp_c": 19,
-        "rain_chance": "40%",
-        "wind_mph": 9
-      },
-      {
-        "time": "9pm",
-        "temp_c": 18,
-        "rain_chance": "60%",
-        "wind_mph": 9
-      },
-      {
-        "time": "10pm",
-        "temp_c": 17,
+        "time": "3am",
+        "temp_c": 16,
         "rain_chance": "70%",
         "wind_mph": 8
       },
       {
-        "time": "11pm",
-        "temp_c": 17,
+        "time": "4am",
+        "temp_c": 16,
+        "rain_chance": "90%",
+        "wind_mph": 7
+      },
+      {
+        "time": "5am",
+        "temp_c": 15,
+        "rain_chance": "95%",
+        "wind_mph": 6
+      },
+      {
+        "time": "7am",
+        "temp_c": 15,
+        "rain_chance": "90%",
+        "wind_mph": 5
+      },
+      {
+        "time": "8am",
+        "temp_c": 15,
         "rain_chance": "80%",
         "wind_mph": 7
+      },
+      {
+        "time": "9am",
+        "temp_c": 15,
+        "rain_chance": "80%",
+        "wind_mph": 8
+      },
+      {
+        "time": "10am",
+        "temp_c": 15,
+        "rain_chance": "80%",
+        "wind_mph": 9
+      },
+      {
+        "time": "11am",
+        "temp_c": 16,
+        "rain_chance": "80%",
+        "wind_mph": 9
+      },
+      {
+        "time": "12pm",
+        "temp_c": 17,
+        "rain_chance": "80%",
+        "wind_mph": 9
+      },
+      {
+        "time": "1pm",
+        "temp_c": 18,
+        "rain_chance": "90%",
+        "wind_mph": 9
+      },
+      {
+        "time": "2pm",
+        "temp_c": 18,
+        "rain_chance": "80%",
+        "wind_mph": 9
+      },
+      {
+        "time": "3pm",
+        "temp_c": 18,
+        "rain_chance": "80%",
+        "wind_mph": 9
+      },
+      {
+        "time": "4pm",
+        "temp_c": 17,
+        "rain_chance": "80%",
+        "wind_mph": 8
+      },
+      {
+        "time": "5pm",
+        "temp_c": 17,
+        "rain_chance": "50%",
+        "wind_mph": 7
+      },
+      {
+        "time": "6pm",
+        "temp_c": 16,
+        "rain_chance": "30%",
+        "wind_mph": 6
+      },
+      {
+        "time": "7pm",
+        "temp_c": 16,
+        "rain_chance": "10%",
+        "wind_mph": 5
+      },
+      {
+        "time": "8pm",
+        "temp_c": 16,
+        "rain_chance": "10%",
+        "wind_mph": 5
+      },
+      {
+        "time": "9pm",
+        "temp_c": 15,
+        "rain_chance": "<5%",
+        "wind_mph": 5
+      },
+      {
+        "time": "10pm",
+        "temp_c": 15,
+        "rain_chance": "<5%",
+        "wind_mph": 4
+      },
+      {
+        "time": "11pm",
+        "temp_c": 14,
+        "rain_chance": "<5%",
+        "wind_mph": 5
       }
     ],
     "warnings": []
   },
   "forecast": [
     {
-      "date": "2026-08-09",
-      "temp_max": 19,
-      "temp_min": 11,
-      "condition": "Light rain"
-    },
-    {
       "date": "2026-08-10",
-      "temp_max": 20,
+      "temp_max": 19,
       "temp_min": 12,
       "condition": "Sunny intervals"
     },
     {
       "date": "2026-08-11",
       "temp_max": 22,
-      "temp_min": 15,
+      "temp_min": 16,
       "condition": "Sunny"
     },
     {
       "date": "2026-08-12",
-      "temp_max": 24,
+      "temp_max": 25,
       "temp_min": 16,
       "condition": "Sunny intervals"
     },
@@ -92,13 +182,19 @@
       "date": "2026-08-13",
       "temp_max": 23,
       "temp_min": 15,
-      "condition": "Sunny intervals"
+      "condition": null
     },
     {
       "date": "2026-08-14",
       "temp_max": 20,
-      "temp_min": 14,
-      "condition": "Cloudy"
+      "temp_min": 13,
+      "condition": "Overcast"
+    },
+    {
+      "date": "2026-08-15",
+      "temp_max": 19,
+      "temp_min": 13,
+      "condition": "Overcast"
     }
   ]
 }
