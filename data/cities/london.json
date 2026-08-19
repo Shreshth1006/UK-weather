@@ -2,7 +2,7 @@
   "city": "London",
   "geohash": "gcpvj0v07",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcpvj0v07",
-  "scraped_at": "2026-08-19T03:31:01.690034+00:00",
+  "scraped_at": "2026-08-19T04:35:28.613279+00:00",
   "source_updated": "Updated: 1:59am on 19 August 2026",
   "today": {
     "date": "2026-08-19",
@@ -22,22 +22,16 @@
     "sunrise": "05:53",
     "sunset": "20:15",
     "current": {
-      "temp_c": 18,
-      "condition": "Light showers",
+      "temp_c": 17,
+      "condition": "Cloudy",
       "feels_like": 17,
-      "rain_chance": null,
-      "wind_gust_mph": 16,
+      "rain_chance": "50%",
+      "wind_gust_mph": 17,
       "pollen": "Low pollen"
     },
     "hourly": [
       {
         "time": "6am",
-        "temp_c": 18,
-        "rain_chance": "95%",
-        "wind_mph": 5
-      },
-      {
-        "time": "4am",
         "temp_c": 18,
         "rain_chance": "80%",
         "wind_mph": 6
