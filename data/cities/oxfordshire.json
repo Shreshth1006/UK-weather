@@ -2,93 +2,87 @@
   "city": "Oxfordshire",
   "geohash": "gcpue0tpf",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcpue0tpf",
-  "scraped_at": "2026-08-26T03:31:17.789888+00:00",
-  "source_updated": "Updated: 1:03am on 26 August 2026",
+  "scraped_at": "2026-08-26T04:31:19.415699+00:00",
+  "source_updated": "Updated: 3:02am on 26 August 2026",
   "today": {
     "date": "2026-08-26",
     "condition": "Sunny intervals",
     "temp_max": 26,
-    "temp_min": 19,
+    "temp_min": 18,
     "feels_like_high": 26,
     "feels_like_low": 18,
-    "wind_gust_mph": 18,
-    "humidity_high_pct": 89,
-    "humidity_low_pct": 48,
+    "wind_gust_mph": 17,
+    "humidity_high_pct": 88,
+    "humidity_low_pct": 54,
     "uv_level": "6\nHigh",
-    "visibility_high": "38km",
+    "visibility_high": "40km",
     "visibility_low": "12km",
     "air_pollution": "Low",
     "pollen": "Low",
     "sunrise": "06:04",
     "sunset": "20:00",
     "current": {
-      "temp_c": 18,
-      "condition": "Light showers",
+      "temp_c": 17,
+      "condition": "Cloudy",
       "feels_like": 18,
-      "rain_chance": null,
-      "wind_gust_mph": 8,
+      "rain_chance": "50%",
+      "wind_gust_mph": 9,
       "pollen": "Low pollen"
     },
     "hourly": [
       {
         "time": "6am",
         "temp_c": 18,
-        "rain_chance": "70%",
-        "wind_mph": 3
-      },
-      {
-        "time": "4am",
-        "temp_c": 18,
-        "rain_chance": "60%",
-        "wind_mph": 3
+        "rain_chance": "50%",
+        "wind_mph": 2
       },
       {
         "time": "5am",
         "temp_c": 17,
-        "rain_chance": "60%",
+        "rain_chance": "50%",
         "wind_mph": 2
       },
       {
         "time": "7am",
         "temp_c": 18,
-        "rain_chance": "50%",
+        "rain_chance": "60%",
         "wind_mph": 3
       },
       {
         "time": "8am",
-        "temp_c": 19,
-        "rain_chance": "40%",
+        "temp_c": 18,
+        "rain_chance": "60%",
         "wind_mph": 3
       },
       {
         "time": "9am",
         "temp_c": 20,
-        "rain_chance": "20%",
+        "rain_chance": "40%",
         "wind_mph": 3
       },
       {
         "time": "10am",
         "temp_c": 21,
-        "rain_chance": "10%",
+        "rain_chance": "30%",
         "wind_mph": 3
       },
       {
         "time": "11am",
         "temp_c": 23,
-        "rain_chance": "10%",
+        "rain_chance": "30%",
         "wind_mph": 3
       },
       {
         "time": "12pm",
         "temp_c": 24,
-        "rain_chance": "30%",
-        "wind_mph": 4
+        "rain_chance": "40%",
+        "wind_mph": 3
       },
       {
         "time": "1pm",
         "temp_c": 24,
         "rain_chance": "50%",
-        "wind_mph": 4
+        "wind_mph": 3
       },
       {
         "time": "2pm",
@@ -99,18 +93,18 @@
       {
         "time": "3pm",
         "temp_c": 26,
-        "rain_chance": "20%",
+        "rain_chance": "30%",
         "wind_mph": 5
       },
       {
         "time": "4pm",
         "temp_c": 26,
-        "rain_chance": "20%",
+        "rain_chance": "30%",
         "wind_mph": 5
       },
       {
         "time": "5pm",
-        "temp_c": 26,
+        "temp_c": 25,
         "rain_chance": "20%",
         "wind_mph": 5
       },
@@ -123,7 +117,7 @@
       {
         "time": "7pm",
         "temp_c": 25,
-        "rain_chance": "<5%",
+        "rain_chance": "10%",
         "wind_mph": 5
       },
       {
@@ -136,7 +130,7 @@
         "time": "9pm",
         "temp_c": 22,
         "rain_chance": "<5%",
-        "wind_mph": 5
+        "wind_mph": 6
       },
       {
         "time": "10pm",
@@ -146,7 +140,7 @@
       },
       {
         "time": "11pm",
-        "temp_c": 21,
+        "temp_c": 20,
         "rain_chance": "10%",
         "wind_mph": 6
       }
@@ -167,19 +161,19 @@
   "forecast": [
     {
       "date": "2026-08-27",
-      "temp_max": 25,
+      "temp_max": 24,
       "temp_min": 16,
-      "condition": "Light showers"
+      "condition": "Light rain"
     },
     {
       "date": "2026-08-28",
-      "temp_max": 23,
+      "temp_max": 22,
       "temp_min": 16,
       "condition": "Light showers"
     },
     {
       "date": "2026-08-29",
-      "temp_max": 23,
+      "temp_max": 22,
       "temp_min": 16,
       "condition": "Light rain"
     },
@@ -198,7 +192,7 @@
     {
       "date": "2026-09-01",
       "temp_max": 22,
-      "temp_min": 14,
+      "temp_min": 15,
       "condition": null
     }
   ]
