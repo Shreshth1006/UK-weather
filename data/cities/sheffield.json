@@ -2,122 +2,38 @@
   "city": "Sheffield",
   "geohash": "gcqy3k6sz",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcqy3k6sz",
-  "scraped_at": "2026-08-30T04:31:04.074369+00:00",
-  "source_updated": "Updated: 2am on 30 August 2026",
+  "scraped_at": "2026-08-30T18:31:08.545238+00:00",
+  "source_updated": "Updated: 4:01pm on 30 August 2026",
   "today": {
     "date": "2026-08-30",
     "condition": "Light showers",
-    "temp_max": 19,
+    "temp_max": 18,
     "temp_min": 11,
-    "feels_like_high": 16,
-    "feels_like_low": 11,
-    "wind_gust_mph": 23,
-    "humidity_high_pct": 97,
-    "humidity_low_pct": 67,
+    "feels_like_high": 14,
+    "feels_like_low": 12,
+    "wind_gust_mph": 21,
+    "humidity_high_pct": 96,
+    "humidity_low_pct": 91,
     "uv_level": "5\nModerate",
-    "visibility_high": "31km",
-    "visibility_low": "2.1km",
+    "visibility_high": "6.9km",
+    "visibility_low": "3.5km",
     "air_pollution": "Low",
     "pollen": "Low",
     "sunrise": "06:13",
     "sunset": "20:00",
     "current": {
-      "temp_c": 13,
-      "condition": "Mist",
-      "feels_like": 12,
-      "rain_chance": "30%",
-      "wind_gust_mph": 12,
+      "temp_c": 14,
+      "condition": "Heavy rain",
+      "feels_like": 13,
+      "rain_chance": null,
+      "wind_gust_mph": 18,
       "pollen": "Low pollen"
     },
     "hourly": [
       {
-        "time": "6am",
-        "temp_c": 13,
-        "rain_chance": "60%",
-        "wind_mph": 7
-      },
-      {
-        "time": "5am",
-        "temp_c": 13,
-        "rain_chance": "30%",
-        "wind_mph": 8
-      },
-      {
-        "time": "7am",
-        "temp_c": 13,
-        "rain_chance": "10%",
-        "wind_mph": 9
-      },
-      {
-        "time": "8am",
-        "temp_c": 14,
-        "rain_chance": "10%",
-        "wind_mph": 10
-      },
-      {
-        "time": "9am",
-        "temp_c": 15,
-        "rain_chance": "<5%",
-        "wind_mph": 10
-      },
-      {
-        "time": "10am",
-        "temp_c": 16,
-        "rain_chance": "<5%",
-        "wind_mph": 11
-      },
-      {
-        "time": "11am",
-        "temp_c": 17,
-        "rain_chance": "<5%",
-        "wind_mph": 11
-      },
-      {
-        "time": "12pm",
-        "temp_c": 18,
-        "rain_chance": "<5%",
-        "wind_mph": 13
-      },
-      {
-        "time": "1pm",
-        "temp_c": 18,
-        "rain_chance": "50%",
-        "wind_mph": 13
-      },
-      {
-        "time": "2pm",
-        "temp_c": 18,
-        "rain_chance": "70%",
-        "wind_mph": 13
-      },
-      {
-        "time": "3pm",
-        "temp_c": 18,
-        "rain_chance": "80%",
-        "wind_mph": 13
-      },
-      {
-        "time": "4pm",
-        "temp_c": 17,
-        "rain_chance": "95%",
-        "wind_mph": 13
-      },
-      {
-        "time": "5pm",
-        "temp_c": 16,
-        "rain_chance": "95%",
-        "wind_mph": 11
-      },
-      {
-        "time": "6pm",
-        "temp_c": 16,
-        "rain_chance": "90%",
-        "wind_mph": 11
-      },
-      {
         "time": "7pm",
         "temp_c": 15,
-        "rain_chance": "90%",
+        "rain_chance": "95%",
         "wind_mph": 11
       },
       {
@@ -129,23 +45,34 @@
       {
         "time": "9pm",
         "temp_c": 14,
-        "rain_chance": "80%",
+        "rain_chance": "90%",
         "wind_mph": 10
       },
       {
         "time": "10pm",
         "temp_c": 13,
-        "rain_chance": "60%",
+        "rain_chance": "80%",
         "wind_mph": 9
       },
       {
         "time": "11pm",
         "temp_c": 13,
-        "rain_chance": "60%",
-        "wind_mph": 10
+        "rain_chance": "50%",
+        "wind_mph": 9
       }
     ],
-    "warnings": []
+    "warnings": [
+      {
+        "severity": "yellow",
+        "severity_text": "Yellow warning",
+        "type": "Thunderstorm",
+        "valid_from": "2026-08-30T11:00+01:00",
+        "valid_to": "2026-08-30T23:59+01:00",
+        "period_text": "Until 11:59pm today",
+        "impact": 2,
+        "likelihood": 3
+      }
+    ]
   },
   "forecast": [
     {
@@ -163,19 +90,19 @@
     {
       "date": "2026-09-02",
       "temp_max": 19,
-      "temp_min": 12,
+      "temp_min": 14,
       "condition": "Light rain"
     },
     {
       "date": "2026-09-03",
-      "temp_max": 18,
-      "temp_min": 12,
+      "temp_max": 19,
+      "temp_min": 14,
       "condition": "Sunny intervals"
     },
     {
       "date": "2026-09-04",
       "temp_max": 18,
-      "temp_min": 14,
+      "temp_min": 13,
       "condition": "Cloudy"
     },
     {
