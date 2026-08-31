@@ -2,8 +2,8 @@
   "city": "Newcastle",
   "geohash": "gcsbptbvu",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcsbptbvu",
-  "scraped_at": "2026-08-31T02:31:20.660270+00:00",
-  "source_updated": "Updated: 11:55pm on 30 August 2026",
+  "scraped_at": "2026-08-31T03:31:27.390979+00:00",
+  "source_updated": "Updated: 2:55am on 31 August 2026",
   "today": {
     "date": "2026-08-31",
     "condition": "Sunny intervals",
@@ -11,77 +11,71 @@
     "temp_min": 13,
     "feels_like_high": 14,
     "feels_like_low": 12,
-    "wind_gust_mph": 30,
+    "wind_gust_mph": 32,
     "humidity_high_pct": 94,
-    "humidity_low_pct": 61,
+    "humidity_low_pct": 60,
     "uv_level": "5\nModerate",
-    "visibility_high": "28km",
-    "visibility_low": "7.1km",
+    "visibility_high": "27km",
+    "visibility_low": "5.9km",
     "air_pollution": "Low",
     "pollen": "Low",
     "sunrise": "06:25",
     "sunset": "20:09",
     "current": {
-      "temp_c": 14,
-      "condition": "Partly cloudy",
+      "temp_c": 15,
+      "condition": "Light showers",
       "feels_like": 13,
-      "rain_chance": "40%",
-      "wind_gust_mph": 23,
+      "rain_chance": null,
+      "wind_gust_mph": 27,
       "pollen": "Low pollen"
     },
     "hourly": [
       {
         "time": "6am",
-        "temp_c": 13,
-        "rain_chance": "10%",
-        "wind_mph": 8
-      },
-      {
-        "time": "3am",
         "temp_c": 14,
-        "rain_chance": "40%",
+        "rain_chance": "60%",
         "wind_mph": 9
       },
       {
         "time": "4am",
-        "temp_c": 14,
-        "rain_chance": "40%",
-        "wind_mph": 13
+        "temp_c": 15,
+        "rain_chance": "60%",
+        "wind_mph": 11
       },
       {
         "time": "5am",
         "temp_c": 15,
-        "rain_chance": "20%",
-        "wind_mph": 13
+        "rain_chance": "30%",
+        "wind_mph": 14
       },
       {
         "time": "7am",
         "temp_c": 15,
-        "rain_chance": "10%",
+        "rain_chance": "30%",
         "wind_mph": 15
       },
       {
         "time": "8am",
         "temp_c": 15,
         "rain_chance": "20%",
-        "wind_mph": 16
+        "wind_mph": 15
       },
       {
         "time": "9am",
-        "temp_c": 15,
+        "temp_c": 16,
         "rain_chance": "30%",
         "wind_mph": 16
       },
       {
         "time": "10am",
         "temp_c": 16,
-        "rain_chance": "20%",
+        "rain_chance": "30%",
         "wind_mph": 17
       },
       {
         "time": "11am",
         "temp_c": 16,
-        "rain_chance": "10%",
+        "rain_chance": "20%",
         "wind_mph": 18
       },
       {
@@ -98,7 +92,7 @@
       },
       {
         "time": "2pm",
-        "temp_c": 17,
+        "temp_c": 16,
         "rain_chance": "<5%",
         "wind_mph": 17
       },
@@ -124,7 +118,7 @@
         "time": "6pm",
         "temp_c": 16,
         "rain_chance": "<5%",
-        "wind_mph": 12
+        "wind_mph": 11
       },
       {
         "time": "7pm",
@@ -142,13 +136,13 @@
         "time": "9pm",
         "temp_c": 14,
         "rain_chance": "10%",
-        "wind_mph": 7
+        "wind_mph": 8
       },
       {
         "time": "10pm",
         "temp_c": 14,
         "rain_chance": "10%",
-        "wind_mph": 7
+        "wind_mph": 8
       },
       {
         "time": "11pm",
@@ -162,19 +156,19 @@
   "forecast": [
     {
       "date": "2026-09-01",
-      "temp_max": 19,
-      "temp_min": 15,
+      "temp_max": 18,
+      "temp_min": 14,
       "condition": "Sunny intervals"
     },
     {
       "date": "2026-09-02",
       "temp_max": 20,
       "temp_min": 16,
-      "condition": "Light rain"
+      "condition": "Cloudy"
     },
     {
       "date": "2026-09-03",
-      "temp_max": 19,
+      "temp_max": 18,
       "temp_min": 15,
       "condition": "Cloudy"
     },
@@ -182,7 +176,7 @@
       "date": "2026-09-04",
       "temp_max": 18,
       "temp_min": 13,
-      "condition": null
+      "condition": "Sunny intervals"
     },
     {
       "date": "2026-09-05",
@@ -193,7 +187,7 @@
     {
       "date": "2026-09-06",
       "temp_max": 19,
-      "temp_min": 15,
+      "temp_min": 14,
       "condition": "Cloudy"
     }
   ]
