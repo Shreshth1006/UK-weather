@@ -2,7 +2,7 @@
   "city": "Manchester",
   "geohash": "gcw2hzs1u",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcw2hzs1u",
-  "scraped_at": "2026-09-02T02:30:57.162136+00:00",
+  "scraped_at": "2026-09-02T03:30:56.027015+00:00",
   "source_updated": "Updated: 12:58am on 2 September 2026",
   "today": {
     "date": "2026-09-02",
@@ -15,7 +15,7 @@
     "humidity_high_pct": 96,
     "humidity_low_pct": 86,
     "uv_level": "3\nModerate",
-    "visibility_high": "20km",
+    "visibility_high": "18km",
     "visibility_low": "3.1km",
     "air_pollution": "Low",
     "pollen": "Low",
@@ -23,21 +23,15 @@
     "sunset": "19:56",
     "current": {
       "temp_c": 15,
-      "condition": "Cloudy",
-      "feels_like": 14,
-      "rain_chance": "10%",
+      "condition": "Light rain",
+      "feels_like": 15,
+      "rain_chance": null,
       "wind_gust_mph": 13,
       "pollen": "Low pollen"
     },
     "hourly": [
       {
         "time": "6am",
-        "temp_c": 15,
-        "rain_chance": "20%",
-        "wind_mph": 4
-      },
-      {
-        "time": "3am",
         "temp_c": 15,
         "rain_chance": "10%",
         "wind_mph": 4
