@@ -2,7 +2,7 @@
   "city": "Nottingham",
   "geohash": "gcqs7kgbx",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcqs7kgbx",
-  "scraped_at": "2026-09-02T03:31:27.733129+00:00",
+  "scraped_at": "2026-09-02T04:31:20.530371+00:00",
   "source_updated": "Updated: 2:03am on 2 September 2026",
   "today": {
     "date": "2026-09-02",
@@ -10,7 +10,7 @@
     "temp_max": 21,
     "temp_min": 17,
     "feels_like_high": 20,
-    "feels_like_low": 14,
+    "feels_like_low": 15,
     "wind_gust_mph": 26,
     "humidity_high_pct": 94,
     "humidity_low_pct": 81,
@@ -23,21 +23,15 @@
     "sunset": "19:54",
     "current": {
       "temp_c": 15,
-      "condition": "Cloudy",
+      "condition": "Light rain",
       "feels_like": 15,
-      "rain_chance": "40%",
+      "rain_chance": null,
       "wind_gust_mph": 12,
       "pollen": "Low pollen"
     },
     "hourly": [
       {
         "time": "6am",
-        "temp_c": 15,
-        "rain_chance": "10%",
-        "wind_mph": 6
-      },
-      {
-        "time": "4am",
         "temp_c": 15,
         "rain_chance": "40%",
         "wind_mph": 5
