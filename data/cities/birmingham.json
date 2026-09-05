@@ -2,14 +2,14 @@
   "city": "Birmingham",
   "geohash": "gcqyd2ux3",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcqyd2ux3",
-  "scraped_at": "2026-09-05T02:30:57.292575+00:00",
-  "source_updated": "Updated: 1:02am on 5 September 2026",
+  "scraped_at": "2026-09-05T03:30:54.269854+00:00",
+  "source_updated": "Updated: 2:01am on 5 September 2026",
   "today": {
     "date": "2026-09-05",
     "condition": "Sunny intervals",
     "temp_max": 18,
     "temp_min": 9,
-    "feels_like_high": 18,
+    "feels_like_high": 17,
     "feels_like_low": 11,
     "wind_gust_mph": 23,
     "humidity_high_pct": 87,
@@ -23,10 +23,10 @@
     "sunset": "19:46",
     "current": {
       "temp_c": 13,
-      "condition": "Cloudy",
+      "condition": "Light showers",
       "feels_like": 11,
-      "rain_chance": "20%",
-      "wind_gust_mph": 21,
+      "rain_chance": null,
+      "wind_gust_mph": 19,
       "pollen": "Low pollen"
     },
     "hourly": [
@@ -37,20 +37,14 @@
         "wind_mph": 11
       },
       {
-        "time": "3am",
+        "time": "4am",
         "temp_c": 13,
-        "rain_chance": "20%",
+        "rain_chance": "70%",
         "wind_mph": 11
       },
       {
-        "time": "4am",
-        "temp_c": 12,
-        "rain_chance": "70%",
-        "wind_mph": 10
-      },
-      {
         "time": "5am",
-        "temp_c": 12,
+        "temp_c": 13,
         "rain_chance": "60%",
         "wind_mph": 9
       },
@@ -69,7 +63,7 @@
       {
         "time": "9am",
         "temp_c": 14,
-        "rain_chance": "40%",
+        "rain_chance": "50%",
         "wind_mph": 10
       },
       {
@@ -100,13 +94,13 @@
         "time": "2pm",
         "temp_c": 18,
         "rain_chance": "<5%",
-        "wind_mph": 10
+        "wind_mph": 9
       },
       {
         "time": "3pm",
         "temp_c": 18,
         "rain_chance": "<5%",
-        "wind_mph": 8
+        "wind_mph": 9
       },
       {
         "time": "4pm",
@@ -142,11 +136,11 @@
         "time": "9pm",
         "temp_c": 12,
         "rain_chance": "<5%",
-        "wind_mph": 2
+        "wind_mph": 3
       },
       {
         "time": "10pm",
-        "temp_c": 11,
+        "temp_c": 12,
         "rain_chance": "<5%",
         "wind_mph": 2
       },
@@ -186,14 +180,14 @@
     },
     {
       "date": "2026-09-10",
-      "temp_max": 16,
-      "temp_min": 11,
+      "temp_max": 17,
+      "temp_min": 13,
       "condition": "Cloudy"
     },
     {
       "date": "2026-09-11",
       "temp_max": 18,
-      "temp_min": 12,
+      "temp_min": 13,
       "condition": "Cloudy"
     }
   ]
