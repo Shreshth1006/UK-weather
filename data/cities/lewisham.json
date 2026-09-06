@@ -2,7 +2,7 @@
   "city": "Lewisham",
   "geohash": "gcpvjn89k",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcpvjn89k",
-  "scraped_at": "2026-09-06T03:31:22.294784+00:00",
+  "scraped_at": "2026-09-06T04:31:14.530642+00:00",
   "source_updated": "Updated: 3:01am on 6 September 2026",
   "today": {
     "date": "2026-09-06",
@@ -23,21 +23,15 @@
     "sunset": "19:36",
     "current": {
       "temp_c": 15,
-      "condition": "Light showers",
+      "condition": "Sunny intervals",
       "feels_like": 15,
-      "rain_chance": null,
-      "wind_gust_mph": 8,
+      "rain_chance": "30%",
+      "wind_gust_mph": 9,
       "pollen": "Low pollen"
     },
     "hourly": [
       {
         "time": "6am",
-        "temp_c": 15,
-        "rain_chance": "<5%",
-        "wind_mph": 2
-      },
-      {
-        "time": "4am",
         "temp_c": 15,
         "rain_chance": "60%",
         "wind_mph": 2
