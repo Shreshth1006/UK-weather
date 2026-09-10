@@ -6,7 +6,10 @@ Writes:
   data/weather.json          ← all cities combined
   data/cities/{city}.json    ← one per city
 
-To add a city: add one line to CITIES dict below.
+To add a city: add one entry to CITIES dict below —
+  "City Name": {"geohash": "...", "country": "UK"|"US"}
+Geohash = the id in the city's weather.metoffice.gov.uk/forecast/{id} URL
+(works the same for Met Office's international/world locations).
 """
 
 import json
@@ -21,23 +24,46 @@ from playwright.async_api import async_playwright, TimeoutError as PlaywrightTim
 #  Format: "Display Name": "geohash"
 # ─────────────────────────────────────────────
 CITIES = {
-    "London":         "gcpvj0v07",
-    "Manchester":     "gcw2hzs1u",
-    "Birmingham":     "gcqyd2ux3",
-    "Glasgow":        "gcw2p7ygw",
-    "Bristol":        "gcjkmy91s",
-    "Leeds":          "gcwfhxhup",
-    "Edinburgh":      "gcvwr3zrw",
-    "Liverpool":      "gcjvkr6ky",
-    "Cardiff":        "gcjszevgx",
-    "Sheffield":      "gcqy3k6sz",
-    "Belfast":        "gcey94cuf",
-    "York":           "gcwf9nwyu",
-    "Lewisham":       "gcpvjn89k",
-    "Cambridgeshire": "u12esxqub",
-    "Nottingham":     "gcqs7kgbx",
-    "Oxfordshire":    "gcpue0tpf",
-    "Newcastle":      "gcsbptbvu",
+    # ── United Kingdom ──────────────────────
+    "London":           {"geohash": "gcpvj0v07", "country": "UK"},
+    "Manchester":       {"geohash": "gcw2hzs1u", "country": "UK"},
+    "Birmingham":       {"geohash": "gcqyd2ux3", "country": "UK"},
+    "Glasgow":          {"geohash": "gcw2p7ygw", "country": "UK"},
+    "Bristol":          {"geohash": "gcjkmy91s", "country": "UK"},
+    "Leeds":            {"geohash": "gcwfhxhup", "country": "UK"},
+    "Edinburgh":        {"geohash": "gcvwr3zrw", "country": "UK"},
+    "Liverpool":        {"geohash": "gcjvkr6ky", "country": "UK"},
+    "Cardiff":          {"geohash": "gcjszevgx", "country": "UK"},
+    "Sheffield":        {"geohash": "gcqy3k6sz", "country": "UK"},
+    "Belfast":          {"geohash": "gcey94cuf", "country": "UK"},
+    "York":             {"geohash": "gcwf9nwyu", "country": "UK"},
+    "Lewisham":         {"geohash": "gcpvjn89k", "country": "UK"},
+    "Cambridgeshire":   {"geohash": "u12esxqub", "country": "UK"},
+    "Nottingham":       {"geohash": "gcqs7kgbx", "country": "UK"},
+    "Oxfordshire":      {"geohash": "gcpue0tpf", "country": "UK"},
+    "Newcastle":        {"geohash": "gcsbptbvu", "country": "UK"},
+
+    # ── United States ───────────────────────
+    "New York":         {"geohash": "dr5reg58f", "country": "US"},
+    "Los Angeles":      {"geohash": "9q5cu2rju", "country": "US"},
+    "Chicago":          {"geohash": "dp3tvwymr", "country": "US"},
+    "Houston":          {"geohash": "9vk1kgkwc", "country": "US"},
+    "Philadelphia":     {"geohash": "dr4e3dqpv", "country": "US"},
+    "Phoenix":          {"geohash": "9tbq8u7cz", "country": "US"},
+    "San Diego":        {"geohash": "9mudm9zqt", "country": "US"},
+    "Dallas":           {"geohash": "9vg627y2f", "country": "US"},
+    "San Jose":         {"geohash": "9q9k2bndx", "country": "US"},
+    "San Francisco":    {"geohash": "9q8yym8kr", "country": "US"},
+    "Seattle":          {"geohash": "c23nb54sr", "country": "US"},
+    "Boston":           {"geohash": "drt2zp3hu", "country": "US"},
+    "Washington DC":    {"geohash": "dqcjrqgxx", "country": "US"},
+    "Las Vegas":        {"geohash": "9qqjg2x19", "country": "US"},
+    "Miami":            {"geohash": "dhwfqz8ue", "country": "US"},
+    "Atlanta":          {"geohash": "djgzrjc9k", "country": "US"},
+    "Indianapolis":     {"geohash": "dp4dr7s1w", "country": "US"},
+    "Colorado Springs": {"geohash": "9wvkysc15", "country": "US"},
+    "Portland":         {"geohash": "c20f92070", "country": "US"},
+    "Tucson":           {"geohash": "9t9newsv6", "country": "US"},
 }
 
 BASE_URL = "https://weather.metoffice.gov.uk/forecast/{}"
@@ -465,7 +491,7 @@ async def parse_warnings(page) -> list[dict]:
 #  SCRAPE ONE CITY
 # ─────────────────────────────────────────────
 
-async def scrape_city(page, city_name: str, geohash: str) -> dict:
+async def scrape_city(page, city_name: str, geohash: str, country: str = "UK") -> dict:
     url = BASE_URL.format(geohash)
     print(f"  Fetching {city_name}...")
 
@@ -479,6 +505,7 @@ async def scrape_city(page, city_name: str, geohash: str) -> dict:
         return {
             "city":       city_name,
             "geohash":    geohash,
+            "country":    country,
             "error":      "timeout",
             "scraped_at": datetime.now(timezone.utc).isoformat(),
         }
@@ -487,6 +514,7 @@ async def scrape_city(page, city_name: str, geohash: str) -> dict:
         return {
             "city":       city_name,
             "geohash":    geohash,
+            "country":    country,
             "error":      str(e),
             "scraped_at": datetime.now(timezone.utc).isoformat(),
         }
@@ -535,6 +563,7 @@ async def scrape_city(page, city_name: str, geohash: str) -> dict:
     return {
         "city":           city_name,
         "geohash":        geohash,
+        "country":        country,
         "source_url":     url,
         "scraped_at":     datetime.now(timezone.utc).isoformat(),
         "source_updated": detailed.get("source_updated"),
@@ -575,8 +604,10 @@ async def main():
         await page.route("**/{gtm,googletagmanager,doubleclick,googlesyndication}**",
                          lambda route: route.abort())
 
-        for city_name, geohash in CITIES.items():
-            data = await scrape_city(page, city_name, geohash)
+        for city_name, meta in CITIES.items():
+            geohash = meta["geohash"]
+            country = meta.get("country", "UK")
+            data = await scrape_city(page, city_name, geohash, country)
             city_slug = city_name.lower().replace(" ", "_")
 
             if "error" in data:
