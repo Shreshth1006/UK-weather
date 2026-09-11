@@ -1,178 +1,167 @@
 {
   "city": "Dallas",
-  "geohash": "9vg627y2f",
+  "geohash": "dallas/75202/351194",
   "country": "US",
-  "source_url": "https://weather.metoffice.gov.uk/forecast/9vg627y2f",
-  "scraped_at": "2026-09-11T04:31:35.688688+00:00",
-  "source_updated": "Updated: 12:43am on 11 September 2026",
+  "source": "AccuWeather",
+  "source_url": "https://www.accuweather.com/en/us/dallas/75202/current-weather/351194",
+  "scraped_at": "2026-09-11T09:13:19.766738+00:00",
   "today": {
     "date": "2026-09-11",
-    "condition": "Sunny",
-    "temp_max": 33,
+    "condition": "Partly sunny and toasty conditions; a thunderstorm in spots this afternoon; caution advised if outside for extended periods of time",
+    "temp_max": 37,
     "temp_min": 26,
-    "feels_like_high": 32,
-    "feels_like_low": 32,
-    "wind_gust_mph": 15,
-    "humidity_high_pct": 55,
-    "humidity_low_pct": 55,
-    "uv_level": "9\nVery High",
-    "visibility_high": "25km",
-    "visibility_low": "25km",
-    "air_pollution": null,
+    "feels_like_high": 41,
+    "feels_like_low": 29,
+    "wind_gust_mph": 12,
+    "humidity_high_pct": 73,
+    "humidity_low_pct": null,
+    "uv_level": "High",
+    "visibility_high": "18km",
+    "visibility_low": null,
+    "air_pollution": "Fair",
     "pollen": null,
-    "sunrise": "07:07",
-    "sunset": "19:39",
+    "sunrise": "7:08 AM",
+    "sunset": "7:39 PM",
     "current": {
-      "temp_c": 30,
-      "condition": "Clear",
-      "feels_like": 31,
-      "rain_chance": "20%",
-      "wind_gust_mph": 14,
+      "temp_c": 27,
+      "condition": "Mostly cloudy",
+      "feels_like": 30,
+      "rain_chance": "55%",
+      "wind_gust_mph": 5,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "6am",
-        "temp_c": 30,
-        "rain_chance": "20%",
-        "wind_mph": 7
-      },
-      {
-        "time": "12am",
-        "temp_c": 29,
-        "rain_chance": "20%",
-        "wind_mph": 7
-      },
-      {
-        "time": "1am",
-        "temp_c": 29,
-        "rain_chance": "10%",
-        "wind_mph": 7
-      },
-      {
-        "time": "2am",
-        "temp_c": 28,
-        "rain_chance": "20%",
-        "wind_mph": 7
-      },
-      {
-        "time": "3am",
-        "temp_c": 28,
-        "rain_chance": "20%",
-        "wind_mph": 6
-      },
-      {
-        "time": "4am",
-        "temp_c": 27,
-        "rain_chance": "20%",
-        "wind_mph": 6
-      },
-      {
-        "time": "5am",
-        "temp_c": 27,
-        "rain_chance": "20%",
-        "wind_mph": 5
-      },
-      {
-        "time": "7am",
+        "time": "5 AM",
         "temp_c": 26,
-        "rain_chance": "20%",
+        "condition": "Intermittent clouds",
+        "rain_chance": "32%",
+        "wind_mph": 7
+      },
+      {
+        "time": "6 AM",
+        "temp_c": 26,
+        "condition": "Intermittent clouds",
+        "rain_chance": "32%",
+        "wind_mph": 6
+      },
+      {
+        "time": "7 AM",
+        "temp_c": 25,
+        "condition": "Intermittent clouds",
+        "rain_chance": "28%",
         "wind_mph": 5
       },
       {
-        "time": "8am",
-        "temp_c": 27,
+        "time": "8 AM",
+        "temp_c": 26,
+        "condition": "Intermittent clouds",
         "rain_chance": "20%",
-        "wind_mph": 5
+        "wind_mph": 6
       },
       {
-        "time": "9am",
+        "time": "9 AM",
         "temp_c": 28,
-        "rain_chance": "30%",
-        "wind_mph": 6
-      },
-      {
-        "time": "10am",
-        "temp_c": 30,
-        "rain_chance": "30%",
-        "wind_mph": 6
-      },
-      {
-        "time": "11am",
-        "temp_c": 32,
+        "condition": "Intermittent clouds",
         "rain_chance": "20%",
-        "wind_mph": 5
-      },
-      {
-        "time": "12pm",
-        "temp_c": 34,
-        "rain_chance": "30%",
-        "wind_mph": 5
-      },
-      {
-        "time": "1pm",
-        "temp_c": 35,
-        "rain_chance": "60%",
-        "wind_mph": 4
-      },
-      {
-        "time": "2pm",
-        "temp_c": 35,
-        "rain_chance": "50%",
-        "wind_mph": 5
-      },
-      {
-        "time": "3pm",
-        "temp_c": 35,
-        "rain_chance": "50%",
-        "wind_mph": 5
-      },
-      {
-        "time": "4pm",
-        "temp_c": 35,
-        "rain_chance": "50%",
         "wind_mph": 6
       },
       {
-        "time": "5pm",
-        "temp_c": 34,
-        "rain_chance": "30%",
+        "time": "10 AM",
+        "temp_c": 29,
+        "condition": "Intermittent clouds",
+        "rain_chance": "20%",
         "wind_mph": 7
       },
       {
-        "time": "6pm",
-        "temp_c": 34,
-        "rain_chance": "10%",
-        "wind_mph": 8
+        "time": "11 AM",
+        "temp_c": 31,
+        "condition": "Intermittent clouds",
+        "rain_chance": "20%",
+        "wind_mph": 7
       },
       {
-        "time": "7pm",
+        "time": "12 PM",
         "temp_c": 33,
-        "rain_chance": "<5%",
-        "wind_mph": 8
-      },
-      {
-        "time": "8pm",
-        "temp_c": 32,
-        "rain_chance": "<5%",
-        "wind_mph": 8
-      },
-      {
-        "time": "9pm",
-        "temp_c": 31,
-        "rain_chance": "<5%",
-        "wind_mph": 8
-      },
-      {
-        "time": "10pm",
-        "temp_c": 31,
-        "rain_chance": "<5%",
+        "condition": "Intermittent clouds",
+        "rain_chance": "20%",
         "wind_mph": 7
       },
       {
-        "time": "11pm",
-        "temp_c": 30,
-        "rain_chance": "<5%",
+        "time": "1 PM",
+        "temp_c": 34,
+        "condition": "Intermittent clouds",
+        "rain_chance": "25%",
+        "wind_mph": 7
+      },
+      {
+        "time": "2 PM",
+        "temp_c": 34,
+        "condition": "Partly sunny w/ t-storms",
+        "rain_chance": "51%",
+        "wind_mph": 7
+      },
+      {
+        "time": "3 PM",
+        "temp_c": 36,
+        "condition": "Mostly sunny",
+        "rain_chance": "47%",
+        "wind_mph": 7
+      },
+      {
+        "time": "4 PM",
+        "temp_c": 37,
+        "condition": "Mostly sunny",
+        "rain_chance": "35%",
+        "wind_mph": 7
+      },
+      {
+        "time": "5 PM",
+        "temp_c": 36,
+        "condition": "Mostly sunny",
+        "rain_chance": "19%",
+        "wind_mph": 8
+      },
+      {
+        "time": "6 PM",
+        "temp_c": 36,
+        "condition": "Mostly sunny",
+        "rain_chance": "19%",
+        "wind_mph": 8
+      },
+      {
+        "time": "7 PM",
+        "temp_c": 34,
+        "condition": "Mostly sunny",
+        "rain_chance": "18%",
+        "wind_mph": 9
+      },
+      {
+        "time": "8 PM",
+        "temp_c": 33,
+        "condition": "Mostly clear",
+        "rain_chance": "15%",
+        "wind_mph": 8
+      },
+      {
+        "time": "9 PM",
+        "temp_c": 32,
+        "condition": "Mostly clear",
+        "rain_chance": "15%",
+        "wind_mph": 8
+      },
+      {
+        "time": "10 PM",
+        "temp_c": 31,
+        "condition": "Mostly clear",
+        "rain_chance": "15%",
+        "wind_mph": 8
+      },
+      {
+        "time": "11 PM",
+        "temp_c": 31,
+        "condition": "Mostly clear",
+        "rain_chance": "15%",
         "wind_mph": 8
       }
     ],
@@ -180,40 +169,88 @@
   },
   "forecast": [
     {
-      "date": "2026-09-11",
-      "temp_max": 36,
-      "temp_min": 26,
-      "condition": "Sunny"
-    },
-    {
       "date": "2026-09-12",
-      "temp_max": 39,
+      "condition": "Mostly sunny and hot with the temperature breaking the record high of 103 set in 2011; heat will be dangerous, minimize outdoor activity",
       "temp_min": 27,
-      "condition": "Sunny"
+      "temp_max": 40
     },
     {
       "date": "2026-09-13",
-      "temp_max": 38,
-      "temp_min": 27,
-      "condition": "Sunny"
+      "condition": "Mostly sunny and hot; danger of dehydration and heatstroke if outside for extended periods of time",
+      "temp_min": 26,
+      "temp_max": 38
     },
     {
       "date": "2026-09-14",
-      "temp_max": 38,
-      "temp_min": 27,
-      "condition": "Sunny"
+      "condition": "Mostly sunny with the temperature near the record of 102; danger of dehydration and heatstroke if outside for extended periods of time",
+      "temp_min": 26,
+      "temp_max": 38
     },
     {
       "date": "2026-09-15",
-      "temp_max": 38,
+      "condition": "Mostly sunny with the temperature near the record of 100; danger of dehydration and heatstroke if outside for extended periods of time",
       "temp_min": 27,
-      "condition": "Sunny"
+      "temp_max": 37
     },
     {
       "date": "2026-09-16",
-      "temp_max": 38,
-      "temp_min": 27,
-      "condition": "Sunny"
+      "condition": "Mostly sunny and hot with the temperature approaching the record high of 102 set in 1900",
+      "temp_min": 26,
+      "temp_max": 38
+    },
+    {
+      "date": "2026-09-17",
+      "condition": "Sunny to partly cloudy, hot and less humid",
+      "temp_min": 24,
+      "temp_max": 38
+    },
+    {
+      "date": "2026-09-18",
+      "condition": "Not as hot with clouds limiting sun",
+      "temp_min": 23,
+      "temp_max": 34
+    },
+    {
+      "date": "2026-09-19",
+      "condition": "Partly sunny and less humid",
+      "temp_min": 19,
+      "temp_max": 32
+    },
+    {
+      "date": "2026-09-20",
+      "condition": "Humid with plenty of sunshine",
+      "temp_min": 19,
+      "temp_max": 31
+    },
+    {
+      "date": "2026-09-21",
+      "condition": "Less humid with plenty of sunshine",
+      "temp_min": 21,
+      "temp_max": 32
+    },
+    {
+      "date": "2026-09-22",
+      "condition": "Mostly sunny",
+      "temp_min": 20,
+      "temp_max": 32
+    },
+    {
+      "date": "2026-09-23",
+      "condition": "Mostly sunny",
+      "temp_min": 21,
+      "temp_max": 31
+    },
+    {
+      "date": "2026-09-24",
+      "condition": "A couple of morning showers and a thunderstorm; otherwise, cloudy",
+      "temp_min": 19,
+      "temp_max": 31
+    },
+    {
+      "date": "2026-09-25",
+      "condition": "Very warm with shifting clouds and sun",
+      "temp_min": 22,
+      "temp_max": 33
     }
   ]
 }
