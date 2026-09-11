@@ -1,7 +1,7 @@
-name: Scrape Met Office Weather
+name: Scrape Weather Data
 
 on:
-  workflow_dispatch:    # triggered externally by cron-job.org
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -9,25 +9,26 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
-      - name: Install dependencies
+      - name: Install dependencies for Met Office scraper (Playwright)
         run: |
           pip install playwright
           playwright install chromium
           playwright install-deps chromium
-
-      - name: Run scraper
+      - name: Install dependencies for AccuWeather scraper (Scrapfly)
+        run: pip install scrapfly-sdk beautifulsoup4
+      - name: Run Met Office scraper (UK cities)
         run: python scraper.py
-
+      - name: Run AccuWeather scraper (US cities)
+        env:
+          SCRAPFLY_API_KEY: ${{ secrets.SCRAPFLY_API_KEY }}
+        run: python scraper_accuweather.py
       - name: Commit and push updated JSON
         run: |
           git config user.name  "github-actions[bot]"
