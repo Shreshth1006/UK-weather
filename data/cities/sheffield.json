@@ -4,7 +4,7 @@
   "country": "UK",
   "source": "Met Office",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcqy3k6sz",
-  "scraped_at": "2026-09-12T03:31:50.446989+00:00",
+  "scraped_at": "2026-09-12T04:31:08.138933+00:00",
   "source_updated": "Updated: 3am on 12 September 2026",
   "today": {
     "date": "2026-09-12",
@@ -12,7 +12,7 @@
     "temp_max": 18,
     "temp_min": 14,
     "feels_like_high": 14,
-    "feels_like_low": 7,
+    "feels_like_low": 8,
     "wind_gust_mph": 31,
     "humidity_high_pct": 96,
     "humidity_low_pct": 84,
@@ -24,22 +24,16 @@
     "sunrise": "06:35",
     "sunset": "19:29",
     "current": {
-      "temp_c": 10,
-      "condition": "Clear",
+      "temp_c": 11,
+      "condition": "Partly cloudy",
       "feels_like": 8,
-      "rain_chance": "30%",
-      "wind_gust_mph": 16,
+      "rain_chance": "<5%",
+      "wind_gust_mph": 19,
       "pollen": null
     },
     "hourly": [
       {
         "time": "6am",
-        "temp_c": 10,
-        "rain_chance": "<5%",
-        "wind_mph": 9
-      },
-      {
-        "time": "4am",
         "temp_c": 10,
         "rain_chance": "30%",
         "wind_mph": 11
