@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-09-13T03:31:33.061610+00:00",
+  "scraped_at": "2026-09-13T04:32:09.387340+00:00",
   "today": {
     "date": "2026-09-13",
-    "condition": "Partly cloudy",
-    "temp_max": null,
-    "temp_min": -9,
-    "feels_like_high": null,
-    "feels_like_low": -9,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 72,
+    "condition": "Humid with periods of rain, some heavy, into the early afternoon; watch for flooding on streets and poor drainage areas",
+    "temp_max": 20,
+    "temp_min": 18,
+    "feels_like_high": 21,
+    "feels_like_low": 16,
+    "wind_gust_mph": 12,
+    "humidity_high_pct": 69,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "26km",
+    "uv_level": "Low",
+    "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "6:21 AM",
-    "sunset": "7:00 PM",
+    "sunrise": "6:22 AM",
+    "sunset": "6:58 PM",
     "current": {
-      "temp_c": -8,
-      "condition": "Partly cloudy",
-      "feels_like": -9,
-      "rain_chance": null,
-      "wind_gust_mph": 11,
+      "temp_c": 18,
+      "condition": "Mostly cloudy",
+      "feels_like": 16,
+      "rain_chance": "99%",
+      "wind_gust_mph": 9,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 18,
-        "condition": "Mostly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 7
-      },
       {
         "time": "1 AM",
         "temp_c": 17,
@@ -204,88 +197,88 @@
   },
   "forecast": [
     {
-      "date": "2026-09-13",
-      "condition": "Humid with periods of rain, some heavy, into the early afternoon; watch for flooding on streets and poor drainage areas",
-      "temp_min": -8,
-      "temp_max": -7
-    },
-    {
       "date": "2026-09-14",
-      "condition": "Mostly sunny, warmer and less humid",
-      "temp_min": -12,
-      "temp_max": -4
+      "condition": "A shower in spots early in the morning; otherwise, mostly sunny and warmer",
+      "temp_min": 10,
+      "temp_max": 23
     },
     {
       "date": "2026-09-15",
-      "condition": "Mostly sunny",
-      "temp_min": -11,
-      "temp_max": -7
+      "condition": "Mostly sunny in the morning followed by high thin cloudiness",
+      "temp_min": 13,
+      "temp_max": 19
     },
     {
       "date": "2026-09-16",
       "condition": "Mostly sunny and comfortable",
-      "temp_min": -9,
-      "temp_max": -4
+      "temp_min": 16,
+      "temp_max": 23
     },
     {
       "date": "2026-09-17",
-      "condition": "Partly sunny with a passing shower in the afternoon",
-      "temp_min": -7,
-      "temp_max": -4
+      "condition": "Partly sunny",
+      "temp_min": 19,
+      "temp_max": 24
     },
     {
       "date": "2026-09-18",
       "condition": "Mostly cloudy",
-      "temp_min": -9,
-      "temp_max": -4
+      "temp_min": 16,
+      "temp_max": 23
     },
     {
       "date": "2026-09-19",
       "condition": "Cloudy with showers",
-      "temp_min": -10,
-      "temp_max": -6
+      "temp_min": 14,
+      "temp_max": 21
     },
     {
       "date": "2026-09-20",
       "condition": "Mostly cloudy with a couple of showers in the afternoon",
-      "temp_min": -11,
-      "temp_max": -7
+      "temp_min": 13,
+      "temp_max": 20
     },
     {
       "date": "2026-09-21",
       "condition": "Sunshine and a few clouds",
-      "temp_min": -11,
-      "temp_max": -7
+      "temp_min": 12,
+      "temp_max": 19
     },
     {
       "date": "2026-09-22",
       "condition": "Mostly sunny",
-      "temp_min": -11,
-      "temp_max": -7
+      "temp_min": 13,
+      "temp_max": 19
     },
     {
       "date": "2026-09-23",
       "condition": "Mostly sunny",
-      "temp_min": -11,
-      "temp_max": -7
+      "temp_min": 13,
+      "temp_max": 19
     },
     {
       "date": "2026-09-24",
       "condition": "Partly sunny",
-      "temp_min": -11,
-      "temp_max": -7
+      "temp_min": 13,
+      "temp_max": 20
     },
     {
       "date": "2026-09-25",
       "condition": "Mostly sunny",
-      "temp_min": -11,
-      "temp_max": -7
+      "temp_min": 13,
+      "temp_max": 20
     },
     {
       "date": "2026-09-26",
       "condition": "Sunshine",
-      "temp_min": -11,
-      "temp_max": -8
+      "temp_min": 12,
+      "temp_max": 18
+    },
+    {
+      "date": "2026-09-27",
+      "condition": "Mostly cloudy; a passing shower in the morning followed by periods of rain in the afternoon",
+      "temp_min": 14,
+      "temp_max": 18
     }
   ]
 }
