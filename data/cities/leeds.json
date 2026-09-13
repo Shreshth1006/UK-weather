@@ -4,7 +4,7 @@
   "country": "UK",
   "source": "Met Office",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcwfhxhup",
-  "scraped_at": "2026-09-13T02:31:05.440741+00:00",
+  "scraped_at": "2026-09-13T03:31:03.878218+00:00",
   "source_updated": "Updated: 1am on 13 September 2026",
   "today": {
     "date": "2026-09-13",
@@ -25,21 +25,15 @@
     "sunset": "19:27",
     "current": {
       "temp_c": 16,
-      "condition": "Mist",
+      "condition": "Light rain",
       "feels_like": 16,
-      "rain_chance": "40%",
-      "wind_gust_mph": 9,
+      "rain_chance": null,
+      "wind_gust_mph": 8,
       "pollen": null
     },
     "hourly": [
       {
         "time": "6am",
-        "temp_c": 16,
-        "rain_chance": "20%",
-        "wind_mph": 2
-      },
-      {
-        "time": "3am",
         "temp_c": 16,
         "rain_chance": "40%",
         "wind_mph": 2
