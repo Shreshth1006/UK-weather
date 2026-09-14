@@ -4,45 +4,38 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-09-14T03:31:42.809432+00:00",
+  "scraped_at": "2026-09-14T04:31:37.736164+00:00",
   "today": {
     "date": "2026-09-14",
-    "condition": "Mostly cloudy",
-    "temp_max": null,
-    "temp_min": 22,
-    "feels_like_high": null,
-    "feels_like_low": 21,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 82,
+    "condition": "Mostly sunny, breezy and less humid",
+    "temp_max": -2,
+    "temp_min": -11,
+    "feels_like_high": -3,
+    "feels_like_low": -11,
+    "wind_gust_mph": 46,
+    "humidity_high_pct": 86,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "13km",
+    "uv_level": "High",
+    "visibility_high": "26km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "6:47 AM",
-    "sunset": "7:20 PM",
+    "sunrise": "6:48 AM",
+    "sunset": "7:18 PM",
     "current": {
-      "temp_c": 26,
-      "condition": "Mostly cloudy",
-      "feels_like": 31,
-      "rain_chance": null,
-      "wind_gust_mph": 2,
+      "temp_c": -4,
+      "condition": "Partly cloudy",
+      "feels_like": -2,
+      "rain_chance": "1%",
+      "wind_gust_mph": 4,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 26,
-        "condition": "Mostly clear",
-        "rain_chance": "20%",
-        "wind_mph": 6
-      },
-      {
         "time": "1 AM",
         "temp_c": 24,
-        "condition": "Mostly clear",
-        "rain_chance": "13%",
+        "condition": "Showers",
+        "rain_chance": "50%",
         "wind_mph": 6
       },
       {
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-14",
-      "condition": "Mostly sunny, breezy and less humid",
-      "temp_min": 13,
-      "temp_max": 27
-    },
-    {
       "date": "2026-09-15",
       "condition": "Partly sunny",
       "temp_min": 14,
@@ -285,6 +272,12 @@
       "date": "2026-09-27",
       "condition": "Sun breaking through clouds at times",
       "temp_min": 17,
+      "temp_max": 27
+    },
+    {
+      "date": "2026-09-28",
+      "condition": "Turning cloudy",
+      "temp_min": 16,
       "temp_max": 27
     }
   ]

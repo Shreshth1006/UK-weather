@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-09-14T03:31:56.892433+00:00",
+  "scraped_at": "2026-09-14T04:31:34.311263+00:00",
   "today": {
     "date": "2026-09-14",
-    "condition": "Partly cloudy",
-    "temp_max": null,
-    "temp_min": 18,
-    "feels_like_high": null,
-    "feels_like_low": 16,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 92,
+    "condition": "Mostly sunny",
+    "temp_max": 24,
+    "temp_min": 11,
+    "feels_like_high": 24,
+    "feels_like_low": 9,
+    "wind_gust_mph": 27,
+    "humidity_high_pct": 89,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "6:22 AM",
-    "sunset": "6:58 PM",
+    "sunrise": "6:23 AM",
+    "sunset": "6:56 PM",
     "current": {
       "temp_c": 21,
-      "condition": "Partly cloudy",
+      "condition": "Mostly cloudy",
       "feels_like": 21,
-      "rain_chance": null,
-      "wind_gust_mph": 21,
+      "rain_chance": "25%",
+      "wind_gust_mph": 7,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 20,
-        "condition": "Fog",
-        "rain_chance": "18%",
-        "wind_mph": 6
-      },
       {
         "time": "1 AM",
         "temp_c": 19,
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-14",
-      "condition": "Mostly sunny",
-      "temp_min": 11,
-      "temp_max": 24
-    },
-    {
       "date": "2026-09-15",
       "condition": "Mostly sunny in the morning followed by high thin cloudiness",
       "temp_min": 13,
@@ -286,6 +273,12 @@
       "condition": "Mostly cloudy; a passing shower in the morning followed by periods of rain in the afternoon",
       "temp_min": 14,
       "temp_max": 18
+    },
+    {
+      "date": "2026-09-28",
+      "condition": "Mostly cloudy",
+      "temp_min": 14,
+      "temp_max": 22
     }
   ]
 }

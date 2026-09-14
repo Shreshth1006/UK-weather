@@ -4,44 +4,37 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/new-york/10021/current-weather/349727",
-  "scraped_at": "2026-09-14T03:31:36.422404+00:00",
+  "scraped_at": "2026-09-14T04:31:40.495688+00:00",
   "today": {
     "date": "2026-09-14",
-    "condition": "Mostly clear",
-    "temp_max": null,
-    "temp_min": 19,
-    "feels_like_high": null,
-    "feels_like_low": 18,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 84,
+    "condition": "Mostly sunny, breezy and less humid",
+    "temp_max": 23,
+    "temp_min": 13,
+    "feels_like_high": 23,
+    "feels_like_low": 13,
+    "wind_gust_mph": 28,
+    "humidity_high_pct": 87,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "6:34 AM",
-    "sunset": "7:09 PM",
+    "sunrise": "6:35 AM",
+    "sunset": "7:07 PM",
     "current": {
-      "temp_c": 24,
-      "condition": "Mostly clear",
-      "feels_like": 27,
-      "rain_chance": null,
-      "wind_gust_mph": 1,
+      "temp_c": 23,
+      "condition": "Partly cloudy",
+      "feels_like": 26,
+      "rain_chance": "1%",
+      "wind_gust_mph": 3,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 23,
-        "condition": "Intermittent clouds",
-        "rain_chance": "7%",
-        "wind_mph": 2
-      },
-      {
         "time": "1 AM",
         "temp_c": 23,
-        "condition": "Mostly cloudy",
+        "condition": "Intermittent clouds",
         "rain_chance": "11%",
         "wind_mph": 4
       },
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-14",
-      "condition": "Mostly sunny, breezy and less humid",
-      "temp_min": 13,
-      "temp_max": 23
-    },
-    {
       "date": "2026-09-15",
       "condition": "Mostly sunny and delightful",
       "temp_min": 17,
@@ -286,6 +273,12 @@
       "condition": "Partly sunny",
       "temp_min": 17,
       "temp_max": 22
+    },
+    {
+      "date": "2026-09-28",
+      "condition": "Sun giving way to increasing clouds",
+      "temp_min": 16,
+      "temp_max": 24
     }
   ]
 }
