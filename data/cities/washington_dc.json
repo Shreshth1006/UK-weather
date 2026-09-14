@@ -4,94 +4,38 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-09-13T18:31:31.395102+00:00",
+  "scraped_at": "2026-09-14T02:31:33.216888+00:00",
   "today": {
-    "date": "2026-09-13",
-    "condition": "Very warm; cloudy with a couple of brief showers early this morning, then sun breaking through clouds at times with a thunderstorm in spots late this afternoon",
-    "temp_max": 32,
+    "date": "2026-09-14",
+    "condition": "Mostly cloudy",
+    "temp_max": null,
     "temp_min": 22,
-    "feels_like_high": 37,
-    "feels_like_low": 22,
-    "wind_gust_mph": 10,
-    "humidity_high_pct": 60,
+    "feels_like_high": null,
+    "feels_like_low": 21,
+    "wind_gust_mph": null,
+    "humidity_high_pct": 78,
     "humidity_low_pct": null,
-    "uv_level": "Moderate",
+    "uv_level": null,
     "visibility_high": "13km",
     "visibility_low": null,
-    "air_pollution": "Fair",
+    "air_pollution": "Poor",
     "pollen": null,
     "sunrise": "6:47 AM",
     "sunset": "7:20 PM",
     "current": {
-      "temp_c": 32,
+      "temp_c": 27,
       "condition": "Mostly cloudy",
-      "feels_like": 37,
-      "rain_chance": "87%",
-      "wind_gust_mph": 4,
+      "feels_like": 31,
+      "rain_chance": null,
+      "wind_gust_mph": 1,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "3 PM",
-        "temp_c": 31,
-        "condition": "Intermittent clouds",
-        "rain_chance": "47%",
-        "wind_mph": 7
-      },
-      {
-        "time": "4 PM",
-        "temp_c": 31,
-        "condition": "Intermittent clouds",
-        "rain_chance": "45%",
-        "wind_mph": 7
-      },
-      {
-        "time": "5 PM",
-        "temp_c": 31,
-        "condition": "Mostly cloudy w/ t-storms",
-        "rain_chance": "51%",
-        "wind_mph": 7
-      },
-      {
-        "time": "6 PM",
-        "temp_c": 29,
-        "condition": "Intermittent clouds",
-        "rain_chance": "47%",
-        "wind_mph": 7
-      },
-      {
-        "time": "7 PM",
-        "temp_c": 28,
-        "condition": "Partly sunny",
-        "rain_chance": "29%",
-        "wind_mph": 6
-      },
-      {
-        "time": "8 PM",
-        "temp_c": 27,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 5
-      },
-      {
-        "time": "9 PM",
-        "temp_c": 27,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 5
-      },
-      {
-        "time": "10 PM",
-        "temp_c": 26,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
-      {
         "time": "11 PM",
-        "temp_c": 25,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
+        "temp_c": 26,
+        "condition": "Partly cloudy",
+        "rain_chance": "20%",
         "wind_mph": 6
       }
     ],
@@ -100,14 +44,14 @@
   "forecast": [
     {
       "date": "2026-09-14",
-      "condition": "Mostly sunny and less humid",
+      "condition": "Mostly sunny, breezy and less humid",
       "temp_min": 13,
-      "temp_max": 28
+      "temp_max": 27
     },
     {
       "date": "2026-09-15",
       "condition": "Partly sunny",
-      "temp_min": 16,
+      "temp_min": 14,
       "temp_max": 27
     },
     {
@@ -130,7 +74,7 @@
     },
     {
       "date": "2026-09-19",
-      "condition": "Turning cloudy and less humid",
+      "condition": "Turning cloudy and humid",
       "temp_min": 19,
       "temp_max": 28
     },
