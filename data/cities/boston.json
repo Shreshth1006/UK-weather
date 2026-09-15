@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-09-15T03:31:38.012447+00:00",
+  "scraped_at": "2026-09-15T04:31:32.914100+00:00",
   "today": {
     "date": "2026-09-15",
-    "condition": "Clear",
-    "temp_max": null,
-    "temp_min": 11,
-    "feels_like_high": null,
-    "feels_like_low": 9,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 49,
+    "condition": "Less humid; mostly sunny in the morning followed by high thin cloudiness",
+    "temp_max": 19,
+    "temp_min": 12,
+    "feels_like_high": 22,
+    "feels_like_low": 11,
+    "wind_gust_mph": 14,
+    "humidity_high_pct": 53,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
-    "sunrise": "6:23 AM",
-    "sunset": "6:56 PM",
+    "sunrise": "6:24 AM",
+    "sunset": "6:54 PM",
     "current": {
       "temp_c": 16,
       "condition": "Clear",
       "feels_like": 14,
-      "rain_chance": null,
-      "wind_gust_mph": 9,
+      "rain_chance": "1%",
+      "wind_gust_mph": 8,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 14,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 7
-      },
       {
         "time": "1 AM",
         "temp_c": 14,
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-15",
-      "condition": "Less humid; mostly sunny in the morning followed by high thin cloudiness",
-      "temp_min": 12,
-      "temp_max": 19
-    },
-    {
       "date": "2026-09-16",
       "condition": "Pleasant with sunshine and a few clouds",
       "temp_min": 16,
@@ -284,6 +271,12 @@
     {
       "date": "2026-09-28",
       "condition": "Mostly cloudy",
+      "temp_min": 14,
+      "temp_max": 22
+    },
+    {
+      "date": "2026-09-29",
+      "condition": "A thunderstorm in spots in the morning; otherwise, after a cloudy start, sun returns",
       "temp_min": 14,
       "temp_max": 22
     }
