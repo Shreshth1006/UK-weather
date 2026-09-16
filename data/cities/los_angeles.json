@@ -4,43 +4,113 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/los-angeles/90012/current-weather/347625",
-  "scraped_at": "2026-09-16T04:31:27.654251+00:00",
+  "scraped_at": "2026-09-16T18:31:35.895722+00:00",
   "today": {
     "date": "2026-09-16",
-    "condition": "Mostly cloudy",
-    "temp_max": null,
+    "condition": "Areas of low clouds, then sun",
+    "temp_max": 27,
     "temp_min": 19,
-    "feels_like_high": null,
+    "feels_like_high": 29,
     "feels_like_low": 18,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 82,
+    "wind_gust_mph": 10,
+    "humidity_high_pct": 59,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "High",
     "visibility_high": "16km",
     "visibility_low": null,
-    "air_pollution": "Poor",
+    "air_pollution": "Fair",
     "pollen": null,
-    "sunrise": "6:36 AM",
-    "sunset": "7:00 PM",
+    "sunrise": "6:37 AM",
+    "sunset": "6:58 PM",
     "current": {
-      "temp_c": 21,
-      "condition": "Mostly cloudy",
-      "feels_like": 21,
-      "rain_chance": null,
-      "wind_gust_mph": 4,
+      "temp_c": 23,
+      "condition": "Cloudy",
+      "feels_like": 25,
+      "rain_chance": "25%",
+      "wind_gust_mph": 6,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "10 PM",
-        "temp_c": 22,
+        "time": "12 PM",
+        "temp_c": 24,
+        "condition": "Mostly cloudy",
+        "rain_chance": "20%",
+        "wind_mph": 7
+      },
+      {
+        "time": "1 PM",
+        "temp_c": 26,
+        "condition": "Mostly cloudy",
+        "rain_chance": "13%",
+        "wind_mph": 8
+      },
+      {
+        "time": "2 PM",
+        "temp_c": 27,
+        "condition": "Mostly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 9
+      },
+      {
+        "time": "3 PM",
+        "temp_c": 27,
+        "condition": "Mostly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 9
+      },
+      {
+        "time": "4 PM",
+        "temp_c": 26,
+        "condition": "Mostly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 9
+      },
+      {
+        "time": "5 PM",
+        "temp_c": 25,
+        "condition": "Mostly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 9
+      },
+      {
+        "time": "6 PM",
+        "temp_c": 24,
+        "condition": "Mostly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 8
+      },
+      {
+        "time": "7 PM",
+        "temp_c": 23,
+        "condition": "Mostly clear",
+        "rain_chance": "0%",
+        "wind_mph": 8
+      },
+      {
+        "time": "8 PM",
+        "temp_c": 21,
         "condition": "Mostly clear",
         "rain_chance": "0%",
         "wind_mph": 7
       },
       {
-        "time": "11 PM",
+        "time": "9 PM",
         "temp_c": 21,
+        "condition": "Mostly clear",
+        "rain_chance": "0%",
+        "wind_mph": 7
+      },
+      {
+        "time": "10 PM",
+        "temp_c": 21,
+        "condition": "Mostly clear",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "11 PM",
+        "temp_c": 20,
         "condition": "Mostly clear",
         "rain_chance": "0%",
         "wind_mph": 6
@@ -50,33 +120,27 @@
   },
   "forecast": [
     {
-      "date": "2026-09-16",
-      "condition": "Areas of low clouds, then sun",
-      "temp_min": 19,
-      "temp_max": 27
-    },
-    {
       "date": "2026-09-17",
-      "condition": "Mostly sunny",
+      "condition": "Areas of low clouds, then sun",
       "temp_min": 18,
       "temp_max": 27
     },
     {
       "date": "2026-09-18",
-      "condition": "Mostly sunny",
+      "condition": "Areas of low clouds, then sun",
       "temp_min": 19,
       "temp_max": 28
     },
     {
       "date": "2026-09-19",
-      "condition": "Scintillating sunshine",
+      "condition": "Plenty of sun",
       "temp_min": 20,
-      "temp_max": 29
+      "temp_max": 28
     },
     {
       "date": "2026-09-20",
       "condition": "Partly sunny",
-      "temp_min": 21,
+      "temp_min": 19,
       "temp_max": 28
     },
     {
@@ -87,51 +151,57 @@
     },
     {
       "date": "2026-09-22",
-      "condition": "Mostly sunny and less humid",
+      "condition": "Partly sunny",
       "temp_min": 19,
       "temp_max": 27
     },
     {
       "date": "2026-09-23",
-      "condition": "Clouds and sun",
+      "condition": "Plenty of sunshine",
       "temp_min": 21,
       "temp_max": 29
     },
     {
       "date": "2026-09-24",
-      "condition": "Mostly sunny",
+      "condition": "Plenty of sunshine",
       "temp_min": 20,
-      "temp_max": 27
+      "temp_max": 28
     },
     {
       "date": "2026-09-25",
-      "condition": "Mostly sunny",
+      "condition": "Partly sunny",
       "temp_min": 19,
       "temp_max": 28
     },
     {
       "date": "2026-09-26",
-      "condition": "Sunny",
+      "condition": "Plenty of sunshine",
       "temp_min": 19,
       "temp_max": 28
     },
     {
       "date": "2026-09-27",
-      "condition": "Sunshine and a few clouds",
+      "condition": "Plenty of sun",
       "temp_min": 20,
-      "temp_max": 29
+      "temp_max": 27
     },
     {
       "date": "2026-09-28",
-      "condition": "Mostly sunny",
-      "temp_min": 16,
-      "temp_max": 26
+      "condition": "Plenty of sun",
+      "temp_min": 19,
+      "temp_max": 28
     },
     {
       "date": "2026-09-29",
       "condition": "Some sunshine",
       "temp_min": 18,
       "temp_max": 27
+    },
+    {
+      "date": "2026-09-30",
+      "condition": "Times of clouds and sun",
+      "temp_min": 18,
+      "temp_max": 26
     }
   ]
 }
