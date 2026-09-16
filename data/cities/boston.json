@@ -4,64 +4,57 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-09-16T03:31:30.094414+00:00",
+  "scraped_at": "2026-09-16T04:31:32.959386+00:00",
   "today": {
     "date": "2026-09-16",
-    "condition": "Mostly clear",
-    "temp_max": null,
-    "temp_min": 12,
-    "feels_like_high": null,
-    "feels_like_low": 11,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 77,
+    "condition": "Nice with intervals of clouds and sunshine",
+    "temp_max": 24,
+    "temp_min": 16,
+    "feels_like_high": 25,
+    "feels_like_low": 16,
+    "wind_gust_mph": 20,
+    "humidity_high_pct": 80,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "6:24 AM",
-    "sunset": "6:54 PM",
+    "sunrise": "6:25 AM",
+    "sunset": "6:53 PM",
     "current": {
       "temp_c": 14,
       "condition": "Mostly clear",
       "feels_like": 13,
-      "rain_chance": null,
-      "wind_gust_mph": 6,
+      "rain_chance": "0%",
+      "wind_gust_mph": 7,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 14,
-        "condition": "Partly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
-      {
         "time": "1 AM",
-        "temp_c": 13,
+        "temp_c": 12,
         "condition": "Partly cloudy",
         "rain_chance": "0%",
         "wind_mph": 6
       },
       {
         "time": "2 AM",
-        "temp_c": 13,
+        "temp_c": 12,
         "condition": "Partly cloudy",
         "rain_chance": "0%",
         "wind_mph": 6
       },
       {
         "time": "3 AM",
-        "temp_c": 13,
+        "temp_c": 12,
         "condition": "Partly cloudy",
         "rain_chance": "0%",
         "wind_mph": 6
       },
       {
         "time": "4 AM",
-        "temp_c": 13,
+        "temp_c": 12,
         "condition": "Partly cloudy",
         "rain_chance": "0%",
         "wind_mph": 6
@@ -75,7 +68,7 @@
       },
       {
         "time": "6 AM",
-        "temp_c": 13,
+        "temp_c": 12,
         "condition": "Partly cloudy",
         "rain_chance": "0%",
         "wind_mph": 6
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-16",
-      "condition": "Nice with intervals of clouds and sunshine",
-      "temp_min": 16,
-      "temp_max": 24
-    },
-    {
       "date": "2026-09-17",
       "condition": "Mostly cloudy and humid; a shower in the area late in the afternoon",
       "temp_min": 20,
@@ -286,6 +273,12 @@
       "condition": "A thunderstorm in spots in the morning; otherwise, after a cloudy start, sun returns",
       "temp_min": 14,
       "temp_max": 22
+    },
+    {
+      "date": "2026-09-30",
+      "condition": "More sun than clouds",
+      "temp_min": 13,
+      "temp_max": 18
     }
   ]
 }
