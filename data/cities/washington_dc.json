@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-09-17T03:31:52.990964+00:00",
+  "scraped_at": "2026-09-17T04:31:31.556160+00:00",
   "today": {
     "date": "2026-09-17",
-    "condition": "Mostly clear",
-    "temp_max": null,
-    "temp_min": 19,
-    "feels_like_high": null,
-    "feels_like_low": 19,
-    "wind_gust_mph": null,
+    "condition": "Very warm and humid with intervals of clouds and sunshine; a thunderstorm in spots late in the afternoon",
+    "temp_max": 32,
+    "temp_min": 22,
+    "feels_like_high": 34,
+    "feels_like_low": 22,
+    "wind_gust_mph": 10,
     "humidity_high_pct": 81,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "14km",
+    "uv_level": "High",
+    "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
-    "sunrise": "6:50 AM",
-    "sunset": "7:15 PM",
+    "sunrise": "6:51 AM",
+    "sunset": "7:14 PM",
     "current": {
-      "temp_c": 23,
+      "temp_c": 22,
       "condition": "Mostly clear",
-      "feels_like": 26,
-      "rain_chance": null,
-      "wind_gust_mph": 3,
+      "feels_like": 23,
+      "rain_chance": "55%",
+      "wind_gust_mph": 4,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 23,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
       {
         "time": "1 AM",
         "temp_c": 22,
@@ -84,7 +77,7 @@
         "time": "7 AM",
         "temp_c": 19,
         "condition": "Mostly sunny",
-        "rain_chance": "1%",
+        "rain_chance": "0%",
         "wind_mph": 6
       },
       {
@@ -204,88 +197,88 @@
   },
   "forecast": [
     {
-      "date": "2026-09-17",
-      "condition": "Very warm and humid with intervals of clouds and sunshine; a thunderstorm in spots late in the afternoon",
-      "temp_min": 22,
-      "temp_max": 32
-    },
-    {
       "date": "2026-09-18",
       "condition": "Times of clouds and sun",
-      "temp_min": 17,
-      "temp_max": 29
+      "temp_min": -8,
+      "temp_max": -1
     },
     {
       "date": "2026-09-19",
       "condition": "Times of clouds and sun",
-      "temp_min": 19,
-      "temp_max": 27
+      "temp_min": -7,
+      "temp_max": -3
     },
     {
       "date": "2026-09-20",
       "condition": "Humid with some sun, then turning cloudy; an afternoon thunderstorm",
-      "temp_min": 20,
-      "temp_max": 29
+      "temp_min": -7,
+      "temp_max": -2
     },
     {
       "date": "2026-09-21",
       "condition": "Mostly cloudy and humid with a thunderstorm",
-      "temp_min": 17,
-      "temp_max": 25
+      "temp_min": -8,
+      "temp_max": -4
     },
     {
       "date": "2026-09-22",
       "condition": "Mostly cloudy and humid; a couple of thunderstorms in the afternoon",
-      "temp_min": 17,
-      "temp_max": 25
+      "temp_min": -8,
+      "temp_max": -4
     },
     {
       "date": "2026-09-23",
       "condition": "A shower in spots in the morning; otherwise, cloudy",
-      "temp_min": 16,
-      "temp_max": 23
+      "temp_min": -9,
+      "temp_max": -5
     },
     {
       "date": "2026-09-24",
       "condition": "Intervals of clouds and sunshine",
-      "temp_min": 16,
-      "temp_max": 23
+      "temp_min": -9,
+      "temp_max": -5
     },
     {
       "date": "2026-09-25",
       "condition": "Sun and some clouds",
-      "temp_min": 16,
-      "temp_max": 25
+      "temp_min": -9,
+      "temp_max": -4
     },
     {
       "date": "2026-09-26",
       "condition": "Increasing amounts of sunshine",
-      "temp_min": 16,
-      "temp_max": 26
+      "temp_min": -9,
+      "temp_max": -4
     },
     {
       "date": "2026-09-27",
       "condition": "Sun breaking through clouds at times",
-      "temp_min": 15,
-      "temp_max": 26
+      "temp_min": -9,
+      "temp_max": -3
     },
     {
       "date": "2026-09-28",
       "condition": "Plenty of sunshine",
-      "temp_min": 16,
-      "temp_max": 26
+      "temp_min": -9,
+      "temp_max": -3
     },
     {
       "date": "2026-09-29",
       "condition": "Sunny to partly cloudy",
-      "temp_min": 13,
-      "temp_max": 27
+      "temp_min": -11,
+      "temp_max": -3
     },
     {
       "date": "2026-09-30",
       "condition": "Mostly cloudy",
-      "temp_min": 15,
-      "temp_max": 24
+      "temp_min": -9,
+      "temp_max": -4
+    },
+    {
+      "date": "2026-10-01",
+      "condition": "Clouds yielding to sun",
+      "temp_min": -9,
+      "temp_max": -5
     }
   ]
 }

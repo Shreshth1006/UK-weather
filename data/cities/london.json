@@ -4,7 +4,7 @@
   "country": "UK",
   "source": "Met Office",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcpvj0v07",
-  "scraped_at": "2026-09-17T03:31:23.858408+00:00",
+  "scraped_at": "2026-09-17T04:30:55.676011+00:00",
   "source_updated": "Updated: 2:01am on 17 September 2026",
   "today": {
     "date": "2026-09-17",
@@ -25,21 +25,15 @@
     "sunset": "19:10",
     "current": {
       "temp_c": 15,
-      "condition": "Cloudy",
+      "condition": "Light rain",
       "feels_like": 13,
-      "rain_chance": "20%",
-      "wind_gust_mph": 21,
+      "rain_chance": null,
+      "wind_gust_mph": 22,
       "pollen": null
     },
     "hourly": [
       {
         "time": "6am",
-        "temp_c": 14,
-        "rain_chance": "<5%",
-        "wind_mph": 7
-      },
-      {
-        "time": "4am",
         "temp_c": 15,
         "rain_chance": "20%",
         "wind_mph": 8

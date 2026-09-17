@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-09-17T03:31:54.953148+00:00",
+  "scraped_at": "2026-09-17T04:31:32.722625+00:00",
   "today": {
     "date": "2026-09-17",
-    "condition": "Partly cloudy",
-    "temp_max": null,
-    "temp_min": 17,
-    "feels_like_high": null,
-    "feels_like_low": 17,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 75,
+    "condition": "Mostly cloudy and humid; a shower in the area late in the afternoon",
+    "temp_max": 26,
+    "temp_min": 19,
+    "feels_like_high": 27,
+    "feels_like_low": 18,
+    "wind_gust_mph": 16,
+    "humidity_high_pct": 73,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Low",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "6:25 AM",
-    "sunset": "6:53 PM",
+    "sunrise": "6:26 AM",
+    "sunset": "6:51 PM",
     "current": {
       "temp_c": 22,
-      "condition": "Partly cloudy",
+      "condition": "Mostly cloudy",
       "feels_like": 21,
-      "rain_chance": null,
-      "wind_gust_mph": 8,
+      "rain_chance": "55%",
+      "wind_gust_mph": 9,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 20,
-        "condition": "Intermittent clouds",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
       {
         "time": "1 AM",
         "temp_c": 19,
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-17",
-      "condition": "Mostly cloudy and humid; a shower in the area late in the afternoon",
-      "temp_min": 19,
-      "temp_max": 26
-    },
-    {
       "date": "2026-09-18",
       "condition": "Mostly sunny, pleasant and less humid",
       "temp_min": 10,
@@ -286,6 +273,12 @@
       "condition": "More sun than clouds",
       "temp_min": 13,
       "temp_max": 18
+    },
+    {
+      "date": "2026-10-01",
+      "condition": "A blend of sun and clouds",
+      "temp_min": 13,
+      "temp_max": 17
     }
   ]
 }
