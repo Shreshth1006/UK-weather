@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-09-18T03:31:32.585669+00:00",
+  "scraped_at": "2026-09-18T04:31:26.228163+00:00",
   "today": {
     "date": "2026-09-18",
-    "condition": "Mostly cloudy",
-    "temp_max": null,
-    "temp_min": 19,
-    "feels_like_high": null,
-    "feels_like_low": 18,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 86,
+    "condition": "Mostly sunny, pleasant and less humid",
+    "temp_max": 26,
+    "temp_min": 11,
+    "feels_like_high": 27,
+    "feels_like_low": 9,
+    "wind_gust_mph": 22,
+    "humidity_high_pct": 89,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "16km",
     "visibility_low": null,
-    "air_pollution": "Poor",
+    "air_pollution": "Fair",
     "pollen": null,
-    "sunrise": "6:26 AM",
-    "sunset": "6:51 PM",
+    "sunrise": "6:27 AM",
+    "sunset": "6:49 PM",
     "current": {
-      "temp_c": 22,
+      "temp_c": 21,
       "condition": "Mostly cloudy",
-      "feels_like": 21,
-      "rain_chance": null,
-      "wind_gust_mph": 12,
+      "feels_like": 20,
+      "rain_chance": "1%",
+      "wind_gust_mph": 16,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 21,
-        "condition": "Cloudy",
-        "rain_chance": "38%",
-        "wind_mph": 7
-      },
       {
         "time": "1 AM",
         "temp_c": 21,
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-18",
-      "condition": "Mostly sunny, pleasant and less humid",
-      "temp_min": 11,
-      "temp_max": 26
-    },
-    {
       "date": "2026-09-19",
       "condition": "Sunshine mixing with clouds and cooler; best day of the weekend",
       "temp_min": 11,
@@ -229,7 +216,7 @@
     },
     {
       "date": "2026-09-22",
-      "condition": "Mostly cloudy and breezy at times",
+      "condition": "Mostly cloudy and breezy with a shower possible",
       "temp_min": 12,
       "temp_max": 17
     },
@@ -286,6 +273,12 @@
       "condition": "A blend of sun and clouds",
       "temp_min": 13,
       "temp_max": 17
+    },
+    {
+      "date": "2026-10-02",
+      "condition": "Cloudy",
+      "temp_min": 14,
+      "temp_max": 22
     }
   ]
 }
