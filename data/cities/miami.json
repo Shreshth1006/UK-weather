@@ -4,87 +4,80 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/miami/33128/current-weather/347936",
-  "scraped_at": "2026-09-19T03:31:34.016883+00:00",
+  "scraped_at": "2026-09-19T04:31:25.979941+00:00",
   "today": {
     "date": "2026-09-19",
-    "condition": "Cloudy",
-    "temp_max": null,
+    "condition": "Times of clouds and sun with a thunderstorm in parts of the area in the afternoon",
+    "temp_max": 31,
     "temp_min": 24,
-    "feels_like_high": null,
+    "feels_like_high": 39,
     "feels_like_low": 28,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 91,
+    "wind_gust_mph": 10,
+    "humidity_high_pct": 90,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "High",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
     "sunrise": "7:08 AM",
-    "sunset": "7:22 PM",
+    "sunset": "7:21 PM",
     "current": {
       "temp_c": 26,
-      "condition": "Cloudy",
+      "condition": "Mostly cloudy",
       "feels_like": 31,
-      "rain_chance": null,
+      "rain_chance": "55%",
       "wind_gust_mph": 6,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 24,
-        "condition": "Intermittent clouds",
-        "rain_chance": "34%",
-        "wind_mph": 5
-      },
-      {
         "time": "1 AM",
         "temp_c": 24,
-        "condition": "Intermittent clouds",
-        "rain_chance": "29%",
+        "condition": "Thunderstorms",
+        "rain_chance": "55%",
         "wind_mph": 5
       },
       {
         "time": "2 AM",
         "temp_c": 24,
-        "condition": "Intermittent clouds",
-        "rain_chance": "20%",
+        "condition": "Showers",
+        "rain_chance": "40%",
         "wind_mph": 5
       },
       {
         "time": "3 AM",
         "temp_c": 24,
         "condition": "Intermittent clouds",
-        "rain_chance": "20%",
+        "rain_chance": "37%",
         "wind_mph": 5
       },
       {
         "time": "4 AM",
         "temp_c": 24,
         "condition": "Intermittent clouds",
-        "rain_chance": "20%",
+        "rain_chance": "33%",
         "wind_mph": 5
       },
       {
         "time": "5 AM",
         "temp_c": 24,
         "condition": "Intermittent clouds",
-        "rain_chance": "20%",
+        "rain_chance": "32%",
         "wind_mph": 5
       },
       {
         "time": "6 AM",
         "temp_c": 24,
         "condition": "Intermittent clouds",
-        "rain_chance": "20%",
+        "rain_chance": "32%",
         "wind_mph": 5
       },
       {
         "time": "7 AM",
         "temp_c": 24,
         "condition": "Intermittent clouds",
-        "rain_chance": "16%",
+        "rain_chance": "21%",
         "wind_mph": 5
       },
       {
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-19",
-      "condition": "Times of clouds and sun with a thunderstorm in parts of the area in the afternoon",
-      "temp_min": 24,
-      "temp_max": 31
-    },
-    {
       "date": "2026-09-20",
       "condition": "Mostly cloudy with a couple of thunderstorms in the afternoon",
       "temp_min": 24,
@@ -286,6 +273,12 @@
       "condition": "Humid with a blend of sun and clouds; a thunderstorm in spots in the morning followed by a thundershower in spots in the afternoon",
       "temp_min": 26,
       "temp_max": 30
+    },
+    {
+      "date": "2026-10-03",
+      "condition": "A thunderstorm in spots in the morning; otherwise, humid with decreasing clouds",
+      "temp_min": 26,
+      "temp_max": 31
     }
   ]
 }

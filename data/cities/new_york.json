@@ -4,43 +4,36 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/new-york/10021/current-weather/349727",
-  "scraped_at": "2026-09-19T03:31:35.137129+00:00",
+  "scraped_at": "2026-09-19T04:31:26.458188+00:00",
   "today": {
     "date": "2026-09-19",
-    "condition": "Cloudy",
-    "temp_max": null,
-    "temp_min": 16,
-    "feels_like_high": null,
+    "condition": "Not as warm with lower humidity with times of clouds and sun; best day of the weekend",
+    "temp_max": 21,
+    "temp_min": 17,
+    "feels_like_high": 24,
     "feels_like_low": 14,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 49,
+    "wind_gust_mph": 12,
+    "humidity_high_pct": 50,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "6:39 AM",
-    "sunset": "7:00 PM",
+    "sunrise": "6:40 AM",
+    "sunset": "6:59 PM",
     "current": {
       "temp_c": 22,
-      "condition": "Cloudy",
-      "feels_like": 21,
-      "rain_chance": null,
-      "wind_gust_mph": 7,
+      "condition": "Mostly cloudy",
+      "feels_like": 20,
+      "rain_chance": "1%",
+      "wind_gust_mph": 8,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 21,
-        "condition": "Partly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 8
-      },
-      {
         "time": "1 AM",
-        "temp_c": 20,
+        "temp_c": 21,
         "condition": "Mostly clear",
         "rain_chance": "0%",
         "wind_mph": 8
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-19",
-      "condition": "Not as warm with lower humidity with times of clouds and sun; best day of the weekend",
-      "temp_min": 17,
-      "temp_max": 21
-    },
-    {
       "date": "2026-09-20",
       "condition": "Cloudy with heavy rain developing; there can be ponding on streets and highways",
       "temp_min": 14,
@@ -223,7 +210,7 @@
     },
     {
       "date": "2026-09-22",
-      "condition": "Overcast, brisk and cool with a little rain",
+      "condition": "Overcast, brisk and cool with rain and drizzle possible",
       "temp_min": 12,
       "temp_max": 17
     },
@@ -286,6 +273,12 @@
       "condition": "Cloudy and less humid",
       "temp_min": 16,
       "temp_max": 23
+    },
+    {
+      "date": "2026-10-03",
+      "condition": "Cloudy and not as warm; a morning shower in spots followed by a little rain in the afternoon",
+      "temp_min": 16,
+      "temp_max": 19
     }
   ]
 }

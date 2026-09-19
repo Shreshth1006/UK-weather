@@ -4,7 +4,7 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/chicago/60608/current-weather/348308",
-  "scraped_at": "2026-09-19T03:31:34.993429+00:00",
+  "scraped_at": "2026-09-19T04:31:26.155983+00:00",
   "today": {
     "date": "2026-09-19",
     "condition": "Mostly cloudy",
@@ -13,10 +13,10 @@
     "feels_like_high": null,
     "feels_like_low": 12,
     "wind_gust_mph": null,
-    "humidity_high_pct": 83,
+    "humidity_high_pct": 72,
     "humidity_low_pct": null,
     "uv_level": null,
-    "visibility_high": "18km",
+    "visibility_high": "19km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
@@ -27,16 +27,177 @@
       "condition": "Mostly cloudy",
       "feels_like": 21,
       "rain_chance": null,
-      "wind_gust_mph": 8,
+      "wind_gust_mph": 9,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "11 PM",
+        "time": "12 AM",
         "temp_c": 21,
-        "condition": "Mostly cloudy",
+        "condition": "Cloudy",
+        "rain_chance": "34%",
+        "wind_mph": 9
+      },
+      {
+        "time": "1 AM",
+        "temp_c": 19,
+        "condition": "Cloudy",
+        "rain_chance": "34%",
+        "wind_mph": 10
+      },
+      {
+        "time": "2 AM",
+        "temp_c": 19,
+        "condition": "Cloudy",
+        "rain_chance": "34%",
+        "wind_mph": 10
+      },
+      {
+        "time": "3 AM",
+        "temp_c": 18,
+        "condition": "Cloudy",
+        "rain_chance": "34%",
+        "wind_mph": 12
+      },
+      {
+        "time": "4 AM",
+        "temp_c": 18,
+        "condition": "Cloudy",
+        "rain_chance": "37%",
+        "wind_mph": 13
+      },
+      {
+        "time": "5 AM",
+        "temp_c": 18,
+        "condition": "Cloudy",
+        "rain_chance": "47%",
+        "wind_mph": 13
+      },
+      {
+        "time": "6 AM",
+        "temp_c": 17,
+        "condition": "Thunderstorms",
+        "rain_chance": "51%",
+        "wind_mph": 14
+      },
+      {
+        "time": "7 AM",
+        "temp_c": 18,
+        "condition": "Cloudy",
+        "rain_chance": "43%",
+        "wind_mph": 14
+      },
+      {
+        "time": "8 AM",
+        "temp_c": 18,
+        "condition": "Rain",
+        "rain_chance": "79%",
+        "wind_mph": 13
+      },
+      {
+        "time": "9 AM",
+        "temp_c": 18,
+        "condition": "Rain",
+        "rain_chance": "82%",
+        "wind_mph": 12
+      },
+      {
+        "time": "10 AM",
+        "temp_c": 19,
+        "condition": "Rain",
+        "rain_chance": "79%",
+        "wind_mph": 10
+      },
+      {
+        "time": "11 AM",
+        "temp_c": 20,
+        "condition": "Cloudy",
         "rain_chance": "40%",
         "wind_mph": 9
+      },
+      {
+        "time": "12 PM",
+        "temp_c": 21,
+        "condition": "Cloudy",
+        "rain_chance": "34%",
+        "wind_mph": 7
+      },
+      {
+        "time": "1 PM",
+        "temp_c": 22,
+        "condition": "Cloudy",
+        "rain_chance": "40%",
+        "wind_mph": 7
+      },
+      {
+        "time": "2 PM",
+        "temp_c": 22,
+        "condition": "Thunderstorms",
+        "rain_chance": "52%",
+        "wind_mph": 7
+      },
+      {
+        "time": "3 PM",
+        "temp_c": 23,
+        "condition": "Cloudy",
+        "rain_chance": "48%",
+        "wind_mph": 7
+      },
+      {
+        "time": "4 PM",
+        "temp_c": 23,
+        "condition": "Cloudy",
+        "rain_chance": "44%",
+        "wind_mph": 7
+      },
+      {
+        "time": "5 PM",
+        "temp_c": 24,
+        "condition": "Cloudy",
+        "rain_chance": "43%",
+        "wind_mph": 6
+      },
+      {
+        "time": "6 PM",
+        "temp_c": 23,
+        "condition": "Cloudy",
+        "rain_chance": "47%",
+        "wind_mph": 6
+      },
+      {
+        "time": "7 PM",
+        "temp_c": 23,
+        "condition": "Thunderstorms",
+        "rain_chance": "51%",
+        "wind_mph": 6
+      },
+      {
+        "time": "8 PM",
+        "temp_c": 22,
+        "condition": "Cloudy",
+        "rain_chance": "49%",
+        "wind_mph": 6
+      },
+      {
+        "time": "9 PM",
+        "temp_c": 22,
+        "condition": "Thunderstorms",
+        "rain_chance": "67%",
+        "wind_mph": 6
+      },
+      {
+        "time": "10 PM",
+        "temp_c": 22,
+        "condition": "Thunderstorms",
+        "rain_chance": "67%",
+        "wind_mph": 6
+      },
+      {
+        "time": "11 PM",
+        "temp_c": 21,
+        "condition": "Thunderstorms",
+        "rain_chance": "65%",
+        "wind_mph": 6
       }
     ],
     "warnings": []
