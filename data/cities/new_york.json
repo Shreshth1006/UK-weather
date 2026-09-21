@@ -4,94 +4,38 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/new-york/10021/current-weather/349727",
-  "scraped_at": "2026-09-20T18:31:30.531705+00:00",
+  "scraped_at": "2026-09-21T02:31:29.737320+00:00",
   "today": {
-    "date": "2026-09-20",
-    "condition": "Rain and drizzle",
-    "temp_max": 20,
-    "temp_min": 14,
-    "feels_like_high": 20,
-    "feels_like_low": 12,
-    "wind_gust_mph": 20,
+    "date": "2026-09-21",
+    "condition": "Cloudy",
+    "temp_max": null,
+    "temp_min": 15,
+    "feels_like_high": null,
+    "feels_like_low": 13,
+    "wind_gust_mph": null,
     "humidity_high_pct": 96,
     "humidity_low_pct": null,
-    "uv_level": "Low",
-    "visibility_high": "3km",
+    "uv_level": null,
+    "visibility_high": "8km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
     "sunrise": "6:41 AM",
     "sunset": "6:57 PM",
     "current": {
-      "temp_c": 19,
-      "condition": "Light rain",
-      "feels_like": 17,
-      "rain_chance": "100%",
-      "wind_gust_mph": 7,
+      "temp_c": 20,
+      "condition": "Cloudy",
+      "feels_like": 19,
+      "rain_chance": null,
+      "wind_gust_mph": 4,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "3 PM",
-        "temp_c": 19,
-        "condition": "Showers",
-        "rain_chance": "70%",
-        "wind_mph": 8
-      },
-      {
-        "time": "4 PM",
-        "temp_c": 19,
-        "condition": "Showers",
-        "rain_chance": "68%",
-        "wind_mph": 8
-      },
-      {
-        "time": "5 PM",
-        "temp_c": 19,
-        "condition": "Rain",
-        "rain_chance": "75%",
-        "wind_mph": 9
-      },
-      {
-        "time": "6 PM",
-        "temp_c": 19,
-        "condition": "Rain",
-        "rain_chance": "75%",
-        "wind_mph": 6
-      },
-      {
-        "time": "7 PM",
-        "temp_c": 19,
-        "condition": "Cloudy",
-        "rain_chance": "49%",
-        "wind_mph": 5
-      },
-      {
-        "time": "8 PM",
-        "temp_c": 20,
-        "condition": "Rain",
-        "rain_chance": "73%",
-        "wind_mph": 4
-      },
-      {
-        "time": "9 PM",
-        "temp_c": 18,
-        "condition": "Rain",
-        "rain_chance": "73%",
-        "wind_mph": 4
-      },
-      {
-        "time": "10 PM",
-        "temp_c": 19,
-        "condition": "Cloudy",
-        "rain_chance": "49%",
-        "wind_mph": 5
-      },
-      {
         "time": "11 PM",
         "temp_c": 19,
-        "condition": "Rain",
-        "rain_chance": "67%",
+        "condition": "Showers",
+        "rain_chance": "66%",
         "wind_mph": 5
       }
     ],
@@ -100,13 +44,13 @@
   "forecast": [
     {
       "date": "2026-09-21",
-      "condition": "Breezy in the morning; otherwise, cloudy and less humid; a shower cannot be ruled out",
-      "temp_min": 14,
+      "condition": "Breezy in the morning; otherwise, cloudy and less humid",
+      "temp_min": 13,
       "temp_max": 20
     },
     {
       "date": "2026-09-22",
-      "condition": "Remaining cloudy and breezy with a little rain",
+      "condition": "Remaining cloudy, brisk and cool with a little rain",
       "temp_min": 12,
       "temp_max": 17
     },
@@ -118,25 +62,25 @@
     },
     {
       "date": "2026-09-24",
-      "condition": "Mostly cloudy, brisk and cool with rain possible; watching a potential coastal storm for heavy rain and wind",
+      "condition": "Mostly cloudy, brisk and cool with rain possible",
       "temp_min": 12,
       "temp_max": 17
     },
     {
       "date": "2026-09-25",
-      "condition": "Breezy in the morning; otherwise, mostly cloudy",
-      "temp_min": 15,
-      "temp_max": 18
+      "condition": "Breezy in the morning; mostly cloudy and cool with rain possible",
+      "temp_min": 12,
+      "temp_max": 16
     },
     {
       "date": "2026-09-26",
-      "condition": "Cloudy",
+      "condition": "Cloudy with rain and drizzle possible",
       "temp_min": 13,
-      "temp_max": 19
+      "temp_max": 18
     },
     {
       "date": "2026-09-27",
-      "condition": "Plenty of sun",
+      "condition": "Mainly cloudy with rain and drizzle possible",
       "temp_min": 14,
       "temp_max": 21
     },
