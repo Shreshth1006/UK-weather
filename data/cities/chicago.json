@@ -4,66 +4,52 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/chicago/60608/current-weather/348308",
-  "scraped_at": "2026-09-21T04:31:29.503353+00:00",
+  "scraped_at": "2026-09-21T06:49:28.257335+00:00",
   "today": {
     "date": "2026-09-21",
-    "condition": "Cloudy",
-    "temp_max": null,
-    "temp_min": 16,
-    "feels_like_high": null,
-    "feels_like_low": 12,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 91,
+    "condition": "Mostly cloudy and windy; areas of drizzle in the morning followed by a couple of showers in the afternoon",
+    "temp_max": 18,
+    "temp_min": 13,
+    "feels_like_high": 17,
+    "feels_like_low": 7,
+    "wind_gust_mph": 31,
+    "humidity_high_pct": 83,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "16km",
+    "uv_level": "Moderate",
+    "visibility_high": "18km",
     "visibility_low": null,
-    "air_pollution": "Fair",
+    "air_pollution": "Excellent",
     "pollen": null,
-    "sunrise": "6:36 AM",
-    "sunset": "6:52 PM",
+    "sunrise": "6:37 AM",
+    "sunset": "6:50 PM",
     "current": {
       "temp_c": 17,
-      "condition": "Cloudy",
-      "feels_like": 16,
-      "rain_chance": null,
-      "wind_gust_mph": 14,
+      "condition": "Light rain",
+      "feels_like": 14,
+      "rain_chance": "62%",
+      "wind_gust_mph": 13,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 17,
-        "condition": "Showers",
-        "rain_chance": "57%",
-        "wind_mph": 17
-      },
-      {
-        "time": "1 AM",
-        "temp_c": 17,
-        "condition": "Cloudy",
-        "rain_chance": "49%",
-        "wind_mph": 17
-      },
-      {
         "time": "2 AM",
         "temp_c": 17,
-        "condition": "Cloudy",
-        "rain_chance": "29%",
+        "condition": "Showers",
+        "rain_chance": "40%",
         "wind_mph": 17
       },
       {
         "time": "3 AM",
-        "temp_c": 16,
+        "temp_c": 17,
         "condition": "Cloudy",
-        "rain_chance": "29%",
+        "rain_chance": "37%",
         "wind_mph": 16
       },
       {
         "time": "4 AM",
         "temp_c": 16,
         "condition": "Cloudy",
-        "rain_chance": "30%",
+        "rain_chance": "34%",
         "wind_mph": 16
       },
       {
@@ -204,12 +190,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-21",
-      "condition": "Mostly cloudy and windy; areas of drizzle in the morning followed by a couple of showers in the afternoon",
-      "temp_min": 13,
-      "temp_max": 18
-    },
-    {
       "date": "2026-09-22",
       "condition": "A shower in places in the morning; otherwise, breezy with times of clouds and sun",
       "temp_min": 13,
@@ -286,6 +266,12 @@
       "condition": "Periods of rain",
       "temp_min": 14,
       "temp_max": 18
+    },
+    {
+      "date": "2026-10-05",
+      "condition": "Plenty of sunshine",
+      "temp_min": 14,
+      "temp_max": 20
     }
   ]
 }

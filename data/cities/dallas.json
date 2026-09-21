@@ -4,51 +4,37 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/dallas/75202/current-weather/351194",
-  "scraped_at": "2026-09-21T04:31:31.436700+00:00",
+  "scraped_at": "2026-09-21T06:49:28.002802+00:00",
   "today": {
     "date": "2026-09-21",
-    "condition": "Cloudy",
-    "temp_max": null,
-    "temp_min": 23,
-    "feels_like_high": null,
+    "condition": "Partly sunny with the temperature near the record of 37; a morning shower, then a t-storm in spots; caution advised if outside for extended periods of time",
+    "temp_max": 36,
+    "temp_min": 24,
+    "feels_like_high": 40,
     "feels_like_low": 25,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 68,
+    "wind_gust_mph": 14,
+    "humidity_high_pct": 76,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "16km",
+    "uv_level": "High",
+    "visibility_high": "19km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
-    "sunrise": "7:14 AM",
-    "sunset": "7:27 PM",
+    "sunrise": "7:15 AM",
+    "sunset": "7:25 PM",
     "current": {
-      "temp_c": 27,
-      "condition": "Cloudy",
-      "feels_like": 29,
-      "rain_chance": null,
-      "wind_gust_mph": 6,
+      "temp_c": 26,
+      "condition": "Mostly cloudy",
+      "feels_like": 27,
+      "rain_chance": "55%",
+      "wind_gust_mph": 5,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 26,
-        "condition": "Mostly cloudy",
-        "rain_chance": "49%",
-        "wind_mph": 6
-      },
-      {
-        "time": "1 AM",
+        "time": "2 AM",
         "temp_c": 26,
         "condition": "Thunderstorms",
-        "rain_chance": "65%",
-        "wind_mph": 6
-      },
-      {
-        "time": "2 AM",
-        "temp_c": 25,
-        "condition": "Partly cloudy w/ t-storms",
         "rain_chance": "51%",
         "wind_mph": 6
       },
@@ -204,12 +190,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-21",
-      "condition": "Partly sunny with the temperature near the record of 99; a morning shower, then a t-storm in spots; caution advised if outside for extended periods of time",
-      "temp_min": 24,
-      "temp_max": 36
-    },
-    {
       "date": "2026-09-22",
       "condition": "Mostly sunny and toasty conditions",
       "temp_min": 23,
@@ -286,6 +266,12 @@
       "condition": "Cloudy and humid with showers and thunderstorms becoming more widespread",
       "temp_min": 20,
       "temp_max": 29
+    },
+    {
+      "date": "2026-10-05",
+      "condition": "Warm and humid with plenty of sun",
+      "temp_min": 20,
+      "temp_max": 31
     }
   ]
 }
