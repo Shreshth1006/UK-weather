@@ -4,81 +4,39 @@
   "country": "UK",
   "source": "Met Office",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcpue0tpf",
-  "scraped_at": "2026-09-21T11:31:18.794545+00:00",
-  "source_updated": "Updated: 11:07am on 21 September 2026",
+  "scraped_at": "2026-09-21T18:31:17.705537+00:00",
+  "source_updated": "Updated: 5:02pm on 21 September 2026",
   "today": {
     "date": "2026-09-21",
     "condition": "Sunny",
     "temp_max": 23,
-    "temp_min": 13,
-    "feels_like_high": 23,
-    "feels_like_low": 17,
-    "wind_gust_mph": 9,
-    "humidity_high_pct": 61,
-    "humidity_low_pct": 39,
+    "temp_min": 14,
+    "feels_like_high": 21,
+    "feels_like_low": 18,
+    "wind_gust_mph": 7,
+    "humidity_high_pct": 60,
+    "humidity_low_pct": 43,
     "uv_level": "4\nModerate",
-    "visibility_high": "28km",
-    "visibility_low": "21km",
+    "visibility_high": "27km",
+    "visibility_low": "19km",
     "air_pollution": "Low",
     "pollen": null,
     "sunrise": "06:46",
     "sunset": "19:01",
     "current": {
       "temp_c": 20,
-      "condition": "Sunny",
-      "feels_like": 19,
+      "condition": "Clear",
+      "feels_like": 20,
       "rain_chance": "<5%",
-      "wind_gust_mph": 9,
+      "wind_gust_mph": 7,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12pm",
-        "temp_c": 19,
-        "rain_chance": "<5%",
-        "wind_mph": 2
-      },
-      {
-        "time": "1pm",
-        "temp_c": 20,
-        "rain_chance": "<5%",
-        "wind_mph": 2
-      },
-      {
-        "time": "2pm",
-        "temp_c": 21,
-        "rain_chance": "<5%",
-        "wind_mph": 2
-      },
-      {
-        "time": "3pm",
-        "temp_c": 22,
-        "rain_chance": "<5%",
-        "wind_mph": 2
-      },
-      {
-        "time": "4pm",
-        "temp_c": 23,
-        "rain_chance": "<5%",
-        "wind_mph": 2
-      },
-      {
-        "time": "5pm",
-        "temp_c": 23,
-        "rain_chance": "<5%",
-        "wind_mph": 2
-      },
-      {
-        "time": "6pm",
-        "temp_c": 22,
-        "rain_chance": "<5%",
-        "wind_mph": 2
-      },
-      {
         "time": "7pm",
-        "temp_c": 21,
+        "temp_c": 22,
         "rain_chance": "<5%",
-        "wind_mph": 2
+        "wind_mph": 3
       },
       {
         "time": "8pm",
@@ -88,19 +46,19 @@
       },
       {
         "time": "9pm",
-        "temp_c": 19,
+        "temp_c": 20,
         "rain_chance": "<5%",
         "wind_mph": 2
       },
       {
         "time": "10pm",
-        "temp_c": 18,
+        "temp_c": 19,
         "rain_chance": "<5%",
         "wind_mph": 2
       },
       {
         "time": "11pm",
-        "temp_c": 17,
+        "temp_c": 18,
         "rain_chance": "<5%",
         "wind_mph": 2
       }
@@ -110,8 +68,8 @@
   "forecast": [
     {
       "date": "2026-09-22",
-      "temp_max": 24,
-      "temp_min": 14,
+      "temp_max": 25,
+      "temp_min": 16,
       "condition": "Sunny intervals"
     },
     {
@@ -123,7 +81,7 @@
     {
       "date": "2026-09-24",
       "temp_max": 21,
-      "temp_min": 10,
+      "temp_min": 9,
       "condition": "Sunny"
     },
     {
@@ -134,14 +92,14 @@
     },
     {
       "date": "2026-09-26",
-      "temp_max": 21,
-      "temp_min": 13,
+      "temp_max": 20,
+      "temp_min": 12,
       "condition": "Sunny intervals"
     },
     {
       "date": "2026-09-27",
       "temp_max": 21,
-      "temp_min": 12,
+      "temp_min": 14,
       "condition": "Sunny intervals"
     }
   ]
