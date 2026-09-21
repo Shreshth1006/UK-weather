@@ -19,12 +19,17 @@ using the SAME JSON schema/keys, so api/weather.py needs zero changes:
   data/cities/{city}.json    <- one per US city
 
 UNIT / NOMENCLATURE ENGINEERING (the actual point of this rewrite):
-  - AccuWeather shows everything in Fahrenheit and miles (US-native site).
-    Met Office's schema fields are Celsius/km, so EVERY temperature here
-    is converted °F -> °C, and visibility miles -> km, before writing.
-    (scraper_weathercom.py currently does NOT do this conversion — it
-    dumps raw Fahrenheit into a field named temp_c. Worth fixing there
-    too if you keep both scrapers.)
+  - AccuWeather shows everything in Fahrenheit and miles (US-native site)
+    MOST of the time — but even with Scrapfly's country="US" set, it
+    sometimes serves the metric-locale version of the page instead
+    (Akamai/personalization doesn't always honor the proxy's exit-IP
+    country). Confirmed in production: a run came back with Boston's
+    current temp already in Celsius, and the code still ran f_to_c() on
+    it, producing a nonsense -9C reading. Fix: detect_page_unit() reads
+    the actual unit letter AccuWeather embeds in the page header
+    (present on every page: current/hourly/10-day) and every temp/wind/
+    visibility value is normalized based on THAT, instead of blindly
+    assuming Fahrenheit/miles.
   - AccuWeather's "RealFeel®" = Met Office's "feels like". AccuWeather
     gives a separate Day AND Night RealFeel, so feels_like_low is
     actually populated here (weather.com always left it null).
@@ -97,12 +102,27 @@ def f_to_c(f):
     return round((f - 32) * 5 / 9)
 
 
+def kmh_to_mph(kmh):
+    """km/h -> mph, rounded to nearest int. None-safe."""
+    if kmh is None:
+        return None
+    return round(kmh / 1.60934)
+
+
 def mi_to_km_str(mi_text):
     """'10 mi' -> '16km' (Met Office visibility string style). None-safe."""
     mi = to_int(mi_text)
     if mi is None:
         return None
     return f"{round(mi * 1.60934)}km"
+
+
+def km_to_km_str(km_text):
+    """Already-metric visibility ('16 km') -> '16km' string, no conversion."""
+    km = to_int(km_text)
+    if km is None:
+        return None
+    return f"{km}km"
 
 
 def extract_parenthetical(text):
@@ -157,6 +177,72 @@ def get_detail_item(soup, label):
 
 
 # ─────────────────────────────────────────────
+#  UNIT DETECTION — the actual fix
+# ─────────────────────────────────────────────
+
+def detect_page_unit(soup) -> str:
+    """
+    AccuWeather serves either the Imperial (F / mph / mi) or Metric
+    (C / km/h / km) version of a page, and which one you get is NOT
+    reliable even with Scrapfly's country="US" set — Akamai/personalization
+    can override it. Blindly assuming Fahrenheit caused a real production
+    bug (Boston came back already in Celsius, got "converted" again into
+    a nonsense -9C).
+
+    Every AccuWeather page (current-weather, hourly, 10-day — confirmed
+    in real fetched HTML for all three) carries the persistent page header
+    with the unit spelled out: <span class="header-temp">74°<span
+    class="unit">F</span></span>. That's the one place the unit is
+    unambiguous in the raw HTML, so every other bare number on that same
+    page fetch is interpreted relative to whatever this returns.
+
+    Falls back to the current-weather page's own <div class="display-temp">
+    <span class="sub">F</span> if the header isn't found. Defaults to "F"
+    (the normal case for these US-city requests) only if neither is
+    present, since something else is more seriously wrong with the page
+    at that point.
+    """
+    for selector in (".header-temp .unit", ".display-temp .sub"):
+        el = soup.select_one(selector)
+        if el:
+            unit = el.get_text(strip=True).upper()
+            if unit in ("F", "C"):
+                return unit
+    print("  ⚠ Could not detect page unit (F/C) from HTML — defaulting to F")
+    return "F"
+
+
+def normalize_temp(raw_int, unit):
+    """Convert F->C only if the page actually rendered in Fahrenheit."""
+    if raw_int is None:
+        return None
+    return f_to_c(raw_int) if unit == "F" else raw_int
+
+
+def normalize_wind(raw_int, unit):
+    """
+    Wind numbers are mph on an Imperial-unit page, km/h on a Metric-unit
+    page. The JSON schema's wind_mph field always means mph (matching
+    Met Office's convention), so km/h gets converted down to mph here —
+    it is NOT simply passed through unlabeled the way it used to be.
+    """
+    if raw_int is None:
+        return None
+    return raw_int if unit == "F" else kmh_to_mph(raw_int)
+
+
+def normalize_visibility(raw_text, unit):
+    """
+    Visibility text is '10 mi' on an Imperial page, already '16 km' on a
+    Metric page. Either way this returns a Met-Office-style 'Nkm' string —
+    converting mi->km only when the source was actually in miles.
+    """
+    if unit == "F":
+        return mi_to_km_str(raw_text)
+    return km_to_km_str(raw_text)
+
+
+# ─────────────────────────────────────────────
 #  FETCH
 # ─────────────────────────────────────────────
 
@@ -177,6 +263,8 @@ def fetch_html(url: str) -> str:
 
 def parse_current(html: str, url: str) -> dict:
     soup = BeautifulSoup(html, "html.parser")
+    unit = detect_page_unit(soup)
+
     out = {
         "url": url, "condition": None, "temp_c": None, "feels_like": None,
         "temp_max": None, "temp_min": None, "rain_chance": None,
@@ -188,21 +276,20 @@ def parse_current(html: str, url: str) -> dict:
 
     # Current temp + condition
     disp = soup.select_one(".display-temp")
-    out["temp_c"] = f_to_c(to_int(disp.get_text())) if disp else None
+    out["temp_c"] = normalize_temp(to_int(disp.get_text()), unit) if disp else None
 
     cur_card = soup.select_one(".current-weather-card")
     cur_phrase = cur_card.select_one(".phrase") if cur_card else None
     out["condition"] = cur_phrase.get_text(strip=True) if cur_phrase else None
 
     # detail-item strip: RealFeel, Wind, Wind Gusts, Humidity, Visibility
-    out["feels_like"] = f_to_c(to_int(get_detail_item(soup, "RealFeel®")))
-    out["wind_mph"] = to_int(get_detail_item(soup, "Wind"))
-    out["wind_gust_mph_current"] = to_int(get_detail_item(soup, "Wind Gusts"))  # real gust, not sustained
+    out["feels_like"] = normalize_temp(to_int(get_detail_item(soup, "RealFeel®")), unit)
+    out["wind_mph"] = normalize_wind(to_int(get_detail_item(soup, "Wind")), unit)
+    out["wind_gust_mph_current"] = normalize_wind(
+        to_int(get_detail_item(soup, "Wind Gusts")), unit
+    )  # real gust, not sustained
     out["humidity_pct"] = to_int(get_detail_item(soup, "Humidity"))
-    out["visibility"] = mi_to_km_str(get_detail_item(soup, "Visibility"))
-
-    rain_m = re.search(r"Probability of Precipitation\s*<[^>]*>(\d+%)", str(soup))
-    # (fallback below via half-day-card panel-items instead — more reliable)
+    out["visibility"] = normalize_visibility(get_detail_item(soup, "Visibility"), unit)
 
     # Day / Night half-day-cards
     for card in soup.select(".half-day-card"):
@@ -224,15 +311,15 @@ def parse_current(html: str, url: str) -> dict:
         uv_raw = get_p_value(card, "Max UV Index")
 
         if title == "Day":
-            out["temp_max"] = f_to_c(hi_lo)
-            out["feels_like_day"] = f_to_c(realfeel)
+            out["temp_max"] = normalize_temp(hi_lo, unit)
+            out["feels_like_day"] = normalize_temp(realfeel, unit)
             out["day_condition"] = condition
-            out["wind_gust_mph"] = gusts
+            out["wind_gust_mph"] = normalize_wind(gusts, unit)
             out["rain_chance"] = pop
             out["uv_level"] = extract_parenthetical(uv_raw)
         elif title == "Night":
-            out["temp_min"] = f_to_c(hi_lo)
-            out["feels_like_night"] = f_to_c(realfeel)
+            out["temp_min"] = normalize_temp(hi_lo, unit)
+            out["feels_like_night"] = normalize_temp(realfeel, unit)
 
     # Sunrise/Sunset — first Rise/Set pair is today's
     times = soup.select(".sunrise-sunset__times-item")
@@ -255,6 +342,7 @@ def parse_current(html: str, url: str) -> dict:
 
 def parse_hourly(html: str) -> list:
     soup = BeautifulSoup(html, "html.parser")
+    unit = detect_page_unit(soup)
     hourly = []
     air_quality_seen = None
 
@@ -265,14 +353,14 @@ def parse_hourly(html: str) -> list:
         precip_el = row.select_one(".hourly-card-top .precip")
 
         header_panel = row.select_one(".hourly-detailed-card-header .panel.no-realfeel-phrase")
-        wind_mph = to_int(get_p_value(header_panel, "Wind"))
+        wind_mph = normalize_wind(to_int(get_p_value(header_panel, "Wind")), unit)
         aq = get_p_value(header_panel, "Air Quality")
         if aq and air_quality_seen is None:
             air_quality_seen = aq  # first (nearest) hour — used as "current" air quality
 
         hourly.append({
             "time":        time_el.get_text(strip=True) if time_el else None,
-            "temp_c":      f_to_c(to_int(temp_el.get_text())) if temp_el else None,
+            "temp_c":      normalize_temp(to_int(temp_el.get_text()), unit) if temp_el else None,
             "condition":   phrase_el.get_text(strip=True) if phrase_el else None,
             "rain_chance": precip_el.get_text(strip=True) if precip_el else None,
             "wind_mph":    wind_mph,
@@ -287,6 +375,7 @@ def parse_hourly(html: str) -> list:
 
 def parse_forecast(html: str) -> list:
     soup = BeautifulSoup(html, "html.parser")
+    unit = detect_page_unit(soup)
     forecast = []
 
     wrappers = soup.select(".daily-wrapper")
@@ -309,8 +398,8 @@ def parse_forecast(html: str) -> list:
         forecast.append({
             "date":      date_str,
             "condition": condition,
-            "temp_min":  f_to_c(lo),
-            "temp_max":  f_to_c(hi),
+            "temp_min":  normalize_temp(lo, unit),
+            "temp_max":  normalize_temp(hi, unit),
         })
 
     return forecast
