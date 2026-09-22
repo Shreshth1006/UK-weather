@@ -4,66 +4,59 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-09-22T03:31:29.117139+00:00",
+  "scraped_at": "2026-09-22T04:31:32.898449+00:00",
   "today": {
     "date": "2026-09-22",
-    "condition": "Light rain",
-    "temp_max": null,
-    "temp_min": 17,
-    "feels_like_high": null,
-    "feels_like_low": 16,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 91,
+    "condition": "Periods of rain; there can be ponding on roadways",
+    "temp_max": 19,
+    "temp_min": 13,
+    "feels_like_high": 18,
+    "feels_like_low": 10,
+    "wind_gust_mph": 24,
+    "humidity_high_pct": 94,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "11km",
+    "uv_level": "Low",
+    "visibility_high": "6km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
-    "sunrise": "6:55 AM",
-    "sunset": "7:07 PM",
+    "sunrise": "6:56 AM",
+    "sunset": "7:06 PM",
     "current": {
       "temp_c": 18,
-      "condition": "Light rain",
+      "condition": "Cloudy",
       "feels_like": 18,
-      "rain_chance": null,
+      "rain_chance": "91%",
       "wind_gust_mph": 7,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 19,
-        "condition": "Showers",
-        "rain_chance": "69%",
-        "wind_mph": 7
-      },
-      {
         "time": "1 AM",
         "temp_c": 19,
-        "condition": "Cloudy",
-        "rain_chance": "49%",
+        "condition": "Showers",
+        "rain_chance": "59%",
         "wind_mph": 7
       },
       {
         "time": "2 AM",
         "temp_c": 19,
-        "condition": "Cloudy",
-        "rain_chance": "49%",
+        "condition": "Showers",
+        "rain_chance": "70%",
         "wind_mph": 7
       },
       {
         "time": "3 AM",
         "temp_c": 19,
         "condition": "Rain",
-        "rain_chance": "75%",
+        "rain_chance": "80%",
         "wind_mph": 7
       },
       {
         "time": "4 AM",
         "temp_c": 19,
         "condition": "Rain",
-        "rain_chance": "75%",
+        "rain_chance": "80%",
         "wind_mph": 7
       },
       {
@@ -140,14 +133,14 @@
         "time": "3 PM",
         "temp_c": 19,
         "condition": "Cloudy",
-        "rain_chance": "47%",
+        "rain_chance": "49%",
         "wind_mph": 9
       },
       {
         "time": "4 PM",
         "temp_c": 19,
         "condition": "Rain",
-        "rain_chance": "51%",
+        "rain_chance": "53%",
         "wind_mph": 9
       },
       {
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-22",
-      "condition": "Periods of rain",
-      "temp_min": 13,
-      "temp_max": 19
-    },
-    {
       "date": "2026-09-23",
       "condition": "Cool with periods of rain",
       "temp_min": 14,
@@ -217,7 +204,7 @@
     },
     {
       "date": "2026-09-24",
-      "condition": "Cloudy, chance of a little rain, cool; breezy in the morning",
+      "condition": "Breezy in the morning; otherwise, remaining cloudy and cool",
       "temp_min": 11,
       "temp_max": 18
     },
@@ -286,6 +273,12 @@
       "condition": "Mostly cloudy",
       "temp_min": 15,
       "temp_max": 26
+    },
+    {
+      "date": "2026-10-06",
+      "condition": "Sun and some clouds",
+      "temp_min": 12,
+      "temp_max": 24
     }
   ]
 }
