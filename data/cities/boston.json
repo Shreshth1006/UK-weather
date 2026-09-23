@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-09-23T03:31:36.491341+00:00",
+  "scraped_at": "2026-09-23T04:31:41.330313+00:00",
   "today": {
     "date": "2026-09-23",
-    "condition": "Clear",
-    "temp_max": null,
-    "temp_min": 12,
-    "feels_like_high": null,
-    "feels_like_low": 8,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 71,
+    "condition": "Breezy at times with intervals of clouds and sun",
+    "temp_max": 18,
+    "temp_min": 9,
+    "feels_like_high": 18,
+    "feels_like_low": 7,
+    "wind_gust_mph": 39,
+    "humidity_high_pct": 76,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "6:31 AM",
-    "sunset": "6:42 PM",
+    "sunrise": "6:32 AM",
+    "sunset": "6:40 PM",
     "current": {
-      "temp_c": 13,
+      "temp_c": 12,
       "condition": "Clear",
-      "feels_like": 11,
-      "rain_chance": null,
-      "wind_gust_mph": 8,
+      "feels_like": 9,
+      "rain_chance": "1%",
+      "wind_gust_mph": 9,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 12,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 8
-      },
       {
         "time": "1 AM",
         "temp_c": 12,
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-23",
-      "condition": "Breezy at times with intervals of clouds and sun",
-      "temp_min": 9,
-      "temp_max": 18
-    },
-    {
       "date": "2026-09-24",
       "condition": "Breezy at times with periods of clouds and sunshine",
       "temp_min": 10,
@@ -217,7 +204,7 @@
     },
     {
       "date": "2026-09-25",
-      "condition": "Considerable cloudiness and breezy with a chance of rain",
+      "condition": "Breezy with occasional rain",
       "temp_min": 13,
       "temp_max": 18
     },
@@ -230,20 +217,20 @@
     {
       "date": "2026-09-27",
       "condition": "Clouds, chance of a little rain; windy",
-      "temp_min": 14,
+      "temp_min": 15,
       "temp_max": 17
     },
     {
       "date": "2026-09-28",
       "condition": "Cloudy and breezy at times",
       "temp_min": 14,
-      "temp_max": 17
+      "temp_max": 18
     },
     {
       "date": "2026-09-29",
       "condition": "Remaining cloudy with occasional rain",
-      "temp_min": 14,
-      "temp_max": 21
+      "temp_min": 15,
+      "temp_max": 20
     },
     {
       "date": "2026-09-30",
@@ -285,6 +272,12 @@
       "date": "2026-10-06",
       "condition": "Plenty of sun",
       "temp_min": 10,
+      "temp_max": 16
+    },
+    {
+      "date": "2026-10-07",
+      "condition": "Plenty of sunshine",
+      "temp_min": 9,
       "temp_max": 16
     }
   ]
