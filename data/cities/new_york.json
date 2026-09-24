@@ -4,46 +4,39 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/new-york/10021/current-weather/349727",
-  "scraped_at": "2026-09-24T03:31:35.104651+00:00",
+  "scraped_at": "2026-09-24T04:31:40.609267+00:00",
   "today": {
     "date": "2026-09-24",
-    "condition": "Partly cloudy",
-    "temp_max": null,
-    "temp_min": 11,
-    "feels_like_high": null,
+    "condition": "Breezy with periods of clouds and sun",
+    "temp_max": 19,
+    "temp_min": 12,
+    "feels_like_high": 19,
     "feels_like_low": 7,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 53,
+    "wind_gust_mph": 24,
+    "humidity_high_pct": 57,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "6:44 AM",
-    "sunset": "6:52 PM",
+    "sunrise": "6:45 AM",
+    "sunset": "6:50 PM",
     "current": {
-      "temp_c": 14,
-      "condition": "Partly cloudy",
-      "feels_like": 12,
-      "rain_chance": null,
-      "wind_gust_mph": 12,
+      "temp_c": 13,
+      "condition": "Mostly clear",
+      "feels_like": 9,
+      "rain_chance": "2%",
+      "wind_gust_mph": 14,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 14,
-        "condition": "Partly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 12
-      },
       {
         "time": "1 AM",
         "temp_c": 13,
         "condition": "Partly cloudy",
         "rain_chance": "0%",
-        "wind_mph": 12
+        "wind_mph": 13
       },
       {
         "time": "2 AM",
@@ -61,7 +54,7 @@
       },
       {
         "time": "4 AM",
-        "temp_c": 13,
+        "temp_c": 12,
         "condition": "Partly cloudy",
         "rain_chance": "0%",
         "wind_mph": 16
@@ -152,7 +145,7 @@
       },
       {
         "time": "5 PM",
-        "temp_c": 19,
+        "temp_c": 18,
         "condition": "Partly sunny",
         "rain_chance": "0%",
         "wind_mph": 14
@@ -194,7 +187,7 @@
       },
       {
         "time": "11 PM",
-        "temp_c": 15,
+        "temp_c": 14,
         "condition": "Mostly clear",
         "rain_chance": "0%",
         "wind_mph": 14
@@ -203,12 +196,6 @@
     "warnings": []
   },
   "forecast": [
-    {
-      "date": "2026-09-24",
-      "condition": "Breezy with periods of clouds and sun",
-      "temp_min": 12,
-      "temp_max": 19
-    },
     {
       "date": "2026-09-25",
       "condition": "Some sunshine giving way to clouds and windy",
@@ -286,6 +273,12 @@
       "condition": "Sunny",
       "temp_min": 11,
       "temp_max": 17
+    },
+    {
+      "date": "2026-10-08",
+      "condition": "Plenty of sun",
+      "temp_min": 13,
+      "temp_max": 19
     }
   ]
 }

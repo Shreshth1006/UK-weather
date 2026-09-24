@@ -4,57 +4,50 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/miami/33128/current-weather/347936",
-  "scraped_at": "2026-09-24T03:31:41.866472+00:00",
+  "scraped_at": "2026-09-24T04:31:41.082174+00:00",
   "today": {
     "date": "2026-09-24",
-    "condition": "Cloudy",
-    "temp_max": null,
+    "condition": "Cloudy and humid; a couple of afternoon thunderstorms",
+    "temp_max": 31,
     "temp_min": 24,
-    "feels_like_high": null,
-    "feels_like_low": 27,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 83,
+    "feels_like_high": 38,
+    "feels_like_low": 28,
+    "wind_gust_mph": 13,
+    "humidity_high_pct": 87,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Low",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
     "sunrise": "7:10 AM",
-    "sunset": "7:16 PM",
+    "sunset": "7:15 PM",
     "current": {
-      "temp_c": 27,
-      "condition": "Cloudy",
-      "feels_like": 32,
-      "rain_chance": null,
-      "wind_gust_mph": 4,
+      "temp_c": 25,
+      "condition": "Mostly cloudy",
+      "feels_like": 29,
+      "rain_chance": "68%",
+      "wind_gust_mph": 5,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 26,
-        "condition": "Cloudy",
-        "rain_chance": "34%",
-        "wind_mph": 5
-      },
-      {
         "time": "1 AM",
-        "temp_c": 25,
-        "condition": "Cloudy",
+        "temp_c": 26,
+        "condition": "Mostly cloudy",
         "rain_chance": "37%",
         "wind_mph": 5
       },
       {
         "time": "2 AM",
-        "temp_c": 25,
+        "temp_c": 26,
         "condition": "Cloudy",
         "rain_chance": "47%",
         "wind_mph": 5
       },
       {
         "time": "3 AM",
-        "temp_c": 24,
+        "temp_c": 25,
         "condition": "Thunderstorms",
         "rain_chance": "51%",
         "wind_mph": 5
@@ -84,7 +77,7 @@
         "time": "7 AM",
         "temp_c": 24,
         "condition": "Cloudy",
-        "rain_chance": "29%",
+        "rain_chance": "22%",
         "wind_mph": 5
       },
       {
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-24",
-      "condition": "Cloudy and humid; a couple of afternoon thunderstorms",
-      "temp_min": 24,
-      "temp_max": 31
-    },
-    {
       "date": "2026-09-25",
       "condition": "Humid with intervals of bright sunshine; a passing morning shower followed by a thunderstorm in parts of the area in the afternoon",
       "temp_min": 23,
@@ -284,6 +271,12 @@
     {
       "date": "2026-10-07",
       "condition": "A couple of morning showers and a thunderstorm; otherwise, rather cloudy and humid",
+      "temp_min": 26,
+      "temp_max": 28
+    },
+    {
+      "date": "2026-10-08",
+      "condition": "Cloudy and humid with showers and thunderstorms",
       "temp_min": 26,
       "temp_max": 28
     }
