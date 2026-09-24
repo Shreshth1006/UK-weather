@@ -4,8 +4,8 @@
   "country": "UK",
   "source": "Met Office",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcey94cuf",
-  "scraped_at": "2026-09-24T10:31:11.970125+00:00",
-  "source_updated": "Updated: 8:59am on 24 September 2026",
+  "scraped_at": "2026-09-24T11:31:12.134477+00:00",
+  "source_updated": "Updated: 10:01am on 24 September 2026",
   "today": {
     "date": "2026-09-24",
     "condition": "Overcast",
@@ -17,8 +17,8 @@
     "humidity_high_pct": 89,
     "humidity_low_pct": 74,
     "uv_level": "3\nModerate",
-    "visibility_high": "19km",
-    "visibility_low": "8.1km",
+    "visibility_high": "20km",
+    "visibility_low": "7.7km",
     "air_pollution": "Low",
     "pollen": null,
     "sunrise": "07:13",
@@ -27,34 +27,28 @@
       "temp_c": 16,
       "condition": "Overcast",
       "feels_like": 14,
-      "rain_chance": "10%",
-      "wind_gust_mph": 29,
+      "rain_chance": "<5%",
+      "wind_gust_mph": 30,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "11am",
-        "temp_c": 15,
-        "rain_chance": "10%",
-        "wind_mph": 11
-      },
-      {
         "time": "12pm",
         "temp_c": 16,
-        "rain_chance": "10%",
+        "rain_chance": "30%",
         "wind_mph": 11
       },
       {
         "time": "1pm",
         "temp_c": 16,
-        "rain_chance": "10%",
+        "rain_chance": "<5%",
         "wind_mph": 11
       },
       {
         "time": "2pm",
         "temp_c": 17,
         "rain_chance": "<5%",
-        "wind_mph": 11
+        "wind_mph": 13
       },
       {
         "time": "3pm",
@@ -66,12 +60,12 @@
         "time": "4pm",
         "temp_c": 17,
         "rain_chance": "10%",
-        "wind_mph": 11
+        "wind_mph": 13
       },
       {
         "time": "5pm",
         "temp_c": 17,
-        "rain_chance": "10%",
+        "rain_chance": "20%",
         "wind_mph": 11
       },
       {
@@ -96,7 +90,7 @@
         "time": "9pm",
         "temp_c": 16,
         "rain_chance": "80%",
-        "wind_mph": 9
+        "wind_mph": 10
       },
       {
         "time": "10pm",
@@ -107,7 +101,7 @@
       {
         "time": "11pm",
         "temp_c": 14,
-        "rain_chance": "90%",
+        "rain_chance": "80%",
         "wind_mph": 8
       }
     ],
@@ -116,7 +110,7 @@
   "forecast": [
     {
       "date": "2026-09-25",
-      "temp_max": 16,
+      "temp_max": 17,
       "temp_min": 12,
       "condition": "Sunny intervals"
     },
