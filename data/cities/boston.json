@@ -4,41 +4,105 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-09-24T11:31:25.660114+00:00",
+  "scraped_at": "2026-09-24T18:31:42.408812+00:00",
   "today": {
     "date": "2026-09-24",
-    "condition": null,
-    "temp_max": null,
-    "temp_min": null,
-    "feels_like_high": null,
-    "feels_like_low": null,
-    "wind_gust_mph": null,
-    "humidity_high_pct": null,
+    "condition": "Sunshine mixing with some clouds",
+    "temp_max": 18,
+    "temp_min": 11,
+    "feels_like_high": 18,
+    "feels_like_low": 8,
+    "wind_gust_mph": 31,
+    "humidity_high_pct": 44,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": null,
+    "uv_level": "Moderate",
+    "visibility_high": "16km",
     "visibility_low": null,
-    "air_pollution": null,
+    "air_pollution": "Fair",
     "pollen": null,
-    "sunrise": null,
-    "sunset": null,
+    "sunrise": "6:33 AM",
+    "sunset": "6:38 PM",
     "current": {
-      "temp_c": null,
-      "condition": null,
-      "feels_like": null,
-      "rain_chance": null,
-      "wind_gust_mph": null,
+      "temp_c": 18,
+      "condition": "Sunny",
+      "feels_like": 17,
+      "rain_chance": "0%",
+      "wind_gust_mph": 20,
       "pollen": null
     },
-    "hourly": [],
+    "hourly": [
+      {
+        "time": "3 PM",
+        "temp_c": 18,
+        "condition": "Partly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 13
+      },
+      {
+        "time": "4 PM",
+        "temp_c": 17,
+        "condition": "Intermittent clouds",
+        "rain_chance": "0%",
+        "wind_mph": 13
+      },
+      {
+        "time": "5 PM",
+        "temp_c": 17,
+        "condition": "Intermittent clouds",
+        "rain_chance": "0%",
+        "wind_mph": 12
+      },
+      {
+        "time": "6 PM",
+        "temp_c": 16,
+        "condition": "Intermittent clouds",
+        "rain_chance": "0%",
+        "wind_mph": 12
+      },
+      {
+        "time": "7 PM",
+        "temp_c": 14,
+        "condition": "Intermittent clouds",
+        "rain_chance": "0%",
+        "wind_mph": 9
+      },
+      {
+        "time": "8 PM",
+        "temp_c": 13,
+        "condition": "Mostly cloudy",
+        "rain_chance": "0%",
+        "wind_mph": 8
+      },
+      {
+        "time": "9 PM",
+        "temp_c": 13,
+        "condition": "Mostly cloudy",
+        "rain_chance": "0%",
+        "wind_mph": 8
+      },
+      {
+        "time": "10 PM",
+        "temp_c": 12,
+        "condition": "Mostly cloudy",
+        "rain_chance": "0%",
+        "wind_mph": 8
+      },
+      {
+        "time": "11 PM",
+        "temp_c": 12,
+        "condition": "Mostly cloudy",
+        "rain_chance": "0%",
+        "wind_mph": 8
+      }
+    ],
     "warnings": []
   },
   "forecast": [
     {
       "date": "2026-09-25",
-      "condition": "Stiff winds with considerable cloudiness; periods of rain in the afternoon",
+      "condition": "Considerable cloudiness; breezy in the afternoon with occasional rain",
       "temp_min": 14,
-      "temp_max": 17
+      "temp_max": 18
     },
     {
       "date": "2026-09-26",
@@ -48,7 +112,7 @@
     },
     {
       "date": "2026-09-27",
-      "condition": "Windy with periods of rain; gusty winds can blow around unsecured objects and decorations",
+      "condition": "Winds gusting past 40 mph; periods of rain; gusty winds can blow around unsecured objects and decorations",
       "temp_min": 13,
       "temp_max": 17
     },
@@ -60,13 +124,13 @@
     },
     {
       "date": "2026-09-29",
-      "condition": "Times of clouds and sun",
+      "condition": "Remaining cloudy",
       "temp_min": 14,
       "temp_max": 18
     },
     {
       "date": "2026-09-30",
-      "condition": "Plenty of sunshine",
+      "condition": "Beautiful with clouds and sun",
       "temp_min": 15,
       "temp_max": 21
     },
@@ -84,7 +148,7 @@
     },
     {
       "date": "2026-10-03",
-      "condition": "Sunny and less humid",
+      "condition": "Intervals of clouds and sunshine",
       "temp_min": 13,
       "temp_max": 21
     },
