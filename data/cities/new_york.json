@@ -4,16 +4,16 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/new-york/10021/current-weather/349727",
-  "scraped_at": "2026-09-25T11:31:33.957301+00:00",
+  "scraped_at": "2026-09-25T18:31:27.240303+00:00",
   "today": {
     "date": "2026-09-25",
-    "condition": "Mostly cloudy and windy",
-    "temp_max": 21,
+    "condition": "Turning cloudy and stiff winds",
+    "temp_max": 22,
     "temp_min": 12,
-    "feels_like_high": 19,
+    "feels_like_high": 20,
     "feels_like_low": 5,
     "wind_gust_mph": 38,
-    "humidity_high_pct": 57,
+    "humidity_high_pct": 38,
     "humidity_low_pct": null,
     "uv_level": "Moderate",
     "visibility_high": "16km",
@@ -23,74 +23,25 @@
     "sunrise": "6:46 AM",
     "sunset": "6:48 PM",
     "current": {
-      "temp_c": 14,
-      "condition": "Cloudy",
-      "feels_like": 11,
+      "temp_c": 20,
+      "condition": "Mostly cloudy",
+      "feels_like": 19,
       "rain_chance": "10%",
-      "wind_gust_mph": 16,
+      "wind_gust_mph": 19,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "8 AM",
-        "temp_c": 14,
-        "condition": "Intermittent clouds",
-        "rain_chance": "0%",
-        "wind_mph": 16
-      },
-      {
-        "time": "9 AM",
-        "temp_c": 15,
-        "condition": "Mostly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 18
-      },
-      {
-        "time": "10 AM",
-        "temp_c": 16,
-        "condition": "Mostly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 18
-      },
-      {
-        "time": "11 AM",
-        "temp_c": 17,
-        "condition": "Mostly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 20
-      },
-      {
-        "time": "12 PM",
-        "temp_c": 18,
-        "condition": "Mostly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 20
-      },
-      {
-        "time": "1 PM",
-        "temp_c": 19,
-        "condition": "Mostly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 21
-      },
-      {
-        "time": "2 PM",
-        "temp_c": 20,
-        "condition": "Mostly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 21
-      },
-      {
         "time": "3 PM",
         "temp_c": 21,
-        "condition": "Mostly cloudy",
+        "condition": "Intermittent clouds",
         "rain_chance": "0%",
         "wind_mph": 21
       },
       {
         "time": "4 PM",
-        "temp_c": 21,
-        "condition": "Mostly cloudy",
+        "temp_c": 22,
+        "condition": "Intermittent clouds",
         "rain_chance": "0%",
         "wind_mph": 21
       },
@@ -103,7 +54,7 @@
       },
       {
         "time": "6 PM",
-        "temp_c": 20,
+        "temp_c": 21,
         "condition": "Mostly cloudy",
         "rain_chance": "1%",
         "wind_mph": 20
@@ -117,31 +68,31 @@
       },
       {
         "time": "8 PM",
-        "temp_c": 19,
+        "temp_c": 18,
         "condition": "Cloudy",
-        "rain_chance": "21%",
-        "wind_mph": 17
+        "rain_chance": "23%",
+        "wind_mph": 18
       },
       {
         "time": "9 PM",
-        "temp_c": 18,
+        "temp_c": 17,
         "condition": "Cloudy",
-        "rain_chance": "21%",
-        "wind_mph": 17
+        "rain_chance": "23%",
+        "wind_mph": 18
       },
       {
         "time": "10 PM",
         "temp_c": 17,
         "condition": "Cloudy",
-        "rain_chance": "26%",
-        "wind_mph": 16
+        "rain_chance": "28%",
+        "wind_mph": 17
       },
       {
         "time": "11 PM",
-        "temp_c": 15,
+        "temp_c": 14,
         "condition": "Rain",
-        "rain_chance": "83%",
-        "wind_mph": 17
+        "rain_chance": "58%",
+        "wind_mph": 18
       }
     ],
     "warnings": []
@@ -149,21 +100,21 @@
   "forecast": [
     {
       "date": "2026-09-26",
-      "condition": "Windy and cooler with rain at times; travel disruptions from flooding on streets and strong wind gusts; extensive coastal flooding",
+      "condition": "Winds gusting past 40 mph; cooler with rain at times; travel disruptions from flooding on streets and strong wind gusts; extensive coastal flooding",
       "temp_min": 13,
-      "temp_max": 17
+      "temp_max": 16
     },
     {
       "date": "2026-09-27",
-      "condition": "Windy and cool with occasional rain",
+      "condition": "Windy and cool with occasional rain; gusty winds and rain can lead to travel disruptions; secure loose objects",
       "temp_min": 14,
       "temp_max": 17
     },
     {
       "date": "2026-09-28",
-      "condition": "On-and-off rain and drizzle; breezy in the morning",
+      "condition": "On-and-off rain and drizzle; breezy in the morning; wet roads and lower visibility may lead to travel disruptions",
       "temp_min": 14,
-      "temp_max": 17
+      "temp_max": 18
     },
     {
       "date": "2026-09-29",
@@ -173,20 +124,20 @@
     },
     {
       "date": "2026-09-30",
-      "condition": "Mostly cloudy",
+      "condition": "Pleasant with times of clouds and sun",
       "temp_min": 18,
       "temp_max": 24
     },
     {
       "date": "2026-10-01",
-      "condition": "Cloudy",
+      "condition": "Partly sunny and pleasant",
       "temp_min": 18,
-      "temp_max": 26
+      "temp_max": 24
     },
     {
       "date": "2026-10-02",
       "condition": "Clouds and sunshine",
-      "temp_min": 17,
+      "temp_min": 16,
       "temp_max": 24
     },
     {
@@ -197,7 +148,7 @@
     },
     {
       "date": "2026-10-04",
-      "condition": "Rain",
+      "condition": "Cloudy with showers",
       "temp_min": 14,
       "temp_max": 22
     },
