@@ -4,75 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/dallas/75202/current-weather/351194",
-  "scraped_at": "2026-09-25T04:31:22.881218+00:00",
+  "scraped_at": "2026-09-25T10:31:29.184117+00:00",
   "today": {
     "date": "2026-09-25",
-    "condition": "Partly cloudy",
-    "temp_max": null,
-    "temp_min": 21,
-    "feels_like_high": null,
-    "feels_like_low": 19,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 52,
+    "condition": "Partly sunny and very warm with low humidity; drought conditions worsening",
+    "temp_max": 34,
+    "temp_min": 22,
+    "feels_like_high": 35,
+    "feels_like_low": 21,
+    "wind_gust_mph": 16,
+    "humidity_high_pct": 61,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "23km",
+    "uv_level": "High",
+    "visibility_high": "27km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
-    "sunrise": "7:16 AM",
-    "sunset": "7:21 PM",
+    "sunrise": "7:17 AM",
+    "sunset": "7:20 PM",
     "current": {
-      "temp_c": 29,
-      "condition": "Partly cloudy",
-      "feels_like": 29,
-      "rain_chance": null,
+      "temp_c": 23,
+      "condition": "Mostly clear",
+      "feels_like": 22,
+      "rain_chance": "1%",
       "wind_gust_mph": 6,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 28,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 8
-      },
-      {
-        "time": "1 AM",
-        "temp_c": 27,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 7
-      },
-      {
-        "time": "2 AM",
-        "temp_c": 26,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 7
-      },
-      {
-        "time": "3 AM",
-        "temp_c": 24,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 7
-      },
-      {
-        "time": "4 AM",
-        "temp_c": 23,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 7
-      },
-      {
-        "time": "5 AM",
-        "temp_c": 23,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 7
-      },
       {
         "time": "6 AM",
         "temp_c": 22,
@@ -99,14 +57,14 @@
         "temp_c": 23,
         "condition": "Mostly sunny",
         "rain_chance": "0%",
-        "wind_mph": 7
+        "wind_mph": 6
       },
       {
         "time": "10 AM",
         "temp_c": 25,
         "condition": "Mostly sunny",
         "rain_chance": "0%",
-        "wind_mph": 7
+        "wind_mph": 6
       },
       {
         "time": "11 AM",
@@ -120,7 +78,7 @@
         "temp_c": 29,
         "condition": "Mostly sunny",
         "rain_chance": "0%",
-        "wind_mph": 5
+        "wind_mph": 6
       },
       {
         "time": "1 PM",
@@ -169,68 +127,62 @@
         "temp_c": 32,
         "condition": "Mostly sunny",
         "rain_chance": "0%",
-        "wind_mph": 9
+        "wind_mph": 7
       },
       {
         "time": "8 PM",
         "temp_c": 30,
         "condition": "Mostly clear",
         "rain_chance": "0%",
-        "wind_mph": 9
+        "wind_mph": 7
       },
       {
         "time": "9 PM",
         "temp_c": 28,
-        "condition": "Partly cloudy",
+        "condition": "Mostly clear",
         "rain_chance": "0%",
-        "wind_mph": 10
+        "wind_mph": 6
       },
       {
         "time": "10 PM",
         "temp_c": 28,
-        "condition": "Partly cloudy",
+        "condition": "Mostly clear",
         "rain_chance": "0%",
-        "wind_mph": 13
+        "wind_mph": 6
       },
       {
         "time": "11 PM",
         "temp_c": 27,
-        "condition": "Partly cloudy",
+        "condition": "Mostly clear",
         "rain_chance": "0%",
-        "wind_mph": 12
+        "wind_mph": 6
       }
     ],
     "warnings": []
   },
   "forecast": [
     {
-      "date": "2026-09-25",
-      "condition": "Partly sunny and very warm with low humidity; drought conditions worsening",
-      "temp_min": 21,
-      "temp_max": 34
-    },
-    {
       "date": "2026-09-26",
       "condition": "Very warm with some sunshine",
-      "temp_min": 22,
-      "temp_max": 34
+      "temp_min": 23,
+      "temp_max": 33
     },
     {
       "date": "2026-09-27",
-      "condition": "A couple of showers in the morning; otherwise, partly sunny and remaining very warm",
-      "temp_min": 24,
-      "temp_max": 36
+      "condition": "Partly sunny and very warm",
+      "temp_min": 25,
+      "temp_max": 35
     },
     {
       "date": "2026-09-28",
-      "condition": "Sunshine and toasty conditions; caution advised if outside for extended periods of time",
+      "condition": "Mostly sunny and very warm",
       "temp_min": 25,
-      "temp_max": 36
+      "temp_max": 35
     },
     {
       "date": "2026-09-29",
       "condition": "Very warm with times of clouds and sun; a thunderstorm in spots in the afternoon",
-      "temp_min": 24,
+      "temp_min": 25,
       "temp_max": 33
     },
     {
@@ -241,51 +193,57 @@
     },
     {
       "date": "2026-10-01",
-      "condition": "Humid with a blend of sun and clouds; a couple of thunderstorms in the afternoon",
+      "condition": "Times of sun and clouds with a couple of thunderstorms in the afternoon",
       "temp_min": 21,
       "temp_max": 32
     },
     {
       "date": "2026-10-02",
-      "condition": "Cloudy and humid; rain and a thunderstorm in the morning followed by a thunderstorm in parts of the area in the afternoon",
+      "condition": "Cloudy with a touch of rain",
       "temp_min": 21,
       "temp_max": 30
     },
     {
       "date": "2026-10-03",
-      "condition": "Mostly cloudy and humid",
-      "temp_min": 18,
+      "condition": "Humid with sunshine and a few clouds",
+      "temp_min": 20,
       "temp_max": 29
     },
     {
       "date": "2026-10-04",
-      "condition": "Sun and some clouds",
-      "temp_min": 19,
+      "condition": "Less humid with intervals of bright sunshine",
+      "temp_min": 18,
       "temp_max": 29
     },
     {
       "date": "2026-10-05",
-      "condition": "Plenty of sun",
-      "temp_min": 19,
-      "temp_max": 29
+      "condition": "Not as warm with solid cloud cover; a shower in spots in the morning followed by a little rain in the afternoon",
+      "temp_min": 17,
+      "temp_max": 25
     },
     {
       "date": "2026-10-06",
-      "condition": "Plenty of sun",
-      "temp_min": 19,
-      "temp_max": 29
+      "condition": "A touch of morning rain; otherwise, cloudy most of the time",
+      "temp_min": 17,
+      "temp_max": 24
     },
     {
       "date": "2026-10-07",
-      "condition": "Variable cloudiness with a couple of showers and a thunderstorm in the afternoon",
+      "condition": "Cloudy with a touch of rain",
+      "temp_min": 18,
+      "temp_max": 26
+    },
+    {
+      "date": "2026-10-08",
+      "condition": "Mostly cloudy with a couple of showers and a thunderstorm in the afternoon",
       "temp_min": 16,
       "temp_max": 28
     },
     {
-      "date": "2026-10-08",
-      "condition": "Mostly cloudy and humid; a couple of showers and a thunderstorm in the afternoon",
-      "temp_min": 19,
-      "temp_max": 29
+      "date": "2026-10-09",
+      "condition": "Mostly sunny, warm and less humid",
+      "temp_min": 18,
+      "temp_max": 30
     }
   ]
 }
