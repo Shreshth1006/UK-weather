@@ -4,57 +4,50 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-09-25T03:31:27.203285+00:00",
+  "scraped_at": "2026-09-25T04:31:35.275957+00:00",
   "today": {
     "date": "2026-09-25",
-    "condition": "Mostly cloudy",
-    "temp_max": null,
-    "temp_min": 11,
-    "feels_like_high": null,
-    "feels_like_low": 8,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 73,
+    "condition": "Considerable cloudiness; breezy in the afternoon with occasional rain",
+    "temp_max": 18,
+    "temp_min": 13,
+    "feels_like_high": 18,
+    "feels_like_low": 7,
+    "wind_gust_mph": 35,
+    "humidity_high_pct": 76,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Low",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
-    "sunrise": "6:33 AM",
-    "sunset": "6:38 PM",
+    "sunrise": "6:34 AM",
+    "sunset": "6:37 PM",
     "current": {
       "temp_c": 12,
-      "condition": "Mostly cloudy",
+      "condition": "Partly cloudy",
       "feels_like": 9,
-      "rain_chance": null,
+      "rain_chance": "70%",
       "wind_gust_mph": 8,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 12,
-        "condition": "Mostly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 8
-      },
-      {
         "time": "1 AM",
-        "temp_c": 12,
+        "temp_c": 9,
         "condition": "Mostly cloudy",
         "rain_chance": "0%",
         "wind_mph": 8
       },
       {
         "time": "2 AM",
-        "temp_c": 12,
+        "temp_c": 11,
         "condition": "Mostly cloudy",
         "rain_chance": "0%",
         "wind_mph": 8
       },
       {
         "time": "3 AM",
-        "temp_c": 12,
+        "temp_c": 11,
         "condition": "Mostly cloudy",
         "rain_chance": "0%",
         "wind_mph": 8
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-25",
-      "condition": "Considerable cloudiness; breezy in the afternoon with occasional rain",
-      "temp_min": 13,
-      "temp_max": 18
-    },
-    {
       "date": "2026-09-26",
       "condition": "Windy with rain; rain and wind can lead to flooding and power outages",
       "temp_min": 13,
@@ -286,6 +273,12 @@
       "condition": "Brilliant sunshine",
       "temp_min": 12,
       "temp_max": 17
+    },
+    {
+      "date": "2026-10-09",
+      "condition": "Periods of rain",
+      "temp_min": 13,
+      "temp_max": 16
     }
   ]
 }

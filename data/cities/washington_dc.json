@@ -4,50 +4,43 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-09-25T03:31:26.540087+00:00",
+  "scraped_at": "2026-09-25T04:31:26.018849+00:00",
   "today": {
     "date": "2026-09-25",
-    "condition": "Partly cloudy",
-    "temp_max": null,
-    "temp_min": 11,
-    "feels_like_high": null,
-    "feels_like_low": 8,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 73,
+    "condition": "Partly sunny and nice",
+    "temp_max": 23,
+    "temp_min": 12,
+    "feels_like_high": 24,
+    "feels_like_low": 11,
+    "wind_gust_mph": 25,
+    "humidity_high_pct": 76,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "18km",
+    "uv_level": "Moderate",
+    "visibility_high": "14km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
-    "sunrise": "6:57 AM",
-    "sunset": "7:02 PM",
+    "sunrise": "6:58 AM",
+    "sunset": "7:01 PM",
     "current": {
-      "temp_c": 16,
+      "temp_c": 14,
       "condition": "Partly cloudy",
-      "feels_like": 16,
-      "rain_chance": null,
-      "wind_gust_mph": 3,
+      "feels_like": 15,
+      "rain_chance": "1%",
+      "wind_gust_mph": 4,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 14,
+        "time": "1 AM",
+        "temp_c": 12,
         "condition": "Intermittent clouds",
         "rain_chance": "0%",
         "wind_mph": 6
       },
       {
-        "time": "1 AM",
-        "temp_c": 13,
-        "condition": "Mostly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
-      {
         "time": "2 AM",
-        "temp_c": 13,
+        "temp_c": 12,
         "condition": "Mostly cloudy",
         "rain_chance": "0%",
         "wind_mph": 6
@@ -61,7 +54,7 @@
       },
       {
         "time": "4 AM",
-        "temp_c": 12,
+        "temp_c": 11,
         "condition": "Mostly cloudy",
         "rain_chance": "0%",
         "wind_mph": 7
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-25",
-      "condition": "Partly sunny and nice",
-      "temp_min": 12,
-      "temp_max": 23
-    },
-    {
       "date": "2026-09-26",
       "condition": "Pleasant with intervals of clouds and sunshine",
       "temp_min": 15,
@@ -285,6 +272,12 @@
       "date": "2026-10-08",
       "condition": "Plenty of sunshine",
       "temp_min": 12,
+      "temp_max": 22
+    },
+    {
+      "date": "2026-10-09",
+      "condition": "A little rain in the morning; otherwise, mostly cloudy",
+      "temp_min": 14,
       "temp_max": 22
     }
   ]

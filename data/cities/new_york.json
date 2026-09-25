@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/new-york/10021/current-weather/349727",
-  "scraped_at": "2026-09-25T03:31:23.642122+00:00",
+  "scraped_at": "2026-09-25T04:31:22.595799+00:00",
   "today": {
     "date": "2026-09-25",
-    "condition": "Partly cloudy",
-    "temp_max": null,
-    "temp_min": 13,
-    "feels_like_high": null,
+    "condition": "Mostly cloudy and windy",
+    "temp_max": 21,
+    "temp_min": 14,
+    "feels_like_high": 20,
     "feels_like_low": 8,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 45,
+    "wind_gust_mph": 32,
+    "humidity_high_pct": 47,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
-    "sunrise": "6:45 AM",
-    "sunset": "6:50 PM",
+    "sunrise": "6:46 AM",
+    "sunset": "6:48 PM",
     "current": {
-      "temp_c": 16,
+      "temp_c": 14,
       "condition": "Partly cloudy",
-      "feels_like": 13,
-      "rain_chance": null,
-      "wind_gust_mph": 13,
+      "feels_like": 12,
+      "rain_chance": "25%",
+      "wind_gust_mph": 12,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 15,
-        "condition": "Intermittent clouds",
-        "rain_chance": "0%",
-        "wind_mph": 15
-      },
       {
         "time": "1 AM",
         "temp_c": 14,
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-25",
-      "condition": "Mostly cloudy and windy",
-      "temp_min": 14,
-      "temp_max": 21
-    },
-    {
       "date": "2026-09-26",
       "condition": "Windy and cooler with rain at times; travel disruptions from flooding on streets and strong wind gusts; extensive coastal flooding",
       "temp_min": 13,
@@ -286,6 +273,12 @@
       "condition": "Plenty of sun",
       "temp_min": 13,
       "temp_max": 19
+    },
+    {
+      "date": "2026-10-09",
+      "condition": "Cloudy and cooler with a couple of showers, then a steadier rain",
+      "temp_min": 15,
+      "temp_max": 18
     }
   ]
 }
