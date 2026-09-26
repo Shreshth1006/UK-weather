@@ -4,18 +4,18 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-09-25T18:31:31.269293+00:00",
+  "scraped_at": "2026-09-26T02:31:50.847567+00:00",
   "today": {
-    "date": "2026-09-25",
-    "condition": "Considerable cloudiness, becoming windy this afternoon with periods of rain late in the afternoon",
-    "temp_max": 18,
+    "date": "2026-09-26",
+    "condition": "Cloudy",
+    "temp_max": null,
     "temp_min": 13,
-    "feels_like_high": 17,
+    "feels_like_high": null,
     "feels_like_low": 7,
-    "wind_gust_mph": 39,
-    "humidity_high_pct": 55,
+    "wind_gust_mph": null,
+    "humidity_high_pct": 64,
     "humidity_low_pct": null,
-    "uv_level": "Low",
+    "uv_level": null,
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Fair",
@@ -23,75 +23,19 @@
     "sunrise": "6:34 AM",
     "sunset": "6:37 PM",
     "current": {
-      "temp_c": 18,
+      "temp_c": 17,
       "condition": "Cloudy",
-      "feels_like": 16,
-      "rain_chance": "70%",
-      "wind_gust_mph": 33,
+      "feels_like": 13,
+      "rain_chance": null,
+      "wind_gust_mph": 27,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "3 PM",
-        "temp_c": 18,
-        "condition": "Cloudy",
-        "rain_chance": "25%",
-        "wind_mph": 22
-      },
-      {
-        "time": "4 PM",
-        "temp_c": 17,
-        "condition": "Cloudy",
-        "rain_chance": "31%",
-        "wind_mph": 22
-      },
-      {
-        "time": "5 PM",
-        "temp_c": 16,
-        "condition": "Rain",
-        "rain_chance": "68%",
-        "wind_mph": 21
-      },
-      {
-        "time": "6 PM",
-        "temp_c": 17,
-        "condition": "Showers",
-        "rain_chance": "59%",
-        "wind_mph": 22
-      },
-      {
-        "time": "7 PM",
-        "temp_c": 16,
-        "condition": "Rain",
-        "rain_chance": "68%",
-        "wind_mph": 22
-      },
-      {
-        "time": "8 PM",
-        "temp_c": 14,
-        "condition": "Cloudy",
-        "rain_chance": "49%",
-        "wind_mph": 22
-      },
-      {
-        "time": "9 PM",
-        "temp_c": 14,
-        "condition": "Rain",
-        "rain_chance": "62%",
-        "wind_mph": 22
-      },
-      {
-        "time": "10 PM",
-        "temp_c": 14,
-        "condition": "Rain",
-        "rain_chance": "63%",
-        "wind_mph": 23
-      },
-      {
         "time": "11 PM",
-        "temp_c": 14,
+        "temp_c": 16,
         "condition": "Rain",
-        "rain_chance": "56%",
+        "rain_chance": "79%",
         "wind_mph": 22
       }
     ],
@@ -101,7 +45,7 @@
     {
       "date": "2026-09-26",
       "condition": "Windy with rain; rain and wind can lead to flooding and power outages",
-      "temp_min": 13,
+      "temp_min": 12,
       "temp_max": 16
     },
     {
@@ -130,21 +74,21 @@
     },
     {
       "date": "2026-10-01",
-      "condition": "Sun and areas of high clouds in the morning followed by a blanket of clouds",
+      "condition": "Nice with times of sun and clouds",
       "temp_min": 17,
-      "temp_max": 24
+      "temp_max": 23
     },
     {
       "date": "2026-10-02",
-      "condition": "Less humid with plenty of sunshine",
-      "temp_min": 17,
+      "condition": "Plenty of sunshine",
+      "temp_min": 15,
       "temp_max": 24
     },
     {
       "date": "2026-10-03",
       "condition": "Clouds rolling in",
       "temp_min": 14,
-      "temp_max": 22
+      "temp_max": 21
     },
     {
       "date": "2026-10-04",

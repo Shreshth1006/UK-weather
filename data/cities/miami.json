@@ -4,18 +4,18 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/miami/33128/current-weather/347936",
-  "scraped_at": "2026-09-25T18:31:28.417256+00:00",
+  "scraped_at": "2026-09-26T02:31:47.316434+00:00",
   "today": {
-    "date": "2026-09-25",
-    "condition": "Humid with intervals of bright sunshine; a shower in the area late this morning followed by a thunderstorm in spots this afternoon",
-    "temp_max": 31,
+    "date": "2026-09-26",
+    "condition": "Partly cloudy",
+    "temp_max": null,
     "temp_min": 23,
-    "feels_like_high": 39,
-    "feels_like_low": 25,
-    "wind_gust_mph": 16,
-    "humidity_high_pct": 70,
+    "feels_like_high": null,
+    "feels_like_low": 26,
+    "wind_gust_mph": null,
+    "humidity_high_pct": 85,
     "humidity_low_pct": null,
-    "uv_level": "High",
+    "uv_level": null,
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Fair",
@@ -23,75 +23,19 @@
     "sunrise": "7:10 AM",
     "sunset": "7:14 PM",
     "current": {
-      "temp_c": 31,
-      "condition": "Mostly cloudy",
-      "feels_like": 39,
-      "rain_chance": "70%",
-      "wind_gust_mph": 7,
+      "temp_c": 28,
+      "condition": "Partly cloudy",
+      "feels_like": 33,
+      "rain_chance": null,
+      "wind_gust_mph": 11,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "3 PM",
-        "temp_c": 30,
-        "condition": "Intermittent clouds",
-        "rain_chance": "47%",
-        "wind_mph": 10
-      },
-      {
-        "time": "4 PM",
-        "temp_c": 30,
-        "condition": "Partly sunny",
-        "rain_chance": "40%",
-        "wind_mph": 10
-      },
-      {
-        "time": "5 PM",
-        "temp_c": 29,
-        "condition": "Partly sunny",
-        "rain_chance": "34%",
-        "wind_mph": 10
-      },
-      {
-        "time": "6 PM",
-        "temp_c": 28,
-        "condition": "Partly sunny",
-        "rain_chance": "34%",
-        "wind_mph": 9
-      },
-      {
-        "time": "7 PM",
-        "temp_c": 27,
-        "condition": "Intermittent clouds",
-        "rain_chance": "26%",
-        "wind_mph": 9
-      },
-      {
-        "time": "8 PM",
-        "temp_c": 27,
-        "condition": "Mostly clear",
-        "rain_chance": "10%",
-        "wind_mph": 8
-      },
-      {
-        "time": "9 PM",
-        "temp_c": 25,
-        "condition": "Mostly clear",
-        "rain_chance": "10%",
-        "wind_mph": 8
-      },
-      {
-        "time": "10 PM",
-        "temp_c": 24,
-        "condition": "Mostly clear",
-        "rain_chance": "10%",
-        "wind_mph": 8
-      },
-      {
         "time": "11 PM",
-        "temp_c": 24,
-        "condition": "Mostly clear",
-        "rain_chance": "10%",
+        "temp_c": 27,
+        "condition": "Partly cloudy",
+        "rain_chance": "32%",
         "wind_mph": 7
       }
     ],
@@ -100,14 +44,14 @@
   "forecast": [
     {
       "date": "2026-09-26",
-      "condition": "Mostly sunny with a thunderstorm around in the afternoon",
+      "condition": "Mostly sunny with a shower in the area in the afternoon",
       "temp_min": 23,
       "temp_max": 31
     },
     {
       "date": "2026-09-27",
       "condition": "Sunshine and some clouds with a thunderstorm in spots in the afternoon",
-      "temp_min": 23,
+      "temp_min": 24,
       "temp_max": 29
     },
     {
@@ -125,14 +69,14 @@
     {
       "date": "2026-09-30",
       "condition": "Cloudy and humid; a thunderstorm in parts of the area in the afternoon",
-      "temp_min": 24,
+      "temp_min": 25,
       "temp_max": 29
     },
     {
       "date": "2026-10-01",
-      "condition": "Cloudy and humid; a couple of morning thunderstorms followed by a couple of showers in the afternoon",
-      "temp_min": 26,
-      "temp_max": 29
+      "condition": "Cloudy and humid; a couple of morning thunderstorms, then afternoon showers",
+      "temp_min": 25,
+      "temp_max": 30
     },
     {
       "date": "2026-10-02",
@@ -143,8 +87,8 @@
     {
       "date": "2026-10-03",
       "condition": "Partly sunny and humid with a couple of showers",
-      "temp_min": 26,
-      "temp_max": 31
+      "temp_min": 25,
+      "temp_max": 30
     },
     {
       "date": "2026-10-04",
@@ -155,14 +99,14 @@
     {
       "date": "2026-10-05",
       "condition": "Humid with intervals of bright sunshine",
-      "temp_min": 24,
+      "temp_min": 25,
       "temp_max": 30
     },
     {
       "date": "2026-10-06",
       "condition": "Mostly sunny and humid; an afternoon shower in the area",
       "temp_min": 25,
-      "temp_max": 29
+      "temp_max": 30
     },
     {
       "date": "2026-10-07",
