@@ -4,94 +4,45 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-09-26T11:32:05.726450+00:00",
+  "scraped_at": "2026-09-26T18:31:23.287320+00:00",
   "today": {
     "date": "2026-09-26",
     "condition": "Windy with rain, becoming heavy at times; rain and wind can lead to flooding and power outages",
-    "temp_max": 16,
+    "temp_max": 15,
     "temp_min": 13,
     "feels_like_high": 9,
     "feels_like_low": 6,
     "wind_gust_mph": 52,
-    "humidity_high_pct": 86,
+    "humidity_high_pct": 96,
     "humidity_low_pct": null,
     "uv_level": "Low",
-    "visibility_high": "5km",
+    "visibility_high": "3km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
     "sunrise": "6:36 AM",
     "sunset": "6:35 PM",
     "current": {
-      "temp_c": 14,
-      "condition": "Light rain",
-      "feels_like": 8,
+      "temp_c": 13,
+      "condition": "Rain",
+      "feels_like": 5,
       "rain_chance": "100%",
-      "wind_gust_mph": 28,
+      "wind_gust_mph": 38,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "8 AM",
-        "temp_c": 14,
-        "condition": "Rain",
-        "rain_chance": "76%",
-        "wind_mph": 21
-      },
-      {
-        "time": "9 AM",
-        "temp_c": 14,
-        "condition": "Showers",
-        "rain_chance": "69%",
-        "wind_mph": 22
-      },
-      {
-        "time": "10 AM",
-        "temp_c": 14,
-        "condition": "Rain",
-        "rain_chance": "78%",
-        "wind_mph": 22
-      },
-      {
-        "time": "11 AM",
-        "temp_c": 15,
-        "condition": "Rain",
-        "rain_chance": "83%",
-        "wind_mph": 23
-      },
-      {
-        "time": "12 PM",
-        "temp_c": 14,
-        "condition": "Rain",
-        "rain_chance": "83%",
-        "wind_mph": 24
-      },
-      {
-        "time": "1 PM",
-        "temp_c": 14,
-        "condition": "Rain",
-        "rain_chance": "83%",
-        "wind_mph": 25
-      },
-      {
-        "time": "2 PM",
-        "temp_c": 14,
-        "condition": "Rain",
-        "rain_chance": "90%",
-        "wind_mph": 27
-      },
-      {
         "time": "3 PM",
         "temp_c": 14,
         "condition": "Rain",
-        "rain_chance": "90%",
+        "rain_chance": "85%",
         "wind_mph": 27
       },
       {
         "time": "4 PM",
         "temp_c": 14,
         "condition": "Rain",
-        "rain_chance": "90%",
+        "rain_chance": "84%",
         "wind_mph": 25
       },
       {
@@ -119,28 +70,28 @@
         "time": "8 PM",
         "temp_c": 13,
         "condition": "Rain",
-        "rain_chance": "80%",
+        "rain_chance": "86%",
         "wind_mph": 24
       },
       {
         "time": "9 PM",
         "temp_c": 13,
-        "condition": "Showers",
-        "rain_chance": "70%",
+        "condition": "Rain",
+        "rain_chance": "86%",
         "wind_mph": 23
       },
       {
         "time": "10 PM",
         "temp_c": 13,
         "condition": "Rain",
-        "rain_chance": "80%",
+        "rain_chance": "86%",
         "wind_mph": 23
       },
       {
         "time": "11 PM",
         "temp_c": 13,
         "condition": "Rain",
-        "rain_chance": "85%",
+        "rain_chance": "86%",
         "wind_mph": 25
       }
     ],
@@ -149,7 +100,7 @@
   "forecast": [
     {
       "date": "2026-09-27",
-      "condition": "Windy with rain; rain and wind can lead to flooding and power outages",
+      "condition": "Rain, heavy at times; breezy in the morning; rain and wind can lead to flooding and power outages",
       "temp_min": 14,
       "temp_max": 17
     },
@@ -161,25 +112,25 @@
     },
     {
       "date": "2026-09-29",
-      "condition": "A shower in the area in the morning; otherwise, remaining cloudy",
+      "condition": "A shower in the area in the morning; otherwise, cloudy",
       "temp_min": 13,
       "temp_max": 18
     },
     {
       "date": "2026-09-30",
-      "condition": "Mostly cloudy",
+      "condition": "Some sun, then turning cloudy",
       "temp_min": 13,
       "temp_max": 21
     },
     {
       "date": "2026-10-01",
-      "condition": "Nice with times of sun and clouds",
+      "condition": "Mostly sunny and pleasant",
       "temp_min": 17,
       "temp_max": 23
     },
     {
       "date": "2026-10-02",
-      "condition": "Plenty of sunshine",
+      "condition": "Occasional rain and drizzle in the morning; otherwise, mostly cloudy",
       "temp_min": 15,
       "temp_max": 24
     },
@@ -197,9 +148,9 @@
     },
     {
       "date": "2026-10-05",
-      "condition": "A thick cloud cover with a shower in the area in the afternoon",
-      "temp_min": 13,
-      "temp_max": 19
+      "condition": "Mostly sunny",
+      "temp_min": 12,
+      "temp_max": 18
     },
     {
       "date": "2026-10-06",
