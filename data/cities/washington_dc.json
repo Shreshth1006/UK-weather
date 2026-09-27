@@ -4,94 +4,38 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-09-26T18:31:23.249099+00:00",
+  "scraped_at": "2026-09-27T02:31:31.615165+00:00",
   "today": {
-    "date": "2026-09-26",
-    "condition": "Breezy this morning; mainly cloudy with showers",
-    "temp_max": 19,
-    "temp_min": 15,
-    "feels_like_high": 18,
-    "feels_like_low": 13,
-    "wind_gust_mph": 35,
-    "humidity_high_pct": 61,
+    "date": "2026-09-27",
+    "condition": "Light rain",
+    "temp_max": null,
+    "temp_min": 14,
+    "feels_like_high": null,
+    "feels_like_low": 10,
+    "wind_gust_mph": null,
+    "humidity_high_pct": 87,
     "humidity_low_pct": null,
-    "uv_level": "Low",
-    "visibility_high": "21km",
+    "uv_level": null,
+    "visibility_high": "13km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
     "sunrise": "6:59 AM",
     "sunset": "6:59 PM",
     "current": {
-      "temp_c": 19,
-      "condition": "Cloudy",
-      "feels_like": 18,
-      "rain_chance": "100%",
-      "wind_gust_mph": 18,
+      "temp_c": 15,
+      "condition": "Light rain",
+      "feels_like": 14,
+      "rain_chance": null,
+      "wind_gust_mph": 9,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "3 PM",
-        "temp_c": 19,
-        "condition": "Showers",
-        "rain_chance": "85%",
-        "wind_mph": 12
-      },
-      {
-        "time": "4 PM",
-        "temp_c": 19,
-        "condition": "Showers",
-        "rain_chance": "85%",
-        "wind_mph": 12
-      },
-      {
-        "time": "5 PM",
-        "temp_c": 19,
-        "condition": "Cloudy",
-        "rain_chance": "40%",
-        "wind_mph": 12
-      },
-      {
-        "time": "6 PM",
-        "temp_c": 19,
-        "condition": "Cloudy",
-        "rain_chance": "34%",
-        "wind_mph": 12
-      },
-      {
-        "time": "7 PM",
-        "temp_c": 19,
-        "condition": "Cloudy",
-        "rain_chance": "40%",
-        "wind_mph": 10
-      },
-      {
-        "time": "8 PM",
-        "temp_c": 17,
-        "condition": "Rain",
-        "rain_chance": "54%",
-        "wind_mph": 9
-      },
-      {
-        "time": "9 PM",
-        "temp_c": 16,
-        "condition": "Showers",
-        "rain_chance": "48%",
-        "wind_mph": 9
-      },
-      {
-        "time": "10 PM",
-        "temp_c": 16,
-        "condition": "Cloudy",
-        "rain_chance": "47%",
-        "wind_mph": 9
-      },
-      {
         "time": "11 PM",
-        "temp_c": 16,
-        "condition": "Cloudy",
-        "rain_chance": "34%",
+        "temp_c": 15,
+        "condition": "Mostly cloudy",
+        "rain_chance": "49%",
         "wind_mph": 9
       }
     ],
@@ -100,9 +44,9 @@
   "forecast": [
     {
       "date": "2026-09-27",
-      "condition": "Rather cloudy with a brief shower or two",
+      "condition": "Rather cloudy and cool with a brief shower or two",
       "temp_min": 16,
-      "temp_max": 20
+      "temp_max": 19
     },
     {
       "date": "2026-09-28",
@@ -112,7 +56,7 @@
     },
     {
       "date": "2026-09-29",
-      "condition": "Warmer with times of clouds and sun",
+      "condition": "Pleasant with times of clouds and sun",
       "temp_min": 14,
       "temp_max": 25
     },
@@ -130,21 +74,21 @@
     },
     {
       "date": "2026-10-02",
-      "condition": "Partly sunny and very warm; a couple of showers in the afternoon",
-      "temp_min": 17,
-      "temp_max": 30
+      "condition": "Partly sunny and humid; a couple of showers in the afternoon",
+      "temp_min": 16,
+      "temp_max": 28
     },
     {
       "date": "2026-10-03",
-      "condition": "Not as warm but humid with considerable cloudiness",
-      "temp_min": 17,
-      "temp_max": 25
+      "condition": "Not as warm with low humidity with considerable cloudiness",
+      "temp_min": 15,
+      "temp_max": 23
     },
     {
       "date": "2026-10-04",
-      "condition": "Less humid with clouds followed by a brightening sky",
+      "condition": "Clouds followed by a brightening sky",
       "temp_min": 16,
-      "temp_max": 26
+      "temp_max": 23
     },
     {
       "date": "2026-10-05",
