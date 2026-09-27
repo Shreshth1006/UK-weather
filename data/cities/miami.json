@@ -4,71 +4,64 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/miami/33128/current-weather/347936",
-  "scraped_at": "2026-09-27T03:31:25.722808+00:00",
+  "scraped_at": "2026-09-27T04:31:31.227299+00:00",
   "today": {
     "date": "2026-09-27",
-    "condition": "Partly cloudy",
-    "temp_max": null,
+    "condition": "Partly sunny",
+    "temp_max": 30,
     "temp_min": 23,
-    "feels_like_high": null,
-    "feels_like_low": 24,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 73,
+    "feels_like_high": 36,
+    "feels_like_low": 26,
+    "wind_gust_mph": 10,
+    "humidity_high_pct": 70,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "16km",
+    "uv_level": "Very High",
+    "visibility_high": "13km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
     "sunrise": "7:11 AM",
-    "sunset": "7:13 PM",
+    "sunset": "7:12 PM",
     "current": {
       "temp_c": 27,
       "condition": "Partly cloudy",
-      "feels_like": 30,
-      "rain_chance": null,
-      "wind_gust_mph": 7,
+      "feels_like": 29,
+      "rain_chance": "25%",
+      "wind_gust_mph": 4,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 24,
-        "condition": "Mostly cloudy w/ showers",
-        "rain_chance": "61%",
-        "wind_mph": 6
-      },
-      {
         "time": "1 AM",
-        "temp_c": 24,
+        "temp_c": 26,
         "condition": "Intermittent clouds",
         "rain_chance": "49%",
         "wind_mph": 6
       },
       {
         "time": "2 AM",
-        "temp_c": 23,
+        "temp_c": 25,
         "condition": "Mostly clear",
         "rain_chance": "34%",
         "wind_mph": 6
       },
       {
         "time": "3 AM",
-        "temp_c": 23,
+        "temp_c": 24,
         "condition": "Mostly clear",
         "rain_chance": "34%",
         "wind_mph": 6
       },
       {
         "time": "4 AM",
-        "temp_c": 23,
+        "temp_c": 24,
         "condition": "Mostly clear",
         "rain_chance": "38%",
         "wind_mph": 6
       },
       {
         "time": "5 AM",
-        "temp_c": 23,
+        "temp_c": 24,
         "condition": "Mostly clear",
         "rain_chance": "49%",
         "wind_mph": 6
@@ -96,7 +89,7 @@
       },
       {
         "time": "9 AM",
-        "temp_c": 25,
+        "temp_c": 26,
         "condition": "Mostly sunny",
         "rain_chance": "20%",
         "wind_mph": 6
@@ -176,39 +169,33 @@
         "temp_c": 27,
         "condition": "Intermittent clouds",
         "rain_chance": "2%",
-        "wind_mph": 4
+        "wind_mph": 5
       },
       {
         "time": "9 PM",
         "temp_c": 27,
         "condition": "Intermittent clouds",
         "rain_chance": "2%",
-        "wind_mph": 4
+        "wind_mph": 5
       },
       {
         "time": "10 PM",
         "temp_c": 26,
         "condition": "Intermittent clouds",
         "rain_chance": "2%",
-        "wind_mph": 4
+        "wind_mph": 5
       },
       {
         "time": "11 PM",
         "temp_c": 26,
         "condition": "Intermittent clouds",
         "rain_chance": "2%",
-        "wind_mph": 4
+        "wind_mph": 5
       }
     ],
     "warnings": []
   },
   "forecast": [
-    {
-      "date": "2026-09-27",
-      "condition": "Partly sunny",
-      "temp_min": 23,
-      "temp_max": 30
-    },
     {
       "date": "2026-09-28",
       "condition": "Times of clouds and sun with a shower in spots",
@@ -286,6 +273,12 @@
       "condition": "Sunny to partly cloudy and humid",
       "temp_min": 26,
       "temp_max": 30
+    },
+    {
+      "date": "2026-10-11",
+      "condition": "Humid with clouds and sun; a thundershower in spots in the afternoon",
+      "temp_min": 25,
+      "temp_max": 29
     }
   ]
 }

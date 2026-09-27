@@ -4,45 +4,38 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-09-27T03:31:29.253350+00:00",
+  "scraped_at": "2026-09-27T04:31:35.349547+00:00",
   "today": {
     "date": "2026-09-27",
-    "condition": "Mostly cloudy",
-    "temp_max": null,
-    "temp_min": 14,
-    "feels_like_high": null,
-    "feels_like_low": 10,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 86,
+    "condition": "Considerable cloudiness and cool with a brief shower or two",
+    "temp_max": 19,
+    "temp_min": 16,
+    "feels_like_high": 18,
+    "feels_like_low": 13,
+    "wind_gust_mph": 28,
+    "humidity_high_pct": 83,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "16km",
+    "uv_level": "Low",
+    "visibility_high": "13km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
-    "sunrise": "6:59 AM",
-    "sunset": "6:59 PM",
+    "sunrise": "7:00 AM",
+    "sunset": "6:58 PM",
     "current": {
       "temp_c": 16,
-      "condition": "Mostly cloudy",
+      "condition": "Cloudy",
       "feels_like": 15,
-      "rain_chance": null,
-      "wind_gust_mph": 10,
+      "rain_chance": "82%",
+      "wind_gust_mph": 8,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 15,
-        "condition": "Showers",
-        "rain_chance": "58%",
-        "wind_mph": 9
-      },
-      {
         "time": "1 AM",
         "temp_c": 15,
         "condition": "Showers",
-        "rain_chance": "65%",
+        "rain_chance": "61%",
         "wind_mph": 9
       },
       {
@@ -84,7 +77,7 @@
         "time": "7 AM",
         "temp_c": 15,
         "condition": "Mostly cloudy",
-        "rain_chance": "44%",
+        "rain_chance": "32%",
         "wind_mph": 10
       },
       {
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-27",
-      "condition": "Considerable cloudiness and cool with a brief shower or two",
-      "temp_min": 16,
-      "temp_max": 19
-    },
-    {
       "date": "2026-09-28",
       "condition": "Cloudy",
       "temp_min": 16,
@@ -237,7 +224,7 @@
       "date": "2026-10-02",
       "condition": "Partly sunny and humid; a couple of showers in the afternoon",
       "temp_min": 16,
-      "temp_max": 29
+      "temp_max": 28
     },
     {
       "date": "2026-10-03",
@@ -261,13 +248,13 @@
       "date": "2026-10-06",
       "condition": "Plenty of sun",
       "temp_min": 11,
-      "temp_max": 21
+      "temp_max": 22
     },
     {
       "date": "2026-10-07",
       "condition": "Plenty of sun",
       "temp_min": 11,
-      "temp_max": 20
+      "temp_max": 19
     },
     {
       "date": "2026-10-08",
@@ -285,7 +272,13 @@
       "date": "2026-10-10",
       "condition": "More sun than clouds",
       "temp_min": 13,
-      "temp_max": 25
+      "temp_max": 24
+    },
+    {
+      "date": "2026-10-11",
+      "condition": "Mostly sunny",
+      "temp_min": 12,
+      "temp_max": 20
     }
   ]
 }
