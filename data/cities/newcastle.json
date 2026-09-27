@@ -4,7 +4,7 @@
   "country": "UK",
   "source": "Met Office",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcsbptbvu",
-  "scraped_at": "2026-09-27T02:31:23.397721+00:00",
+  "scraped_at": "2026-09-27T03:31:20.178151+00:00",
   "source_updated": "Updated: 1am on 27 September 2026",
   "today": {
     "date": "2026-09-27",
@@ -14,7 +14,7 @@
     "feels_like_high": 14,
     "feels_like_low": 9,
     "wind_gust_mph": 47,
-    "humidity_high_pct": 92,
+    "humidity_high_pct": 91,
     "humidity_low_pct": 66,
     "uv_level": "2\nLow",
     "visibility_high": "23km",
@@ -25,21 +25,15 @@
     "sunset": "19:04",
     "current": {
       "temp_c": 13,
-      "condition": "Cloudy",
+      "condition": "Light rain",
       "feels_like": 11,
-      "rain_chance": "10%",
-      "wind_gust_mph": 24,
+      "rain_chance": null,
+      "wind_gust_mph": 26,
       "pollen": null
     },
     "hourly": [
       {
         "time": "6am",
-        "temp_c": 13,
-        "rain_chance": "<5%",
-        "wind_mph": 9
-      },
-      {
-        "time": "3am",
         "temp_c": 13,
         "rain_chance": "10%",
         "wind_mph": 9
