@@ -4,7 +4,7 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/los-angeles/90012/current-weather/347625",
-  "scraped_at": "2026-09-28T10:31:25.637020+00:00",
+  "scraped_at": "2026-09-28T11:31:33.087891+00:00",
   "today": {
     "date": "2026-09-28",
     "condition": "Some low clouds early, then mostly sunny; heat returning later this week",
@@ -13,7 +13,7 @@
     "feels_like_high": 29,
     "feels_like_low": 18,
     "wind_gust_mph": 16,
-    "humidity_high_pct": 72,
+    "humidity_high_pct": 80,
     "humidity_low_pct": null,
     "uv_level": "High",
     "visibility_high": "16km",
@@ -23,8 +23,8 @@
     "sunrise": "6:45 AM",
     "sunset": "6:42 PM",
     "current": {
-      "temp_c": 22,
-      "condition": "Mostly cloudy",
+      "temp_c": 21,
+      "condition": "Mostly clear",
       "feels_like": 21,
       "rain_chance": "1%",
       "wind_gust_mph": 5,
@@ -32,16 +32,9 @@
     },
     "hourly": [
       {
-        "time": "4 AM",
-        "temp_c": 21,
-        "condition": "Partly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 5
-      },
-      {
         "time": "5 AM",
         "temp_c": 20,
-        "condition": "Mostly clear",
+        "condition": "Partly cloudy",
         "rain_chance": "0%",
         "wind_mph": 5
       },
@@ -185,7 +178,7 @@
       "date": "2026-09-30",
       "condition": "Mostly sunny",
       "temp_min": 19,
-      "temp_max": 30
+      "temp_max": 29
     },
     {
       "date": "2026-10-01",
@@ -209,7 +202,7 @@
       "date": "2026-10-04",
       "condition": "Hot with plenty of sunshine",
       "temp_min": 21,
-      "temp_max": 34
+      "temp_max": 33
     },
     {
       "date": "2026-10-05",
@@ -244,7 +237,7 @@
     {
       "date": "2026-10-10",
       "condition": "Sunny to partly cloudy and very warm",
-      "temp_min": 21,
+      "temp_min": 22,
       "temp_max": 31
     },
     {
@@ -257,7 +250,7 @@
       "date": "2026-10-12",
       "condition": "Plenty of sunshine",
       "temp_min": 19,
-      "temp_max": 29
+      "temp_max": 28
     }
   ]
 }
