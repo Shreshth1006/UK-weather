@@ -4,52 +4,45 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/new-york/10021/current-weather/349727",
-  "scraped_at": "2026-09-28T03:31:25.960961+00:00",
+  "scraped_at": "2026-09-28T04:31:12.826716+00:00",
   "today": {
     "date": "2026-09-28",
-    "condition": "Light rain",
-    "temp_max": null,
+    "condition": "Cool with on-and-off rain and drizzle; breezy in the morning; wet roads and lower visibility may lead to travel disruptions",
+    "temp_max": 17,
     "temp_min": 14,
-    "feels_like_high": null,
-    "feels_like_low": 9,
-    "wind_gust_mph": null,
+    "feels_like_high": 14,
+    "feels_like_low": 13,
+    "wind_gust_mph": 18,
     "humidity_high_pct": 96,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "16km",
+    "uv_level": "Low",
+    "visibility_high": "5km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
-    "sunrise": "6:48 AM",
-    "sunset": "6:45 PM",
+    "sunrise": "6:49 AM",
+    "sunset": "6:43 PM",
     "current": {
       "temp_c": 16,
-      "condition": "Light rain",
+      "condition": "Cloudy",
       "feels_like": 12,
-      "rain_chance": null,
-      "wind_gust_mph": 9,
+      "rain_chance": "85%",
+      "wind_gust_mph": 12,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 16,
-        "condition": "Showers",
-        "rain_chance": "77%",
-        "wind_mph": 12
-      },
-      {
         "time": "1 AM",
         "temp_c": 16,
         "condition": "Rain",
-        "rain_chance": "85%",
+        "rain_chance": "90%",
         "wind_mph": 12
       },
       {
         "time": "2 AM",
         "temp_c": 16,
-        "condition": "Cloudy",
-        "rain_chance": "49%",
+        "condition": "Rain",
+        "rain_chance": "75%",
         "wind_mph": 13
       },
       {
@@ -63,7 +56,7 @@
         "time": "4 AM",
         "temp_c": 15,
         "condition": "Rain",
-        "rain_chance": "66%",
+        "rain_chance": "73%",
         "wind_mph": 13
       },
       {
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-28",
-      "condition": "Cool with on-and-off rain and drizzle; breezy in the morning; wet roads and lower visibility may lead to travel disruptions",
-      "temp_min": 14,
-      "temp_max": 17
-    },
-    {
       "date": "2026-09-29",
       "condition": "Mostly cloudy",
       "temp_min": 16,
@@ -286,6 +273,12 @@
       "condition": "Sunny spells",
       "temp_min": 12,
       "temp_max": 18
+    },
+    {
+      "date": "2026-10-12",
+      "condition": "Mostly sunny",
+      "temp_min": 14,
+      "temp_max": 21
     }
   ]
 }

@@ -4,45 +4,38 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-09-28T03:31:30.263856+00:00",
+  "scraped_at": "2026-09-28T04:31:16.758128+00:00",
   "today": {
     "date": "2026-09-28",
-    "condition": "Light rain",
-    "temp_max": null,
-    "temp_min": 13,
-    "feels_like_high": null,
-    "feels_like_low": 7,
-    "wind_gust_mph": null,
+    "condition": "Cool with rain; lingering flooding still possible",
+    "temp_max": 15,
+    "temp_min": 12,
+    "feels_like_high": 12,
+    "feels_like_low": 9,
+    "wind_gust_mph": 28,
     "humidity_high_pct": 96,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Low",
     "visibility_high": "3km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
-    "sunrise": "6:37 AM",
-    "sunset": "6:33 PM",
+    "sunrise": "6:38 AM",
+    "sunset": "6:31 PM",
     "current": {
       "temp_c": 14,
-      "condition": "Light rain",
-      "feels_like": 7,
-      "rain_chance": null,
-      "wind_gust_mph": 33,
+      "condition": "Cloudy",
+      "feels_like": 8,
+      "rain_chance": "94%",
+      "wind_gust_mph": 30,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 14,
-        "condition": "Rain",
-        "rain_chance": "78%",
-        "wind_mph": 10
-      },
-      {
         "time": "1 AM",
         "temp_c": 14,
-        "condition": "Showers",
-        "rain_chance": "75%",
+        "condition": "Rain",
+        "rain_chance": "82%",
         "wind_mph": 10
       },
       {
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-28",
-      "condition": "Cool with rain; lingering flooding still possible",
-      "temp_min": 12,
-      "temp_max": 15
-    },
-    {
       "date": "2026-09-29",
       "condition": "A shower in the area in the morning; otherwise, cloudy",
       "temp_min": 13,
@@ -286,6 +273,12 @@
       "condition": "Mostly sunny",
       "temp_min": 12,
       "temp_max": 18
+    },
+    {
+      "date": "2026-10-12",
+      "condition": "Partly sunny",
+      "temp_min": 13,
+      "temp_max": 20
     }
   ]
 }
