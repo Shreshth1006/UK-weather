@@ -4,82 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-09-28T11:31:37.431344+00:00",
+  "scraped_at": "2026-09-28T18:31:39.433345+00:00",
   "today": {
     "date": "2026-09-28",
-    "condition": "A shower in spots this morning; otherwise, cloudy; the start of an extended stretch of dry weather",
+    "condition": "Cloudy; the start of an extended stretch of dry weather",
     "temp_max": 22,
-    "temp_min": 17,
+    "temp_min": 16,
     "feels_like_high": 21,
     "feels_like_low": 16,
-    "wind_gust_mph": 17,
-    "humidity_high_pct": 89,
+    "wind_gust_mph": 16,
+    "humidity_high_pct": 72,
     "humidity_low_pct": null,
     "uv_level": "Low",
-    "visibility_high": "15km",
+    "visibility_high": "11km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
     "sunrise": "7:01 AM",
     "sunset": "6:56 PM",
     "current": {
-      "temp_c": 17,
-      "condition": "Mostly cloudy",
-      "feels_like": 17,
+      "temp_c": 21,
+      "condition": "Cloudy",
+      "feels_like": 21,
       "rain_chance": "40%",
-      "wind_gust_mph": 9,
+      "wind_gust_mph": 7,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "8 AM",
-        "temp_c": 17,
-        "condition": "Showers",
-        "rain_chance": "40%",
-        "wind_mph": 7
-      },
-      {
-        "time": "9 AM",
-        "temp_c": 17,
-        "condition": "Cloudy",
-        "rain_chance": "37%",
-        "wind_mph": 7
-      },
-      {
-        "time": "10 AM",
-        "temp_c": 19,
-        "condition": "Cloudy",
-        "rain_chance": "33%",
-        "wind_mph": 7
-      },
-      {
-        "time": "11 AM",
-        "temp_c": 19,
-        "condition": "Cloudy",
-        "rain_chance": "32%",
-        "wind_mph": 7
-      },
-      {
-        "time": "12 PM",
-        "temp_c": 21,
-        "condition": "Cloudy",
-        "rain_chance": "32%",
-        "wind_mph": 8
-      },
-      {
-        "time": "1 PM",
-        "temp_c": 21,
-        "condition": "Cloudy",
-        "rain_chance": "25%",
-        "wind_mph": 8
-      },
-      {
-        "time": "2 PM",
-        "temp_c": 21,
-        "condition": "Cloudy",
-        "rain_chance": "13%",
-        "wind_mph": 8
-      },
       {
         "time": "3 PM",
         "temp_c": 22,
@@ -117,29 +68,29 @@
       },
       {
         "time": "8 PM",
-        "temp_c": 20,
-        "condition": "Partly cloudy",
+        "temp_c": 19,
+        "condition": "Intermittent clouds",
         "rain_chance": "1%",
         "wind_mph": 5
       },
       {
         "time": "9 PM",
         "temp_c": 19,
-        "condition": "Partly cloudy",
+        "condition": "Intermittent clouds",
         "rain_chance": "1%",
         "wind_mph": 5
       },
       {
         "time": "10 PM",
-        "temp_c": 19,
-        "condition": "Partly cloudy",
+        "temp_c": 18,
+        "condition": "Intermittent clouds",
         "rain_chance": "1%",
         "wind_mph": 5
       },
       {
         "time": "11 PM",
-        "temp_c": 19,
-        "condition": "Partly cloudy",
+        "temp_c": 18,
+        "condition": "Intermittent clouds",
         "rain_chance": "1%",
         "wind_mph": 5
       }
@@ -149,33 +100,33 @@
   "forecast": [
     {
       "date": "2026-09-29",
-      "condition": "Pleasant with variable cloudiness",
-      "temp_min": 14,
+      "condition": "Variable cloudiness",
+      "temp_min": 15,
       "temp_max": 25
     },
     {
       "date": "2026-09-30",
-      "condition": "Mostly cloudy",
+      "condition": "Times of clouds and sun",
       "temp_min": 16,
       "temp_max": 27
     },
     {
       "date": "2026-10-01",
-      "condition": "Partly sunny and very warm",
+      "condition": "Partly sunny, very warm and more humid",
       "temp_min": 18,
       "temp_max": 31
     },
     {
       "date": "2026-10-02",
-      "condition": "Clouds and breaks of sun",
-      "temp_min": 16,
-      "temp_max": 29
+      "condition": "Very warm and humid with a blend of sun and clouds",
+      "temp_min": 17,
+      "temp_max": 31
     },
     {
       "date": "2026-10-03",
-      "condition": "Variable clouds with a thunderstorm in parts of the area; not as warm",
-      "temp_min": 13,
-      "temp_max": 22
+      "condition": "Cloudy and not as warm with a thunderstorm in parts of the area",
+      "temp_min": 15,
+      "temp_max": 24
     },
     {
       "date": "2026-10-04",
@@ -197,8 +148,8 @@
     },
     {
       "date": "2026-10-07",
-      "condition": "Sunshine and some clouds",
-      "temp_min": 12,
+      "condition": "Plenty of sun",
+      "temp_min": 13,
       "temp_max": 22
     },
     {
@@ -217,19 +168,19 @@
       "date": "2026-10-10",
       "condition": "Sunny to partly cloudy",
       "temp_min": 11,
-      "temp_max": 20
+      "temp_max": 19
     },
     {
       "date": "2026-10-11",
       "condition": "Mostly sunny",
-      "temp_min": 10,
+      "temp_min": 11,
       "temp_max": 21
     },
     {
       "date": "2026-10-12",
       "condition": "Plenty of sunshine",
       "temp_min": 13,
-      "temp_max": 25
+      "temp_max": 24
     }
   ]
 }
