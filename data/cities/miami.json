@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/miami/33128/current-weather/347936",
-  "scraped_at": "2026-09-29T03:31:37.837757+00:00",
+  "scraped_at": "2026-09-29T04:31:27.467459+00:00",
   "today": {
     "date": "2026-09-29",
-    "condition": "Cloudy",
-    "temp_max": null,
+    "condition": "Mostly cloudy with a couple of showers and a thunderstorm, mainly later",
+    "temp_max": 28,
     "temp_min": 24,
-    "feels_like_high": null,
-    "feels_like_low": 27,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 71,
+    "feels_like_high": 32,
+    "feels_like_low": 28,
+    "wind_gust_mph": 14,
+    "humidity_high_pct": 72,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "16km",
     "visibility_low": null,
-    "air_pollution": "Poor",
+    "air_pollution": "Fair",
     "pollen": null,
     "sunrise": "7:12 AM",
-    "sunset": "7:11 PM",
+    "sunset": "7:10 PM",
     "current": {
       "temp_c": 27,
       "condition": "Cloudy",
-      "feels_like": 29,
-      "rain_chance": null,
-      "wind_gust_mph": 7,
+      "feels_like": 30,
+      "rain_chance": "90%",
+      "wind_gust_mph": 6,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 27,
-        "condition": "Intermittent clouds",
-        "rain_chance": "5%",
-        "wind_mph": 6
-      },
       {
         "time": "1 AM",
         "temp_c": 26,
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-29",
-      "condition": "Mostly cloudy with a couple of showers and a thunderstorm, mainly later",
-      "temp_min": 24,
-      "temp_max": 28
-    },
-    {
       "date": "2026-09-30",
       "condition": "Cloudy and humid; a thunderstorm in spots in the afternoon",
       "temp_min": 26,
@@ -217,13 +204,13 @@
     },
     {
       "date": "2026-10-01",
-      "condition": "Cloudy and humid with a couple of showers and a thunderstorm, mainly later; breezy in the morning",
+      "condition": "Humid; breezy in the morning with a passing shower followed by a couple of showers and a heavy thunderstorm in the afternoon; there can be ponding on roadways",
       "temp_min": 27,
       "temp_max": 29
     },
     {
       "date": "2026-10-02",
-      "condition": "Cloudy and humid with a couple of showers and a thunderstorm; breezy in the morning",
+      "condition": "Cloudy and humid with a couple of showers and a heavy thunderstorm; breezy in the morning; there can be ponding on roadways",
       "temp_min": 27,
       "temp_max": 32
     },
@@ -286,6 +273,12 @@
       "condition": "Mostly cloudy and humid; a couple of afternoon showers and a thunderstorm",
       "temp_min": 25,
       "temp_max": 28
+    },
+    {
+      "date": "2026-10-13",
+      "condition": "Mostly cloudy and humid with a thunderstorm in parts of the area",
+      "temp_min": 24,
+      "temp_max": 29
     }
   ]
 }

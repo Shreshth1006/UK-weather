@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-09-29T03:31:41.302398+00:00",
+  "scraped_at": "2026-09-29T04:31:30.997351+00:00",
   "today": {
     "date": "2026-09-29",
-    "condition": "Drizzle",
-    "temp_max": null,
-    "temp_min": 12,
-    "feels_like_high": null,
-    "feels_like_low": 10,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 93,
+    "condition": "Spotty drizzle in the morning; otherwise, cloudy",
+    "temp_max": 19,
+    "temp_min": 14,
+    "feels_like_high": 18,
+    "feels_like_low": 14,
+    "wind_gust_mph": 13,
+    "humidity_high_pct": 96,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "8km",
+    "uv_level": "Low",
+    "visibility_high": "3km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
-    "sunrise": "6:38 AM",
-    "sunset": "6:31 PM",
+    "sunrise": "6:39 AM",
+    "sunset": "6:30 PM",
     "current": {
       "temp_c": 14,
-      "condition": "Drizzle",
-      "feels_like": 10,
-      "rain_chance": null,
-      "wind_gust_mph": 13,
+      "condition": "Mostly clear",
+      "feels_like": 11,
+      "rain_chance": "49%",
+      "wind_gust_mph": 8,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 13,
-        "condition": "Rain",
-        "rain_chance": "64%",
-        "wind_mph": 7
-      },
       {
         "time": "1 AM",
         "temp_c": 13,
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-29",
-      "condition": "Spotty drizzle in the morning; otherwise, cloudy",
-      "temp_min": 14,
-      "temp_max": 19
-    },
-    {
       "date": "2026-09-30",
       "condition": "Beautiful with times of clouds and sun",
       "temp_min": 15,
@@ -254,7 +241,7 @@
     {
       "date": "2026-10-07",
       "condition": "Plenty of sunshine",
-      "temp_min": 10,
+      "temp_min": 11,
       "temp_max": 17
     },
     {
@@ -286,6 +273,12 @@
       "condition": "Partly sunny",
       "temp_min": 13,
       "temp_max": 20
+    },
+    {
+      "date": "2026-10-13",
+      "condition": "Cloudy with rain tapering to a couple of showers",
+      "temp_min": 8,
+      "temp_max": 19
     }
   ]
 }
