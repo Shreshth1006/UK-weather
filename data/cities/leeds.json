@@ -4,75 +4,39 @@
   "country": "UK",
   "source": "Met Office",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcwfhxhup",
-  "scraped_at": "2026-09-30T04:31:04.446386+00:00",
-  "source_updated": "Updated: 2:59am on 30 September 2026",
+  "scraped_at": "2026-09-30T10:31:05.801095+00:00",
+  "source_updated": "Updated: 8:59am on 30 September 2026",
   "today": {
     "date": "2026-09-30",
     "condition": "Sunny",
     "temp_max": 21,
     "temp_min": 11,
-    "feels_like_high": 19,
+    "feels_like_high": 20,
     "feels_like_low": 15,
     "wind_gust_mph": 26,
-    "humidity_high_pct": 95,
-    "humidity_low_pct": 40,
+    "humidity_high_pct": 85,
+    "humidity_low_pct": 43,
     "uv_level": "3\nModerate",
-    "visibility_high": "31km",
-    "visibility_low": "4.7km",
+    "visibility_high": "30km",
+    "visibility_low": "21km",
     "air_pollution": "Low",
     "pollen": null,
     "sunrise": "07:06",
     "sunset": "18:45",
     "current": {
-      "temp_c": 18,
-      "condition": "Light rain",
+      "temp_c": 19,
+      "condition": "Sunny",
       "feels_like": 18,
-      "rain_chance": null,
-      "wind_gust_mph": 22,
+      "rain_chance": "<5%",
+      "wind_gust_mph": 23,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "6am",
-        "temp_c": 18,
-        "rain_chance": "90%",
-        "wind_mph": 7
-      },
-      {
-        "time": "5am",
-        "temp_c": 18,
-        "rain_chance": "60%",
-        "wind_mph": 7
-      },
-      {
-        "time": "7am",
-        "temp_c": 18,
-        "rain_chance": "70%",
-        "wind_mph": 7
-      },
-      {
-        "time": "8am",
-        "temp_c": 17,
-        "rain_chance": "90%",
-        "wind_mph": 7
-      },
-      {
-        "time": "9am",
-        "temp_c": 17,
-        "rain_chance": "60%",
-        "wind_mph": 6
-      },
-      {
-        "time": "10am",
-        "temp_c": 16,
-        "rain_chance": "20%",
-        "wind_mph": 5
-      },
-      {
         "time": "11am",
-        "temp_c": 18,
-        "rain_chance": "<5%",
-        "wind_mph": 6
+        "temp_c": 17,
+        "rain_chance": "50%",
+        "wind_mph": 5
       },
       {
         "time": "12pm",
@@ -106,21 +70,21 @@
       },
       {
         "time": "5pm",
-        "temp_c": 20,
-        "rain_chance": "10%",
+        "temp_c": 21,
+        "rain_chance": "<5%",
         "wind_mph": 7
       },
       {
         "time": "6pm",
         "temp_c": 20,
         "rain_chance": "10%",
-        "wind_mph": 6
+        "wind_mph": 7
       },
       {
         "time": "7pm",
         "temp_c": 18,
         "rain_chance": "10%",
-        "wind_mph": 5
+        "wind_mph": 6
       },
       {
         "time": "8pm",
@@ -130,21 +94,21 @@
       },
       {
         "time": "9pm",
-        "temp_c": 17,
+        "temp_c": 16,
         "rain_chance": "10%",
-        "wind_mph": 5
+        "wind_mph": 4
       },
       {
         "time": "10pm",
         "temp_c": 15,
-        "rain_chance": "10%",
+        "rain_chance": "<5%",
         "wind_mph": 4
       },
       {
         "time": "11pm",
         "temp_c": 15,
         "rain_chance": "10%",
-        "wind_mph": 3
+        "wind_mph": 4
       }
     ],
     "warnings": []
@@ -152,20 +116,20 @@
   "forecast": [
     {
       "date": "2026-10-01",
-      "temp_max": 17,
+      "temp_max": 18,
       "temp_min": 11,
       "condition": "Sunny intervals"
     },
     {
       "date": "2026-10-02",
       "temp_max": 18,
-      "temp_min": 10,
-      "condition": "Light showers"
+      "temp_min": 11,
+      "condition": "Sunny intervals"
     },
     {
       "date": "2026-10-03",
-      "temp_max": 18,
-      "temp_min": 10,
+      "temp_max": 19,
+      "temp_min": 11,
       "condition": "Sunny intervals"
     },
     {
@@ -177,13 +141,13 @@
     {
       "date": "2026-10-05",
       "temp_max": 18,
-      "temp_min": 12,
+      "temp_min": 11,
       "condition": "Sunny intervals"
     },
     {
       "date": "2026-10-06",
       "temp_max": 17,
-      "temp_min": 9,
+      "temp_min": 10,
       "condition": "Sunny intervals"
     }
   ]
