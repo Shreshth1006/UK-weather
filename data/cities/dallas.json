@@ -4,18 +4,18 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/dallas/75202/current-weather/351194",
-  "scraped_at": "2026-09-30T11:31:32.091668+00:00",
+  "scraped_at": "2026-09-30T18:31:43.039972+00:00",
   "today": {
     "date": "2026-09-30",
     "condition": "Mostly cloudy, breezy and humid with a thunderstorm this afternoon",
     "temp_max": 35,
     "temp_min": 24,
     "feels_like_high": 36,
-    "feels_like_low": 25,
-    "wind_gust_mph": 31,
-    "humidity_high_pct": 77,
+    "feels_like_low": 24,
+    "wind_gust_mph": 30,
+    "humidity_high_pct": 48,
     "humidity_low_pct": null,
-    "uv_level": "Moderate",
+    "uv_level": "Low",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Fair",
@@ -23,83 +23,34 @@
     "sunrise": "7:20 AM",
     "sunset": "7:13 PM",
     "current": {
-      "temp_c": 27,
+      "temp_c": 33,
       "condition": "Cloudy",
-      "feels_like": 30,
+      "feels_like": 34,
       "rain_chance": "56%",
-      "wind_gust_mph": 13,
+      "wind_gust_mph": 22,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "7 AM",
-        "temp_c": 26,
-        "condition": "Cloudy",
-        "rain_chance": "29%",
-        "wind_mph": 10
-      },
-      {
-        "time": "8 AM",
-        "temp_c": 26,
-        "condition": "Cloudy",
-        "rain_chance": "20%",
-        "wind_mph": 13
-      },
-      {
-        "time": "9 AM",
-        "temp_c": 26,
-        "condition": "Cloudy",
-        "rain_chance": "20%",
-        "wind_mph": 14
-      },
-      {
-        "time": "10 AM",
-        "temp_c": 28,
-        "condition": "Cloudy",
-        "rain_chance": "20%",
-        "wind_mph": 15
-      },
-      {
-        "time": "11 AM",
-        "temp_c": 29,
-        "condition": "Mostly cloudy",
-        "rain_chance": "20%",
-        "wind_mph": 15
-      },
-      {
-        "time": "12 PM",
-        "temp_c": 31,
-        "condition": "Mostly cloudy",
-        "rain_chance": "20%",
-        "wind_mph": 16
-      },
-      {
-        "time": "1 PM",
-        "temp_c": 33,
-        "condition": "Mostly cloudy",
-        "rain_chance": "18%",
-        "wind_mph": 17
-      },
-      {
         "time": "2 PM",
-        "temp_c": 33,
+        "temp_c": 34,
         "condition": "Mostly cloudy",
-        "rain_chance": "15%",
+        "rain_chance": "42%",
         "wind_mph": 15
       },
       {
         "time": "3 PM",
         "temp_c": 35,
-        "condition": "Mostly cloudy",
-        "rain_chance": "15%",
-        "wind_mph": 15
+        "condition": "Thunderstorms",
+        "rain_chance": "46%",
+        "wind_mph": 14
       },
       {
         "time": "4 PM",
         "temp_c": 34,
         "condition": "Cloudy",
-        "rain_chance": "19%",
-        "wind_mph": 15
+        "rain_chance": "38%",
+        "wind_mph": 14
       },
       {
         "time": "5 PM",
@@ -119,35 +70,35 @@
         "time": "7 PM",
         "temp_c": 31,
         "condition": "Cloudy",
-        "rain_chance": "40%",
-        "wind_mph": 15
-      },
-      {
-        "time": "8 PM",
-        "temp_c": 31,
-        "condition": "Cloudy",
-        "rain_chance": "34%",
+        "rain_chance": "45%",
         "wind_mph": 14
       },
       {
-        "time": "9 PM",
-        "temp_c": 29,
+        "time": "8 PM",
+        "temp_c": 30,
         "condition": "Cloudy",
-        "rain_chance": "34%",
+        "rain_chance": "49%",
+        "wind_mph": 13
+      },
+      {
+        "time": "9 PM",
+        "temp_c": 28,
+        "condition": "Thunderstorms",
+        "rain_chance": "71%",
         "wind_mph": 13
       },
       {
         "time": "10 PM",
-        "temp_c": 28,
-        "condition": "Cloudy",
-        "rain_chance": "40%",
+        "temp_c": 27,
+        "condition": "Thunderstorms",
+        "rain_chance": "71%",
         "wind_mph": 13
       },
       {
         "time": "11 PM",
-        "temp_c": 28,
-        "condition": "Thunderstorms",
-        "rain_chance": "74%",
+        "temp_c": 27,
+        "condition": "Cloudy",
+        "rain_chance": "40%",
         "wind_mph": 12
       }
     ],
@@ -156,33 +107,33 @@
   "forecast": [
     {
       "date": "2026-10-01",
-      "condition": "Cloudy and very humid with a couple of heavy thunderstorms; thunderstorms can bring flash flooding and localized damaging wind gusts",
+      "condition": "Cloudy and humid with a couple of heavy thunderstorms; thunderstorms can bring flash flooding and localized damaging wind gusts",
       "temp_min": 22,
-      "temp_max": 27
+      "temp_max": 26
     },
     {
       "date": "2026-10-02",
       "condition": "Cloudy and humid with a couple of showers and a heavy thunderstorm; watch for flash flooding",
       "temp_min": 19,
-      "temp_max": 28
+      "temp_max": 26
     },
     {
       "date": "2026-10-03",
-      "condition": "Remaining cloudy and humid with a thunderstorm in spots",
+      "condition": "Intervals of clouds and sun with a thunderstorm in spots; humid",
       "temp_min": 19,
-      "temp_max": 24
+      "temp_max": 23
     },
     {
       "date": "2026-10-04",
-      "condition": "Humid with periods of clouds and sunshine",
-      "temp_min": 17,
+      "condition": "Humid with some sun, then turning cloudy",
+      "temp_min": 18,
       "temp_max": 27
     },
     {
       "date": "2026-10-05",
-      "condition": "Mostly sunny, pleasant and less humid",
+      "condition": "Sunny and less humid",
       "temp_min": 18,
-      "temp_max": 28
+      "temp_max": 27
     },
     {
       "date": "2026-10-06",
@@ -212,7 +163,7 @@
       "date": "2026-10-10",
       "condition": "Plenty of sunshine",
       "temp_min": 15,
-      "temp_max": 26
+      "temp_max": 27
     },
     {
       "date": "2026-10-11",
