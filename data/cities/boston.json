@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-09-30T03:31:24.442147+00:00",
+  "scraped_at": "2026-09-30T04:31:30.944557+00:00",
   "today": {
     "date": "2026-09-30",
-    "condition": "Cloudy",
-    "temp_max": null,
+    "condition": "Times of clouds and sun",
+    "temp_max": 20,
     "temp_min": 14,
-    "feels_like_high": null,
+    "feels_like_high": 21,
     "feels_like_low": 13,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 93,
+    "wind_gust_mph": 8,
+    "humidity_high_pct": 96,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "16km",
+    "uv_level": "Low",
+    "visibility_high": "8km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "6:39 AM",
-    "sunset": "6:30 PM",
+    "sunrise": "6:40 AM",
+    "sunset": "6:28 PM",
     "current": {
-      "temp_c": 17,
+      "temp_c": 16,
       "condition": "Cloudy",
-      "feels_like": 18,
-      "rain_chance": null,
+      "feels_like": 17,
+      "rain_chance": "1%",
       "wind_gust_mph": 0,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 16,
-        "condition": "Cloudy",
-        "rain_chance": "16%",
-        "wind_mph": 5
-      },
       {
         "time": "1 AM",
         "temp_c": 16,
@@ -54,7 +47,7 @@
       },
       {
         "time": "3 AM",
-        "temp_c": 15,
+        "temp_c": 16,
         "condition": "Cloudy",
         "rain_chance": "1%",
         "wind_mph": 6
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-30",
-      "condition": "Times of clouds and sun",
-      "temp_min": 14,
-      "temp_max": 20
-    },
-    {
       "date": "2026-10-01",
       "condition": "Sun and areas of high clouds and nice",
       "temp_min": 19,
@@ -286,6 +273,12 @@
       "condition": "Cloudy with rain tapering to a couple of showers",
       "temp_min": 8,
       "temp_max": 19
+    },
+    {
+      "date": "2026-10-14",
+      "condition": "A bright blue sky",
+      "temp_min": 7,
+      "temp_max": 14
     }
   ]
 }

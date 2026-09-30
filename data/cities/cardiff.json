@@ -4,7 +4,7 @@
   "country": "UK",
   "source": "Met Office",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcjszevgx",
-  "scraped_at": "2026-09-30T03:31:05.625677+00:00",
+  "scraped_at": "2026-09-30T04:31:09.818991+00:00",
   "source_updated": "Updated: 2:59am on 30 September 2026",
   "today": {
     "date": "2026-09-30",
@@ -13,7 +13,7 @@
     "temp_min": 10,
     "feels_like_high": 17,
     "feels_like_low": 13,
-    "wind_gust_mph": 33,
+    "wind_gust_mph": 30,
     "humidity_high_pct": 93,
     "humidity_low_pct": 59,
     "uv_level": "4\nModerate",
@@ -25,21 +25,15 @@
     "sunset": "18:53",
     "current": {
       "temp_c": 15,
-      "condition": "Heavy showers",
+      "condition": "Clear",
       "feels_like": 14,
-      "rain_chance": null,
-      "wind_gust_mph": 21,
+      "rain_chance": "10%",
+      "wind_gust_mph": 18,
       "pollen": null
     },
     "hourly": [
       {
         "time": "6am",
-        "temp_c": 18,
-        "rain_chance": "95%",
-        "wind_mph": 11
-      },
-      {
-        "time": "4am",
         "temp_c": 15,
         "rain_chance": "90%",
         "wind_mph": 9

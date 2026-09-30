@@ -4,44 +4,37 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/new-york/10021/current-weather/349727",
-  "scraped_at": "2026-09-30T03:31:20.428109+00:00",
+  "scraped_at": "2026-09-30T04:31:28.012773+00:00",
   "today": {
     "date": "2026-09-30",
-    "condition": "Cloudy",
-    "temp_max": null,
-    "temp_min": 15,
-    "feels_like_high": null,
-    "feels_like_low": 16,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 74,
+    "condition": "Pleasant with times of clouds and sun",
+    "temp_max": 24,
+    "temp_min": 18,
+    "feels_like_high": 27,
+    "feels_like_low": 18,
+    "wind_gust_mph": 4,
+    "humidity_high_pct": 77,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "6:50 AM",
-    "sunset": "6:42 PM",
+    "sunrise": "6:51 AM",
+    "sunset": "6:40 PM",
     "current": {
-      "temp_c": 18,
-      "condition": "Cloudy",
+      "temp_c": 17,
+      "condition": "Mostly cloudy",
       "feels_like": 18,
-      "rain_chance": null,
-      "wind_gust_mph": 4,
+      "rain_chance": "1%",
+      "wind_gust_mph": 3,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 18,
-        "condition": "Intermittent clouds",
-        "rain_chance": "0%",
-        "wind_mph": 2
-      },
-      {
         "time": "1 AM",
         "temp_c": 17,
-        "condition": "Partly cloudy",
+        "condition": "Intermittent clouds",
         "rain_chance": "0%",
         "wind_mph": 2
       },
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-09-30",
-      "condition": "Pleasant with times of clouds and sun",
-      "temp_min": 18,
-      "temp_max": 24
-    },
-    {
       "date": "2026-10-01",
       "condition": "Mostly cloudy and humid",
       "temp_min": 19,
@@ -286,6 +273,12 @@
       "condition": "Mostly cloudy",
       "temp_min": 9,
       "temp_max": 21
+    },
+    {
+      "date": "2026-10-14",
+      "condition": "Cooler with partial sunshine",
+      "temp_min": 8,
+      "temp_max": 15
     }
   ]
 }
