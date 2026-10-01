@@ -4,94 +4,38 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/miami/33128/current-weather/347936",
-  "scraped_at": "2026-09-30T18:31:42.955174+00:00",
+  "scraped_at": "2026-10-01T02:31:25.710818+00:00",
   "today": {
-    "date": "2026-09-30",
-    "condition": "Cloudy and humid; brief showers this morning followed by a couple of heavy thunderstorms this afternoon",
-    "temp_max": 29,
+    "date": "2026-10-01",
+    "condition": "Mostly cloudy",
+    "temp_max": null,
     "temp_min": 26,
-    "feels_like_high": 34,
-    "feels_like_low": 26,
-    "wind_gust_mph": 18,
-    "humidity_high_pct": 87,
+    "feels_like_high": null,
+    "feels_like_low": 27,
+    "wind_gust_mph": null,
+    "humidity_high_pct": 81,
     "humidity_low_pct": null,
-    "uv_level": "Low",
-    "visibility_high": "13km",
+    "uv_level": null,
+    "visibility_high": "16km",
     "visibility_low": null,
-    "air_pollution": "Excellent",
+    "air_pollution": "Fair",
     "pollen": null,
     "sunrise": "7:13 AM",
     "sunset": "7:09 PM",
     "current": {
-      "temp_c": 25,
-      "condition": "Cloudy",
-      "feels_like": 26,
-      "rain_chance": "100%",
-      "wind_gust_mph": 20,
+      "temp_c": 28,
+      "condition": "Mostly cloudy",
+      "feels_like": 32,
+      "rain_chance": null,
+      "wind_gust_mph": 13,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "3 PM",
+        "time": "11 PM",
         "temp_c": 27,
-        "condition": "Thunderstorms",
-        "rain_chance": "90%",
-        "wind_mph": 9
-      },
-      {
-        "time": "4 PM",
-        "temp_c": 27,
-        "condition": "Thunderstorms",
-        "rain_chance": "83%",
-        "wind_mph": 9
-      },
-      {
-        "time": "5 PM",
-        "temp_c": 28,
-        "condition": "Cloudy",
-        "rain_chance": "40%",
-        "wind_mph": 9
-      },
-      {
-        "time": "6 PM",
-        "temp_c": 28,
         "condition": "Cloudy",
         "rain_chance": "34%",
-        "wind_mph": 9
-      },
-      {
-        "time": "7 PM",
-        "temp_c": 27,
-        "condition": "Cloudy",
-        "rain_chance": "39%",
-        "wind_mph": 9
-      },
-      {
-        "time": "8 PM",
-        "temp_c": 26,
-        "condition": "Cloudy",
-        "rain_chance": "49%",
-        "wind_mph": 8
-      },
-      {
-        "time": "9 PM",
-        "temp_c": 26,
-        "condition": "Thunderstorms",
-        "rain_chance": "71%",
-        "wind_mph": 8
-      },
-      {
-        "time": "10 PM",
-        "temp_c": 26,
-        "condition": "Thunderstorms",
-        "rain_chance": "71%",
-        "wind_mph": 8
-      },
-      {
-        "time": "11 PM",
-        "temp_c": 26,
-        "condition": "Cloudy",
-        "rain_chance": "40%",
         "wind_mph": 8
       }
     ],
@@ -100,13 +44,13 @@
   "forecast": [
     {
       "date": "2026-10-01",
-      "condition": "Cloudy and humid; a passing morning shower followed by a couple of showers and a heavy thunderstorm in the afternoon; there can be ponding on roadways",
+      "condition": "Cloudy and humid with a couple of showers and a heavy thunderstorm; there can be ponding on roadways",
       "temp_min": 26,
       "temp_max": 29
     },
     {
       "date": "2026-10-02",
-      "condition": "Times of sun and clouds with a couple of showers and a heavy thunderstorm; humid; there can be ponding on roadways",
+      "condition": "Times of sun and clouds with a thundershower; humid; there can be ponding on roadways",
       "temp_min": 27,
       "temp_max": 31
     },
@@ -142,15 +86,15 @@
     },
     {
       "date": "2026-10-08",
-      "condition": "Variable cloudiness with a couple of thunderstorms; humid",
+      "condition": "Variable cloudiness with a couple of thunderstorms",
       "temp_min": 25,
       "temp_max": 29
     },
     {
       "date": "2026-10-09",
-      "condition": "Mostly cloudy and humid with a couple of thunderstorms",
+      "condition": "Mostly cloudy with a couple of thunderstorms",
       "temp_min": 25,
-      "temp_max": 29
+      "temp_max": 30
     },
     {
       "date": "2026-10-10",
