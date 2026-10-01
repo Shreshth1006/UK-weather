@@ -4,45 +4,38 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/new-york/10021/current-weather/349727",
-  "scraped_at": "2026-10-01T03:31:26.331899+00:00",
+  "scraped_at": "2026-10-01T04:31:29.594578+00:00",
   "today": {
     "date": "2026-10-01",
-    "condition": "Cloudy",
-    "temp_max": null,
-    "temp_min": 18,
-    "feels_like_high": null,
+    "condition": "Mostly cloudy and humid",
+    "temp_max": 24,
+    "temp_min": 19,
+    "feels_like_high": 26,
     "feels_like_low": 17,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 90,
+    "wind_gust_mph": 6,
+    "humidity_high_pct": 87,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Low",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "6:51 AM",
-    "sunset": "6:40 PM",
+    "sunrise": "6:52 AM",
+    "sunset": "6:38 PM",
     "current": {
       "temp_c": 18,
       "condition": "Cloudy",
       "feels_like": 18,
-      "rain_chance": null,
-      "wind_gust_mph": 2,
+      "rain_chance": "5%",
+      "wind_gust_mph": 1,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
+        "time": "1 AM",
         "temp_c": 18,
         "condition": "Cloudy",
         "rain_chance": "49%",
-        "wind_mph": 2
-      },
-      {
-        "time": "1 AM",
-        "temp_c": 18,
-        "condition": "Mostly clear",
-        "rain_chance": "44%",
         "wind_mph": 2
       },
       {
@@ -84,28 +77,28 @@
         "time": "7 AM",
         "temp_c": 18,
         "condition": "Cloudy",
-        "rain_chance": "23%",
+        "rain_chance": "22%",
         "wind_mph": 4
       },
       {
         "time": "8 AM",
         "temp_c": 18,
         "condition": "Cloudy",
-        "rain_chance": "5%",
+        "rain_chance": "2%",
         "wind_mph": 4
       },
       {
         "time": "9 AM",
         "temp_c": 19,
         "condition": "Cloudy",
-        "rain_chance": "5%",
+        "rain_chance": "2%",
         "wind_mph": 4
       },
       {
         "time": "10 AM",
         "temp_c": 20,
         "condition": "Cloudy",
-        "rain_chance": "5%",
+        "rain_chance": "2%",
         "wind_mph": 4
       },
       {
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-01",
-      "condition": "Mostly cloudy and humid",
-      "temp_min": 19,
-      "temp_max": 24
-    },
-    {
       "date": "2026-10-02",
       "condition": "Very warm with clouds and sunshine",
       "temp_min": 16,
@@ -223,7 +210,7 @@
     },
     {
       "date": "2026-10-04",
-      "condition": "Clouds and breaks of sun",
+      "condition": "Mostly cloudy with rain and drizzle possible in the afternoon",
       "temp_min": 14,
       "temp_max": 19
     },
@@ -284,6 +271,12 @@
     {
       "date": "2026-10-14",
       "condition": "Cooler with partial sunshine",
+      "temp_min": 8,
+      "temp_max": 15
+    },
+    {
+      "date": "2026-10-15",
+      "condition": "Becoming cloudy",
       "temp_min": 8,
       "temp_max": 15
     }

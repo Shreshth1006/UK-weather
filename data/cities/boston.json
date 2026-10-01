@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-10-01T03:31:31.495870+00:00",
+  "scraped_at": "2026-10-01T04:31:33.214832+00:00",
   "today": {
     "date": "2026-10-01",
-    "condition": "Cloudy",
-    "temp_max": null,
-    "temp_min": 14,
-    "feels_like_high": null,
-    "feels_like_low": 13,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 89,
+    "condition": "Nice with times of sun and clouds",
+    "temp_max": 24,
+    "temp_min": 18,
+    "feels_like_high": 25,
+    "feels_like_low": 17,
+    "wind_gust_mph": 22,
+    "humidity_high_pct": 93,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "13km",
+    "uv_level": "Moderate",
+    "visibility_high": "14km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "6:40 AM",
-    "sunset": "6:28 PM",
+    "sunrise": "6:41 AM",
+    "sunset": "6:26 PM",
     "current": {
-      "temp_c": 17,
+      "temp_c": 16,
       "condition": "Cloudy",
       "feels_like": 16,
-      "rain_chance": null,
-      "wind_gust_mph": 6,
+      "rain_chance": "9%",
+      "wind_gust_mph": 4,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 16,
-        "condition": "Partly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 7
-      },
       {
         "time": "1 AM",
         "temp_c": 15,
@@ -204,14 +197,8 @@
   },
   "forecast": [
     {
-      "date": "2026-10-01",
-      "condition": "Nice with times of sun and clouds",
-      "temp_min": 18,
-      "temp_max": 24
-    },
-    {
       "date": "2026-10-02",
-      "condition": "Very warm and humid with intervals of clouds and sun; a shower in the area late in the afternoon",
+      "condition": "Very warm and humid with intervals of clouds and sun; a couple of brief showers late in the afternoon",
       "temp_min": 13,
       "temp_max": 28
     },
@@ -286,6 +273,12 @@
       "condition": "A bright blue sky",
       "temp_min": 7,
       "temp_max": 14
+    },
+    {
+      "date": "2026-10-15",
+      "condition": "Mostly sunny",
+      "temp_min": 8,
+      "temp_max": 13
     }
   ]
 }
