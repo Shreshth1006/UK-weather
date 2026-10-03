@@ -4,82 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/los-angeles/90012/current-weather/347625",
-  "scraped_at": "2026-10-03T11:31:33.339070+00:00",
+  "scraped_at": "2026-10-03T18:31:35.269816+00:00",
   "today": {
     "date": "2026-10-03",
-    "condition": "Very hot with the temperature approaching the record high of 108 set in 1987 with blazing sunshine; extreme heat can be dangerous for outdoor activities",
-    "temp_max": 41,
+    "condition": "Very hot with the temperature approaching the record high of 108 set in 1987 with plenty of sunshine; extreme heat can be dangerous for outdoor activities",
+    "temp_max": 39,
     "temp_min": 26,
-    "feels_like_high": 42,
+    "feels_like_high": 41,
     "feels_like_low": 24,
     "wind_gust_mph": 12,
-    "humidity_high_pct": 37,
+    "humidity_high_pct": 21,
     "humidity_low_pct": null,
     "uv_level": "Moderate",
-    "visibility_high": "26km",
+    "visibility_high": "18km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
     "sunrise": "6:49 AM",
     "sunset": "6:35 PM",
     "current": {
-      "temp_c": 27,
-      "condition": "Clear",
-      "feels_like": 26,
+      "temp_c": 37,
+      "condition": "Sunny",
+      "feels_like": 40,
       "rain_chance": "0%",
-      "wind_gust_mph": 5,
+      "wind_gust_mph": 7,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "5 AM",
-        "temp_c": 26,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
-      {
-        "time": "6 AM",
-        "temp_c": 25,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
-      {
-        "time": "7 AM",
-        "temp_c": 25,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
-      {
-        "time": "8 AM",
-        "temp_c": 26,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
-      {
-        "time": "9 AM",
-        "temp_c": 30,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 5
-      },
-      {
-        "time": "10 AM",
-        "temp_c": 33,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
-      {
-        "time": "11 AM",
-        "temp_c": 36,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
       {
         "time": "12 PM",
         "temp_c": 38,
@@ -96,38 +47,38 @@
       },
       {
         "time": "2 PM",
-        "temp_c": 41,
+        "temp_c": 39,
         "condition": "Sunny",
         "rain_chance": "0%",
         "wind_mph": 7
       },
       {
         "time": "3 PM",
-        "temp_c": 39,
+        "temp_c": 38,
         "condition": "Sunny",
         "rain_chance": "0%",
         "wind_mph": 7
       },
       {
         "time": "4 PM",
-        "temp_c": 39,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 8
-      },
-      {
-        "time": "5 PM",
         "temp_c": 37,
         "condition": "Sunny",
         "rain_chance": "0%",
         "wind_mph": 8
       },
       {
-        "time": "6 PM",
-        "temp_c": 35,
+        "time": "5 PM",
+        "temp_c": 36,
         "condition": "Sunny",
         "rain_chance": "0%",
-        "wind_mph": 7
+        "wind_mph": 8
+      },
+      {
+        "time": "6 PM",
+        "temp_c": 34,
+        "condition": "Sunny",
+        "rain_chance": "0%",
+        "wind_mph": 8
       },
       {
         "time": "7 PM",
@@ -155,14 +106,14 @@
         "temp_c": 30,
         "condition": "Clear",
         "rain_chance": "0%",
-        "wind_mph": 5
+        "wind_mph": 6
       },
       {
         "time": "11 PM",
-        "temp_c": 30,
+        "temp_c": 29,
         "condition": "Clear",
         "rain_chance": "0%",
-        "wind_mph": 5
+        "wind_mph": 6
       }
     ],
     "warnings": []
@@ -170,9 +121,9 @@
   "forecast": [
     {
       "date": "2026-10-04",
-      "condition": "Blazing sunshine and very hot with the temperature approaching the record high of 108 set in 1987; stay hydrated when outside in the heat",
-      "temp_min": 24,
-      "temp_max": 40
+      "condition": "Blazing sunshine and very hot; stay hydrated when outside in the heat",
+      "temp_min": 25,
+      "temp_max": 38
     },
     {
       "date": "2026-10-05",
@@ -182,15 +133,15 @@
     },
     {
       "date": "2026-10-06",
-      "condition": "Sunshine with near-record temperatures; danger of dehydration and heatstroke if outside for extended periods of time",
+      "condition": "Sunshine and very hot; the heat will be dangerous, especially for those without air conditioning",
       "temp_min": 23,
-      "temp_max": 38
+      "temp_max": 37
     },
     {
       "date": "2026-10-07",
-      "condition": "Blazing sunshine and hot with the temperature tying the record high from 1971; danger of dehydration and heatstroke if outside for extended periods of time",
+      "condition": "Sizzling sunshine and very hot with the temperature approaching the record high of 98 set in 1971; check on groups more sensitive to extreme heat",
       "temp_min": 23,
-      "temp_max": 37
+      "temp_max": 36
     },
     {
       "date": "2026-10-08",
@@ -212,14 +163,14 @@
     },
     {
       "date": "2026-10-11",
-      "condition": "Times of clouds and sun with a shower in the afternoon",
+      "condition": "Times of clouds and sun",
       "temp_min": 19,
       "temp_max": 28
     },
     {
       "date": "2026-10-12",
-      "condition": "Sunny",
-      "temp_min": 19,
+      "condition": "Cloudy with showers",
+      "temp_min": 18,
       "temp_max": 28
     },
     {
