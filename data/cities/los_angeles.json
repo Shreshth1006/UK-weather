@@ -4,18 +4,18 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/los-angeles/90012/current-weather/347625",
-  "scraped_at": "2026-10-03T18:31:35.269816+00:00",
+  "scraped_at": "2026-10-04T02:31:26.092928+00:00",
   "today": {
-    "date": "2026-10-03",
-    "condition": "Very hot with the temperature approaching the record high of 108 set in 1987 with plenty of sunshine; extreme heat can be dangerous for outdoor activities",
-    "temp_max": 39,
-    "temp_min": 26,
-    "feels_like_high": 41,
+    "date": "2026-10-04",
+    "condition": "Partly cloudy",
+    "temp_max": null,
+    "temp_min": 25,
+    "feels_like_high": null,
     "feels_like_low": 24,
-    "wind_gust_mph": 12,
-    "humidity_high_pct": 21,
+    "wind_gust_mph": null,
+    "humidity_high_pct": 27,
     "humidity_low_pct": null,
-    "uv_level": "Moderate",
+    "uv_level": null,
     "visibility_high": "18km",
     "visibility_low": null,
     "air_pollution": "Poor",
@@ -23,94 +23,38 @@
     "sunrise": "6:49 AM",
     "sunset": "6:35 PM",
     "current": {
-      "temp_c": 37,
-      "condition": "Sunny",
-      "feels_like": 40,
-      "rain_chance": "0%",
-      "wind_gust_mph": 7,
+      "temp_c": 32,
+      "condition": "Partly cloudy",
+      "feels_like": 31,
+      "rain_chance": null,
+      "wind_gust_mph": 6,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 PM",
-        "temp_c": 38,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 7
-      },
-      {
-        "time": "1 PM",
-        "temp_c": 39,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 7
-      },
-      {
-        "time": "2 PM",
-        "temp_c": 39,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 7
-      },
-      {
-        "time": "3 PM",
-        "temp_c": 38,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 7
-      },
-      {
-        "time": "4 PM",
-        "temp_c": 37,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 8
-      },
-      {
-        "time": "5 PM",
-        "temp_c": 36,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 8
-      },
-      {
-        "time": "6 PM",
-        "temp_c": 34,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 8
-      },
-      {
-        "time": "7 PM",
-        "temp_c": 33,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
-      {
         "time": "8 PM",
         "temp_c": 32,
-        "condition": "Clear",
+        "condition": "Mostly clear",
         "rain_chance": "0%",
         "wind_mph": 5
       },
       {
         "time": "9 PM",
-        "temp_c": 31,
+        "temp_c": 30,
         "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 5
       },
       {
         "time": "10 PM",
-        "temp_c": 30,
+        "temp_c": 29,
         "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 6
       },
       {
         "time": "11 PM",
-        "temp_c": 29,
+        "temp_c": 28,
         "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 6
@@ -121,21 +65,21 @@
   "forecast": [
     {
       "date": "2026-10-04",
-      "condition": "Blazing sunshine and very hot; stay hydrated when outside in the heat",
-      "temp_min": 25,
-      "temp_max": 38
+      "condition": "Blazing sunshine and very hot with the temperature approaching the record high of 108 set in 1987; stay hydrated when outside in the heat",
+      "temp_min": 26,
+      "temp_max": 39
     },
     {
       "date": "2026-10-05",
-      "condition": "Very hot with the temperature tying the record high from 1971 with sizzling sunshine; dangerous heat; seek time in the shade and stay hydrated",
+      "condition": "Very hot with the temperature breaking the record high of 101 set in 1971 with sizzling sunshine; dangerous heat; seek time in the shade and stay hydrated",
       "temp_min": 24,
-      "temp_max": 38
+      "temp_max": 40
     },
     {
       "date": "2026-10-06",
       "condition": "Sunshine and very hot; the heat will be dangerous, especially for those without air conditioning",
       "temp_min": 23,
-      "temp_max": 37
+      "temp_max": 38
     },
     {
       "date": "2026-10-07",
@@ -151,27 +95,27 @@
     },
     {
       "date": "2026-10-09",
-      "condition": "Very warm with plenty of sun",
-      "temp_min": 21,
-      "temp_max": 33
+      "condition": "Very warm with sunshine and a few clouds",
+      "temp_min": 22,
+      "temp_max": 32
     },
     {
       "date": "2026-10-10",
-      "condition": "Cloudy",
-      "temp_min": 21,
+      "condition": "Cloudy and less humid",
+      "temp_min": 19,
       "temp_max": 29
     },
     {
       "date": "2026-10-11",
       "condition": "Times of clouds and sun",
       "temp_min": 19,
-      "temp_max": 28
+      "temp_max": 27
     },
     {
       "date": "2026-10-12",
       "condition": "Cloudy with showers",
       "temp_min": 18,
-      "temp_max": 28
+      "temp_max": 27
     },
     {
       "date": "2026-10-13",
