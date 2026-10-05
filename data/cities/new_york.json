@@ -4,45 +4,38 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/new-york/10021/current-weather/349727",
-  "scraped_at": "2026-10-05T03:31:23.042230+00:00",
+  "scraped_at": "2026-10-05T04:31:36.690143+00:00",
   "today": {
     "date": "2026-10-05",
-    "condition": "Cloudy",
-    "temp_max": null,
-    "temp_min": 13,
-    "feels_like_high": null,
-    "feels_like_low": 12,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 96,
+    "condition": "Clouds giving way to sun; the start of an extended stretch of dry weather",
+    "temp_max": 20,
+    "temp_min": 9,
+    "feels_like_high": 21,
+    "feels_like_low": 6,
+    "wind_gust_mph": 24,
+    "humidity_high_pct": 93,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "6km",
+    "uv_level": "Moderate",
+    "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "6:55 AM",
-    "sunset": "6:33 PM",
+    "sunrise": "6:56 AM",
+    "sunset": "6:32 PM",
     "current": {
       "temp_c": 13,
-      "condition": "Cloudy",
-      "feels_like": 12,
-      "rain_chance": null,
+      "condition": "Drizzle",
+      "feels_like": 13,
+      "rain_chance": "2%",
       "wind_gust_mph": 4,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 14,
-        "condition": "Showers",
-        "rain_chance": "47%",
-        "wind_mph": 4
-      },
-      {
         "time": "1 AM",
         "temp_c": 14,
         "condition": "Cloudy",
-        "rain_chance": "46%",
+        "rain_chance": "47%",
         "wind_mph": 4
       },
       {
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-05",
-      "condition": "Clouds giving way to sun; the start of an extended stretch of dry weather",
-      "temp_min": 9,
-      "temp_max": 20
-    },
-    {
       "date": "2026-10-06",
       "condition": "Plenty of sun",
       "temp_min": 9,
@@ -286,6 +273,12 @@
       "condition": "Cloudy most of the time",
       "temp_min": 13,
       "temp_max": 19
+    },
+    {
+      "date": "2026-10-19",
+      "condition": "Mostly sunny",
+      "temp_min": 8,
+      "temp_max": 15
     }
   ]
 }
