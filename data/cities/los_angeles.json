@@ -4,43 +4,169 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/los-angeles/90012/current-weather/347625",
-  "scraped_at": "2026-10-05T04:31:36.822364+00:00",
+  "scraped_at": "2026-10-05T10:31:40.830897+00:00",
   "today": {
     "date": "2026-10-05",
-    "condition": "Partly cloudy",
-    "temp_max": null,
-    "temp_min": 25,
-    "feels_like_high": null,
-    "feels_like_low": 24,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 35,
+    "condition": "Very hot with the temperature breaking the record high of 101 set in 1971 with sizzling sunshine; dangerous heat; seek time in the shade and stay hydrated",
+    "temp_max": 40,
+    "temp_min": 26,
+    "feels_like_high": 41,
+    "feels_like_low": 25,
+    "wind_gust_mph": 12,
+    "humidity_high_pct": 38,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "18km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
     "sunrise": "6:50 AM",
-    "sunset": "6:33 PM",
+    "sunset": "6:32 PM",
     "current": {
-      "temp_c": 30,
+      "temp_c": 27,
       "condition": "Partly cloudy",
-      "feels_like": 29,
-      "rain_chance": null,
-      "wind_gust_mph": 3,
+      "feels_like": 26,
+      "rain_chance": "0%",
+      "wind_gust_mph": 4,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "10 PM",
-        "temp_c": 28,
+        "time": "4 AM",
+        "temp_c": 27,
         "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 5
       },
       {
-        "time": "11 PM",
+        "time": "5 AM",
+        "temp_c": 26,
+        "condition": "Clear",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "6 AM",
+        "temp_c": 26,
+        "condition": "Clear",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "7 AM",
+        "temp_c": 25,
+        "condition": "Sunny",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "8 AM",
         "temp_c": 27,
+        "condition": "Sunny",
+        "rain_chance": "0%",
+        "wind_mph": 5
+      },
+      {
+        "time": "9 AM",
+        "temp_c": 31,
+        "condition": "Sunny",
+        "rain_chance": "0%",
+        "wind_mph": 5
+      },
+      {
+        "time": "10 AM",
+        "temp_c": 34,
+        "condition": "Sunny",
+        "rain_chance": "0%",
+        "wind_mph": 5
+      },
+      {
+        "time": "11 AM",
+        "temp_c": 36,
+        "condition": "Sunny",
+        "rain_chance": "0%",
+        "wind_mph": 5
+      },
+      {
+        "time": "12 PM",
+        "temp_c": 38,
+        "condition": "Sunny",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "1 PM",
+        "temp_c": 39,
+        "condition": "Sunny",
+        "rain_chance": "0%",
+        "wind_mph": 7
+      },
+      {
+        "time": "2 PM",
+        "temp_c": 40,
+        "condition": "Sunny",
+        "rain_chance": "0%",
+        "wind_mph": 8
+      },
+      {
+        "time": "3 PM",
+        "temp_c": 39,
+        "condition": "Sunny",
+        "rain_chance": "0%",
+        "wind_mph": 8
+      },
+      {
+        "time": "4 PM",
+        "temp_c": 38,
+        "condition": "Sunny",
+        "rain_chance": "0%",
+        "wind_mph": 9
+      },
+      {
+        "time": "5 PM",
+        "temp_c": 36,
+        "condition": "Sunny",
+        "rain_chance": "0%",
+        "wind_mph": 9
+      },
+      {
+        "time": "6 PM",
+        "temp_c": 36,
+        "condition": "Sunny",
+        "rain_chance": "0%",
+        "wind_mph": 9
+      },
+      {
+        "time": "7 PM",
+        "temp_c": 34,
+        "condition": "Clear",
+        "rain_chance": "0%",
+        "wind_mph": 8
+      },
+      {
+        "time": "8 PM",
+        "temp_c": 34,
+        "condition": "Clear",
+        "rain_chance": "0%",
+        "wind_mph": 7
+      },
+      {
+        "time": "9 PM",
+        "temp_c": 33,
+        "condition": "Clear",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "10 PM",
+        "temp_c": 31,
+        "condition": "Clear",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "11 PM",
+        "temp_c": 30,
         "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 5
@@ -50,15 +176,9 @@
   },
   "forecast": [
     {
-      "date": "2026-10-05",
-      "condition": "Very hot with the temperature breaking the record high of 101 set in 1971 with sizzling sunshine; dangerous heat; seek time in the shade and stay hydrated",
-      "temp_min": 26,
-      "temp_max": 39
-    },
-    {
       "date": "2026-10-06",
-      "condition": "Very hot with the temperature tying the record high from 1971 with sizzling sunshine; the heat will be dangerous, especially for those without air conditioning",
-      "temp_min": 24,
+      "condition": "Sunshine and very hot; the heat will be dangerous, especially for those without air conditioning",
+      "temp_min": 25,
       "temp_max": 39
     },
     {
@@ -69,15 +189,15 @@
     },
     {
       "date": "2026-10-08",
-      "condition": "Sunny and hot; possible danger of dehydration and heatstroke while doing strenuous activities",
-      "temp_min": 22,
+      "condition": "Sunny and toasty conditions; possible danger of dehydration and heatstroke while doing strenuous activities",
+      "temp_min": 21,
       "temp_max": 34
     },
     {
       "date": "2026-10-09",
-      "condition": "Warm with sunshine and a few clouds",
-      "temp_min": 22,
-      "temp_max": 31
+      "condition": "Mostly sunny and very warm",
+      "temp_min": 20,
+      "temp_max": 32
     },
     {
       "date": "2026-10-10",
@@ -93,45 +213,51 @@
     },
     {
       "date": "2026-10-12",
-      "condition": "Plenty of sunshine",
+      "condition": "Sunny",
       "temp_min": 18,
       "temp_max": 25
     },
     {
       "date": "2026-10-13",
-      "condition": "Less humid with plenty of sunshine",
+      "condition": "Mostly sunny",
       "temp_min": 19,
-      "temp_max": 28
+      "temp_max": 26
     },
     {
       "date": "2026-10-14",
-      "condition": "Mostly sunny",
+      "condition": "Sunshine",
       "temp_min": 18,
       "temp_max": 27
     },
     {
       "date": "2026-10-15",
-      "condition": "Abundant sunshine",
+      "condition": "Mostly sunny",
       "temp_min": 18,
       "temp_max": 29
     },
     {
       "date": "2026-10-16",
-      "condition": "Mostly sunny and very warm",
+      "condition": "Wall-to-wall sunshine",
       "temp_min": 19,
-      "temp_max": 31
+      "temp_max": 29
     },
     {
       "date": "2026-10-17",
       "condition": "Mostly sunny",
-      "temp_min": 16,
-      "temp_max": 26
+      "temp_min": 19,
+      "temp_max": 29
     },
     {
       "date": "2026-10-18",
       "condition": "Mainly cloudy",
+      "temp_min": 16,
+      "temp_max": 26
+    },
+    {
+      "date": "2026-10-19",
+      "condition": "Sunshine and a few clouds",
       "temp_min": 18,
-      "temp_max": 28
+      "temp_max": 27
     }
   ]
 }
