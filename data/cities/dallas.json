@@ -4,85 +4,36 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/dallas/75202/current-weather/351194",
-  "scraped_at": "2026-10-06T11:31:37.262579+00:00",
+  "scraped_at": "2026-10-06T18:31:33.357025+00:00",
   "today": {
     "date": "2026-10-06",
     "condition": "Plenty of sun",
     "temp_max": 32,
-    "temp_min": 17,
+    "temp_min": 18,
     "feels_like_high": 33,
-    "feels_like_low": 17,
-    "wind_gust_mph": 7,
-    "humidity_high_pct": 76,
+    "feels_like_low": 18,
+    "wind_gust_mph": 8,
+    "humidity_high_pct": 32,
     "humidity_low_pct": null,
     "uv_level": "Moderate",
-    "visibility_high": "16km",
+    "visibility_high": "18km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
     "sunrise": "7:25 AM",
     "sunset": "7:06 PM",
     "current": {
-      "temp_c": 18,
-      "condition": "Clear",
-      "feels_like": 19,
+      "temp_c": 29,
+      "condition": "Sunny",
+      "feels_like": 33,
       "rain_chance": "0%",
       "wind_gust_mph": 4,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "7 AM",
-        "temp_c": 18,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 4
-      },
-      {
-        "time": "8 AM",
-        "temp_c": 19,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 4
-      },
-      {
-        "time": "9 AM",
-        "temp_c": 21,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 4
-      },
-      {
-        "time": "10 AM",
-        "temp_c": 24,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
-      {
-        "time": "11 AM",
-        "temp_c": 26,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
-      {
-        "time": "12 PM",
-        "temp_c": 28,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
-      {
-        "time": "1 PM",
-        "temp_c": 29,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
-      {
         "time": "2 PM",
-        "temp_c": 31,
+        "temp_c": 30,
         "condition": "Sunny",
         "rain_chance": "0%",
         "wind_mph": 6
@@ -134,21 +85,21 @@
         "temp_c": 26,
         "condition": "Clear",
         "rain_chance": "0%",
-        "wind_mph": 4
+        "wind_mph": 5
       },
       {
         "time": "10 PM",
         "temp_c": 24,
         "condition": "Clear",
         "rain_chance": "0%",
-        "wind_mph": 4
+        "wind_mph": 5
       },
       {
         "time": "11 PM",
-        "temp_c": 24,
+        "temp_c": 23,
         "condition": "Clear",
         "rain_chance": "0%",
-        "wind_mph": 4
+        "wind_mph": 5
       }
     ],
     "warnings": []
@@ -156,8 +107,8 @@
   "forecast": [
     {
       "date": "2026-10-07",
-      "condition": "Mostly sunny",
-      "temp_min": 18,
+      "condition": "Mostly sunny and warm",
+      "temp_min": 17,
       "temp_max": 32
     },
     {
@@ -174,20 +125,20 @@
     },
     {
       "date": "2026-10-10",
-      "condition": "Warm with times of clouds and sun",
+      "condition": "Warm with plenty of sunshine",
       "temp_min": 18,
       "temp_max": 31
     },
     {
       "date": "2026-10-11",
       "condition": "Mostly sunny, warm and humid",
-      "temp_min": 21,
-      "temp_max": 31
+      "temp_min": 19,
+      "temp_max": 32
     },
     {
       "date": "2026-10-12",
-      "condition": "Humid and remaining warm with plenty of sunshine",
-      "temp_min": 21,
+      "condition": "Remaining warm and less humid with plenty of sunshine",
+      "temp_min": 19,
       "temp_max": 31
     },
     {
@@ -204,7 +155,7 @@
     },
     {
       "date": "2026-10-15",
-      "condition": "Shifting clouds and sun with a shower in the area; humid",
+      "condition": "Partly sunny and humid with a strong thunderstorm in spots",
       "temp_min": 17,
       "temp_max": 27
     },
