@@ -4,64 +4,57 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-10-09T03:31:35.598353+00:00",
+  "scraped_at": "2026-10-09T04:32:10.538279+00:00",
   "today": {
     "date": "2026-10-09",
-    "condition": "Clear",
-    "temp_max": null,
-    "temp_min": 8,
-    "feels_like_high": null,
-    "feels_like_low": 8,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 51,
+    "condition": "Sun through high clouds and pleasant",
+    "temp_max": 26,
+    "temp_min": 11,
+    "feels_like_high": 26,
+    "feels_like_low": 11,
+    "wind_gust_mph": 15,
+    "humidity_high_pct": 62,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "14km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "7:10 AM",
-    "sunset": "6:40 PM",
+    "sunrise": "7:11 AM",
+    "sunset": "6:39 PM",
     "current": {
-      "temp_c": 18,
+      "temp_c": 17,
       "condition": "Clear",
-      "feels_like": 18,
-      "rain_chance": null,
+      "feels_like": 17,
+      "rain_chance": "0%",
       "wind_gust_mph": 3,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
+        "time": "1 AM",
         "temp_c": 15,
         "condition": "Mostly clear",
         "rain_chance": "0%",
         "wind_mph": 5
       },
       {
-        "time": "1 AM",
-        "temp_c": 13,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 5
-      },
-      {
         "time": "2 AM",
-        "temp_c": 12,
+        "temp_c": 14,
         "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 5
       },
       {
         "time": "3 AM",
-        "temp_c": 11,
+        "temp_c": 12,
         "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 5
       },
       {
         "time": "4 AM",
-        "temp_c": 10,
+        "temp_c": 11,
         "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 5
@@ -75,7 +68,7 @@
       },
       {
         "time": "6 AM",
-        "temp_c": 10,
+        "temp_c": 9,
         "condition": "Mostly clear",
         "rain_chance": "0%",
         "wind_mph": 5
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-09",
-      "condition": "Sun through high clouds and pleasant",
-      "temp_min": 11,
-      "temp_max": 26
-    },
-    {
       "date": "2026-10-10",
       "condition": "Sun through high clouds",
       "temp_min": 15,
@@ -286,6 +273,12 @@
       "condition": "Cloudy",
       "temp_min": 9,
       "temp_max": 17
+    },
+    {
+      "date": "2026-10-23",
+      "condition": "Plenty of sunshine",
+      "temp_min": 6,
+      "temp_max": 16
     }
   ]
 }
