@@ -4,92 +4,36 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-10-08T18:31:46.267602+00:00",
+  "scraped_at": "2026-10-09T02:31:38.417720+00:00",
   "today": {
-    "date": "2026-10-08",
-    "condition": "Abundant sunshine",
-    "temp_max": 27,
+    "date": "2026-10-09",
+    "condition": "Clear",
+    "temp_max": null,
     "temp_min": 8,
-    "feels_like_high": 28,
-    "feels_like_low": 7,
-    "wind_gust_mph": 21,
-    "humidity_high_pct": 32,
+    "feels_like_high": null,
+    "feels_like_low": 8,
+    "wind_gust_mph": null,
+    "humidity_high_pct": 54,
     "humidity_low_pct": null,
-    "uv_level": "Moderate",
+    "uv_level": null,
     "visibility_high": "14km",
     "visibility_low": null,
-    "air_pollution": "Fair",
+    "air_pollution": "Poor",
     "pollen": null,
     "sunrise": "7:10 AM",
     "sunset": "6:40 PM",
     "current": {
-      "temp_c": 27,
-      "condition": "Sunny",
-      "feels_like": 28,
-      "rain_chance": "2%",
-      "wind_gust_mph": 10,
+      "temp_c": 18,
+      "condition": "Clear",
+      "feels_like": 18,
+      "rain_chance": null,
+      "wind_gust_mph": 3,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "3 PM",
-        "temp_c": 27,
-        "condition": "Mostly sunny",
-        "rain_chance": "0%",
-        "wind_mph": 10
-      },
-      {
-        "time": "4 PM",
-        "temp_c": 27,
-        "condition": "Mostly sunny",
-        "rain_chance": "0%",
-        "wind_mph": 9
-      },
-      {
-        "time": "5 PM",
-        "temp_c": 26,
-        "condition": "Mostly sunny",
-        "rain_chance": "0%",
-        "wind_mph": 9
-      },
-      {
-        "time": "6 PM",
-        "temp_c": 24,
-        "condition": "Mostly sunny",
-        "rain_chance": "0%",
-        "wind_mph": 8
-      },
-      {
-        "time": "7 PM",
-        "temp_c": 22,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 7
-      },
-      {
-        "time": "8 PM",
-        "temp_c": 20,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
-      {
-        "time": "9 PM",
-        "temp_c": 18,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
-      {
-        "time": "10 PM",
-        "temp_c": 16,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
-      {
         "time": "11 PM",
-        "temp_c": 14,
+        "temp_c": 17,
         "condition": "Mostly clear",
         "rain_chance": "0%",
         "wind_mph": 6
@@ -100,13 +44,13 @@
   "forecast": [
     {
       "date": "2026-10-09",
-      "condition": "Pleasant with plenty of sunshine",
+      "condition": "Sun through high clouds and pleasant",
       "temp_min": 11,
       "temp_max": 26
     },
     {
       "date": "2026-10-10",
-      "condition": "Pleasant with sun through high clouds",
+      "condition": "Sun through high clouds",
       "temp_min": 15,
       "temp_max": 23
     },
@@ -124,33 +68,33 @@
     },
     {
       "date": "2026-10-13",
-      "condition": "Mostly sunny and very warm",
-      "temp_min": 12,
-      "temp_max": 28
+      "condition": "Mostly sunny and warmer",
+      "temp_min": 14,
+      "temp_max": 27
     },
     {
       "date": "2026-10-14",
-      "condition": "Mostly sunny, cooler and less humid",
-      "temp_min": 6,
-      "temp_max": 18
+      "condition": "Abundant sunshine and not as warm with low humidity",
+      "temp_min": 11,
+      "temp_max": 21
     },
     {
       "date": "2026-10-15",
       "condition": "Gleaming sunshine",
-      "temp_min": 8,
+      "temp_min": 12,
       "temp_max": 19
     },
     {
       "date": "2026-10-16",
       "condition": "Mostly sunny",
-      "temp_min": 11,
-      "temp_max": 20
+      "temp_min": 14,
+      "temp_max": 24
     },
     {
       "date": "2026-10-17",
       "condition": "Cloudy most of the time with a couple of showers in the afternoon",
       "temp_min": 9,
-      "temp_max": 18
+      "temp_max": 21
     },
     {
       "date": "2026-10-18",
