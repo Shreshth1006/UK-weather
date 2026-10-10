@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-10-10T03:31:52.075763+00:00",
+  "scraped_at": "2026-10-10T04:31:33.925087+00:00",
   "today": {
     "date": "2026-10-10",
-    "condition": "Mostly clear",
-    "temp_max": null,
-    "temp_min": 11,
-    "feels_like_high": null,
-    "feels_like_low": 11,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 64,
+    "condition": "Sun through high clouds",
+    "temp_max": 23,
+    "temp_min": 15,
+    "feels_like_high": 24,
+    "feels_like_low": 12,
+    "wind_gust_mph": 14,
+    "humidity_high_pct": 74,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "23km",
+    "uv_level": "Moderate",
+    "visibility_high": "14km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "7:11 AM",
-    "sunset": "6:39 PM",
+    "sunrise": "7:12 AM",
+    "sunset": "6:37 PM",
     "current": {
-      "temp_c": 17,
-      "condition": "Mostly clear",
-      "feels_like": 17,
-      "rain_chance": null,
-      "wind_gust_mph": 1,
+      "temp_c": 16,
+      "condition": "Mostly cloudy",
+      "feels_like": 16,
+      "rain_chance": "6%",
+      "wind_gust_mph": 2,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 15,
-        "condition": "Mostly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 5
-      },
       {
         "time": "1 AM",
         "temp_c": 14,
@@ -47,7 +40,7 @@
       },
       {
         "time": "2 AM",
-        "temp_c": 14,
+        "temp_c": 13,
         "condition": "Mostly cloudy",
         "rain_chance": "0%",
         "wind_mph": 5
@@ -61,7 +54,7 @@
       },
       {
         "time": "4 AM",
-        "temp_c": 13,
+        "temp_c": 12,
         "condition": "Mostly cloudy",
         "rain_chance": "0%",
         "wind_mph": 5
@@ -89,7 +82,7 @@
       },
       {
         "time": "8 AM",
-        "temp_c": 12,
+        "temp_c": 13,
         "condition": "Hazy sunshine",
         "rain_chance": "0%",
         "wind_mph": 5
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-10",
-      "condition": "Sun through high clouds",
-      "temp_min": 15,
-      "temp_max": 23
-    },
-    {
       "date": "2026-10-11",
       "condition": "Rain from Tropical Rainstorm Isaias; watch for flooding on streets and poor drainage areas",
       "temp_min": 17,
@@ -285,6 +272,12 @@
       "date": "2026-10-23",
       "condition": "Plenty of sunshine",
       "temp_min": 6,
+      "temp_max": 16
+    },
+    {
+      "date": "2026-10-24",
+      "condition": "Plenty of sunshine",
+      "temp_min": 5,
       "temp_max": 16
     }
   ]

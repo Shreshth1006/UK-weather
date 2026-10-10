@@ -4,43 +4,36 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-10-10T03:31:51.654240+00:00",
+  "scraped_at": "2026-10-10T04:31:34.772587+00:00",
   "today": {
     "date": "2026-10-10",
-    "condition": "Clear",
-    "temp_max": null,
+    "condition": "Sun through high clouds; a beautiful start to the weekend",
+    "temp_max": 18,
     "temp_min": 8,
-    "feels_like_high": null,
-    "feels_like_low": 6,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 40,
+    "feels_like_high": 18,
+    "feels_like_low": 8,
+    "wind_gust_mph": 15,
+    "humidity_high_pct": 43,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "6:50 AM",
-    "sunset": "6:12 PM",
+    "sunrise": "6:51 AM",
+    "sunset": "6:11 PM",
     "current": {
       "temp_c": 16,
       "condition": "Clear",
-      "feels_like": 14,
-      "rain_chance": null,
-      "wind_gust_mph": 21,
+      "feels_like": 13,
+      "rain_chance": "1%",
+      "wind_gust_mph": 12,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 13,
-        "condition": "Mostly clear",
-        "rain_chance": "7%",
-        "wind_mph": 8
-      },
-      {
         "time": "1 AM",
-        "temp_c": 12,
+        "temp_c": 13,
         "condition": "Mostly clear",
         "rain_chance": "7%",
         "wind_mph": 8
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-10",
-      "condition": "Sun through high clouds; a beautiful start to the weekend",
-      "temp_min": 8,
-      "temp_max": 18
-    },
-    {
       "date": "2026-10-11",
       "condition": "Sun through high clouds",
       "temp_min": 12,
@@ -286,6 +273,12 @@
       "condition": "Mostly sunny",
       "temp_min": 6,
       "temp_max": 13
+    },
+    {
+      "date": "2026-10-24",
+      "condition": "Plenty of sun",
+      "temp_min": 4,
+      "temp_max": 12
     }
   ]
 }
