@@ -4,52 +4,45 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-10-12T03:31:34.626116+00:00",
+  "scraped_at": "2026-10-12T04:31:39.765180+00:00",
   "today": {
     "date": "2026-10-12",
-    "condition": "Rain",
-    "temp_max": null,
-    "temp_min": 11,
-    "feels_like_high": null,
-    "feels_like_low": 5,
-    "wind_gust_mph": null,
+    "condition": "Cloudy in the morning, then sunshine interrupted by clouds at times in the afternoon",
+    "temp_max": 20,
+    "temp_min": 12,
+    "feels_like_high": 19,
+    "feels_like_low": 10,
+    "wind_gust_mph": 9,
     "humidity_high_pct": 96,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "5km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
-    "sunrise": "6:52 AM",
-    "sunset": "6:09 PM",
+    "sunrise": "6:53 AM",
+    "sunset": "6:08 PM",
     "current": {
       "temp_c": 12,
       "condition": "Rain",
-      "feels_like": 5,
-      "rain_chance": null,
+      "feels_like": 6,
+      "rain_chance": "5%",
       "wind_gust_mph": 14,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 12,
-        "condition": "Rain",
-        "rain_chance": "83%",
-        "wind_mph": 8
-      },
-      {
         "time": "1 AM",
         "temp_c": 12,
         "condition": "Rain",
-        "rain_chance": "82%",
+        "rain_chance": "75%",
         "wind_mph": 8
       },
       {
         "time": "2 AM",
         "temp_c": 12,
         "condition": "Rain",
-        "rain_chance": "70%",
+        "rain_chance": "62%",
         "wind_mph": 8
       },
       {
@@ -84,7 +77,7 @@
         "time": "7 AM",
         "temp_c": 11,
         "condition": "Mostly cloudy",
-        "rain_chance": "23%",
+        "rain_chance": "22%",
         "wind_mph": 7
       },
       {
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-12",
-      "condition": "Cloudy in the morning, then sunshine interrupted by clouds at times in the afternoon",
-      "temp_min": 12,
-      "temp_max": 20
-    },
-    {
       "date": "2026-10-13",
       "condition": "Variably cloudy with a stray shower",
       "temp_min": 14,
@@ -286,6 +273,12 @@
       "condition": "Plenty of sun",
       "temp_min": 9,
       "temp_max": 12
+    },
+    {
+      "date": "2026-10-26",
+      "condition": "Sunny much of the time",
+      "temp_min": 10,
+      "temp_max": 16
     }
   ]
 }
