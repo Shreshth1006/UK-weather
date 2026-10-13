@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-10-13T03:31:44.115695+00:00",
+  "scraped_at": "2026-10-13T04:32:05.242999+00:00",
   "today": {
     "date": "2026-10-13",
-    "condition": "Cloudy",
-    "temp_max": null,
-    "temp_min": 12,
-    "feels_like_high": null,
-    "feels_like_low": 9,
-    "wind_gust_mph": null,
+    "condition": "More clouds than sun; cooler with a stray shower",
+    "temp_max": 17,
+    "temp_min": 14,
+    "feels_like_high": 13,
+    "feels_like_low": 12,
+    "wind_gust_mph": 16,
     "humidity_high_pct": 69,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Low",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "6:53 AM",
-    "sunset": "6:08 PM",
+    "sunrise": "6:54 AM",
+    "sunset": "6:06 PM",
     "current": {
       "temp_c": 17,
-      "condition": "Cloudy",
+      "condition": "Partly cloudy",
       "feels_like": 16,
-      "rain_chance": null,
-      "wind_gust_mph": 8,
+      "rain_chance": "60%",
+      "wind_gust_mph": 7,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 16,
-        "condition": "Mostly cloudy",
-        "rain_chance": "49%",
-        "wind_mph": 7
-      },
       {
         "time": "1 AM",
         "temp_c": 15,
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-13",
-      "condition": "More clouds than sun; cooler with a stray shower",
-      "temp_min": 14,
-      "temp_max": 17
-    },
-    {
       "date": "2026-10-14",
       "condition": "Nice and warm with periods of clouds and sunshine",
       "temp_min": 11,
@@ -285,6 +272,12 @@
       "date": "2026-10-26",
       "condition": "Sunny much of the time",
       "temp_min": 10,
+      "temp_max": 16
+    },
+    {
+      "date": "2026-10-27",
+      "condition": "Partly sunny",
+      "temp_min": 4,
       "temp_max": 16
     }
   ]
