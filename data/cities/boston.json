@@ -4,94 +4,38 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-10-13T18:31:36.505368+00:00",
+  "scraped_at": "2026-10-14T02:31:55.413224+00:00",
   "today": {
-    "date": "2026-10-13",
-    "condition": "Cloudy and cooler; a couple of brief showers late this afternoon",
-    "temp_max": 16,
-    "temp_min": 14,
-    "feels_like_high": 15,
-    "feels_like_low": 12,
-    "wind_gust_mph": 17,
-    "humidity_high_pct": 89,
+    "date": "2026-10-14",
+    "condition": "Cloudy",
+    "temp_max": null,
+    "temp_min": 16,
+    "feels_like_high": null,
+    "feels_like_low": 13,
+    "wind_gust_mph": null,
+    "humidity_high_pct": 93,
     "humidity_low_pct": null,
-    "uv_level": "Low",
+    "uv_level": null,
     "visibility_high": "13km",
     "visibility_low": null,
-    "air_pollution": "Fair",
+    "air_pollution": "Poor",
     "pollen": null,
     "sunrise": "6:54 AM",
     "sunset": "6:06 PM",
     "current": {
-      "temp_c": 14,
-      "condition": "Light rain",
-      "feels_like": 15,
-      "rain_chance": "61%",
+      "temp_c": 16,
+      "condition": "Cloudy",
+      "feels_like": 16,
+      "rain_chance": null,
       "wind_gust_mph": 4,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "3 PM",
-        "temp_c": 14,
-        "condition": "Cloudy",
-        "rain_chance": "48%",
-        "wind_mph": 7
-      },
-      {
-        "time": "4 PM",
-        "temp_c": 14,
-        "condition": "Cloudy",
-        "rain_chance": "46%",
-        "wind_mph": 7
-      },
-      {
-        "time": "5 PM",
-        "temp_c": 14,
-        "condition": "Cloudy",
-        "rain_chance": "49%",
-        "wind_mph": 8
-      },
-      {
-        "time": "6 PM",
-        "temp_c": 14,
-        "condition": "Showers",
-        "rain_chance": "79%",
-        "wind_mph": 8
-      },
-      {
-        "time": "7 PM",
-        "temp_c": 14,
-        "condition": "Showers",
-        "rain_chance": "79%",
-        "wind_mph": 8
-      },
-      {
-        "time": "8 PM",
-        "temp_c": 14,
-        "condition": "Mostly cloudy",
-        "rain_chance": "40%",
-        "wind_mph": 10
-      },
-      {
-        "time": "9 PM",
-        "temp_c": 16,
-        "condition": "Mostly cloudy",
-        "rain_chance": "34%",
-        "wind_mph": 10
-      },
-      {
-        "time": "10 PM",
-        "temp_c": 16,
-        "condition": "Mostly cloudy",
-        "rain_chance": "40%",
-        "wind_mph": 10
-      },
-      {
         "time": "11 PM",
-        "temp_c": 17,
+        "temp_c": 16,
         "condition": "Showers",
-        "rain_chance": "52%",
+        "rain_chance": "67%",
         "wind_mph": 9
       }
     ],
@@ -100,9 +44,9 @@
   "forecast": [
     {
       "date": "2026-10-14",
-      "condition": "Warmer with periods of clouds and sunshine",
-      "temp_min": 11,
-      "temp_max": 25
+      "condition": "Nice and warm with periods of clouds and sunshine",
+      "temp_min": 10,
+      "temp_max": 24
     },
     {
       "date": "2026-10-15",
@@ -114,7 +58,7 @@
       "date": "2026-10-16",
       "condition": "Breezy with rain most of the time",
       "temp_min": 6,
-      "temp_max": 17
+      "temp_max": 19
     },
     {
       "date": "2026-10-17",
@@ -132,7 +76,7 @@
       "date": "2026-10-19",
       "condition": "Sun and clouds",
       "temp_min": 11,
-      "temp_max": 17
+      "temp_max": 16
     },
     {
       "date": "2026-10-20",
@@ -143,20 +87,20 @@
     {
       "date": "2026-10-21",
       "condition": "Plenty of sunshine",
-      "temp_min": 7,
-      "temp_max": 16
+      "temp_min": 8,
+      "temp_max": 17
     },
     {
       "date": "2026-10-22",
       "condition": "Mostly sunny",
       "temp_min": 9,
-      "temp_max": 15
+      "temp_max": 17
     },
     {
       "date": "2026-10-23",
       "condition": "More clouds than sun with a shower in spots in the afternoon",
       "temp_min": 12,
-      "temp_max": 19
+      "temp_max": 20
     },
     {
       "date": "2026-10-24",
