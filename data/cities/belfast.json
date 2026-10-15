@@ -4,17 +4,17 @@
   "country": "UK",
   "source": "Met Office",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcey94cuf",
-  "scraped_at": "2026-10-15T10:31:26.609326+00:00",
-  "source_updated": "Updated: 8:59am on 15 October 2026",
+  "scraped_at": "2026-10-15T11:31:26.127553+00:00",
+  "source_updated": "Updated: 9:59am on 15 October 2026",
   "today": {
     "date": "2026-10-15",
-    "condition": "Sunny intervals",
+    "condition": "Sunny",
     "temp_max": 14,
-    "temp_min": 6,
+    "temp_min": 7,
     "feels_like_high": 12,
-    "feels_like_low": 8,
+    "feels_like_low": 7,
     "wind_gust_mph": 21,
-    "humidity_high_pct": 79,
+    "humidity_high_pct": 77,
     "humidity_low_pct": 57,
     "uv_level": "2\nLow",
     "visibility_high": "16km",
@@ -28,19 +28,13 @@
       "condition": "Sunny intervals",
       "feels_like": 11,
       "rain_chance": "<5%",
-      "wind_gust_mph": 20,
+      "wind_gust_mph": 21,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "11am",
-        "temp_c": 12,
-        "rain_chance": "<5%",
-        "wind_mph": 8
-      },
-      {
         "time": "12pm",
-        "temp_c": 13,
+        "temp_c": 12,
         "rain_chance": "<5%",
         "wind_mph": 9
       },
@@ -48,7 +42,7 @@
         "time": "1pm",
         "temp_c": 13,
         "rain_chance": "<5%",
-        "wind_mph": 10
+        "wind_mph": 9
       },
       {
         "time": "2pm",
@@ -71,8 +65,8 @@
       {
         "time": "5pm",
         "temp_c": 14,
-        "rain_chance": "<5%",
-        "wind_mph": 9
+        "rain_chance": "10%",
+        "wind_mph": 8
       },
       {
         "time": "6pm",
@@ -88,26 +82,26 @@
       },
       {
         "time": "8pm",
-        "temp_c": 11,
+        "temp_c": 12,
         "rain_chance": "40%",
-        "wind_mph": 6
+        "wind_mph": 7
       },
       {
         "time": "9pm",
         "temp_c": 11,
         "rain_chance": "10%",
-        "wind_mph": 6
+        "wind_mph": 7
       },
       {
         "time": "10pm",
         "temp_c": 10,
-        "rain_chance": "10%",
+        "rain_chance": "20%",
         "wind_mph": 7
       },
       {
         "time": "11pm",
         "temp_c": 9,
-        "rain_chance": "10%",
+        "rain_chance": "<5%",
         "wind_mph": 7
       }
     ],
@@ -116,14 +110,14 @@
   "forecast": [
     {
       "date": "2026-10-16",
-      "temp_max": 12,
+      "temp_max": 13,
       "temp_min": 6,
       "condition": "Sunny intervals"
     },
     {
       "date": "2026-10-17",
       "temp_max": 12,
-      "temp_min": 5,
+      "temp_min": 4,
       "condition": "Sunny"
     },
     {
