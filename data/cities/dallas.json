@@ -4,7 +4,7 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/dallas/75202/current-weather/351194",
-  "scraped_at": "2026-10-15T03:31:35.861975+00:00",
+  "scraped_at": "2026-10-15T04:31:34.431877+00:00",
   "today": {
     "date": "2026-10-15",
     "condition": "Mostly cloudy",
@@ -16,14 +16,14 @@
     "humidity_high_pct": 80,
     "humidity_low_pct": null,
     "uv_level": null,
-    "visibility_high": "18km",
+    "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
     "sunrise": "7:30 AM",
     "sunset": "6:56 PM",
     "current": {
-      "temp_c": 28,
+      "temp_c": 27,
       "condition": "Mostly cloudy",
       "feels_like": 31,
       "rain_chance": null,
@@ -32,11 +32,172 @@
     },
     "hourly": [
       {
-        "time": "11 PM",
+        "time": "12 AM",
         "temp_c": 27,
-        "condition": "Mostly cloudy",
+        "condition": "Intermittent clouds",
+        "rain_chance": "34%",
+        "wind_mph": 10
+      },
+      {
+        "time": "1 AM",
+        "temp_c": 27,
+        "condition": "Intermittent clouds",
+        "rain_chance": "34%",
+        "wind_mph": 12
+      },
+      {
+        "time": "2 AM",
+        "temp_c": 26,
+        "condition": "Intermittent clouds",
+        "rain_chance": "34%",
+        "wind_mph": 10
+      },
+      {
+        "time": "3 AM",
+        "temp_c": 25,
+        "condition": "Intermittent clouds",
+        "rain_chance": "34%",
+        "wind_mph": 10
+      },
+      {
+        "time": "4 AM",
+        "temp_c": 24,
+        "condition": "Intermittent clouds",
         "rain_chance": "40%",
         "wind_mph": 10
+      },
+      {
+        "time": "5 AM",
+        "temp_c": 24,
+        "condition": "Mostly cloudy w/ t-storms",
+        "rain_chance": "51%",
+        "wind_mph": 9
+      },
+      {
+        "time": "6 AM",
+        "temp_c": 23,
+        "condition": "Intermittent clouds",
+        "rain_chance": "47%",
+        "wind_mph": 8
+      },
+      {
+        "time": "7 AM",
+        "temp_c": 23,
+        "condition": "Intermittent clouds",
+        "rain_chance": "30%",
+        "wind_mph": 8
+      },
+      {
+        "time": "8 AM",
+        "temp_c": 22,
+        "condition": "Intermittent clouds",
+        "rain_chance": "2%",
+        "wind_mph": 8
+      },
+      {
+        "time": "9 AM",
+        "temp_c": 23,
+        "condition": "Intermittent clouds",
+        "rain_chance": "2%",
+        "wind_mph": 9
+      },
+      {
+        "time": "10 AM",
+        "temp_c": 24,
+        "condition": "Intermittent clouds",
+        "rain_chance": "2%",
+        "wind_mph": 9
+      },
+      {
+        "time": "11 AM",
+        "temp_c": 26,
+        "condition": "Partly sunny",
+        "rain_chance": "2%",
+        "wind_mph": 9
+      },
+      {
+        "time": "12 PM",
+        "temp_c": 28,
+        "condition": "Partly sunny",
+        "rain_chance": "2%",
+        "wind_mph": 10
+      },
+      {
+        "time": "1 PM",
+        "temp_c": 29,
+        "condition": "Partly sunny",
+        "rain_chance": "1%",
+        "wind_mph": 10
+      },
+      {
+        "time": "2 PM",
+        "temp_c": 30,
+        "condition": "Partly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 10
+      },
+      {
+        "time": "3 PM",
+        "temp_c": 31,
+        "condition": "Partly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 10
+      },
+      {
+        "time": "4 PM",
+        "temp_c": 31,
+        "condition": "Partly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 9
+      },
+      {
+        "time": "5 PM",
+        "temp_c": 32,
+        "condition": "Partly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 9
+      },
+      {
+        "time": "6 PM",
+        "temp_c": 31,
+        "condition": "Partly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 8
+      },
+      {
+        "time": "7 PM",
+        "temp_c": 29,
+        "condition": "Partly cloudy",
+        "rain_chance": "2%",
+        "wind_mph": 7
+      },
+      {
+        "time": "8 PM",
+        "temp_c": 27,
+        "condition": "Partly cloudy",
+        "rain_chance": "7%",
+        "wind_mph": 6
+      },
+      {
+        "time": "9 PM",
+        "temp_c": 26,
+        "condition": "Partly cloudy",
+        "rain_chance": "7%",
+        "wind_mph": 5
+      },
+      {
+        "time": "10 PM",
+        "temp_c": 24,
+        "condition": "Partly cloudy",
+        "rain_chance": "7%",
+        "wind_mph": 5
+      },
+      {
+        "time": "11 PM",
+        "temp_c": 24,
+        "condition": "Intermittent clouds",
+        "rain_chance": "7%",
+        "wind_mph": 7
       }
     ],
     "warnings": []

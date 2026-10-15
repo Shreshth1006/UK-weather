@@ -4,45 +4,38 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/new-york/10021/current-weather/349727",
-  "scraped_at": "2026-10-15T03:31:35.442174+00:00",
+  "scraped_at": "2026-10-15T04:31:34.841310+00:00",
   "today": {
     "date": "2026-10-15",
-    "condition": "Mostly clear",
-    "temp_max": null,
-    "temp_min": 13,
-    "feels_like_high": null,
+    "condition": "Cooler and less humid with high thin cloudiness",
+    "temp_max": 17,
+    "temp_min": 14,
+    "feels_like_high": 19,
     "feels_like_low": 12,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 65,
+    "wind_gust_mph": 13,
+    "humidity_high_pct": 60,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "7:06 AM",
-    "sunset": "6:17 PM",
+    "sunrise": "7:07 AM",
+    "sunset": "6:16 PM",
     "current": {
-      "temp_c": 21,
-      "condition": "Mostly clear",
-      "feels_like": 19,
-      "rain_chance": null,
-      "wind_gust_mph": 5,
+      "temp_c": 19,
+      "condition": "Mostly cloudy",
+      "feels_like": 18,
+      "rain_chance": "2%",
+      "wind_gust_mph": 6,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 19,
-        "condition": "Intermittent clouds",
-        "rain_chance": "17%",
-        "wind_mph": 7
-      },
-      {
         "time": "1 AM",
         "temp_c": 17,
-        "condition": "Partly cloudy",
-        "rain_chance": "14%",
+        "condition": "Mostly clear",
+        "rain_chance": "7%",
         "wind_mph": 7
       },
       {
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-15",
-      "condition": "Cooler and less humid with high thin cloudiness",
-      "temp_min": 14,
-      "temp_max": 17
-    },
-    {
       "date": "2026-10-16",
       "condition": "Becoming windier; a little rain early in the morning, then a couple of t-storms late in the afternoon; thunderstorms can bring localized damaging wind gusts",
       "temp_min": 11,
@@ -286,6 +273,12 @@
       "condition": "Mostly sunny",
       "temp_min": 6,
       "temp_max": 15
+    },
+    {
+      "date": "2026-10-29",
+      "condition": "Brilliant sunshine",
+      "temp_min": 6,
+      "temp_max": 12
     }
   ]
 }

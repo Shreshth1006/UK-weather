@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/miami/33128/current-weather/347936",
-  "scraped_at": "2026-10-15T03:31:35.505194+00:00",
+  "scraped_at": "2026-10-15T04:31:35.448378+00:00",
   "today": {
     "date": "2026-10-15",
-    "condition": "Mostly cloudy",
-    "temp_max": null,
+    "condition": "A passing morning shower; otherwise, humid with sun and some clouds",
+    "temp_max": 31,
     "temp_min": 27,
-    "feels_like_high": null,
-    "feels_like_low": 29,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 76,
+    "feels_like_high": 38,
+    "feels_like_low": 31,
+    "wind_gust_mph": 18,
+    "humidity_high_pct": 78,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "High",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
     "sunrise": "7:19 AM",
-    "sunset": "6:54 PM",
+    "sunset": "6:53 PM",
     "current": {
       "temp_c": 28,
-      "condition": "Mostly cloudy",
+      "condition": "Mostly clear",
       "feels_like": 33,
-      "rain_chance": null,
-      "wind_gust_mph": 10,
+      "rain_chance": "60%",
+      "wind_gust_mph": 11,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 28,
-        "condition": "Intermittent clouds",
-        "rain_chance": "37%",
-        "wind_mph": 9
-      },
       {
         "time": "1 AM",
         "temp_c": 28,
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-15",
-      "condition": "A passing morning shower; otherwise, humid with sun and some clouds",
-      "temp_min": 27,
-      "temp_max": 31
-    },
-    {
       "date": "2026-10-16",
       "condition": "A brief shower or two in the morning; otherwise, warm and humid with intervals of clouds and sunshine",
       "temp_min": 26,
@@ -286,6 +273,12 @@
       "condition": "Times of clouds and sun with a passing shower in the afternoon",
       "temp_min": 23,
       "temp_max": 27
+    },
+    {
+      "date": "2026-10-29",
+      "condition": "Times of clouds and sun with a couple of showers and a thunderstorm; humid",
+      "temp_min": 24,
+      "temp_max": 26
     }
   ]
 }

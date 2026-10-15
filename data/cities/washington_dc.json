@@ -4,51 +4,44 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-10-15T03:31:41.372058+00:00",
+  "scraped_at": "2026-10-15T04:31:38.568617+00:00",
   "today": {
     "date": "2026-10-15",
-    "condition": "Cloudy",
-    "temp_max": null,
-    "temp_min": 17,
-    "feels_like_high": null,
-    "feels_like_low": 18,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 76,
+    "condition": "Mostly cloudy and cooler; a little rain in the afternoon",
+    "temp_max": 19,
+    "temp_min": 14,
+    "feels_like_high": 17,
+    "feels_like_low": 12,
+    "wind_gust_mph": 12,
+    "humidity_high_pct": 74,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "15km",
+    "uv_level": "Low",
+    "visibility_high": "14km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "7:16 AM",
-    "sunset": "6:31 PM",
+    "sunrise": "7:17 AM",
+    "sunset": "6:30 PM",
     "current": {
-      "temp_c": 25,
+      "temp_c": 26,
       "condition": "Cloudy",
       "feels_like": 27,
-      "rain_chance": null,
-      "wind_gust_mph": 4,
+      "rain_chance": "64%",
+      "wind_gust_mph": 6,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 25,
-        "condition": "Thunderstorms",
-        "rain_chance": "75%",
-        "wind_mph": 6
-      },
-      {
         "time": "1 AM",
         "temp_c": 24,
         "condition": "Thunderstorms",
-        "rain_chance": "67%",
+        "rain_chance": "44%",
         "wind_mph": 7
       },
       {
         "time": "2 AM",
         "temp_c": 23,
-        "condition": "Mostly cloudy w/ t-storms",
+        "condition": "Thunderstorms",
         "rain_chance": "51%",
         "wind_mph": 7
       },
@@ -61,30 +54,30 @@
       },
       {
         "time": "4 AM",
-        "temp_c": 21,
+        "temp_c": 22,
         "condition": "Intermittent clouds",
-        "rain_chance": "40%",
+        "rain_chance": "39%",
         "wind_mph": 8
       },
       {
         "time": "5 AM",
         "temp_c": 21,
         "condition": "Intermittent clouds",
-        "rain_chance": "34%",
+        "rain_chance": "32%",
         "wind_mph": 8
       },
       {
         "time": "6 AM",
         "temp_c": 20,
         "condition": "Intermittent clouds",
-        "rain_chance": "34%",
+        "rain_chance": "32%",
         "wind_mph": 8
       },
       {
         "time": "7 AM",
         "temp_c": 19,
         "condition": "Intermittent clouds",
-        "rain_chance": "29%",
+        "rain_chance": "28%",
         "wind_mph": 8
       },
       {
@@ -96,7 +89,7 @@
       },
       {
         "time": "9 AM",
-        "temp_c": 17,
+        "temp_c": 18,
         "condition": "Mostly cloudy",
         "rain_chance": "20%",
         "wind_mph": 8
@@ -159,7 +152,7 @@
       },
       {
         "time": "6 PM",
-        "temp_c": 15,
+        "temp_c": 16,
         "condition": "Cloudy",
         "rain_chance": "47%",
         "wind_mph": 6
@@ -173,7 +166,7 @@
       },
       {
         "time": "8 PM",
-        "temp_c": 15,
+        "temp_c": 14,
         "condition": "Cloudy",
         "rain_chance": "44%",
         "wind_mph": 6
@@ -187,7 +180,7 @@
       },
       {
         "time": "10 PM",
-        "temp_c": 15,
+        "temp_c": 14,
         "condition": "Cloudy",
         "rain_chance": "47%",
         "wind_mph": 6
@@ -203,12 +196,6 @@
     "warnings": []
   },
   "forecast": [
-    {
-      "date": "2026-10-15",
-      "condition": "Mostly cloudy and cooler; a little rain in the afternoon",
-      "temp_min": 14,
-      "temp_max": 19
-    },
     {
       "date": "2026-10-16",
       "condition": "Mostly cloudy, becoming windier and warmer with a thunderstorm in the afternoon; thunderstorms can bring localized damaging wind gusts",
@@ -286,6 +273,12 @@
       "condition": "Sunny and cooler",
       "temp_min": 4,
       "temp_max": 15
+    },
+    {
+      "date": "2026-10-29",
+      "condition": "Increasing cloudiness",
+      "temp_min": 4,
+      "temp_max": 14
     }
   ]
 }
