@@ -4,86 +4,50 @@
   "country": "UK",
   "source": "Met Office",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcjkmy91s",
-  "scraped_at": "2026-10-16T04:31:12.143537+00:00",
-  "source_updated": "Updated: 3:59am on 16 October 2026",
+  "scraped_at": "2026-10-16T10:31:13.426757+00:00",
+  "source_updated": "Updated: 10am on 16 October 2026",
   "today": {
     "date": "2026-10-16",
-    "condition": "Sunny",
+    "condition": "Sunny intervals",
     "temp_max": 15,
     "temp_min": 6,
     "feels_like_high": 12,
     "feels_like_low": 7,
-    "wind_gust_mph": 27,
-    "humidity_high_pct": 90,
+    "wind_gust_mph": 26,
+    "humidity_high_pct": 83,
     "humidity_low_pct": 55,
     "uv_level": "2\nLow",
-    "visibility_high": "29km",
-    "visibility_low": "16km",
+    "visibility_high": "27km",
+    "visibility_low": "23km",
     "air_pollution": "Low",
     "pollen": null,
     "sunrise": "07:40",
     "sunset": "18:19",
     "current": {
-      "temp_c": 11,
-      "condition": "Clear",
-      "feels_like": 10,
+      "temp_c": 14,
+      "condition": "Sunny intervals",
+      "feels_like": 12,
       "rain_chance": "<5%",
-      "wind_gust_mph": 23,
+      "wind_gust_mph": 25,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "6am",
-        "temp_c": 12,
-        "rain_chance": "<5%",
-        "wind_mph": 10
-      },
-      {
-        "time": "5am",
-        "temp_c": 11,
-        "rain_chance": "<5%",
-        "wind_mph": 9
-      },
-      {
-        "time": "7am",
-        "temp_c": 11,
-        "rain_chance": "<5%",
-        "wind_mph": 9
-      },
-      {
-        "time": "8am",
-        "temp_c": 11,
-        "rain_chance": "<5%",
-        "wind_mph": 9
-      },
-      {
-        "time": "9am",
-        "temp_c": 12,
-        "rain_chance": "<5%",
-        "wind_mph": 10
-      },
-      {
-        "time": "10am",
-        "temp_c": 13,
-        "rain_chance": "<5%",
-        "wind_mph": 10
-      },
-      {
         "time": "11am",
         "temp_c": 14,
         "rain_chance": "<5%",
-        "wind_mph": 11
+        "wind_mph": 13
       },
       {
         "time": "12pm",
         "temp_c": 14,
-        "rain_chance": "20%",
+        "rain_chance": "<5%",
         "wind_mph": 13
       },
       {
         "time": "1pm",
         "temp_c": 15,
-        "rain_chance": "10%",
+        "rain_chance": "<5%",
         "wind_mph": 13
       },
       {
@@ -113,7 +77,7 @@
       {
         "time": "6pm",
         "temp_c": 12,
-        "rain_chance": "10%",
+        "rain_chance": "<5%",
         "wind_mph": 9
       },
       {
@@ -130,7 +94,7 @@
       },
       {
         "time": "9pm",
-        "temp_c": 9,
+        "temp_c": 10,
         "rain_chance": "<5%",
         "wind_mph": 7
       },
@@ -152,45 +116,45 @@
   "forecast": [
     {
       "date": "2026-10-17",
-      "temp_max": 14,
+      "temp_max": 15,
       "temp_min": 6,
       "condition": "Sunny"
     },
     {
       "date": "2026-10-18",
       "temp_max": 14,
-      "temp_min": 9,
+      "temp_min": 8,
       "condition": "Sunny intervals"
     },
     {
       "date": "2026-10-19",
-      "temp_max": 15,
+      "temp_max": 14,
+      "temp_min": 11,
+      "condition": "Sunny intervals"
+    },
+    {
+      "date": "2026-10-20",
+      "temp_max": 16,
       "temp_min": 12,
       "condition": "Cloudy"
     },
     {
-      "date": "2026-10-20",
-      "temp_max": 17,
-      "temp_min": 13,
-      "condition": "Sunny intervals"
-    },
-    {
       "date": "2026-10-21",
-      "temp_max": 17,
-      "temp_min": 13,
-      "condition": "Light showers"
+      "temp_max": 16,
+      "temp_min": 12,
+      "condition": "Light rain"
     },
     {
       "date": "2026-10-22",
-      "temp_max": 16,
-      "temp_min": 13,
+      "temp_max": 15,
+      "temp_min": 12,
       "condition": "Light showers"
     },
     {
       "date": "2026-10-23",
       "temp_max": 15,
       "temp_min": 12,
-      "condition": "Heavy showers"
+      "condition": "Light showers"
     },
     {
       "date": "2026-10-24",
