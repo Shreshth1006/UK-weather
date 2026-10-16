@@ -4,45 +4,38 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-10-16T03:31:46.099901+00:00",
+  "scraped_at": "2026-10-16T04:31:44.938967+00:00",
   "today": {
     "date": "2026-10-16",
-    "condition": "Cloudy",
-    "temp_max": null,
-    "temp_min": 16,
-    "feels_like_high": null,
-    "feels_like_low": 14,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 86,
+    "condition": "Mostly cloudy, becoming windier and more humid with a thunderstorm in the afternoon; thunderstorms can bring localized damaging wind gusts",
+    "temp_max": 29,
+    "temp_min": 12,
+    "feels_like_high": 29,
+    "feels_like_low": 8,
+    "wind_gust_mph": 36,
+    "humidity_high_pct": 91,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "11km",
+    "uv_level": "Moderate",
+    "visibility_high": "13km",
     "visibility_low": null,
-    "air_pollution": "Poor",
+    "air_pollution": "Fair",
     "pollen": null,
-    "sunrise": "7:17 AM",
-    "sunset": "6:30 PM",
+    "sunrise": "7:18 AM",
+    "sunset": "6:29 PM",
     "current": {
-      "temp_c": 17,
+      "temp_c": 16,
       "condition": "Cloudy",
       "feels_like": 16,
-      "rain_chance": null,
+      "rain_chance": "55%",
       "wind_gust_mph": 4,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 16,
-        "condition": "Showers",
-        "rain_chance": "51%",
-        "wind_mph": 6
-      },
-      {
         "time": "1 AM",
         "temp_c": 16,
         "condition": "Showers",
-        "rain_chance": "56%",
+        "rain_chance": "51%",
         "wind_mph": 6
       },
       {
@@ -56,7 +49,7 @@
         "time": "3 AM",
         "temp_c": 17,
         "condition": "Showers",
-        "rain_chance": "61%",
+        "rain_chance": "60%",
         "wind_mph": 6
       },
       {
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-16",
-      "condition": "Mostly cloudy, becoming windier and more humid with a thunderstorm in the afternoon; thunderstorms can bring localized damaging wind gusts",
-      "temp_min": 12,
-      "temp_max": 29
-    },
-    {
       "date": "2026-10-17",
       "condition": "Windy and cooler with clouds yielding to sun, becoming less humid in the afternoon; gusty winds can blow around unsecured objects and decorations",
       "temp_min": 4,
@@ -286,6 +273,12 @@
       "condition": "Increasing cloudiness",
       "temp_min": 4,
       "temp_max": 14
+    },
+    {
+      "date": "2026-10-30",
+      "condition": "Cloudy and cooler; a passing morning shower, then afternoon rain",
+      "temp_min": 10,
+      "temp_max": 16
     }
   ]
 }
