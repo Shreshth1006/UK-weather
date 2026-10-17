@@ -4,66 +4,59 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/new-york/10021/current-weather/349727",
-  "scraped_at": "2026-10-17T03:31:43.799320+00:00",
+  "scraped_at": "2026-10-17T04:31:21.024606+00:00",
   "today": {
     "date": "2026-10-17",
-    "condition": "Cloudy",
-    "temp_max": null,
-    "temp_min": 10,
-    "feels_like_high": null,
-    "feels_like_low": 5,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 80,
+    "condition": "A couple of sprinkles early in the morning; otherwise, turning sunny, windy and cooler; gusty winds can blow around unsecured objects and decorations",
+    "temp_max": 12,
+    "temp_min": 4,
+    "feels_like_high": 8,
+    "feels_like_low": -1,
+    "wind_gust_mph": 40,
+    "humidity_high_pct": 77,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "7:08 AM",
-    "sunset": "6:14 PM",
+    "sunrise": "7:09 AM",
+    "sunset": "6:13 PM",
     "current": {
       "temp_c": 18,
       "condition": "Cloudy",
       "feels_like": 14,
-      "rain_chance": null,
+      "rain_chance": "30%",
       "wind_gust_mph": 15,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 17,
-        "condition": "Showers",
-        "rain_chance": "51%",
-        "wind_mph": 21
-      },
-      {
         "time": "1 AM",
         "temp_c": 16,
-        "condition": "Cloudy",
-        "rain_chance": "46%",
+        "condition": "Showers",
+        "rain_chance": "69%",
         "wind_mph": 21
       },
       {
         "time": "2 AM",
         "temp_c": 16,
-        "condition": "Cloudy",
-        "rain_chance": "49%",
+        "condition": "Showers",
+        "rain_chance": "63%",
         "wind_mph": 21
       },
       {
         "time": "3 AM",
         "temp_c": 14,
         "condition": "Showers",
-        "rain_chance": "62%",
+        "rain_chance": "58%",
         "wind_mph": 20
       },
       {
         "time": "4 AM",
         "temp_c": 13,
         "condition": "Showers",
-        "rain_chance": "62%",
+        "rain_chance": "58%",
         "wind_mph": 20
       },
       {
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-17",
-      "condition": "A couple of sprinkles early in the morning; otherwise, turning sunny, windy and cooler; gusty winds can blow around unsecured objects and decorations",
-      "temp_min": 4,
-      "temp_max": 12
-    },
-    {
       "date": "2026-10-18",
       "condition": "Plenty of sun",
       "temp_min": 7,
@@ -286,6 +273,12 @@
       "condition": "Cloudy",
       "temp_min": 9,
       "temp_max": 16
+    },
+    {
+      "date": "2026-10-31",
+      "condition": "Times of clouds and sun",
+      "temp_min": 11,
+      "temp_max": 13
     }
   ]
 }

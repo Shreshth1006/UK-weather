@@ -4,45 +4,38 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-10-17T03:31:48.979375+00:00",
+  "scraped_at": "2026-10-17T04:31:26.571649+00:00",
   "today": {
     "date": "2026-10-17",
-    "condition": "Cloudy",
-    "temp_max": null,
-    "temp_min": 8,
-    "feels_like_high": null,
-    "feels_like_low": 2,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 72,
+    "condition": "Windy and cooler with clouds giving way to sun; gusty winds can blow around unsecured objects and decorations",
+    "temp_max": 11,
+    "temp_min": 2,
+    "feels_like_high": 6,
+    "feels_like_low": -6,
+    "wind_gust_mph": 44,
+    "humidity_high_pct": 69,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "16km",
     "visibility_low": null,
-    "air_pollution": "Poor",
+    "air_pollution": "Fair",
     "pollen": null,
-    "sunrise": "6:58 AM",
-    "sunset": "6:01 PM",
+    "sunrise": "6:59 AM",
+    "sunset": "5:59 PM",
     "current": {
       "temp_c": 18,
-      "condition": "Cloudy",
+      "condition": "Mostly cloudy",
       "feels_like": 14,
-      "rain_chance": null,
-      "wind_gust_mph": 28,
+      "rain_chance": "25%",
+      "wind_gust_mph": 30,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 17,
-        "condition": "Thunderstorms",
-        "rain_chance": "77%",
-        "wind_mph": 17
-      },
-      {
         "time": "1 AM",
         "temp_c": 16,
         "condition": "Thunderstorms",
-        "rain_chance": "69%",
+        "rain_chance": "77%",
         "wind_mph": 18
       },
       {
@@ -84,7 +77,7 @@
         "time": "7 AM",
         "temp_c": 8,
         "condition": "Cloudy",
-        "rain_chance": "16%",
+        "rain_chance": "13%",
         "wind_mph": 18
       },
       {
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-17",
-      "condition": "Windy and cooler with clouds giving way to sun; gusty winds can blow around unsecured objects and decorations",
-      "temp_min": 2,
-      "temp_max": 11
-    },
-    {
       "date": "2026-10-18",
       "condition": "Plenty of sunshine",
       "temp_min": 5,
@@ -286,6 +273,12 @@
       "condition": "Increasing cloudiness",
       "temp_min": 7,
       "temp_max": 14
+    },
+    {
+      "date": "2026-10-31",
+      "condition": "Partly sunny",
+      "temp_min": 9,
+      "temp_max": 12
     }
   ]
 }
