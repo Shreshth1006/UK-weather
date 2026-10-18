@@ -3,6 +3,142 @@
   "geohash": "los-angeles/90012/347625",
   "country": "US",
   "source": "AccuWeather",
-  "error": "Target website responded with 404 - Not Found",
-  "scraped_at": "2026-10-18T02:31:38.849019+00:00"
+  "source_url": "https://www.accuweather.com/en/us/los-angeles/90012/current-weather/347625",
+  "scraped_at": "2026-10-18T03:31:37.863708+00:00",
+  "today": {
+    "date": "2026-10-18",
+    "condition": "Cloudy",
+    "temp_max": null,
+    "temp_min": 21,
+    "feels_like_high": null,
+    "feels_like_low": 19,
+    "wind_gust_mph": null,
+    "humidity_high_pct": 27,
+    "humidity_low_pct": null,
+    "uv_level": null,
+    "visibility_high": "18km",
+    "visibility_low": null,
+    "air_pollution": "Poor",
+    "pollen": null,
+    "sunrise": "7:00 AM",
+    "sunset": "6:17 PM",
+    "current": {
+      "temp_c": 27,
+      "condition": "Cloudy",
+      "feels_like": 26,
+      "rain_chance": null,
+      "wind_gust_mph": 4,
+      "pollen": null
+    },
+    "hourly": [
+      {
+        "time": "9 PM",
+        "temp_c": 26,
+        "condition": "Mostly clear",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "10 PM",
+        "temp_c": 25,
+        "condition": "Mostly clear",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "11 PM",
+        "temp_c": 24,
+        "condition": "Mostly clear",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      }
+    ],
+    "warnings": []
+  },
+  "forecast": [
+    {
+      "date": "2026-10-18",
+      "condition": "Very warm with plenty of sun",
+      "temp_min": 19,
+      "temp_max": 32
+    },
+    {
+      "date": "2026-10-19",
+      "condition": "Sunny much of the time",
+      "temp_min": 17,
+      "temp_max": 29
+    },
+    {
+      "date": "2026-10-20",
+      "condition": "Times of clouds and sun",
+      "temp_min": 17,
+      "temp_max": 27
+    },
+    {
+      "date": "2026-10-21",
+      "condition": "Mostly cloudy and not as warm with a couple of showers and a thunderstorm",
+      "temp_min": 16,
+      "temp_max": 23
+    },
+    {
+      "date": "2026-10-22",
+      "condition": "Mostly cloudy with a couple of showers and a thunderstorm",
+      "temp_min": 17,
+      "temp_max": 23
+    },
+    {
+      "date": "2026-10-23",
+      "condition": "Mostly sunny and pleasant",
+      "temp_min": 16,
+      "temp_max": 24
+    },
+    {
+      "date": "2026-10-24",
+      "condition": "Mostly cloudy",
+      "temp_min": 17,
+      "temp_max": 27
+    },
+    {
+      "date": "2026-10-25",
+      "condition": "A couple of morning showers; otherwise, variable clouds",
+      "temp_min": 17,
+      "temp_max": 27
+    },
+    {
+      "date": "2026-10-26",
+      "condition": "A couple of showers in the morning; otherwise, partial sunshine",
+      "temp_min": 16,
+      "temp_max": 26
+    },
+    {
+      "date": "2026-10-27",
+      "condition": "Mostly cloudy",
+      "temp_min": 16,
+      "temp_max": 26
+    },
+    {
+      "date": "2026-10-28",
+      "condition": "Sun through high clouds",
+      "temp_min": 17,
+      "temp_max": 24
+    },
+    {
+      "date": "2026-10-29",
+      "condition": "Sunny",
+      "temp_min": 16,
+      "temp_max": 26
+    },
+    {
+      "date": "2026-10-30",
+      "condition": "Plenty of sunshine",
+      "temp_min": 14,
+      "temp_max": 25
+    },
+    {
+      "date": "2026-10-31",
+      "condition": "Plenty of sunshine",
+      "temp_min": 16,
+      "temp_max": 27
+    }
+  ]
 }
