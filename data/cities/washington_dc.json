@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-10-19T03:31:39.543932+00:00",
+  "scraped_at": "2026-10-19T04:31:45.790147+00:00",
   "today": {
     "date": "2026-10-19",
-    "condition": "Clear",
-    "temp_max": null,
-    "temp_min": 3,
-    "feels_like_high": null,
-    "feels_like_low": 2,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 80,
+    "condition": "Sunny to partly cloudy",
+    "temp_max": 19,
+    "temp_min": 8,
+    "feels_like_high": 19,
+    "feels_like_low": 6,
+    "wind_gust_mph": 17,
+    "humidity_high_pct": 75,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "21km",
+    "uv_level": "Moderate",
+    "visibility_high": "13km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "7:20 AM",
-    "sunset": "6:26 PM",
+    "sunrise": "7:21 AM",
+    "sunset": "6:24 PM",
     "current": {
       "temp_c": 7,
       "condition": "Clear",
-      "feels_like": 8,
-      "rain_chance": null,
+      "feels_like": 9,
+      "rain_chance": "0%",
       "wind_gust_mph": 2,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 6,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 5
-      },
       {
         "time": "1 AM",
         "temp_c": 6,
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-19",
-      "condition": "Sunny to partly cloudy",
-      "temp_min": 8,
-      "temp_max": 19
-    },
-    {
       "date": "2026-10-20",
       "condition": "Sunny to partly cloudy and pleasant",
       "temp_min": 8,
@@ -286,6 +273,12 @@
       "condition": "Plenty of sunshine",
       "temp_min": 9,
       "temp_max": 18
+    },
+    {
+      "date": "2026-11-02",
+      "condition": "Cloudy",
+      "temp_min": 9,
+      "temp_max": 21
     }
   ]
 }
