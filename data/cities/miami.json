@@ -3,6 +3,128 @@
   "geohash": "miami/33128/347936",
   "country": "US",
   "source": "AccuWeather",
-  "error": "Target website responded with 404 - Not Found",
-  "scraped_at": "2026-10-18T18:31:35.396257+00:00"
+  "source_url": "https://www.accuweather.com/en/us/miami/33128/current-weather/347936",
+  "scraped_at": "2026-10-19T02:31:34.018498+00:00",
+  "today": {
+    "date": "2026-10-19",
+    "condition": "Mostly cloudy",
+    "temp_max": null,
+    "temp_min": 25,
+    "feels_like_high": null,
+    "feels_like_low": 24,
+    "wind_gust_mph": null,
+    "humidity_high_pct": 79,
+    "humidity_low_pct": null,
+    "uv_level": null,
+    "visibility_high": "19km",
+    "visibility_low": null,
+    "air_pollution": "Fair",
+    "pollen": null,
+    "sunrise": "7:21 AM",
+    "sunset": "6:51 PM",
+    "current": {
+      "temp_c": 26,
+      "condition": "Mostly cloudy",
+      "feels_like": 26,
+      "rain_chance": null,
+      "wind_gust_mph": 24,
+      "pollen": null
+    },
+    "hourly": [
+      {
+        "time": "11 PM",
+        "temp_c": 25,
+        "condition": "Showers",
+        "rain_chance": "44%",
+        "wind_mph": 15
+      }
+    ],
+    "warnings": []
+  },
+  "forecast": [
+    {
+      "date": "2026-10-19",
+      "condition": "Times of clouds and sun with a brief shower or two; breezy; watch for coastal flooding, rough surf and beach erosion",
+      "temp_min": 23,
+      "temp_max": 30
+    },
+    {
+      "date": "2026-10-20",
+      "condition": "Breezy in the morning; otherwise, mostly sunny",
+      "temp_min": 22,
+      "temp_max": 29
+    },
+    {
+      "date": "2026-10-21",
+      "condition": "Mostly sunny",
+      "temp_min": 22,
+      "temp_max": 29
+    },
+    {
+      "date": "2026-10-22",
+      "condition": "A blend of sun and clouds with a couple of showers, mainly early in the day",
+      "temp_min": 23,
+      "temp_max": 28
+    },
+    {
+      "date": "2026-10-23",
+      "condition": "Intervals of clouds and sunshine with a couple of showers in the afternoon",
+      "temp_min": 22,
+      "temp_max": 27
+    },
+    {
+      "date": "2026-10-24",
+      "condition": "Intervals of clouds and sunshine with a couple of showers; breezy",
+      "temp_min": 22,
+      "temp_max": 27
+    },
+    {
+      "date": "2026-10-25",
+      "condition": "Partly sunny with a couple of showers",
+      "temp_min": 23,
+      "temp_max": 27
+    },
+    {
+      "date": "2026-10-26",
+      "condition": "Partly sunny with a couple of showers, mainly early in the day",
+      "temp_min": 24,
+      "temp_max": 26
+    },
+    {
+      "date": "2026-10-27",
+      "condition": "Mostly sunny",
+      "temp_min": 22,
+      "temp_max": 27
+    },
+    {
+      "date": "2026-10-28",
+      "condition": "Sunny to partly cloudy",
+      "temp_min": 23,
+      "temp_max": 28
+    },
+    {
+      "date": "2026-10-29",
+      "condition": "Periods of rain",
+      "temp_min": 23,
+      "temp_max": 27
+    },
+    {
+      "date": "2026-10-30",
+      "condition": "Windy with rain",
+      "temp_min": 22,
+      "temp_max": 27
+    },
+    {
+      "date": "2026-10-31",
+      "condition": "Times of clouds and sun with a shower",
+      "temp_min": 23,
+      "temp_max": 28
+    },
+    {
+      "date": "2026-11-01",
+      "condition": "Mostly sunny with a thunderstorm in the afternoon",
+      "temp_min": 23,
+      "temp_max": 26
+    }
+  ]
 }
