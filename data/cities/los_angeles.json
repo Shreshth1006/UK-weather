@@ -3,6 +3,205 @@
   "geohash": "los-angeles/90012/347625",
   "country": "US",
   "source": "AccuWeather",
-  "error": "Target website responded with 404 - Not Found",
-  "scraped_at": "2026-10-20T11:31:29.991894+00:00"
+  "source_url": "https://www.accuweather.com/en/us/los-angeles/90012/current-weather/347625",
+  "scraped_at": "2026-10-20T18:31:30.914495+00:00",
+  "today": {
+    "date": "2026-10-20",
+    "condition": "Sunny to partly cloudy",
+    "temp_max": 27,
+    "temp_min": 18,
+    "feels_like_high": 28,
+    "feels_like_low": 17,
+    "wind_gust_mph": 10,
+    "humidity_high_pct": 53,
+    "humidity_low_pct": null,
+    "uv_level": "Moderate",
+    "visibility_high": "18km",
+    "visibility_low": null,
+    "air_pollution": "Poor",
+    "pollen": null,
+    "sunrise": "7:02 AM",
+    "sunset": "6:13 PM",
+    "current": {
+      "temp_c": 24,
+      "condition": "Mostly sunny",
+      "feels_like": 28,
+      "rain_chance": "4%",
+      "wind_gust_mph": 7,
+      "pollen": null
+    },
+    "hourly": [
+      {
+        "time": "12 PM",
+        "temp_c": 25,
+        "condition": "Mostly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 7
+      },
+      {
+        "time": "1 PM",
+        "temp_c": 26,
+        "condition": "Mostly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 8
+      },
+      {
+        "time": "2 PM",
+        "temp_c": 27,
+        "condition": "Partly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 8
+      },
+      {
+        "time": "3 PM",
+        "temp_c": 27,
+        "condition": "Partly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 9
+      },
+      {
+        "time": "4 PM",
+        "temp_c": 26,
+        "condition": "Partly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 9
+      },
+      {
+        "time": "5 PM",
+        "temp_c": 24,
+        "condition": "Partly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 8
+      },
+      {
+        "time": "6 PM",
+        "temp_c": 23,
+        "condition": "Partly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 7
+      },
+      {
+        "time": "7 PM",
+        "temp_c": 22,
+        "condition": "Partly cloudy",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "8 PM",
+        "temp_c": 22,
+        "condition": "Mostly clear",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "9 PM",
+        "temp_c": 21,
+        "condition": "Clear",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "10 PM",
+        "temp_c": 21,
+        "condition": "Clear",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "11 PM",
+        "temp_c": 20,
+        "condition": "Mostly clear",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      }
+    ],
+    "warnings": []
+  },
+  "forecast": [
+    {
+      "date": "2026-10-21",
+      "condition": "Mostly cloudy and not as warm; a couple of showers and a thunderstorm in the afternoon; there can be ponding on streets and highways",
+      "temp_min": 17,
+      "temp_max": 23
+    },
+    {
+      "date": "2026-10-22",
+      "condition": "Times of clouds and sun; cool with a couple of showers and a thunderstorm; storms can bring ponding on roads, damaging winds and an isolated tornado",
+      "temp_min": 15,
+      "temp_max": 22
+    },
+    {
+      "date": "2026-10-23",
+      "condition": "Pleasant with plenty of sunshine",
+      "temp_min": 16,
+      "temp_max": 24
+    },
+    {
+      "date": "2026-10-24",
+      "condition": "Pleasant with plenty of sunshine",
+      "temp_min": 16,
+      "temp_max": 27
+    },
+    {
+      "date": "2026-10-25",
+      "condition": "Mostly sunny and warm",
+      "temp_min": 17,
+      "temp_max": 29
+    },
+    {
+      "date": "2026-10-26",
+      "condition": "Warm with sunshine",
+      "temp_min": 17,
+      "temp_max": 29
+    },
+    {
+      "date": "2026-10-27",
+      "condition": "Partial sunshine",
+      "temp_min": 18,
+      "temp_max": 27
+    },
+    {
+      "date": "2026-10-28",
+      "condition": "Shifting clouds and sun",
+      "temp_min": 18,
+      "temp_max": 27
+    },
+    {
+      "date": "2026-10-29",
+      "condition": "Mostly sunny",
+      "temp_min": 18,
+      "temp_max": 26
+    },
+    {
+      "date": "2026-10-30",
+      "condition": "Mostly cloudy",
+      "temp_min": 17,
+      "temp_max": 24
+    },
+    {
+      "date": "2026-10-31",
+      "condition": "Partly sunny with a couple of showers possible",
+      "temp_min": 16,
+      "temp_max": 25
+    },
+    {
+      "date": "2026-11-01",
+      "condition": "Mostly cloudy with periods of rain in the afternoon",
+      "temp_min": 16,
+      "temp_max": 25
+    },
+    {
+      "date": "2026-11-02",
+      "condition": "Cloudy",
+      "temp_min": 13,
+      "temp_max": 24
+    },
+    {
+      "date": "2026-11-03",
+      "condition": "Mostly cloudy",
+      "temp_min": 16,
+      "temp_max": 25
+    }
+  ]
 }
