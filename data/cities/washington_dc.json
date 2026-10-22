@@ -4,50 +4,43 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-10-22T03:31:44.000568+00:00",
+  "scraped_at": "2026-10-22T04:31:40.285908+00:00",
   "today": {
     "date": "2026-10-22",
-    "condition": "Clear",
-    "temp_max": null,
-    "temp_min": 6,
-    "feels_like_high": null,
-    "feels_like_low": 4,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 67,
+    "condition": "Plenty of sunshine; a nice day for outdoor activities",
+    "temp_max": 21,
+    "temp_min": 8,
+    "feels_like_high": 21,
+    "feels_like_low": 7,
+    "wind_gust_mph": 18,
+    "humidity_high_pct": 68,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "19km",
+    "uv_level": "Moderate",
+    "visibility_high": "18km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "7:23 AM",
-    "sunset": "6:22 PM",
+    "sunrise": "7:24 AM",
+    "sunset": "6:20 PM",
     "current": {
       "temp_c": 12,
       "condition": "Clear",
-      "feels_like": 13,
-      "rain_chance": null,
+      "feels_like": 12,
+      "rain_chance": "0%",
       "wind_gust_mph": 5,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 9,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
-      {
         "time": "1 AM",
-        "temp_c": 9,
+        "temp_c": 10,
         "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 6
       },
       {
         "time": "2 AM",
-        "temp_c": 8,
+        "temp_c": 9,
         "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 6
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-22",
-      "condition": "Plenty of sunshine; a nice day for outdoor activities",
-      "temp_min": 8,
-      "temp_max": 21
-    },
-    {
       "date": "2026-10-23",
       "condition": "Partly sunny; great day to be outside",
       "temp_min": 3,
@@ -286,6 +273,12 @@
       "condition": "Sunshine and cooler",
       "temp_min": 4,
       "temp_max": 14
+    },
+    {
+      "date": "2026-11-05",
+      "condition": "Cloudy",
+      "temp_min": 3,
+      "temp_max": 13
     }
   ]
 }
