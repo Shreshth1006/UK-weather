@@ -4,73 +4,169 @@
   "country": "UK",
   "source": "Met Office",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcjszevgx",
-  "scraped_at": "2026-10-21T18:31:25.923163+00:00",
-  "source_updated": "Updated: 5:59pm on 21 October 2026",
+  "scraped_at": "2026-10-22T02:31:24.794291+00:00",
+  "source_updated": "Updated: 12:58am on 22 October 2026",
   "today": {
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "condition": "Heavy rain",
-    "temp_max": 11,
-    "temp_min": 8,
-    "feels_like_high": 8,
-    "feels_like_low": 7,
-    "wind_gust_mph": 30,
-    "humidity_high_pct": 92,
-    "humidity_low_pct": 71,
+    "temp_max": 14,
+    "temp_min": 9,
+    "feels_like_high": 13,
+    "feels_like_low": 6,
+    "wind_gust_mph": 35,
+    "humidity_high_pct": 93,
+    "humidity_low_pct": 57,
     "uv_level": "2\nLow",
-    "visibility_high": "29km",
-    "visibility_low": "15km",
+    "visibility_high": "55km",
+    "visibility_low": "9.7km",
     "air_pollution": "Low",
     "pollen": null,
-    "sunrise": "07:47",
-    "sunset": "18:07",
+    "sunrise": "07:49",
+    "sunset": "18:05",
     "current": {
-      "temp_c": 9,
+      "temp_c": 10,
       "condition": "Light showers",
       "feels_like": 7,
       "rain_chance": null,
-      "wind_gust_mph": 26,
+      "wind_gust_mph": 34,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "7pm",
+        "time": "6am",
         "temp_c": 10,
+        "rain_chance": "95%",
+        "wind_mph": 11
+      },
+      {
+        "time": "3am",
+        "temp_c": 10,
+        "rain_chance": "80%",
+        "wind_mph": 10
+      },
+      {
+        "time": "4am",
+        "temp_c": 9,
+        "rain_chance": "70%",
+        "wind_mph": 11
+      },
+      {
+        "time": "5am",
+        "temp_c": 9,
+        "rain_chance": "60%",
+        "wind_mph": 13
+      },
+      {
+        "time": "7am",
+        "temp_c": 9,
+        "rain_chance": "50%",
+        "wind_mph": 11
+      },
+      {
+        "time": "8am",
+        "temp_c": 9,
+        "rain_chance": "20%",
+        "wind_mph": 10
+      },
+      {
+        "time": "9am",
+        "temp_c": 9,
+        "rain_chance": "10%",
+        "wind_mph": 9
+      },
+      {
+        "time": "10am",
+        "temp_c": 10,
+        "rain_chance": "10%",
+        "wind_mph": 7
+      },
+      {
+        "time": "11am",
+        "temp_c": 11,
+        "rain_chance": "10%",
+        "wind_mph": 7
+      },
+      {
+        "time": "12pm",
+        "temp_c": 12,
+        "rain_chance": "10%",
+        "wind_mph": 6
+      },
+      {
+        "time": "1pm",
+        "temp_c": 13,
+        "rain_chance": "20%",
+        "wind_mph": 6
+      },
+      {
+        "time": "2pm",
+        "temp_c": 13,
+        "rain_chance": "20%",
+        "wind_mph": 5
+      },
+      {
+        "time": "3pm",
+        "temp_c": 13,
+        "rain_chance": "20%",
+        "wind_mph": 5
+      },
+      {
+        "time": "4pm",
+        "temp_c": 13,
+        "rain_chance": "20%",
+        "wind_mph": 5
+      },
+      {
+        "time": "5pm",
+        "temp_c": 13,
+        "rain_chance": "40%",
+        "wind_mph": 7
+      },
+      {
+        "time": "6pm",
+        "temp_c": 12,
+        "rain_chance": "80%",
+        "wind_mph": 8
+      },
+      {
+        "time": "7pm",
+        "temp_c": 12,
         "rain_chance": "90%",
         "wind_mph": 10
       },
       {
         "time": "8pm",
-        "temp_c": 9,
-        "rain_chance": "50%",
-        "wind_mph": 7
+        "temp_c": 12,
+        "rain_chance": "90%",
+        "wind_mph": 11
       },
       {
         "time": "9pm",
-        "temp_c": 9,
+        "temp_c": 12,
         "rain_chance": "95%",
-        "wind_mph": 7
+        "wind_mph": 13
       },
       {
         "time": "10pm",
-        "temp_c": 9,
+        "temp_c": 12,
         "rain_chance": "95%",
-        "wind_mph": 7
+        "wind_mph": 15
       },
       {
         "time": "11pm",
-        "temp_c": 10,
+        "temp_c": 12,
         "rain_chance": "95%",
-        "wind_mph": 9
+        "wind_mph": 15
       }
     ],
     "warnings": [
       {
         "severity": "yellow",
-        "severity_text": null,
-        "type": null,
+        "severity_text": "Yellow warning",
+        "type": "Wind",
         "valid_from": "2026-10-23T00:00+01:00",
         "valid_to": "2026-10-23T14:00+01:00",
-        "period_text": null,
+        "period_text": "Friday midnight to 2pm",
         "impact": 3,
         "likelihood": 2
       }
@@ -78,20 +174,14 @@
   },
   "forecast": [
     {
-      "date": "2026-10-22",
-      "temp_max": 14,
-      "temp_min": 9,
-      "condition": "Heavy rain"
-    },
-    {
       "date": "2026-10-23",
       "temp_max": 11,
       "temp_min": 8,
-      "condition": "Heavy rain"
+      "condition": "Light rain"
     },
     {
       "date": "2026-10-24",
-      "temp_max": 17,
+      "temp_max": 16,
       "temp_min": 10,
       "condition": "Heavy rain"
     },
@@ -103,13 +193,13 @@
     },
     {
       "date": "2026-10-26",
-      "temp_max": 17,
-      "temp_min": 11,
+      "temp_max": 18,
+      "temp_min": 10,
       "condition": "Light rain"
     },
     {
       "date": "2026-10-27",
-      "temp_max": 14,
+      "temp_max": 13,
       "temp_min": 10,
       "condition": "Light showers"
     },
@@ -122,17 +212,23 @@
     {
       "date": "2026-10-29",
       "temp_max": 14,
-      "temp_min": 11,
+      "temp_min": 9,
       "condition": "Sunny intervals"
     },
     {
       "date": "2026-10-30",
-      "temp_max": 15,
-      "temp_min": 10,
-      "condition": "Cloudy"
+      "temp_max": 14,
+      "temp_min": 9,
+      "condition": "Sunny intervals"
     },
     {
-      "date": "2026-10-21",
+      "date": "2026-10-31",
+      "temp_max": 13,
+      "temp_min": 8,
+      "condition": "Sunny intervals"
+    },
+    {
+      "date": "2026-10-22",
       "temp_max": null,
       "temp_min": null
     }
