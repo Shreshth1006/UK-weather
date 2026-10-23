@@ -4,92 +4,36 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-10-22T18:31:48.867022+00:00",
+  "scraped_at": "2026-10-23T02:31:43.043175+00:00",
   "today": {
-    "date": "2026-10-22",
-    "condition": "Mostly sunny and a steady breeze",
-    "temp_max": 17,
+    "date": "2026-10-23",
+    "condition": "Clear",
+    "temp_max": null,
     "temp_min": 4,
-    "feels_like_high": 16,
+    "feels_like_high": null,
     "feels_like_low": -2,
-    "wind_gust_mph": 35,
-    "humidity_high_pct": 30,
+    "wind_gust_mph": null,
+    "humidity_high_pct": 50,
     "humidity_low_pct": null,
-    "uv_level": "Moderate",
+    "uv_level": null,
     "visibility_high": "16km",
     "visibility_low": null,
-    "air_pollution": "Fair",
+    "air_pollution": "Poor",
     "pollen": null,
     "sunrise": "7:05 AM",
     "sunset": "5:52 PM",
     "current": {
-      "temp_c": 17,
-      "condition": "Mostly sunny",
-      "feels_like": 16,
-      "rain_chance": "0%",
-      "wind_gust_mph": 22,
+      "temp_c": 14,
+      "condition": "Clear",
+      "feels_like": 10,
+      "rain_chance": null,
+      "wind_gust_mph": 16,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "3 PM",
-        "temp_c": 17,
-        "condition": "Mostly sunny",
-        "rain_chance": "0%",
-        "wind_mph": 18
-      },
-      {
-        "time": "4 PM",
-        "temp_c": 17,
-        "condition": "Mostly sunny",
-        "rain_chance": "0%",
-        "wind_mph": 15
-      },
-      {
-        "time": "5 PM",
-        "temp_c": 16,
-        "condition": "Mostly sunny",
-        "rain_chance": "0%",
-        "wind_mph": 14
-      },
-      {
-        "time": "6 PM",
-        "temp_c": 14,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 15
-      },
-      {
-        "time": "7 PM",
-        "temp_c": 14,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 15
-      },
-      {
-        "time": "8 PM",
-        "temp_c": 13,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 16
-      },
-      {
-        "time": "9 PM",
-        "temp_c": 12,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 17
-      },
-      {
-        "time": "10 PM",
-        "temp_c": 11,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 18
-      },
-      {
         "time": "11 PM",
-        "temp_c": 11,
+        "temp_c": 13,
         "condition": "Mostly clear",
         "rain_chance": "0%",
         "wind_mph": 18
@@ -100,9 +44,9 @@
   "forecast": [
     {
       "date": "2026-10-23",
-      "condition": "Sunshine",
-      "temp_min": 2,
-      "temp_max": 13
+      "condition": "Sunshine and cooler",
+      "temp_min": 1,
+      "temp_max": 12
     },
     {
       "date": "2026-10-24",
@@ -113,25 +57,25 @@
     {
       "date": "2026-10-25",
       "condition": "Plenty of sun; a nice end to the weekend",
-      "temp_min": 7,
+      "temp_min": 5,
       "temp_max": 18
     },
     {
       "date": "2026-10-26",
       "condition": "Mostly sunny",
       "temp_min": 7,
-      "temp_max": 21
+      "temp_max": 20
     },
     {
       "date": "2026-10-27",
       "condition": "Sunny and cooler",
-      "temp_min": 4,
-      "temp_max": 13
+      "temp_min": 2,
+      "temp_max": 11
     },
     {
       "date": "2026-10-28",
       "condition": "Times of clouds and sun",
-      "temp_min": 8,
+      "temp_min": 5,
       "temp_max": 12
     },
     {
@@ -144,11 +88,11 @@
       "date": "2026-10-30",
       "condition": "After a cloudy start, sun returns",
       "temp_min": 8,
-      "temp_max": 14
+      "temp_max": 17
     },
     {
       "date": "2026-10-31",
-      "condition": "Mostly sunny",
+      "condition": "Mostly sunny and cooler",
       "temp_min": 9,
       "temp_max": 11
     },
@@ -179,7 +123,7 @@
     {
       "date": "2026-11-05",
       "condition": "Mostly sunny",
-      "temp_min": 2,
+      "temp_min": 3,
       "temp_max": 10
     }
   ]
