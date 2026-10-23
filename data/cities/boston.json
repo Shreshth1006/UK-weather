@@ -4,7 +4,7 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-10-23T02:31:43.043175+00:00",
+  "scraped_at": "2026-10-23T03:31:47.104105+00:00",
   "today": {
     "date": "2026-10-23",
     "condition": "Clear",
@@ -13,30 +13,191 @@
     "feels_like_high": null,
     "feels_like_low": -2,
     "wind_gust_mph": null,
-    "humidity_high_pct": 50,
+    "humidity_high_pct": 48,
     "humidity_low_pct": null,
     "uv_level": null,
     "visibility_high": "16km",
     "visibility_low": null,
-    "air_pollution": "Poor",
+    "air_pollution": "Fair",
     "pollen": null,
     "sunrise": "7:05 AM",
     "sunset": "5:52 PM",
     "current": {
-      "temp_c": 14,
+      "temp_c": 13,
       "condition": "Clear",
-      "feels_like": 10,
+      "feels_like": 8,
       "rain_chance": null,
-      "wind_gust_mph": 16,
+      "wind_gust_mph": 27,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "11 PM",
-        "temp_c": 13,
-        "condition": "Mostly clear",
+        "time": "12 AM",
+        "temp_c": 12,
+        "condition": "Clear",
+        "rain_chance": "0%",
+        "wind_mph": 20
+      },
+      {
+        "time": "1 AM",
+        "temp_c": 10,
+        "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 18
+      },
+      {
+        "time": "2 AM",
+        "temp_c": 8,
+        "condition": "Clear",
+        "rain_chance": "0%",
+        "wind_mph": 18
+      },
+      {
+        "time": "3 AM",
+        "temp_c": 8,
+        "condition": "Clear",
+        "rain_chance": "0%",
+        "wind_mph": 18
+      },
+      {
+        "time": "4 AM",
+        "temp_c": 7,
+        "condition": "Clear",
+        "rain_chance": "0%",
+        "wind_mph": 17
+      },
+      {
+        "time": "5 AM",
+        "temp_c": 6,
+        "condition": "Clear",
+        "rain_chance": "0%",
+        "wind_mph": 17
+      },
+      {
+        "time": "6 AM",
+        "temp_c": 6,
+        "condition": "Clear",
+        "rain_chance": "0%",
+        "wind_mph": 16
+      },
+      {
+        "time": "7 AM",
+        "temp_c": 4,
+        "condition": "Clear",
+        "rain_chance": "0%",
+        "wind_mph": 15
+      },
+      {
+        "time": "8 AM",
+        "temp_c": 6,
+        "condition": "Sunny",
+        "rain_chance": "0%",
+        "wind_mph": 13
+      },
+      {
+        "time": "9 AM",
+        "temp_c": 7,
+        "condition": "Sunny",
+        "rain_chance": "0%",
+        "wind_mph": 12
+      },
+      {
+        "time": "10 AM",
+        "temp_c": 8,
+        "condition": "Sunny",
+        "rain_chance": "0%",
+        "wind_mph": 10
+      },
+      {
+        "time": "11 AM",
+        "temp_c": 9,
+        "condition": "Mostly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 12
+      },
+      {
+        "time": "12 PM",
+        "temp_c": 10,
+        "condition": "Mostly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 10
+      },
+      {
+        "time": "1 PM",
+        "temp_c": 11,
+        "condition": "Mostly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 10
+      },
+      {
+        "time": "2 PM",
+        "temp_c": 12,
+        "condition": "Mostly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 9
+      },
+      {
+        "time": "3 PM",
+        "temp_c": 12,
+        "condition": "Sunny",
+        "rain_chance": "0%",
+        "wind_mph": 9
+      },
+      {
+        "time": "4 PM",
+        "temp_c": 12,
+        "condition": "Sunny",
+        "rain_chance": "0%",
+        "wind_mph": 8
+      },
+      {
+        "time": "5 PM",
+        "temp_c": 11,
+        "condition": "Sunny",
+        "rain_chance": "0%",
+        "wind_mph": 8
+      },
+      {
+        "time": "6 PM",
+        "temp_c": 10,
+        "condition": "Clear",
+        "rain_chance": "0%",
+        "wind_mph": 7
+      },
+      {
+        "time": "7 PM",
+        "temp_c": 9,
+        "condition": "Clear",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "8 PM",
+        "temp_c": 8,
+        "condition": "Clear",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "9 PM",
+        "temp_c": 7,
+        "condition": "Clear",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "10 PM",
+        "temp_c": 7,
+        "condition": "Clear",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "11 PM",
+        "temp_c": 6,
+        "condition": "Mostly clear",
+        "rain_chance": "0%",
+        "wind_mph": 6
       }
     ],
     "warnings": []
@@ -64,7 +225,7 @@
       "date": "2026-10-26",
       "condition": "Mostly sunny",
       "temp_min": 7,
-      "temp_max": 20
+      "temp_max": 21
     },
     {
       "date": "2026-10-27",
@@ -123,7 +284,7 @@
     {
       "date": "2026-11-05",
       "condition": "Mostly sunny",
-      "temp_min": 3,
+      "temp_min": 2,
       "temp_max": 10
     }
   ]
