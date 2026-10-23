@@ -4,44 +4,37 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/new-york/10021/current-weather/349727",
-  "scraped_at": "2026-10-23T03:31:44.309143+00:00",
+  "scraped_at": "2026-10-23T04:35:37.400940+00:00",
   "today": {
     "date": "2026-10-23",
-    "condition": "Cloudy",
-    "temp_max": null,
-    "temp_min": 8,
-    "feels_like_high": null,
-    "feels_like_low": 4,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 51,
+    "condition": "Plenty of sunshine; great day to be outside",
+    "temp_max": 15,
+    "temp_min": 7,
+    "feels_like_high": 18,
+    "feels_like_low": 8,
+    "wind_gust_mph": 16,
+    "humidity_high_pct": 50,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "7:15 AM",
-    "sunset": "6:06 PM",
+    "sunrise": "7:16 AM",
+    "sunset": "6:04 PM",
     "current": {
-      "temp_c": 15,
-      "condition": "Cloudy",
+      "temp_c": 14,
+      "condition": "Mostly cloudy",
       "feels_like": 12,
-      "rain_chance": null,
-      "wind_gust_mph": 12,
+      "rain_chance": "0%",
+      "wind_gust_mph": 9,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
+        "time": "1 AM",
         "temp_c": 13,
         "condition": "Partly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 15
-      },
-      {
-        "time": "1 AM",
-        "temp_c": 12,
-        "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 15
       },
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-23",
-      "condition": "Plenty of sunshine; great day to be outside",
-      "temp_min": 7,
-      "temp_max": 15
-    },
-    {
       "date": "2026-10-24",
       "condition": "Sunshine and a few clouds; great weather for viewing fall foliage",
       "temp_min": 7,
@@ -286,6 +273,12 @@
       "condition": "Intervals of clouds and sun",
       "temp_min": 4,
       "temp_max": 11
+    },
+    {
+      "date": "2026-11-06",
+      "condition": "Plenty of sun",
+      "temp_min": 11,
+      "temp_max": 17
     }
   ]
 }

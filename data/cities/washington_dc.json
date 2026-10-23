@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-10-23T03:31:46.664886+00:00",
+  "scraped_at": "2026-10-23T04:35:40.556647+00:00",
   "today": {
     "date": "2026-10-23",
-    "condition": "Clear",
-    "temp_max": null,
-    "temp_min": 8,
-    "feels_like_high": null,
-    "feels_like_low": 7,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 57,
+    "condition": "Mostly sunny; great day to be outside",
+    "temp_max": 18,
+    "temp_min": 3,
+    "feels_like_high": 19,
+    "feels_like_low": 2,
+    "wind_gust_mph": 17,
+    "humidity_high_pct": 67,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "19km",
+    "uv_level": "Moderate",
+    "visibility_high": "18km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "7:24 AM",
-    "sunset": "6:20 PM",
+    "sunrise": "7:26 AM",
+    "sunset": "6:19 PM",
     "current": {
       "temp_c": 12,
       "condition": "Clear",
       "feels_like": 13,
-      "rain_chance": null,
-      "wind_gust_mph": 3,
+      "rain_chance": "2%",
+      "wind_gust_mph": 4,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 12,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 7
-      },
       {
         "time": "1 AM",
         "temp_c": 11,
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-23",
-      "condition": "Mostly sunny; great day to be outside",
-      "temp_min": 3,
-      "temp_max": 18
-    },
-    {
       "date": "2026-10-24",
       "condition": "Plenty of sunshine; great weather for viewing fall foliage",
       "temp_min": 4,
@@ -286,6 +273,12 @@
       "condition": "Cloudy",
       "temp_min": 3,
       "temp_max": 13
+    },
+    {
+      "date": "2026-11-06",
+      "condition": "Mostly sunny",
+      "temp_min": 9,
+      "temp_max": 20
     }
   ]
 }
