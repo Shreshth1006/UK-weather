@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/new-york/10021/current-weather/349727",
-  "scraped_at": "2026-10-24T03:31:33.978971+00:00",
+  "scraped_at": "2026-10-24T04:31:35.232888+00:00",
   "today": {
     "date": "2026-10-24",
-    "condition": "Mostly cloudy",
-    "temp_max": null,
+    "condition": "Sunshine and a few clouds; great weather for viewing fall foliage",
+    "temp_max": 16,
     "temp_min": 7,
-    "feels_like_high": null,
+    "feels_like_high": 20,
     "feels_like_low": 8,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 52,
+    "wind_gust_mph": 4,
+    "humidity_high_pct": 60,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "7:16 AM",
-    "sunset": "6:04 PM",
+    "sunrise": "7:17 AM",
+    "sunset": "6:03 PM",
     "current": {
-      "temp_c": 10,
-      "condition": "Mostly cloudy",
-      "feels_like": 11,
-      "rain_chance": null,
+      "temp_c": 9,
+      "condition": "Partly cloudy",
+      "feels_like": 10,
+      "rain_chance": "0%",
       "wind_gust_mph": 2,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 9,
-        "condition": "Partly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 1
-      },
       {
         "time": "1 AM",
         "temp_c": 9,
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-24",
-      "condition": "Sunshine and a few clouds; great weather for viewing fall foliage",
-      "temp_min": 7,
-      "temp_max": 16
-    },
-    {
       "date": "2026-10-25",
       "condition": "Plenty of sunshine; a nice end to the weekend",
       "temp_min": 9,
@@ -284,6 +271,12 @@
     {
       "date": "2026-11-06",
       "condition": "Plenty of sun",
+      "temp_min": 11,
+      "temp_max": 17
+    },
+    {
+      "date": "2026-11-07",
+      "condition": "Mainly cloudy",
       "temp_min": 11,
       "temp_max": 17
     }
