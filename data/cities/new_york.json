@@ -4,16 +4,16 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/new-york/10021/current-weather/349727",
-  "scraped_at": "2026-10-25T04:31:39.298263+00:00",
+  "scraped_at": "2026-10-25T10:31:50.466260+00:00",
   "today": {
     "date": "2026-10-25",
     "condition": "Plenty of sunshine; a nice end to the weekend",
     "temp_max": 19,
-    "temp_min": 9,
+    "temp_min": 10,
     "feels_like_high": 22,
-    "feels_like_low": 9,
-    "wind_gust_mph": 2,
-    "humidity_high_pct": 54,
+    "feels_like_low": 11,
+    "wind_gust_mph": 4,
+    "humidity_high_pct": 85,
     "humidity_low_pct": null,
     "uv_level": "Moderate",
     "visibility_high": "16km",
@@ -23,59 +23,17 @@
     "sunrise": "7:18 AM",
     "sunset": "6:01 PM",
     "current": {
-      "temp_c": 11,
-      "condition": "Mostly clear",
-      "feels_like": 12,
+      "temp_c": 7,
+      "condition": "Clear",
+      "feels_like": 8,
       "rain_chance": "0%",
       "wind_gust_mph": 2,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "1 AM",
-        "temp_c": 10,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 1
-      },
-      {
-        "time": "2 AM",
-        "temp_c": 9,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 1
-      },
-      {
-        "time": "3 AM",
-        "temp_c": 9,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 1
-      },
-      {
-        "time": "4 AM",
-        "temp_c": 8,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 1
-      },
-      {
-        "time": "5 AM",
-        "temp_c": 8,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 1
-      },
-      {
-        "time": "6 AM",
-        "temp_c": 8,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 1
-      },
-      {
         "time": "7 AM",
-        "temp_c": 8,
+        "temp_c": 7,
         "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 1
@@ -85,14 +43,14 @@
         "temp_c": 8,
         "condition": "Sunny",
         "rain_chance": "0%",
-        "wind_mph": 1
+        "wind_mph": 0
       },
       {
         "time": "9 AM",
         "temp_c": 10,
         "condition": "Sunny",
         "rain_chance": "0%",
-        "wind_mph": 1
+        "wind_mph": 0
       },
       {
         "time": "10 AM",
@@ -103,14 +61,14 @@
       },
       {
         "time": "11 AM",
-        "temp_c": 13,
+        "temp_c": 14,
         "condition": "Sunny",
         "rain_chance": "0%",
         "wind_mph": 2
       },
       {
         "time": "12 PM",
-        "temp_c": 15,
+        "temp_c": 16,
         "condition": "Sunny",
         "rain_chance": "0%",
         "wind_mph": 1
@@ -131,14 +89,14 @@
       },
       {
         "time": "3 PM",
-        "temp_c": 18,
+        "temp_c": 19,
         "condition": "Sunny",
         "rain_chance": "0%",
         "wind_mph": 0
       },
       {
         "time": "4 PM",
-        "temp_c": 19,
+        "temp_c": 18,
         "condition": "Sunny",
         "rain_chance": "0%",
         "wind_mph": 0
@@ -159,7 +117,7 @@
       },
       {
         "time": "7 PM",
-        "temp_c": 14,
+        "temp_c": 15,
         "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 1
@@ -169,25 +127,25 @@
         "temp_c": 14,
         "condition": "Clear",
         "rain_chance": "0%",
-        "wind_mph": 1
+        "wind_mph": 2
       },
       {
         "time": "9 PM",
-        "temp_c": 13,
+        "temp_c": 14,
         "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 1
       },
       {
         "time": "10 PM",
-        "temp_c": 12,
+        "temp_c": 14,
         "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 1
       },
       {
         "time": "11 PM",
-        "temp_c": 12,
+        "temp_c": 13,
         "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 2
@@ -198,26 +156,26 @@
   "forecast": [
     {
       "date": "2026-10-26",
-      "condition": "Mostly sunny and pleasant; great day to be outside",
+      "condition": "Mostly sunny and pleasantly warm; great day to be outside",
       "temp_min": 11,
-      "temp_max": 21
+      "temp_max": 22
     },
     {
       "date": "2026-10-27",
-      "condition": "Mostly sunny; a nice afternoon for outdoor activities",
+      "condition": "Mostly sunny and cooler; a nice afternoon for outdoor activities",
       "temp_min": 7,
       "temp_max": 16
     },
     {
       "date": "2026-10-28",
-      "condition": "Sun giving way to increasing clouds",
-      "temp_min": 9,
+      "condition": "Intervals of clouds and sunshine",
+      "temp_min": 11,
       "temp_max": 15
     },
     {
       "date": "2026-10-29",
-      "condition": "Brilliant sunshine and nice",
-      "temp_min": 12,
+      "condition": "Pleasant with plenty of sunshine",
+      "temp_min": 13,
       "temp_max": 18
     },
     {
@@ -228,51 +186,51 @@
     },
     {
       "date": "2026-10-31",
-      "condition": "Mostly sunny",
-      "temp_min": 10,
-      "temp_max": 16
+      "condition": "Sunny to partly cloudy",
+      "temp_min": 11,
+      "temp_max": 18
     },
     {
       "date": "2026-11-01",
       "condition": "Mostly cloudy",
-      "temp_min": 12,
+      "temp_min": 13,
       "temp_max": 17
     },
     {
       "date": "2026-11-02",
-      "condition": "A couple of showers in the morning; otherwise, cloudy",
+      "condition": "Periods of rain",
       "temp_min": 13,
       "temp_max": 18
     },
     {
       "date": "2026-11-03",
-      "condition": "Mostly sunny",
-      "temp_min": 11,
+      "condition": "Cloudy with a little rain",
+      "temp_min": 10,
       "temp_max": 17
     },
     {
       "date": "2026-11-04",
-      "condition": "Periods of clouds and sunshine",
+      "condition": "Rain",
       "temp_min": 9,
-      "temp_max": 14
+      "temp_max": 16
     },
     {
       "date": "2026-11-05",
-      "condition": "A little rain in the morning; otherwise, cloudy",
-      "temp_min": 7,
-      "temp_max": 13
+      "condition": "Sunny",
+      "temp_min": 8,
+      "temp_max": 14
     },
     {
       "date": "2026-11-06",
-      "condition": "Plenty of sun",
-      "temp_min": 3,
-      "temp_max": 12
+      "condition": "Mostly sunny",
+      "temp_min": 11,
+      "temp_max": 13
     },
     {
       "date": "2026-11-07",
       "condition": "Mainly cloudy",
-      "temp_min": 11,
-      "temp_max": 17
+      "temp_min": 4,
+      "temp_max": 15
     },
     {
       "date": "2026-11-08",
