@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-10-26T03:31:54.054616+00:00",
+  "scraped_at": "2026-10-26T04:31:28.210121+00:00",
   "today": {
     "date": "2026-10-26",
-    "condition": "Clear",
-    "temp_max": null,
-    "temp_min": 5,
-    "feels_like_high": null,
+    "condition": "Mostly sunny; great day to be outside",
+    "temp_max": 21,
+    "temp_min": 6,
+    "feels_like_high": 21,
     "feels_like_low": 3,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 63,
+    "wind_gust_mph": 15,
+    "humidity_high_pct": 65,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "7:09 AM",
-    "sunset": "5:47 PM",
+    "sunrise": "7:10 AM",
+    "sunset": "5:46 PM",
     "current": {
-      "temp_c": 11,
+      "temp_c": 9,
       "condition": "Clear",
       "feels_like": 8,
-      "rain_chance": null,
-      "wind_gust_mph": 8,
+      "rain_chance": "1%",
+      "wind_gust_mph": 7,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 9,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
       {
         "time": "1 AM",
         "temp_c": 8,
@@ -61,7 +54,7 @@
       },
       {
         "time": "4 AM",
-        "temp_c": 7,
+        "temp_c": 6,
         "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 6
@@ -75,7 +68,7 @@
       },
       {
         "time": "6 AM",
-        "temp_c": 6,
+        "temp_c": 5,
         "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 6
@@ -124,7 +117,7 @@
       },
       {
         "time": "1 PM",
-        "temp_c": 17,
+        "temp_c": 18,
         "condition": "Mostly sunny",
         "rain_chance": "0%",
         "wind_mph": 7
@@ -145,7 +138,7 @@
       },
       {
         "time": "4 PM",
-        "temp_c": 21,
+        "temp_c": 20,
         "condition": "Partly sunny",
         "rain_chance": "0%",
         "wind_mph": 7
@@ -180,7 +173,7 @@
       },
       {
         "time": "9 PM",
-        "temp_c": 14,
+        "temp_c": 15,
         "condition": "Partly cloudy",
         "rain_chance": "0%",
         "wind_mph": 6
@@ -203,12 +196,6 @@
     "warnings": []
   },
   "forecast": [
-    {
-      "date": "2026-10-26",
-      "condition": "Mostly sunny; great day to be outside",
-      "temp_min": 6,
-      "temp_max": 21
-    },
     {
       "date": "2026-10-27",
       "condition": "Mostly sunny and cooler",
@@ -285,6 +272,12 @@
       "date": "2026-11-08",
       "condition": "After a cloudy start, sun returns",
       "temp_min": 9,
+      "temp_max": 15
+    },
+    {
+      "date": "2026-11-09",
+      "condition": "Times of clouds and sun",
+      "temp_min": 4,
       "temp_max": 15
     }
   ]

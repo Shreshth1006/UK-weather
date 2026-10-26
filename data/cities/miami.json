@@ -4,45 +4,38 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/miami/33128/current-weather/347936",
-  "scraped_at": "2026-10-26T03:31:50.452205+00:00",
+  "scraped_at": "2026-10-26T04:31:25.031083+00:00",
   "today": {
     "date": "2026-10-26",
-    "condition": "Light rain",
-    "temp_max": null,
+    "condition": "Intervals of clouds and sunshine, windy and humid with a couple of soaking showers; king tides can lead to coastal erosion and flooding in low-lying areas",
+    "temp_max": 28,
     "temp_min": 24,
-    "feels_like_high": null,
+    "feels_like_high": 29,
     "feels_like_low": 23,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 81,
+    "wind_gust_mph": 31,
+    "humidity_high_pct": 90,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "16km",
+    "uv_level": "Low",
+    "visibility_high": "14km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
     "sunrise": "7:25 AM",
-    "sunset": "6:45 PM",
+    "sunset": "6:44 PM",
     "current": {
-      "temp_c": 25,
-      "condition": "Light rain",
-      "feels_like": 26,
-      "rain_chance": null,
-      "wind_gust_mph": 9,
+      "temp_c": 23,
+      "condition": "Partly cloudy",
+      "feels_like": 25,
+      "rain_chance": "98%",
+      "wind_gust_mph": 16,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 24,
-        "condition": "Showers",
-        "rain_chance": "56%",
-        "wind_mph": 13
-      },
-      {
         "time": "1 AM",
         "temp_c": 24,
         "condition": "Showers",
-        "rain_chance": "57%",
+        "rain_chance": "75%",
         "wind_mph": 13
       },
       {
@@ -70,14 +63,14 @@
         "time": "5 AM",
         "temp_c": 24,
         "condition": "Showers",
-        "rain_chance": "79%",
+        "rain_chance": "75%",
         "wind_mph": 13
       },
       {
         "time": "6 AM",
         "temp_c": 24,
         "condition": "Showers",
-        "rain_chance": "79%",
+        "rain_chance": "75%",
         "wind_mph": 13
       },
       {
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-26",
-      "condition": "Intervals of clouds and sunshine, windy and humid with a couple of soaking showers; king tides can lead to coastal erosion and flooding in low-lying areas",
-      "temp_min": 24,
-      "temp_max": 28
-    },
-    {
       "date": "2026-10-27",
       "condition": "Intervals of clouds and sunshine, windy and humid with a couple of showers; king tides can lead to coastal erosion and flooding in low-lying areas",
       "temp_min": 23,
@@ -286,6 +273,12 @@
       "condition": "Sunny to partly cloudy with a passing shower in the afternoon",
       "temp_min": 23,
       "temp_max": 27
+    },
+    {
+      "date": "2026-11-09",
+      "condition": "Partly sunny and humid; a thundershower in the afternoon",
+      "temp_min": 23,
+      "temp_max": 28
     }
   ]
 }
