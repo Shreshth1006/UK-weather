@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-10-27T03:31:36.746726+00:00",
+  "scraped_at": "2026-10-27T04:31:41.249123+00:00",
   "today": {
     "date": "2026-10-27",
-    "condition": "Partly cloudy",
-    "temp_max": null,
-    "temp_min": 6,
-    "feels_like_high": null,
-    "feels_like_low": 3,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 53,
+    "condition": "Mostly sunny and cooler",
+    "temp_max": 12,
+    "temp_min": 1,
+    "feels_like_high": 13,
+    "feels_like_low": -1,
+    "wind_gust_mph": 16,
+    "humidity_high_pct": 59,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "7:10 AM",
-    "sunset": "5:46 PM",
+    "sunrise": "7:11 AM",
+    "sunset": "5:45 PM",
     "current": {
-      "temp_c": 16,
+      "temp_c": 15,
       "condition": "Partly cloudy",
-      "feels_like": 13,
-      "rain_chance": null,
-      "wind_gust_mph": 13,
+      "feels_like": 12,
+      "rain_chance": "2%",
+      "wind_gust_mph": 29,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 13,
-        "condition": "Partly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 8
-      },
       {
         "time": "1 AM",
         "temp_c": 11,
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-27",
-      "condition": "Mostly sunny and cooler",
-      "temp_min": 1,
-      "temp_max": 12
-    },
-    {
       "date": "2026-10-28",
       "condition": "Partly sunny",
       "temp_min": 8,
@@ -286,6 +273,12 @@
       "condition": "Times of clouds and sun",
       "temp_min": 4,
       "temp_max": 15
+    },
+    {
+      "date": "2026-11-10",
+      "condition": "Cloudy",
+      "temp_min": 4,
+      "temp_max": 11
     }
   ]
 }

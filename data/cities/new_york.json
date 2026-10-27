@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/new-york/10021/current-weather/349727",
-  "scraped_at": "2026-10-27T03:31:32.931924+00:00",
+  "scraped_at": "2026-10-27T04:31:37.099080+00:00",
   "today": {
     "date": "2026-10-27",
-    "condition": "Clear",
-    "temp_max": null,
-    "temp_min": 11,
-    "feels_like_high": null,
-    "feels_like_low": 11,
-    "wind_gust_mph": null,
+    "condition": "Mostly sunny; a nice afternoon for outdoor activities",
+    "temp_max": 16,
+    "temp_min": 8,
+    "feels_like_high": 18,
+    "feels_like_low": 8,
+    "wind_gust_mph": 13,
     "humidity_high_pct": 51,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "7:19 AM",
-    "sunset": "6:00 PM",
+    "sunrise": "7:20 AM",
+    "sunset": "5:59 PM",
     "current": {
       "temp_c": 17,
       "condition": "Clear",
       "feels_like": 17,
-      "rain_chance": null,
-      "wind_gust_mph": 4,
+      "rain_chance": "3%",
+      "wind_gust_mph": 3,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 16,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 4
-      },
       {
         "time": "1 AM",
         "temp_c": 15,
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-27",
-      "condition": "Mostly sunny; a nice afternoon for outdoor activities",
-      "temp_min": 8,
-      "temp_max": 16
-    },
-    {
       "date": "2026-10-28",
       "condition": "Intervals of clouds and sunshine",
       "temp_min": 11,
@@ -286,6 +273,12 @@
       "condition": "Partly sunny",
       "temp_min": 8,
       "temp_max": 17
+    },
+    {
+      "date": "2026-11-10",
+      "condition": "Cloudy",
+      "temp_min": 6,
+      "temp_max": 13
     }
   ]
 }
