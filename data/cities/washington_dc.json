@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-10-28T03:31:51.963604+00:00",
+  "scraped_at": "2026-10-28T04:31:28.780477+00:00",
   "today": {
     "date": "2026-10-28",
-    "condition": "Clear",
-    "temp_max": null,
-    "temp_min": 8,
-    "feels_like_high": null,
-    "feels_like_low": 8,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 85,
+    "condition": "Sun through high clouds",
+    "temp_max": 20,
+    "temp_min": 9,
+    "feels_like_high": 21,
+    "feels_like_low": 9,
+    "wind_gust_mph": 8,
+    "humidity_high_pct": 95,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "13km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "7:30 AM",
-    "sunset": "6:14 PM",
+    "sunrise": "7:31 AM",
+    "sunset": "6:13 PM",
     "current": {
-      "temp_c": 13,
+      "temp_c": 11,
       "condition": "Clear",
-      "feels_like": 14,
-      "rain_chance": null,
-      "wind_gust_mph": 3,
+      "feels_like": 12,
+      "rain_chance": "4%",
+      "wind_gust_mph": 5,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 11,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 5
-      },
       {
         "time": "1 AM",
         "temp_c": 11,
@@ -47,14 +40,14 @@
       },
       {
         "time": "2 AM",
-        "temp_c": 10,
+        "temp_c": 11,
         "condition": "Mostly clear",
         "rain_chance": "0%",
         "wind_mph": 5
       },
       {
         "time": "3 AM",
-        "temp_c": 9,
+        "temp_c": 10,
         "condition": "Mostly clear",
         "rain_chance": "0%",
         "wind_mph": 5
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-28",
-      "condition": "Sun through high clouds",
-      "temp_min": 9,
-      "temp_max": 20
-    },
-    {
       "date": "2026-10-29",
       "condition": "Partly sunny and pleasant",
       "temp_min": 8,
@@ -286,6 +273,12 @@
       "condition": "Cloudy",
       "temp_min": 8,
       "temp_max": 16
+    },
+    {
+      "date": "2026-11-11",
+      "condition": "Cloudy with rain tapering off",
+      "temp_min": 8,
+      "temp_max": 14
     }
   ]
 }
