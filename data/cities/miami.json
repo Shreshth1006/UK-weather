@@ -4,108 +4,101 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/miami/33128/current-weather/347936",
-  "scraped_at": "2026-10-29T03:31:40.719546+00:00",
+  "scraped_at": "2026-10-29T04:31:53.383387+00:00",
   "today": {
     "date": "2026-10-29",
-    "condition": "Partly cloudy",
-    "temp_max": null,
+    "condition": "Partly sunny, warm and humid with a couple of showers and a thunderstorm; king tides can lead to significant coastal erosion and flooding in low-lying areas",
+    "temp_max": 30,
     "temp_min": 24,
-    "feels_like_high": null,
+    "feels_like_high": 36,
     "feels_like_low": 28,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 81,
+    "wind_gust_mph": 14,
+    "humidity_high_pct": 84,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "16km",
+    "uv_level": "Moderate",
+    "visibility_high": "13km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
     "sunrise": "7:27 AM",
     "sunset": "6:42 PM",
     "current": {
-      "temp_c": 27,
+      "temp_c": 26,
       "condition": "Partly cloudy",
-      "feels_like": 30,
-      "rain_chance": null,
-      "wind_gust_mph": 8,
+      "feels_like": 29,
+      "rain_chance": "88%",
+      "wind_gust_mph": 10,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 26,
-        "condition": "Mostly cloudy w/ showers",
-        "rain_chance": "47%",
-        "wind_mph": 6
-      },
-      {
         "time": "1 AM",
-        "temp_c": 25,
+        "temp_c": 26,
         "condition": "Partly cloudy",
-        "rain_chance": "43%",
+        "rain_chance": "41%",
         "wind_mph": 6
       },
       {
         "time": "2 AM",
         "temp_c": 25,
-        "condition": "Mostly clear",
-        "rain_chance": "34%",
+        "condition": "Mostly cloudy w/ showers",
+        "rain_chance": "66%",
         "wind_mph": 6
       },
       {
         "time": "3 AM",
         "temp_c": 25,
         "condition": "Partly cloudy",
-        "rain_chance": "34%",
-        "wind_mph": 4
+        "rain_chance": "49%",
+        "wind_mph": 5
       },
       {
         "time": "4 AM",
         "temp_c": 25,
         "condition": "Partly cloudy",
-        "rain_chance": "38%",
-        "wind_mph": 4
+        "rain_chance": "49%",
+        "wind_mph": 5
       },
       {
         "time": "5 AM",
         "temp_c": 25,
         "condition": "Partly cloudy",
         "rain_chance": "49%",
-        "wind_mph": 4
+        "wind_mph": 5
       },
       {
         "time": "6 AM",
-        "temp_c": 25,
+        "temp_c": 24,
         "condition": "Partly cloudy w/ showers",
-        "rain_chance": "56%",
-        "wind_mph": 4
+        "rain_chance": "61%",
+        "wind_mph": 5
       },
       {
         "time": "7 AM",
         "temp_c": 24,
         "condition": "Partly cloudy",
         "rain_chance": "49%",
-        "wind_mph": 4
+        "wind_mph": 5
       },
       {
         "time": "8 AM",
         "temp_c": 25,
         "condition": "Partly sunny",
-        "rain_chance": "48%",
+        "rain_chance": "49%",
         "wind_mph": 6
       },
       {
         "time": "9 AM",
         "temp_c": 26,
         "condition": "Partly sunny w/ t-storms",
-        "rain_chance": "52%",
+        "rain_chance": "53%",
         "wind_mph": 6
       },
       {
         "time": "10 AM",
         "temp_c": 27,
         "condition": "Partly sunny",
-        "rain_chance": "44%",
+        "rain_chance": "45%",
         "wind_mph": 6
       },
       {
@@ -117,7 +110,7 @@
       },
       {
         "time": "12 PM",
-        "temp_c": 29,
+        "temp_c": 28,
         "condition": "Partly sunny",
         "rain_chance": "49%",
         "wind_mph": 8
@@ -159,7 +152,7 @@
       },
       {
         "time": "6 PM",
-        "temp_c": 29,
+        "temp_c": 28,
         "condition": "Partly sunny w/ t-storms",
         "rain_chance": "59%",
         "wind_mph": 8
@@ -203,12 +196,6 @@
     "warnings": []
   },
   "forecast": [
-    {
-      "date": "2026-10-29",
-      "condition": "Partly sunny, warm and humid with a couple of showers and a thunderstorm; king tides can lead to significant coastal erosion and flooding in low-lying areas",
-      "temp_min": 24,
-      "temp_max": 30
-    },
     {
       "date": "2026-10-30",
       "condition": "Partly sunny and humid with a couple of showers and a thunderstorm; king tides can lead to coastal erosion and flooding in low-lying areas",
@@ -286,6 +273,12 @@
       "condition": "Humid with times of clouds and sun; a thundershower in spots in the afternoon",
       "temp_min": 23,
       "temp_max": 27
+    },
+    {
+      "date": "2026-11-12",
+      "condition": "A morning shower; otherwise, partly sunny and humid",
+      "temp_min": 22,
+      "temp_max": 28
     }
   ]
 }

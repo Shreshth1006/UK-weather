@@ -4,40 +4,33 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-10-29T03:31:44.700128+00:00",
+  "scraped_at": "2026-10-29T04:31:57.665069+00:00",
   "today": {
     "date": "2026-10-29",
-    "condition": "Mostly clear",
-    "temp_max": null,
-    "temp_min": 8,
-    "feels_like_high": null,
+    "condition": "Fog will lift in the morning; partly sunny; great day to be outside",
+    "temp_max": 23,
+    "temp_min": 9,
+    "feels_like_high": 23,
     "feels_like_low": 9,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 81,
+    "wind_gust_mph": 12,
+    "humidity_high_pct": 78,
     "humidity_low_pct": null,
-    "uv_level": null,
+    "uv_level": "Moderate",
     "visibility_high": "13km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "7:31 AM",
-    "sunset": "6:13 PM",
+    "sunrise": "7:32 AM",
+    "sunset": "6:11 PM",
     "current": {
-      "temp_c": 12,
-      "condition": "Mostly clear",
+      "temp_c": 13,
+      "condition": "Clear",
       "feels_like": 14,
-      "rain_chance": null,
+      "rain_chance": "1%",
       "wind_gust_mph": 2,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "12 AM",
-        "temp_c": 11,
-        "condition": "Partly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 5
-      },
       {
         "time": "1 AM",
         "temp_c": 11,
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-29",
-      "condition": "Fog will lift in the morning; partly sunny; great day to be outside",
-      "temp_min": 9,
-      "temp_max": 23
-    },
-    {
       "date": "2026-10-30",
       "condition": "Mostly sunny and warm; a nice afternoon for outdoor activities",
       "temp_min": 8,
@@ -286,6 +273,12 @@
       "condition": "Cloudy with rain tapering off",
       "temp_min": 8,
       "temp_max": 14
+    },
+    {
+      "date": "2026-11-12",
+      "condition": "A touch of morning rain; otherwise, remaining cloudy",
+      "temp_min": 7,
+      "temp_max": 12
     }
   ]
 }
