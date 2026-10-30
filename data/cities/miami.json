@@ -4,57 +4,50 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/miami/33128/current-weather/347936",
-  "scraped_at": "2026-10-30T03:31:45.711824+00:00",
+  "scraped_at": "2026-10-30T04:31:39.697193+00:00",
   "today": {
     "date": "2026-10-30",
-    "condition": "Partly cloudy",
-    "temp_max": null,
-    "temp_min": 24,
-    "feels_like_high": null,
+    "condition": "Partly sunny and humid with a couple of showers and a thunderstorm; king tides can lead to coastal erosion and flooding in low-lying areas",
+    "temp_max": 29,
+    "temp_min": 25,
+    "feels_like_high": 36,
     "feels_like_low": 28,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 86,
+    "wind_gust_mph": 18,
+    "humidity_high_pct": 91,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "16km",
+    "uv_level": "Moderate",
+    "visibility_high": "14km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
-    "sunrise": "7:27 AM",
-    "sunset": "6:42 PM",
+    "sunrise": "7:28 AM",
+    "sunset": "6:41 PM",
     "current": {
       "temp_c": 27,
-      "condition": "Partly cloudy",
-      "feels_like": 33,
-      "rain_chance": null,
-      "wind_gust_mph": 8,
+      "condition": "Mostly cloudy",
+      "feels_like": 34,
+      "rain_chance": "88%",
+      "wind_gust_mph": 6,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 24,
-        "condition": "Mostly clear",
-        "rain_chance": "34%",
-        "wind_mph": 6
-      },
-      {
         "time": "1 AM",
-        "temp_c": 24,
+        "temp_c": 26,
         "condition": "Mostly clear",
         "rain_chance": "29%",
         "wind_mph": 6
       },
       {
         "time": "2 AM",
-        "temp_c": 24,
+        "temp_c": 26,
         "condition": "Partly cloudy",
         "rain_chance": "20%",
         "wind_mph": 6
       },
       {
         "time": "3 AM",
-        "temp_c": 24,
+        "temp_c": 25,
         "condition": "Intermittent clouds",
         "rain_chance": "20%",
         "wind_mph": 6
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-30",
-      "condition": "Partly sunny and humid with a couple of showers and a thunderstorm; king tides can lead to coastal erosion and flooding in low-lying areas",
-      "temp_min": 25,
-      "temp_max": 29
-    },
-    {
       "date": "2026-10-31",
       "condition": "Partly sunny and humid with a thunderstorm in spots; watch for dangerous rip currents, as well as coastal flooding around high tide",
       "temp_min": 24,
@@ -286,6 +273,12 @@
       "condition": "A morning shower; otherwise, partly sunny and humid",
       "temp_min": 22,
       "temp_max": 28
+    },
+    {
+      "date": "2026-11-13",
+      "condition": "Intervals of clouds and sunshine with a passing shower in the afternoon",
+      "temp_min": 21,
+      "temp_max": 25
     }
   ]
 }
