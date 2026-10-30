@@ -4,93 +4,37 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-10-29T18:31:55.094983+00:00",
+  "scraped_at": "2026-10-30T02:31:46.799246+00:00",
   "today": {
-    "date": "2026-10-29",
-    "condition": "Warmer with sunshine; great day to be outside",
-    "temp_max": 20,
-    "temp_min": 12,
-    "feels_like_high": 20,
+    "date": "2026-10-30",
+    "condition": "Clear",
+    "temp_max": null,
+    "temp_min": 13,
+    "feels_like_high": null,
     "feels_like_low": 10,
-    "wind_gust_mph": 27,
-    "humidity_high_pct": 52,
+    "wind_gust_mph": null,
+    "humidity_high_pct": 74,
     "humidity_low_pct": null,
-    "uv_level": "Moderate",
+    "uv_level": null,
     "visibility_high": "16km",
     "visibility_low": null,
-    "air_pollution": "Fair",
+    "air_pollution": "Poor",
     "pollen": null,
     "sunrise": "7:14 AM",
     "sunset": "5:42 PM",
     "current": {
-      "temp_c": 20,
-      "condition": "Sunny",
-      "feels_like": 19,
-      "rain_chance": "0%",
-      "wind_gust_mph": 28,
+      "temp_c": 14,
+      "condition": "Clear",
+      "feels_like": 11,
+      "rain_chance": null,
+      "wind_gust_mph": 16,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "3 PM",
-        "temp_c": 20,
-        "condition": "Mostly sunny",
-        "rain_chance": "0%",
-        "wind_mph": 12
-      },
-      {
-        "time": "4 PM",
-        "temp_c": 19,
-        "condition": "Mostly sunny",
-        "rain_chance": "0%",
-        "wind_mph": 12
-      },
-      {
-        "time": "5 PM",
-        "temp_c": 18,
-        "condition": "Mostly sunny",
-        "rain_chance": "0%",
-        "wind_mph": 12
-      },
-      {
-        "time": "6 PM",
-        "temp_c": 16,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 10
-      },
-      {
-        "time": "7 PM",
-        "temp_c": 15,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 10
-      },
-      {
-        "time": "8 PM",
-        "temp_c": 14,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 9
-      },
-      {
-        "time": "9 PM",
-        "temp_c": 13,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 9
-      },
-      {
-        "time": "10 PM",
-        "temp_c": 13,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 9
-      },
-      {
         "time": "11 PM",
         "temp_c": 13,
-        "condition": "Mostly clear",
+        "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 9
       }
@@ -100,9 +44,9 @@
   "forecast": [
     {
       "date": "2026-10-30",
-      "condition": "Mostly sunny and a steady breeze",
+      "condition": "Mostly sunny and a steady breeze; low humidity and dry brush will result in an elevated fire threat",
       "temp_min": 4,
-      "temp_max": 20
+      "temp_max": 21
     },
     {
       "date": "2026-10-31",
@@ -118,21 +62,21 @@
     },
     {
       "date": "2026-11-02",
-      "condition": "Pleasant with partial sunshine",
+      "condition": "Partial sunshine; a dry start to the week, but rain is expected to return late week",
       "temp_min": 9,
-      "temp_max": 19
+      "temp_max": 21
     },
     {
       "date": "2026-11-03",
-      "condition": "Mostly cloudy",
-      "temp_min": 11,
-      "temp_max": 16
+      "condition": "Mostly cloudy; dry for heading to the polls",
+      "temp_min": 9,
+      "temp_max": 17
     },
     {
       "date": "2026-11-04",
-      "condition": "Partial sunshine",
+      "condition": "Pleasant with partial sunshine",
       "temp_min": 11,
-      "temp_max": 16
+      "temp_max": 17
     },
     {
       "date": "2026-11-05",
@@ -148,9 +92,9 @@
     },
     {
       "date": "2026-11-07",
-      "condition": "Cloudy and cooler with showers",
+      "condition": "Cloudy with showers",
       "temp_min": 8,
-      "temp_max": 13
+      "temp_max": 16
     },
     {
       "date": "2026-11-08",
