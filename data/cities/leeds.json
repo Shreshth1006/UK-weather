@@ -4,20 +4,20 @@
   "country": "UK",
   "source": "Met Office",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcwfhxhup",
-  "scraped_at": "2026-10-31T03:31:07.334998+00:00",
-  "source_updated": "Updated: 2:02am on 31 October 2026",
+  "scraped_at": "2026-10-31T04:31:13.661916+00:00",
+  "source_updated": "Updated: 3am on 31 October 2026",
   "today": {
     "date": "2026-10-31",
     "condition": "Sunny intervals",
     "temp_max": 12,
     "temp_min": 5,
-    "feels_like_high": 12,
+    "feels_like_high": 11,
     "feels_like_low": 5,
-    "wind_gust_mph": 13,
+    "wind_gust_mph": 14,
     "humidity_high_pct": 99,
     "humidity_low_pct": 77,
     "uv_level": "1\nLow",
-    "visibility_high": "13km",
+    "visibility_high": "12km",
     "visibility_low": null,
     "air_pollution": "Low",
     "pollen": null,
@@ -25,7 +25,7 @@
     "sunset": "16:34",
     "current": {
       "temp_c": 8,
-      "condition": "Fog",
+      "condition": "Mist",
       "feels_like": 7,
       "rain_chance": "<5%",
       "wind_gust_mph": 8,
@@ -34,12 +34,6 @@
     "hourly": [
       {
         "time": "6am",
-        "temp_c": 8,
-        "rain_chance": "<5%",
-        "wind_mph": 2
-      },
-      {
-        "time": "3am",
         "temp_c": 8,
         "rain_chance": "<5%",
         "wind_mph": 2
@@ -90,7 +84,7 @@
         "time": "12pm",
         "temp_c": 11,
         "rain_chance": "<5%",
-        "wind_mph": 5
+        "wind_mph": 4
       },
       {
         "time": "1pm",
@@ -120,7 +114,7 @@
         "time": "5pm",
         "temp_c": 10,
         "rain_chance": "<5%",
-        "wind_mph": 3
+        "wind_mph": 2
       },
       {
         "time": "6pm",
@@ -159,7 +153,18 @@
         "wind_mph": 2
       }
     ],
-    "warnings": []
+    "warnings": [
+      {
+        "severity": "yellow",
+        "severity_text": "Yellow warning",
+        "type": "Fog",
+        "valid_from": "2026-10-31T04:11Z",
+        "valid_to": "2026-10-31T10:00Z",
+        "period_text": "Until 10am today",
+        "impact": 2,
+        "likelihood": 3
+      }
+    ]
   },
   "forecast": [
     {
@@ -177,7 +182,7 @@
     {
       "date": "2026-11-03",
       "temp_max": 11,
-      "temp_min": 7,
+      "temp_min": 6,
       "condition": "Sunny intervals"
     },
     {

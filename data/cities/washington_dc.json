@@ -4,44 +4,37 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-10-31T03:31:49.302510+00:00",
+  "scraped_at": "2026-10-31T04:31:45.020456+00:00",
   "today": {
     "date": "2026-10-31",
-    "condition": "Partly cloudy",
-    "temp_max": null,
-    "temp_min": 6,
-    "feels_like_high": null,
-    "feels_like_low": 5,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 49,
+    "condition": "Cooler with times of clouds and sun; a beautiful start to the weekend",
+    "temp_max": 18,
+    "temp_min": 7,
+    "feels_like_high": 19,
+    "feels_like_low": 8,
+    "wind_gust_mph": 10,
+    "humidity_high_pct": 56,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "21km",
+    "uv_level": "Moderate",
+    "visibility_high": "23km",
     "visibility_low": null,
-    "air_pollution": "Fair",
+    "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "7:33 AM",
-    "sunset": "6:10 PM",
+    "sunrise": "7:34 AM",
+    "sunset": "6:09 PM",
     "current": {
-      "temp_c": 16,
-      "condition": "Partly cloudy",
-      "feels_like": 16,
-      "rain_chance": null,
+      "temp_c": 14,
+      "condition": "Clear",
+      "feels_like": 15,
+      "rain_chance": "0%",
       "wind_gust_mph": 7,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 13,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
-      {
         "time": "1 AM",
-        "temp_c": 12,
-        "condition": "Mostly clear",
+        "temp_c": 13,
+        "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 6
       },
@@ -54,7 +47,7 @@
       },
       {
         "time": "3 AM",
-        "temp_c": 9,
+        "temp_c": 10,
         "condition": "Mostly clear",
         "rain_chance": "0%",
         "wind_mph": 6
@@ -75,7 +68,7 @@
       },
       {
         "time": "6 AM",
-        "temp_c": 8,
+        "temp_c": 7,
         "condition": "Mostly clear",
         "rain_chance": "0%",
         "wind_mph": 6
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-10-31",
-      "condition": "Cooler with times of clouds and sun; a beautiful start to the weekend",
-      "temp_min": 7,
-      "temp_max": 18
-    },
-    {
       "date": "2026-11-01",
       "condition": "Partly sunny; great day to be outside",
       "temp_min": 8,
@@ -286,6 +273,12 @@
       "condition": "Partly sunny",
       "temp_min": 6,
       "temp_max": 16
+    },
+    {
+      "date": "2026-11-14",
+      "condition": "Cloudy",
+      "temp_min": 5,
+      "temp_max": 12
     }
   ]
 }
