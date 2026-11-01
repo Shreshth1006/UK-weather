@@ -4,43 +4,36 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-11-01T03:31:39.872626+00:00",
+  "scraped_at": "2026-11-01T04:31:50.901662+00:00",
   "today": {
     "date": "2026-11-01",
-    "condition": "Cloudy",
-    "temp_max": null,
-    "temp_min": 7,
-    "feels_like_high": null,
+    "condition": "Sun through high clouds; great day to be outside",
+    "temp_max": 19,
+    "temp_min": 8,
+    "feels_like_high": 21,
     "feels_like_low": 8,
-    "wind_gust_mph": null,
-    "humidity_high_pct": 68,
+    "wind_gust_mph": 7,
+    "humidity_high_pct": 84,
     "humidity_low_pct": null,
-    "uv_level": null,
-    "visibility_high": "14km",
+    "uv_level": "Moderate",
+    "visibility_high": "18km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
-    "sunrise": "7:34 AM",
-    "sunset": "6:09 PM",
+    "sunrise": "6:35 AM",
+    "sunset": "5:08 PM",
     "current": {
-      "temp_c": 13,
+      "temp_c": 9,
       "condition": "Cloudy",
-      "feels_like": 14,
-      "rain_chance": null,
-      "wind_gust_mph": 1,
+      "feels_like": 11,
+      "rain_chance": "1%",
+      "wind_gust_mph": 4,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "12 AM",
-        "temp_c": 9,
-        "condition": "Intermittent clouds",
-        "rain_chance": "3%",
-        "wind_mph": 2
-      },
-      {
         "time": "1 AM",
-        "temp_c": 8,
+        "temp_c": 9,
         "condition": "Partly cloudy",
         "rain_chance": "3%",
         "wind_mph": 2
@@ -204,12 +197,6 @@
   },
   "forecast": [
     {
-      "date": "2026-11-01",
-      "condition": "Sun through high clouds; great day to be outside",
-      "temp_min": 8,
-      "temp_max": 19
-    },
-    {
       "date": "2026-11-02",
       "condition": "Times of sun and clouds; a dry start to the week, but rain is expected to return late week",
       "temp_min": 8,
@@ -286,6 +273,12 @@
       "condition": "Cloudy",
       "temp_min": 5,
       "temp_max": 12
+    },
+    {
+      "date": "2026-11-15",
+      "condition": "Cloudy",
+      "temp_min": 4,
+      "temp_max": 15
     }
   ]
 }
