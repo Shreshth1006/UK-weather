@@ -4,101 +4,45 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-11-05T18:31:41.490352+00:00",
+  "scraped_at": "2026-11-06T02:32:06.294675+00:00",
   "today": {
-    "date": "2026-11-05",
-    "condition": "Mostly cloudy, breezy and humid with a couple of showers; a thunderstorm later",
-    "temp_max": 23,
-    "temp_min": 17,
-    "feels_like_high": 23,
+    "date": "2026-11-06",
+    "condition": "Mostly cloudy",
+    "temp_max": null,
+    "temp_min": 18,
+    "feels_like_high": null,
     "feels_like_low": 16,
-    "wind_gust_mph": 29,
-    "humidity_high_pct": 83,
+    "wind_gust_mph": null,
+    "humidity_high_pct": 93,
     "humidity_low_pct": null,
-    "uv_level": "Low",
-    "visibility_high": "13km",
+    "uv_level": null,
+    "visibility_high": "8km",
     "visibility_low": null,
-    "air_pollution": "Fair",
+    "air_pollution": "Poor",
     "pollen": null,
     "sunrise": "6:40 AM",
     "sunset": "5:04 PM",
     "current": {
-      "temp_c": 22,
-      "condition": "Cloudy",
-      "feels_like": 23,
-      "rain_chance": "100%",
-      "wind_gust_mph": 11,
+      "temp_c": 20,
+      "condition": "Mostly cloudy",
+      "feels_like": 19,
+      "rain_chance": null,
+      "wind_gust_mph": 6,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "2 PM",
-        "temp_c": 23,
-        "condition": "Cloudy",
-        "rain_chance": "49%",
-        "wind_mph": 15
-      },
-      {
-        "time": "3 PM",
-        "temp_c": 23,
-        "condition": "Thunderstorms",
-        "rain_chance": "61%",
-        "wind_mph": 15
-      },
-      {
-        "time": "4 PM",
-        "temp_c": 23,
-        "condition": "Cloudy",
-        "rain_chance": "49%",
-        "wind_mph": 14
-      },
-      {
-        "time": "5 PM",
-        "temp_c": 22,
-        "condition": "Thunderstorms",
-        "rain_chance": "70%",
-        "wind_mph": 12
-      },
-      {
-        "time": "6 PM",
-        "temp_c": 22,
-        "condition": "Mostly cloudy",
-        "rain_chance": "49%",
-        "wind_mph": 10
-      },
-      {
-        "time": "7 PM",
-        "temp_c": 21,
-        "condition": "Cloudy",
-        "rain_chance": "34%",
-        "wind_mph": 8
-      },
-      {
-        "time": "8 PM",
-        "temp_c": 21,
-        "condition": "Cloudy",
-        "rain_chance": "34%",
-        "wind_mph": 7
-      },
-      {
-        "time": "9 PM",
-        "temp_c": 21,
-        "condition": "Cloudy",
-        "rain_chance": "39%",
-        "wind_mph": 6
-      },
-      {
         "time": "10 PM",
         "temp_c": 20,
-        "condition": "Cloudy",
-        "rain_chance": "49%",
+        "condition": "Thunderstorms",
+        "rain_chance": "65%",
         "wind_mph": 6
       },
       {
         "time": "11 PM",
-        "temp_c": 20,
+        "temp_c": 19,
         "condition": "Thunderstorms",
-        "rain_chance": "63%",
+        "rain_chance": "75%",
         "wind_mph": 5
       }
     ],
@@ -107,7 +51,7 @@
   "forecast": [
     {
       "date": "2026-11-06",
-      "condition": "On-and-off rain and drizzle in the morning, then a blend of sunshine and clouds in the afternoon",
+      "condition": "Warm; rain and drizzle in the morning, then partly sunny in the afternoon; rain can lead to poor visibility and slow travel during the morning commute",
       "temp_min": 9,
       "temp_max": 22
     },
@@ -132,7 +76,7 @@
     {
       "date": "2026-11-10",
       "condition": "Nice with sunshine",
-      "temp_min": 7,
+      "temp_min": 8,
       "temp_max": 21
     },
     {
@@ -145,11 +89,11 @@
       "date": "2026-11-12",
       "condition": "Partly sunny with a couple of showers in the afternoon",
       "temp_min": 6,
-      "temp_max": 16
+      "temp_max": 17
     },
     {
       "date": "2026-11-13",
-      "condition": "Considerable cloudiness with periods of rain in the afternoon",
+      "condition": "Cooler with considerable cloudiness; periods of rain in the afternoon",
       "temp_min": 5,
       "temp_max": 14
     },
@@ -157,7 +101,7 @@
       "date": "2026-11-14",
       "condition": "Sunshine and a few clouds",
       "temp_min": 4,
-      "temp_max": 14
+      "temp_max": 17
     },
     {
       "date": "2026-11-15",
