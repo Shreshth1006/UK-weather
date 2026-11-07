@@ -4,109 +4,53 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/dallas/75202/current-weather/351194",
-  "scraped_at": "2026-11-06T18:31:33.442481+00:00",
+  "scraped_at": "2026-11-07T02:31:29.388765+00:00",
   "today": {
-    "date": "2026-11-06",
-    "condition": "Not as warm but pleasant with sun breaking through clouds at times",
-    "temp_max": 23,
+    "date": "2026-11-07",
+    "condition": "Mostly cloudy",
+    "temp_max": null,
     "temp_min": 12,
-    "feels_like_high": 23,
+    "feels_like_high": null,
     "feels_like_low": 12,
-    "wind_gust_mph": 15,
-    "humidity_high_pct": 53,
+    "wind_gust_mph": null,
+    "humidity_high_pct": 69,
     "humidity_low_pct": null,
-    "uv_level": "Moderate",
-    "visibility_high": "16km",
+    "uv_level": null,
+    "visibility_high": "18km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
     "sunrise": "6:49 AM",
     "sunset": "5:32 PM",
     "current": {
-      "temp_c": 22,
+      "temp_c": 18,
       "condition": "Mostly cloudy",
-      "feels_like": 22,
-      "rain_chance": "0%",
-      "wind_gust_mph": 13,
+      "feels_like": 18,
+      "rain_chance": null,
+      "wind_gust_mph": 11,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "1 PM",
-        "temp_c": 22,
+        "time": "9 PM",
+        "temp_c": 18,
         "condition": "Intermittent clouds",
         "rain_chance": "0%",
-        "wind_mph": 8
-      },
-      {
-        "time": "2 PM",
-        "temp_c": 22,
-        "condition": "Partly sunny",
-        "rain_chance": "0%",
-        "wind_mph": 9
-      },
-      {
-        "time": "3 PM",
-        "temp_c": 23,
-        "condition": "Partly sunny",
-        "rain_chance": "0%",
-        "wind_mph": 9
-      },
-      {
-        "time": "4 PM",
-        "temp_c": 22,
-        "condition": "Partly sunny",
-        "rain_chance": "0%",
-        "wind_mph": 8
-      },
-      {
-        "time": "5 PM",
-        "temp_c": 21,
-        "condition": "Partly sunny",
-        "rain_chance": "0%",
-        "wind_mph": 8
-      },
-      {
-        "time": "6 PM",
-        "temp_c": 20,
-        "condition": "Partly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 7
-      },
-      {
-        "time": "7 PM",
-        "temp_c": 18,
-        "condition": "Partly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 7
-      },
-      {
-        "time": "8 PM",
-        "temp_c": 18,
-        "condition": "Partly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 7
-      },
-      {
-        "time": "9 PM",
-        "temp_c": 17,
-        "condition": "Partly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 7
+        "wind_mph": 16
       },
       {
         "time": "10 PM",
         "temp_c": 17,
         "condition": "Partly cloudy",
         "rain_chance": "0%",
-        "wind_mph": 7
+        "wind_mph": 15
       },
       {
         "time": "11 PM",
         "temp_c": 16,
         "condition": "Partly cloudy",
         "rain_chance": "0%",
-        "wind_mph": 7
+        "wind_mph": 15
       }
     ],
     "warnings": []
@@ -114,19 +58,19 @@
   "forecast": [
     {
       "date": "2026-11-07",
-      "condition": "Partly sunny",
+      "condition": "Clouds breaking for some sun",
       "temp_min": 13,
-      "temp_max": 22
+      "temp_max": 20
     },
     {
       "date": "2026-11-08",
-      "condition": "Times of clouds and sun",
+      "condition": "Comfortable with times of clouds and sun",
       "temp_min": 12,
-      "temp_max": 23
+      "temp_max": 21
     },
     {
       "date": "2026-11-09",
-      "condition": "Times of clouds and sun",
+      "condition": "Comfortable with times of clouds and sun",
       "temp_min": 14,
       "temp_max": 22
     },
@@ -144,21 +88,21 @@
     },
     {
       "date": "2026-11-12",
-      "condition": "Pleasant with plenty of sunshine",
+      "condition": "Pleasantly warm with plenty of sunshine",
       "temp_min": 10,
-      "temp_max": 24
+      "temp_max": 26
     },
     {
       "date": "2026-11-13",
-      "condition": "Plenty of sunshine",
-      "temp_min": 12,
-      "temp_max": 23
+      "condition": "Not as warm with plenty of sunshine",
+      "temp_min": 9,
+      "temp_max": 20
     },
     {
       "date": "2026-11-14",
       "condition": "Sunshine",
-      "temp_min": 13,
-      "temp_max": 23
+      "temp_min": 11,
+      "temp_max": 21
     },
     {
       "date": "2026-11-15",
