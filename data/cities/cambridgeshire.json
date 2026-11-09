@@ -4,8 +4,8 @@
   "country": "UK",
   "source": "Met Office",
   "source_url": "https://weather.metoffice.gov.uk/forecast/u12esxqub",
-  "scraped_at": "2026-11-09T10:31:35.173605+00:00",
-  "source_updated": "Updated: 8:58am on 9 November 2026",
+  "scraped_at": "2026-11-09T11:31:21.046850+00:00",
+  "source_updated": "Updated: 9:59am on 9 November 2026",
   "today": {
     "date": "2026-11-09",
     "condition": "Mist",
@@ -13,31 +13,25 @@
     "temp_min": 1,
     "feels_like_high": 8,
     "feels_like_low": 1,
-    "wind_gust_mph": 8,
+    "wind_gust_mph": 7,
     "humidity_high_pct": 99,
-    "humidity_low_pct": 82,
+    "humidity_low_pct": 84,
     "uv_level": "1\nLow",
-    "visibility_high": "5.1km",
-    "visibility_low": "1.1km",
+    "visibility_high": "4.6km",
+    "visibility_low": null,
     "air_pollution": "Low",
     "pollen": null,
     "sunrise": "07:08",
     "sunset": "16:11",
     "current": {
-      "temp_c": 6,
+      "temp_c": 7,
       "condition": "Mist",
-      "feels_like": 6,
+      "feels_like": 7,
       "rain_chance": "<5%",
       "wind_gust_mph": 6,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "10am",
-        "temp_c": 6,
-        "rain_chance": "<5%",
-        "wind_mph": 2
-      },
       {
         "time": "11am",
         "temp_c": 6,
@@ -88,7 +82,7 @@
       },
       {
         "time": "7pm",
-        "temp_c": 4,
+        "temp_c": 3,
         "rain_chance": "<5%",
         "wind_mph": 2
       },
@@ -122,16 +116,6 @@
         "severity": "yellow",
         "severity_text": "Yellow warning",
         "type": "Fog",
-        "valid_from": "2026-11-08T18:00Z",
-        "valid_to": "2026-11-09T11:00Z",
-        "period_text": "Until 11am today",
-        "impact": 2,
-        "likelihood": 3
-      },
-      {
-        "severity": "yellow",
-        "severity_text": "Yellow warning",
-        "type": "Fog",
         "valid_from": "2026-11-09T18:00Z",
         "valid_to": "2026-11-10T10:00Z",
         "period_text": "Today 6pm to Tuesday 10am",
@@ -150,7 +134,7 @@
     {
       "date": "2026-11-11",
       "temp_max": 10,
-      "temp_min": 4,
+      "temp_min": 5,
       "condition": "Cloudy"
     },
     {
@@ -161,7 +145,7 @@
     },
     {
       "date": "2026-11-13",
-      "temp_max": 8,
+      "temp_max": 7,
       "temp_min": 1,
       "condition": "Sunny intervals"
     },
@@ -169,7 +153,7 @@
       "date": "2026-11-14",
       "temp_max": 7,
       "temp_min": 2,
-      "condition": "Sunny intervals"
+      "condition": "Sunny"
     },
     {
       "date": "2026-11-15",
