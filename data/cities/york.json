@@ -4,7 +4,7 @@
   "country": "UK",
   "source": "Met Office",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcwf9nwyu",
-  "scraped_at": "2026-11-15T03:31:25.395332+00:00",
+  "scraped_at": "2026-11-15T04:31:31.832748+00:00",
   "source_updated": "Updated: 2:57am on 15 November 2026",
   "today": {
     "date": "2026-11-15",
@@ -24,9 +24,9 @@
     "sunrise": "07:34",
     "sunset": "16:08",
     "current": {
-      "temp_c": 1,
+      "temp_c": 0,
       "condition": "Clear",
-      "feels_like": 0,
+      "feels_like": -1,
       "rain_chance": null,
       "wind_gust_mph": 9,
       "pollen": null
@@ -34,12 +34,6 @@
     "hourly": [
       {
         "time": "6am",
-        "temp_c": 2,
-        "rain_chance": "<5%",
-        "wind_mph": 3
-      },
-      {
-        "time": "3am",
         "temp_c": 1,
         "rain_chance": "<5%",
         "wind_mph": 2
