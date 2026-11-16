@@ -4,16 +4,16 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-11-16T02:31:41.900221+00:00",
+  "scraped_at": "2026-11-16T03:31:37.729286+00:00",
   "today": {
     "date": "2026-11-16",
     "condition": "Clear",
     "temp_max": null,
     "temp_min": 2,
     "feels_like_high": null,
-    "feels_like_low": -3,
+    "feels_like_low": -7,
     "wind_gust_mph": null,
-    "humidity_high_pct": 60,
+    "humidity_high_pct": 64,
     "humidity_low_pct": null,
     "uv_level": null,
     "visibility_high": "16km",
@@ -23,26 +23,19 @@
     "sunrise": "6:35 AM",
     "sunset": "4:22 PM",
     "current": {
-      "temp_c": 6,
+      "temp_c": 5,
       "condition": "Clear",
-      "feels_like": 4,
+      "feels_like": 3,
       "rain_chance": null,
       "wind_gust_mph": 7,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "10 PM",
-        "temp_c": 5,
-        "condition": "Clear",
-        "rain_chance": "20%",
-        "wind_mph": 21
-      },
-      {
         "time": "11 PM",
-        "temp_c": 4,
-        "condition": "Mostly clear",
-        "rain_chance": "20%",
+        "temp_c": 3,
+        "condition": "Partly cloudy w/ showers",
+        "rain_chance": "50%",
         "wind_mph": 20
       }
     ],
