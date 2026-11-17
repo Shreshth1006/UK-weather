@@ -4,7 +4,7 @@
   "country": "UK",
   "source": "Met Office",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcqyd2ux3",
-  "scraped_at": "2026-11-17T10:31:10.680457+00:00",
+  "scraped_at": "2026-11-17T11:31:07.083758+00:00",
   "source_updated": "Updated: 9:35am on 17 November 2026",
   "today": {
     "date": "2026-11-17",
@@ -14,7 +14,7 @@
     "feels_like_high": 5,
     "feels_like_low": 3,
     "wind_gust_mph": 22,
-    "humidity_high_pct": 98,
+    "humidity_high_pct": 96,
     "humidity_low_pct": 92,
     "uv_level": "1\nLow",
     "visibility_high": "22km",
@@ -24,20 +24,14 @@
     "sunrise": "07:35",
     "sunset": "16:08",
     "current": {
-      "temp_c": 5,
-      "condition": "Light rain",
-      "feels_like": 3,
+      "temp_c": 6,
+      "condition": "Light showers",
+      "feels_like": 4,
       "rain_chance": null,
-      "wind_gust_mph": 13,
+      "wind_gust_mph": 19,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "10am",
-        "temp_c": 4,
-        "rain_chance": "90%",
-        "wind_mph": 3
-      },
       {
         "time": "11am",
         "temp_c": 5,
@@ -117,18 +111,7 @@
         "wind_mph": 7
       }
     ],
-    "warnings": [
-      {
-        "severity": "yellow",
-        "severity_text": "Yellow warning",
-        "type": "Snow",
-        "valid_from": "2026-11-17T00:00Z",
-        "valid_to": "2026-11-17T11:00Z",
-        "period_text": "Until 11am today",
-        "impact": 2,
-        "likelihood": 3
-      }
-    ]
+    "warnings": []
   },
   "forecast": [
     {
