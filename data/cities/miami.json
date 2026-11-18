@@ -4,7 +4,7 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/miami/33128/current-weather/347936",
-  "scraped_at": "2026-11-18T03:31:26.871549+00:00",
+  "scraped_at": "2026-11-18T04:34:30.463244+00:00",
   "today": {
     "date": "2026-11-18",
     "condition": "Cloudy",
@@ -13,30 +13,191 @@
     "feels_like_high": null,
     "feels_like_low": 22,
     "wind_gust_mph": null,
-    "humidity_high_pct": 70,
+    "humidity_high_pct": 76,
     "humidity_low_pct": null,
     "uv_level": null,
-    "visibility_high": "16km",
+    "visibility_high": "18km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
     "sunrise": "6:40 AM",
     "sunset": "5:31 PM",
     "current": {
-      "temp_c": 25,
+      "temp_c": 26,
       "condition": "Cloudy",
-      "feels_like": 23,
+      "feels_like": 26,
       "rain_chance": null,
-      "wind_gust_mph": 23,
+      "wind_gust_mph": 22,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "11 PM",
+        "time": "12 AM",
         "temp_c": 24,
         "condition": "Cloudy",
         "rain_chance": "49%",
+        "wind_mph": 13
+      },
+      {
+        "time": "1 AM",
+        "temp_c": 24,
+        "condition": "Cloudy",
+        "rain_chance": "49%",
+        "wind_mph": 13
+      },
+      {
+        "time": "2 AM",
+        "temp_c": 24,
+        "condition": "Showers",
+        "rain_chance": "68%",
+        "wind_mph": 12
+      },
+      {
+        "time": "3 AM",
+        "temp_c": 24,
+        "condition": "Cloudy",
+        "rain_chance": "49%",
+        "wind_mph": 12
+      },
+      {
+        "time": "4 AM",
+        "temp_c": 24,
+        "condition": "Cloudy",
+        "rain_chance": "49%",
+        "wind_mph": 12
+      },
+      {
+        "time": "5 AM",
+        "temp_c": 24,
+        "condition": "Cloudy",
+        "rain_chance": "49%",
+        "wind_mph": 12
+      },
+      {
+        "time": "6 AM",
+        "temp_c": 24,
+        "condition": "Showers",
+        "rain_chance": "68%",
+        "wind_mph": 12
+      },
+      {
+        "time": "7 AM",
+        "temp_c": 24,
+        "condition": "Cloudy",
+        "rain_chance": "49%",
+        "wind_mph": 13
+      },
+      {
+        "time": "8 AM",
+        "temp_c": 25,
+        "condition": "Rain",
+        "rain_chance": "64%",
+        "wind_mph": 13
+      },
+      {
+        "time": "9 AM",
+        "temp_c": 26,
+        "condition": "Cloudy",
+        "rain_chance": "49%",
         "wind_mph": 14
+      },
+      {
+        "time": "10 AM",
+        "temp_c": 26,
+        "condition": "Cloudy",
+        "rain_chance": "49%",
+        "wind_mph": 15
+      },
+      {
+        "time": "11 AM",
+        "temp_c": 26,
+        "condition": "Rain",
+        "rain_chance": "73%",
+        "wind_mph": 16
+      },
+      {
+        "time": "12 PM",
+        "temp_c": 26,
+        "condition": "Rain",
+        "rain_chance": "73%",
+        "wind_mph": 17
+      },
+      {
+        "time": "1 PM",
+        "temp_c": 26,
+        "condition": "Rain",
+        "rain_chance": "73%",
+        "wind_mph": 16
+      },
+      {
+        "time": "2 PM",
+        "temp_c": 25,
+        "condition": "Rain",
+        "rain_chance": "73%",
+        "wind_mph": 16
+      },
+      {
+        "time": "3 PM",
+        "temp_c": 25,
+        "condition": "Cloudy",
+        "rain_chance": "49%",
+        "wind_mph": 15
+      },
+      {
+        "time": "4 PM",
+        "temp_c": 25,
+        "condition": "Cloudy",
+        "rain_chance": "49%",
+        "wind_mph": 15
+      },
+      {
+        "time": "5 PM",
+        "temp_c": 24,
+        "condition": "Rain",
+        "rain_chance": "57%",
+        "wind_mph": 14
+      },
+      {
+        "time": "6 PM",
+        "temp_c": 24,
+        "condition": "Cloudy",
+        "rain_chance": "49%",
+        "wind_mph": 13
+      },
+      {
+        "time": "7 PM",
+        "temp_c": 24,
+        "condition": "Showers",
+        "rain_chance": "58%",
+        "wind_mph": 12
+      },
+      {
+        "time": "8 PM",
+        "temp_c": 24,
+        "condition": "Cloudy",
+        "rain_chance": "49%",
+        "wind_mph": 12
+      },
+      {
+        "time": "9 PM",
+        "temp_c": 24,
+        "condition": "Showers",
+        "rain_chance": "58%",
+        "wind_mph": 12
+      },
+      {
+        "time": "10 PM",
+        "temp_c": 24,
+        "condition": "Cloudy",
+        "rain_chance": "40%",
+        "wind_mph": 12
+      },
+      {
+        "time": "11 PM",
+        "temp_c": 24,
+        "condition": "Mostly cloudy",
+        "rain_chance": "34%",
+        "wind_mph": 12
       }
     ],
     "warnings": []
@@ -44,7 +205,7 @@
   "forecast": [
     {
       "date": "2026-11-18",
-      "condition": "Breezy and humid with periods of rain, some heavy, and a thunderstorm; storms can bring ponding on roads, damaging winds and an isolated tornado",
+      "condition": "Breezy and humid with periods of rain, some heavy, and a thunderstorm; extreme heat can be dangerous; there can be downpours and damaging wind gusts",
       "temp_min": 23,
       "temp_max": 26
     },
