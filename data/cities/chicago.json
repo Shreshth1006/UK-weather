@@ -4,106 +4,50 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/chicago/60608/current-weather/348308",
-  "scraped_at": "2026-11-19T18:31:55.564575+00:00",
+  "scraped_at": "2026-11-20T02:31:43.311353+00:00",
   "today": {
-    "date": "2026-11-19",
-    "condition": "Sunny",
-    "temp_max": 18,
+    "date": "2026-11-20",
+    "condition": "Clear",
+    "temp_max": null,
     "temp_min": 8,
-    "feels_like_high": 17,
+    "feels_like_high": null,
     "feels_like_low": 6,
-    "wind_gust_mph": 22,
-    "humidity_high_pct": 52,
+    "wind_gust_mph": null,
+    "humidity_high_pct": 69,
     "humidity_low_pct": null,
-    "uv_level": "Low",
-    "visibility_high": "31km",
+    "uv_level": null,
+    "visibility_high": "19km",
     "visibility_low": null,
-    "air_pollution": "Fair",
+    "air_pollution": "Poor",
     "pollen": null,
     "sunrise": "6:45 AM",
     "sunset": "4:27 PM",
     "current": {
-      "temp_c": 17,
-      "condition": "Mostly sunny",
-      "feels_like": 17,
-      "rain_chance": "0%",
-      "wind_gust_mph": 17,
+      "temp_c": 12,
+      "condition": "Clear",
+      "feels_like": 11,
+      "rain_chance": null,
+      "wind_gust_mph": 16,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "1 PM",
-        "temp_c": 17,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 15
-      },
-      {
-        "time": "2 PM",
-        "temp_c": 16,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 15
-      },
-      {
-        "time": "3 PM",
-        "temp_c": 16,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 14
-      },
-      {
-        "time": "4 PM",
-        "temp_c": 15,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 13
-      },
-      {
-        "time": "5 PM",
-        "temp_c": 14,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 10
-      },
-      {
-        "time": "6 PM",
-        "temp_c": 13,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 9
-      },
-      {
-        "time": "7 PM",
-        "temp_c": 12,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 8
-      },
-      {
-        "time": "8 PM",
-        "temp_c": 11,
-        "condition": "Clear",
-        "rain_chance": "0%",
-        "wind_mph": 8
-      },
-      {
         "time": "9 PM",
-        "temp_c": 11,
+        "temp_c": 13,
         "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 8
       },
       {
         "time": "10 PM",
-        "temp_c": 10,
+        "temp_c": 12,
         "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 8
       },
       {
         "time": "11 PM",
-        "temp_c": 10,
+        "temp_c": 11,
         "condition": "Clear",
         "rain_chance": "0%",
         "wind_mph": 8
@@ -114,20 +58,20 @@
   "forecast": [
     {
       "date": "2026-11-20",
-      "condition": "Warm with plenty of sunshine",
-      "temp_min": 9,
+      "condition": "Pleasantly warm with plenty of sunshine",
+      "temp_min": 8,
       "temp_max": 18
     },
     {
       "date": "2026-11-21",
-      "condition": "Mostly sunny and warm",
+      "condition": "Mostly sunny and pleasantly warm",
       "temp_min": 12,
-      "temp_max": 17
+      "temp_max": 18
     },
     {
       "date": "2026-11-22",
       "condition": "Cloudy and cooler with a couple of showers; breezy in the afternoon",
-      "temp_min": 3,
+      "temp_min": 2,
       "temp_max": 13
     },
     {
@@ -144,7 +88,7 @@
     },
     {
       "date": "2026-11-25",
-      "condition": "Rain and snow showers in the morning followed by rain and drizzle in the afternoon",
+      "condition": "Some sun, then turning cloudy",
       "temp_min": 2,
       "temp_max": 6
     },
@@ -152,12 +96,12 @@
       "date": "2026-11-26",
       "condition": "Cloudy with a little rain",
       "temp_min": 2,
-      "temp_max": 6
+      "temp_max": 8
     },
     {
       "date": "2026-11-27",
       "condition": "After a cloudy start, sunshine returns",
-      "temp_min": 3,
+      "temp_min": 2,
       "temp_max": 7
     },
     {

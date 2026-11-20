@@ -4,99 +4,43 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/miami/33128/current-weather/347936",
-  "scraped_at": "2026-11-19T18:31:55.828189+00:00",
+  "scraped_at": "2026-11-20T02:31:43.651295+00:00",
   "today": {
-    "date": "2026-11-19",
-    "condition": "Variable cloudiness with a couple of showers and a thunderstorm; humid; any heavier downpours can lead to flash flooding, given recent heavy rain",
-    "temp_max": 27,
+    "date": "2026-11-20",
+    "condition": "Mostly clear",
+    "temp_max": null,
     "temp_min": 21,
-    "feels_like_high": 30,
-    "feels_like_low": 23,
-    "wind_gust_mph": 28,
-    "humidity_high_pct": 92,
+    "feels_like_high": null,
+    "feels_like_low": 22,
+    "wind_gust_mph": null,
+    "humidity_high_pct": 96,
     "humidity_low_pct": null,
-    "uv_level": "Low",
-    "visibility_high": "11km",
+    "uv_level": null,
+    "visibility_high": "14km",
     "visibility_low": null,
-    "air_pollution": "Fair",
+    "air_pollution": "Poor",
     "pollen": null,
     "sunrise": "6:41 AM",
     "sunset": "5:31 PM",
     "current": {
-      "temp_c": 24,
-      "condition": "Mostly cloudy",
+      "temp_c": 23,
+      "condition": "Mostly clear",
       "feels_like": 27,
-      "rain_chance": "100%",
-      "wind_gust_mph": 16,
+      "rain_chance": null,
+      "wind_gust_mph": 6,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "2 PM",
-        "temp_c": 26,
-        "condition": "Thunderstorms",
-        "rain_chance": "77%",
-        "wind_mph": 13
-      },
-      {
-        "time": "3 PM",
-        "temp_c": 26,
-        "condition": "Thunderstorms",
-        "rain_chance": "75%",
-        "wind_mph": 13
-      },
-      {
-        "time": "4 PM",
-        "temp_c": 26,
-        "condition": "Cloudy",
-        "rain_chance": "49%",
-        "wind_mph": 12
-      },
-      {
-        "time": "5 PM",
-        "temp_c": 26,
-        "condition": "Cloudy",
-        "rain_chance": "49%",
-        "wind_mph": 10
-      },
-      {
-        "time": "6 PM",
-        "temp_c": 26,
-        "condition": "Thunderstorms",
-        "rain_chance": "62%",
-        "wind_mph": 9
-      },
-      {
-        "time": "7 PM",
-        "temp_c": 24,
-        "condition": "Showers",
-        "rain_chance": "51%",
-        "wind_mph": 7
-      },
-      {
-        "time": "8 PM",
-        "temp_c": 24,
-        "condition": "Mostly cloudy",
-        "rain_chance": "47%",
-        "wind_mph": 7
-      },
-      {
-        "time": "9 PM",
-        "temp_c": 24,
-        "condition": "Mostly cloudy",
-        "rain_chance": "40%",
-        "wind_mph": 7
-      },
-      {
         "time": "10 PM",
-        "temp_c": 24,
-        "condition": "Cloudy",
+        "temp_c": 23,
+        "condition": "Intermittent clouds",
         "rain_chance": "34%",
         "wind_mph": 6
       },
       {
         "time": "11 PM",
-        "temp_c": 24,
+        "temp_c": 23,
         "condition": "Cloudy",
         "rain_chance": "34%",
         "wind_mph": 6
@@ -107,14 +51,14 @@
   "forecast": [
     {
       "date": "2026-11-20",
-      "condition": "Times of clouds and sun with a couple of showers and a thunderstorm; humid; additional rain can lead to flooding problems",
-      "temp_min": 22,
+      "condition": "Humid with times of clouds and sun",
+      "temp_min": 21,
       "temp_max": 28
     },
     {
       "date": "2026-11-21",
       "condition": "Times of clouds and sun with a couple of showers; humid",
-      "temp_min": 21,
+      "temp_min": 22,
       "temp_max": 28
     },
     {
@@ -144,18 +88,18 @@
     {
       "date": "2026-11-26",
       "condition": "Partly sunny and less humid",
-      "temp_min": 20,
+      "temp_min": 18,
       "temp_max": 25
     },
     {
       "date": "2026-11-27",
       "condition": "Rain most of the time",
       "temp_min": 21,
-      "temp_max": 24
+      "temp_max": 22
     },
     {
       "date": "2026-11-28",
-      "condition": "Clouds yielding to sun",
+      "condition": "Warmer with clouds yielding to sun",
       "temp_min": 20,
       "temp_max": 26
     },
