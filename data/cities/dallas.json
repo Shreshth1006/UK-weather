@@ -4,109 +4,53 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/dallas/75202/current-weather/351194",
-  "scraped_at": "2026-11-21T18:31:46.627241+00:00",
+  "scraped_at": "2026-11-22T02:31:35.217199+00:00",
   "today": {
-    "date": "2026-11-21",
-    "condition": "Pleasant with a blend of sun and clouds",
-    "temp_max": 23,
+    "date": "2026-11-22",
+    "condition": "Cloudy",
+    "temp_max": null,
     "temp_min": 15,
-    "feels_like_high": 23,
+    "feels_like_high": null,
     "feels_like_low": 16,
-    "wind_gust_mph": 24,
+    "wind_gust_mph": null,
     "humidity_high_pct": 73,
     "humidity_low_pct": null,
-    "uv_level": "Moderate",
-    "visibility_high": "16km",
+    "uv_level": null,
+    "visibility_high": "14km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
     "sunrise": "7:03 AM",
     "sunset": "5:23 PM",
     "current": {
-      "temp_c": 21,
+      "temp_c": 20,
       "condition": "Cloudy",
-      "feels_like": 21,
-      "rain_chance": "2%",
+      "feels_like": 18,
+      "rain_chance": null,
       "wind_gust_mph": 12,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "1 PM",
-        "temp_c": 22,
-        "condition": "Intermittent clouds",
-        "rain_chance": "0%",
-        "wind_mph": 12
-      },
-      {
-        "time": "2 PM",
-        "temp_c": 23,
-        "condition": "Partly sunny",
-        "rain_chance": "0%",
-        "wind_mph": 12
-      },
-      {
-        "time": "3 PM",
-        "temp_c": 23,
-        "condition": "Partly sunny",
-        "rain_chance": "0%",
-        "wind_mph": 10
-      },
-      {
-        "time": "4 PM",
-        "temp_c": 23,
-        "condition": "Partly sunny",
-        "rain_chance": "0%",
-        "wind_mph": 9
-      },
-      {
-        "time": "5 PM",
-        "temp_c": 22,
-        "condition": "Partly sunny",
-        "rain_chance": "0%",
-        "wind_mph": 8
-      },
-      {
-        "time": "6 PM",
-        "temp_c": 21,
-        "condition": "Partly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 7
-      },
-      {
-        "time": "7 PM",
-        "temp_c": 19,
-        "condition": "Partly cloudy",
-        "rain_chance": "19%",
-        "wind_mph": 7
-      },
-      {
-        "time": "8 PM",
-        "temp_c": 18,
-        "condition": "Partly cloudy",
-        "rain_chance": "19%",
-        "wind_mph": 7
-      },
-      {
         "time": "9 PM",
-        "temp_c": 18,
-        "condition": "Partly cloudy",
-        "rain_chance": "24%",
-        "wind_mph": 7
+        "temp_c": 20,
+        "condition": "Mostly cloudy",
+        "rain_chance": "49%",
+        "wind_mph": 6
       },
       {
         "time": "10 PM",
-        "temp_c": 18,
-        "condition": "Partly cloudy w/ showers",
-        "rain_chance": "51%",
-        "wind_mph": 7
+        "temp_c": 19,
+        "condition": "Showers",
+        "rain_chance": "52%",
+        "wind_mph": 6
       },
       {
         "time": "11 PM",
-        "temp_c": 18,
-        "condition": "Partly cloudy",
-        "rain_chance": "47%",
-        "wind_mph": 7
+        "temp_c": 19,
+        "condition": "Mostly cloudy",
+        "rain_chance": "48%",
+        "wind_mph": 6
       }
     ],
     "warnings": []
@@ -114,7 +58,7 @@
   "forecast": [
     {
       "date": "2026-11-22",
-      "condition": "Intervals of clouds and sunshine",
+      "condition": "Intervals of clouds and sunshine, breezy and cooler",
       "temp_min": 6,
       "temp_max": 18
     },
@@ -128,7 +72,7 @@
       "date": "2026-11-24",
       "condition": "Periods of clouds and sunshine with a shower in spots; cooler",
       "temp_min": 2,
-      "temp_max": 11
+      "temp_max": 12
     },
     {
       "date": "2026-11-25",
@@ -157,14 +101,14 @@
     {
       "date": "2026-11-29",
       "condition": "Sunny to partly cloudy",
-      "temp_min": 13,
+      "temp_min": 11,
       "temp_max": 20
     },
     {
       "date": "2026-11-30",
       "condition": "Cloudy with a shower in spots",
       "temp_min": 12,
-      "temp_max": 22
+      "temp_max": 20
     },
     {
       "date": "2026-12-01",

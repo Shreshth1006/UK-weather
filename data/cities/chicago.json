@@ -4,99 +4,43 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/chicago/60608/current-weather/348308",
-  "scraped_at": "2026-11-21T18:31:47.244183+00:00",
+  "scraped_at": "2026-11-22T02:31:35.745724+00:00",
   "today": {
-    "date": "2026-11-21",
-    "condition": "Sunshine",
-    "temp_max": 21,
+    "date": "2026-11-22",
+    "condition": "Clear",
+    "temp_max": null,
     "temp_min": 12,
-    "feels_like_high": 22,
+    "feels_like_high": null,
     "feels_like_low": 8,
-    "wind_gust_mph": 20,
-    "humidity_high_pct": 32,
+    "wind_gust_mph": null,
+    "humidity_high_pct": 50,
     "humidity_low_pct": null,
-    "uv_level": "Low",
-    "visibility_high": "40km",
+    "uv_level": null,
+    "visibility_high": "35km",
     "visibility_low": null,
-    "air_pollution": "Fair",
+    "air_pollution": "Poor",
     "pollen": null,
     "sunrise": "6:47 AM",
     "sunset": "4:25 PM",
     "current": {
-      "temp_c": 21,
-      "condition": "Sunny",
-      "feels_like": 22,
-      "rain_chance": "0%",
-      "wind_gust_mph": 10,
+      "temp_c": 13,
+      "condition": "Clear",
+      "feels_like": 12,
+      "rain_chance": null,
+      "wind_gust_mph": 17,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "1 PM",
-        "temp_c": 21,
-        "condition": "Sunny",
-        "rain_chance": "0%",
-        "wind_mph": 13
-      },
-      {
-        "time": "2 PM",
-        "temp_c": 21,
-        "condition": "Mostly sunny",
-        "rain_chance": "0%",
-        "wind_mph": 12
-      },
-      {
-        "time": "3 PM",
-        "temp_c": 19,
-        "condition": "Mostly sunny",
-        "rain_chance": "0%",
-        "wind_mph": 10
-      },
-      {
-        "time": "4 PM",
-        "temp_c": 18,
-        "condition": "Mostly sunny",
-        "rain_chance": "0%",
-        "wind_mph": 10
-      },
-      {
-        "time": "5 PM",
-        "temp_c": 17,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 9
-      },
-      {
-        "time": "6 PM",
-        "temp_c": 15,
-        "condition": "Mostly clear",
-        "rain_chance": "0%",
-        "wind_mph": 8
-      },
-      {
-        "time": "7 PM",
-        "temp_c": 12,
-        "condition": "Partly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 9
-      },
-      {
-        "time": "8 PM",
-        "temp_c": 12,
-        "condition": "Partly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 9
-      },
-      {
         "time": "9 PM",
-        "temp_c": 12,
+        "temp_c": 13,
         "condition": "Partly cloudy",
         "rain_chance": "0%",
         "wind_mph": 10
       },
       {
         "time": "10 PM",
-        "temp_c": 12,
+        "temp_c": 13,
         "condition": "Partly cloudy",
         "rain_chance": "0%",
         "wind_mph": 10
@@ -114,14 +58,14 @@
   "forecast": [
     {
       "date": "2026-11-22",
-      "condition": "Cloudy with a couple of showers during the midday; breezy in the afternoon; a rain jacket may be needed for the football game",
-      "temp_min": 1,
+      "condition": "Cloudy and cooler with a couple of showers during the midday; breezy in the afternoon; a rain jacket may be needed for the football game",
+      "temp_min": 0,
       "temp_max": 14
     },
     {
       "date": "2026-11-23",
       "condition": "Sunny to partly cloudy and cooler; quiet weather for early holiday travelers",
-      "temp_min": 0,
+      "temp_min": -1,
       "temp_max": 6
     },
     {
@@ -134,12 +78,12 @@
       "date": "2026-11-25",
       "condition": "Intervals of clouds and sun",
       "temp_min": 3,
-      "temp_max": 6
+      "temp_max": 7
     },
     {
       "date": "2026-11-26",
-      "condition": "Clouds giving way to some sun; rain and drizzle in the morning followed by a shower in spots in the afternoon",
-      "temp_min": 2,
+      "condition": "Clouds giving way to some sun",
+      "temp_min": 3,
       "temp_max": 8
     },
     {
