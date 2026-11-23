@@ -4,8 +4,8 @@
   "country": "UK",
   "source": "Met Office",
   "source_url": "https://weather.metoffice.gov.uk/forecast/gcwfhxhup",
-  "scraped_at": "2026-11-23T03:31:23.842866+00:00",
-  "source_updated": "Updated: 1:55am on 23 November 2026",
+  "scraped_at": "2026-11-23T04:31:03.951580+00:00",
+  "source_updated": "Updated: 2:40am on 23 November 2026",
   "today": {
     "date": "2026-11-23",
     "condition": "Fog",
@@ -24,24 +24,18 @@
     "sunrise": "07:48",
     "sunset": "15:57",
     "current": {
-      "temp_c": 0,
-      "condition": "Mist",
+      "temp_c": -1,
+      "condition": "Fog",
       "feels_like": -2,
       "rain_chance": null,
-      "wind_gust_mph": 8,
+      "wind_gust_mph": 7,
       "pollen": null
     },
     "hourly": [
       {
         "time": "6am",
         "temp_c": 0,
-        "rain_chance": "<5%",
-        "wind_mph": 2
-      },
-      {
-        "time": "3am",
-        "temp_c": 0,
-        "rain_chance": "<5%",
+        "rain_chance": "20%",
         "wind_mph": 2
       },
       {
@@ -177,14 +171,14 @@
     {
       "date": "2026-11-26",
       "temp_max": 5,
-      "temp_min": 0,
+      "temp_min": 1,
       "condition": "Sunny intervals"
     },
     {
       "date": "2026-11-27",
-      "temp_max": 4,
+      "temp_max": 3,
       "temp_min": 1,
-      "condition": "Cloudy"
+      "condition": "Mist"
     },
     {
       "date": "2026-11-28",
