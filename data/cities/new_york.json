@@ -4,101 +4,45 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/new-york/10021/current-weather/349727",
-  "scraped_at": "2026-11-22T18:31:27.982306+00:00",
+  "scraped_at": "2026-11-23T02:31:34.130960+00:00",
   "today": {
-    "date": "2026-11-22",
-    "condition": "Cloudy; areas of fog will reduce visibility this afternoon with rain overspreading the area",
-    "temp_max": 16,
-    "temp_min": 13,
-    "feels_like_high": 16,
-    "feels_like_low": 11,
-    "wind_gust_mph": 10,
-    "humidity_high_pct": 90,
+    "date": "2026-11-23",
+    "condition": "Drizzle",
+    "temp_max": null,
+    "temp_min": 14,
+    "feels_like_high": null,
+    "feels_like_low": 12,
+    "wind_gust_mph": null,
+    "humidity_high_pct": 86,
     "humidity_low_pct": null,
-    "uv_level": "Low",
-    "visibility_high": "11km",
+    "uv_level": null,
+    "visibility_high": "14km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
     "sunrise": "6:51 AM",
     "sunset": "4:33 PM",
     "current": {
-      "temp_c": 14,
-      "condition": "Cloudy",
+      "temp_c": 16,
+      "condition": "Drizzle",
       "feels_like": 14,
-      "rain_chance": "100%",
-      "wind_gust_mph": 6,
+      "rain_chance": null,
+      "wind_gust_mph": 7,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "2 PM",
-        "temp_c": 16,
-        "condition": "Showers",
-        "rain_chance": "67%",
-        "wind_mph": 4
-      },
-      {
-        "time": "3 PM",
-        "temp_c": 16,
-        "condition": "Rain",
-        "rain_chance": "77%",
-        "wind_mph": 4
-      },
-      {
-        "time": "4 PM",
-        "temp_c": 15,
-        "condition": "Rain",
-        "rain_chance": "75%",
-        "wind_mph": 4
-      },
-      {
-        "time": "5 PM",
-        "temp_c": 14,
-        "condition": "Rain",
-        "rain_chance": "75%",
-        "wind_mph": 5
-      },
-      {
-        "time": "6 PM",
-        "temp_c": 14,
-        "condition": "Fog",
-        "rain_chance": "49%",
-        "wind_mph": 6
-      },
-      {
-        "time": "7 PM",
-        "temp_c": 13,
-        "condition": "Rain",
-        "rain_chance": "70%",
-        "wind_mph": 5
-      },
-      {
-        "time": "8 PM",
-        "temp_c": 14,
-        "condition": "Cloudy",
-        "rain_chance": "49%",
-        "wind_mph": 5
-      },
-      {
-        "time": "9 PM",
-        "temp_c": 14,
-        "condition": "Rain",
-        "rain_chance": "70%",
-        "wind_mph": 6
-      },
-      {
         "time": "10 PM",
-        "temp_c": 14,
-        "condition": "Rain",
-        "rain_chance": "90%",
+        "temp_c": 15,
+        "condition": "Showers",
+        "rain_chance": "56%",
         "wind_mph": 5
       },
       {
         "time": "11 PM",
-        "temp_c": 14,
-        "condition": "Rain",
-        "rain_chance": "90%",
+        "temp_c": 15,
+        "condition": "Cloudy",
+        "rain_chance": "49%",
         "wind_mph": 5
       }
     ],
@@ -107,9 +51,9 @@
   "forecast": [
     {
       "date": "2026-11-23",
-      "condition": "Clouds giving way to some sun",
+      "condition": "Warm with clouds giving way to some sun",
       "temp_min": 5,
-      "temp_max": 18
+      "temp_max": 19
     },
     {
       "date": "2026-11-24",
@@ -144,19 +88,19 @@
     {
       "date": "2026-11-29",
       "condition": "Rain",
-      "temp_min": 3,
-      "temp_max": 9
+      "temp_min": 6,
+      "temp_max": 13
     },
     {
       "date": "2026-11-30",
       "condition": "Sun followed by increasing clouds",
-      "temp_min": 4,
-      "temp_max": 11
+      "temp_min": 7,
+      "temp_max": 13
     },
     {
       "date": "2026-12-01",
       "condition": "Mostly sunny",
-      "temp_min": 8,
+      "temp_min": 6,
       "temp_max": 12
     },
     {
