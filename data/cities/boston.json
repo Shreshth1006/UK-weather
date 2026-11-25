@@ -4,16 +4,16 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/boston/02108/current-weather/348735",
-  "scraped_at": "2026-11-25T03:31:50.134080+00:00",
+  "scraped_at": "2026-11-25T04:31:37.318117+00:00",
   "today": {
     "date": "2026-11-25",
     "condition": "Clear",
     "temp_max": null,
     "temp_min": -2,
     "feels_like_high": null,
-    "feels_like_low": -2,
+    "feels_like_low": -4,
     "wind_gust_mph": null,
-    "humidity_high_pct": 42,
+    "humidity_high_pct": 45,
     "humidity_low_pct": null,
     "uv_level": null,
     "visibility_high": "16km",
@@ -23,20 +23,181 @@
     "sunrise": "6:46 AM",
     "sunset": "4:16 PM",
     "current": {
-      "temp_c": 3,
+      "temp_c": 2,
       "condition": "Clear",
-      "feels_like": -2,
+      "feels_like": -4,
       "rain_chance": null,
-      "wind_gust_mph": 10,
+      "wind_gust_mph": 12,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "11 PM",
-        "temp_c": 2,
+        "time": "12 AM",
+        "temp_c": 1,
         "condition": "Clear",
         "rain_chance": "0%",
+        "wind_mph": 7
+      },
+      {
+        "time": "1 AM",
+        "temp_c": 1,
+        "condition": "Mostly clear",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "2 AM",
+        "temp_c": 1,
+        "condition": "Mostly clear",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "3 AM",
+        "temp_c": 0,
+        "condition": "Mostly clear",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "4 AM",
+        "temp_c": -1,
+        "condition": "Mostly clear",
+        "rain_chance": "0%",
+        "wind_mph": 5
+      },
+      {
+        "time": "5 AM",
+        "temp_c": -1,
+        "condition": "Clear",
+        "rain_chance": "0%",
+        "wind_mph": 5
+      },
+      {
+        "time": "6 AM",
+        "temp_c": -1,
+        "condition": "Clear",
+        "rain_chance": "0%",
+        "wind_mph": 5
+      },
+      {
+        "time": "7 AM",
+        "temp_c": -2,
+        "condition": "Mostly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "8 AM",
+        "temp_c": -1,
+        "condition": "Mostly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "9 AM",
+        "temp_c": 2,
+        "condition": "Mostly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "10 AM",
+        "temp_c": 3,
+        "condition": "Mostly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "11 AM",
+        "temp_c": 5,
+        "condition": "Mostly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 7
+      },
+      {
+        "time": "12 PM",
+        "temp_c": 7,
+        "condition": "Mostly sunny",
+        "rain_chance": "0%",
         "wind_mph": 8
+      },
+      {
+        "time": "1 PM",
+        "temp_c": 7,
+        "condition": "Mostly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 8
+      },
+      {
+        "time": "2 PM",
+        "temp_c": 7,
+        "condition": "Mostly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 8
+      },
+      {
+        "time": "3 PM",
+        "temp_c": 7,
+        "condition": "Partly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 8
+      },
+      {
+        "time": "4 PM",
+        "temp_c": 6,
+        "condition": "Partly sunny",
+        "rain_chance": "0%",
+        "wind_mph": 7
+      },
+      {
+        "time": "5 PM",
+        "temp_c": 5,
+        "condition": "Intermittent clouds",
+        "rain_chance": "0%",
+        "wind_mph": 7
+      },
+      {
+        "time": "6 PM",
+        "temp_c": 4,
+        "condition": "Mostly cloudy",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "7 PM",
+        "temp_c": 4,
+        "condition": "Cloudy",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "8 PM",
+        "temp_c": 4,
+        "condition": "Cloudy",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "9 PM",
+        "temp_c": 3,
+        "condition": "Cloudy",
+        "rain_chance": "0%",
+        "wind_mph": 6
+      },
+      {
+        "time": "10 PM",
+        "temp_c": 3,
+        "condition": "Cloudy",
+        "rain_chance": "0%",
+        "wind_mph": 7
+      },
+      {
+        "time": "11 PM",
+        "temp_c": 3,
+        "condition": "Cloudy",
+        "rain_chance": "0%",
+        "wind_mph": 7
       }
     ],
     "warnings": []
