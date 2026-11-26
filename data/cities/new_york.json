@@ -4,18 +4,18 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/new-york/10021/current-weather/349727",
-  "scraped_at": "2026-11-25T18:31:34.987810+00:00",
+  "scraped_at": "2026-11-26T02:31:34.775324+00:00",
   "today": {
-    "date": "2026-11-25",
-    "condition": "Some sunshine giving way to clouds; dry for holiday travel",
-    "temp_max": 8,
-    "temp_min": 6,
-    "feels_like_high": 8,
+    "date": "2026-11-26",
+    "condition": "Cloudy",
+    "temp_max": null,
+    "temp_min": 5,
+    "feels_like_high": null,
     "feels_like_low": -2,
-    "wind_gust_mph": 14,
-    "humidity_high_pct": 33,
+    "wind_gust_mph": null,
+    "humidity_high_pct": 60,
     "humidity_low_pct": null,
-    "uv_level": "Low",
+    "uv_level": null,
     "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
@@ -25,68 +25,12 @@
     "current": {
       "temp_c": 6,
       "condition": "Cloudy",
-      "feels_like": 5,
-      "rain_chance": "0%",
-      "wind_gust_mph": 8,
+      "feels_like": 2,
+      "rain_chance": null,
+      "wind_gust_mph": 12,
       "pollen": null
     },
     "hourly": [
-      {
-        "time": "2 PM",
-        "temp_c": 7,
-        "condition": "Intermittent clouds",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
-      {
-        "time": "3 PM",
-        "temp_c": 8,
-        "condition": "Mostly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
-      {
-        "time": "4 PM",
-        "temp_c": 7,
-        "condition": "Mostly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 8
-      },
-      {
-        "time": "5 PM",
-        "temp_c": 7,
-        "condition": "Mostly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 6
-      },
-      {
-        "time": "6 PM",
-        "temp_c": 7,
-        "condition": "Mostly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 8
-      },
-      {
-        "time": "7 PM",
-        "temp_c": 6,
-        "condition": "Cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 12
-      },
-      {
-        "time": "8 PM",
-        "temp_c": 7,
-        "condition": "Cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 13
-      },
-      {
-        "time": "9 PM",
-        "temp_c": 7,
-        "condition": "Mostly cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 14
-      },
       {
         "time": "10 PM",
         "temp_c": 7,
@@ -107,19 +51,19 @@
   "forecast": [
     {
       "date": "2026-11-26",
-      "condition": "Winds becoming strong; rain, becoming heavy at times; gusty winds are likely to cause parade balloons to be lowered and perhaps even grounded",
-      "temp_min": 9,
-      "temp_max": 12
+      "condition": "Winds becoming strong; rain, becoming heavy at times; watch for flooding on streets; strong winds can cause power outages and down trees",
+      "temp_min": 10,
+      "temp_max": 11
     },
     {
       "date": "2026-11-27",
-      "condition": "Some sun, then turning cloudy with a shower in the area in the afternoon",
+      "condition": "Not as cool with some sun, then turning cloudy; a shower in the area in the afternoon",
       "temp_min": 7,
       "temp_max": 14
     },
     {
       "date": "2026-11-28",
-      "condition": "Sunshine and some clouds",
+      "condition": "Sunshine and some clouds; dry for the parade",
       "temp_min": 7,
       "temp_max": 11
     },
@@ -132,7 +76,7 @@
     {
       "date": "2026-11-30",
       "condition": "Rain and drizzle in the morning; otherwise, after a cloudy start, sun returns",
-      "temp_min": 7,
+      "temp_min": 5,
       "temp_max": 13
     },
     {
@@ -144,19 +88,19 @@
     {
       "date": "2026-12-02",
       "condition": "Sunshine and a few clouds",
-      "temp_min": 3,
+      "temp_min": 6,
       "temp_max": 11
     },
     {
       "date": "2026-12-03",
       "condition": "Clouds followed by a brightening sky",
       "temp_min": 8,
-      "temp_max": 11
+      "temp_max": 13
     },
     {
       "date": "2026-12-04",
       "condition": "Cloudy with a bit of rain",
-      "temp_min": 8,
+      "temp_min": 7,
       "temp_max": 12
     },
     {

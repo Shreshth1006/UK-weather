@@ -4,101 +4,45 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-11-25T18:31:40.186574+00:00",
+  "scraped_at": "2026-11-26T02:31:43.932850+00:00",
   "today": {
-    "date": "2026-11-25",
-    "condition": "A thick cloud cover; dry for holiday travel",
-    "temp_max": 10,
+    "date": "2026-11-26",
+    "condition": "Cloudy",
+    "temp_max": null,
     "temp_min": 6,
-    "feels_like_high": 7,
-    "feels_like_low": -1,
-    "wind_gust_mph": 22,
-    "humidity_high_pct": 62,
+    "feels_like_high": null,
+    "feels_like_low": -2,
+    "wind_gust_mph": null,
+    "humidity_high_pct": 74,
     "humidity_low_pct": null,
-    "uv_level": "Low",
-    "visibility_high": "14km",
+    "uv_level": null,
+    "visibility_high": "16km",
     "visibility_low": null,
     "air_pollution": "Poor",
     "pollen": null,
     "sunrise": "7:01 AM",
     "sunset": "4:49 PM",
     "current": {
-      "temp_c": 7,
+      "temp_c": 8,
       "condition": "Cloudy",
-      "feels_like": 7,
-      "rain_chance": "1%",
-      "wind_gust_mph": 13,
+      "feels_like": 5,
+      "rain_chance": null,
+      "wind_gust_mph": 19,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "2 PM",
-        "temp_c": 9,
-        "condition": "Cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 10
-      },
-      {
-        "time": "3 PM",
-        "temp_c": 10,
-        "condition": "Cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 10
-      },
-      {
-        "time": "4 PM",
-        "temp_c": 10,
-        "condition": "Cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 10
-      },
-      {
-        "time": "5 PM",
-        "temp_c": 9,
-        "condition": "Cloudy",
-        "rain_chance": "0%",
-        "wind_mph": 10
-      },
-      {
-        "time": "6 PM",
-        "temp_c": 9,
-        "condition": "Cloudy",
-        "rain_chance": "1%",
-        "wind_mph": 10
-      },
-      {
-        "time": "7 PM",
-        "temp_c": 8,
-        "condition": "Cloudy",
-        "rain_chance": "7%",
-        "wind_mph": 13
-      },
-      {
-        "time": "8 PM",
-        "temp_c": 8,
-        "condition": "Cloudy",
-        "rain_chance": "7%",
-        "wind_mph": 14
-      },
-      {
-        "time": "9 PM",
-        "temp_c": 8,
-        "condition": "Cloudy",
-        "rain_chance": "7%",
-        "wind_mph": 15
-      },
-      {
         "time": "10 PM",
-        "temp_c": 8,
-        "condition": "Cloudy",
-        "rain_chance": "7%",
+        "temp_c": 7,
+        "condition": "Showers",
+        "rain_chance": "57%",
         "wind_mph": 16
       },
       {
         "time": "11 PM",
-        "temp_c": 7,
+        "temp_c": 6,
         "condition": "Cloudy",
-        "rain_chance": "7%",
+        "rain_chance": "49%",
         "wind_mph": 16
       }
     ],
@@ -107,8 +51,8 @@
   "forecast": [
     {
       "date": "2026-11-26",
-      "condition": "Winds becoming strong; rain, some heavy; a thunderstorm late in the day; watch for flooding on streets; strong winds can cause power outages and down trees",
-      "temp_min": 9,
+      "condition": "Winds becoming strong; heavy rain and a thunderstorm; watch for flooding on streets; strong winds can cause power outages and down trees",
+      "temp_min": 8,
       "temp_max": 13
     },
     {
@@ -137,27 +81,27 @@
     },
     {
       "date": "2026-12-01",
-      "condition": "Mostly sunny",
-      "temp_min": 3,
+      "condition": "Partly sunny",
+      "temp_min": 2,
       "temp_max": 13
     },
     {
       "date": "2026-12-02",
       "condition": "Mostly sunny",
-      "temp_min": 3,
+      "temp_min": 1,
       "temp_max": 13
     },
     {
       "date": "2026-12-03",
       "condition": "Sun through high clouds",
-      "temp_min": 7,
-      "temp_max": 15
+      "temp_min": 6,
+      "temp_max": 16
     },
     {
       "date": "2026-12-04",
       "condition": "Cloudy with a shower in the area in the afternoon",
-      "temp_min": 8,
-      "temp_max": 15
+      "temp_min": 7,
+      "temp_max": 17
     },
     {
       "date": "2026-12-05",
