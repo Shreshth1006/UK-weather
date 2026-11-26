@@ -4,151 +4,102 @@
   "country": "US",
   "source": "AccuWeather",
   "source_url": "https://www.accuweather.com/en/us/washington/20006/current-weather/327659",
-  "scraped_at": "2026-11-26T11:31:34.942394+00:00",
+  "scraped_at": "2026-11-26T18:31:25.271104+00:00",
   "today": {
     "date": "2026-11-26",
     "condition": "Winds becoming strong; heavy rain and a thunderstorm; watch for flooding on streets; strong winds can down trees and cause power outages",
     "temp_max": 13,
-    "temp_min": 10,
+    "temp_min": 9,
     "feels_like_high": 5,
     "feels_like_low": 5,
     "wind_gust_mph": 52,
-    "humidity_high_pct": 93,
+    "humidity_high_pct": 94,
     "humidity_low_pct": null,
     "uv_level": "Low",
-    "visibility_high": "8km",
+    "visibility_high": "3km",
     "visibility_low": null,
     "air_pollution": "Fair",
     "pollen": null,
     "sunrise": "7:02 AM",
     "sunset": "4:48 PM",
     "current": {
-      "temp_c": 9,
+      "temp_c": 11,
       "condition": "Rain",
-      "feels_like": 4,
+      "feels_like": 5,
       "rain_chance": "100%",
-      "wind_gust_mph": 23,
+      "wind_gust_mph": 43,
       "pollen": null
     },
     "hourly": [
       {
-        "time": "7 AM",
-        "temp_c": 10,
+        "time": "2 PM",
+        "temp_c": 8,
         "condition": "Rain",
-        "rain_chance": "81%",
-        "wind_mph": 20
+        "rain_chance": "90%",
+        "wind_mph": 18
       },
       {
-        "time": "8 AM",
-        "temp_c": 10,
+        "time": "3 PM",
+        "temp_c": 8,
         "condition": "Rain",
-        "rain_chance": "81%",
+        "rain_chance": "90%",
         "wind_mph": 21
       },
       {
-        "time": "9 AM",
+        "time": "4 PM",
         "temp_c": 9,
         "condition": "Rain",
-        "rain_chance": "88%",
+        "rain_chance": "90%",
         "wind_mph": 21
       },
       {
-        "time": "10 AM",
-        "temp_c": 10,
+        "time": "5 PM",
+        "temp_c": 9,
         "condition": "Rain",
-        "rain_chance": "88%",
+        "rain_chance": "90%",
+        "wind_mph": 21
+      },
+      {
+        "time": "6 PM",
+        "temp_c": 9,
+        "condition": "Thunderstorms",
+        "rain_chance": "90%",
         "wind_mph": 22
       },
       {
-        "time": "11 AM",
-        "temp_c": 11,
-        "condition": "Rain",
-        "rain_chance": "88%",
-        "wind_mph": 23
-      },
-      {
-        "time": "12 PM",
-        "temp_c": 11,
-        "condition": "Rain",
-        "rain_chance": "88%",
-        "wind_mph": 23
-      },
-      {
-        "time": "1 PM",
-        "temp_c": 11,
-        "condition": "Rain",
+        "time": "7 PM",
+        "temp_c": 10,
+        "condition": "Thunderstorms",
         "rain_chance": "90%",
         "wind_mph": 23
       },
       {
-        "time": "2 PM",
-        "temp_c": 12,
-        "condition": "Rain",
+        "time": "8 PM",
+        "temp_c": 10,
+        "condition": "Thunderstorms",
+        "rain_chance": "90%",
+        "wind_mph": 24
+      },
+      {
+        "time": "9 PM",
+        "temp_c": 11,
+        "condition": "Thunderstorms",
+        "rain_chance": "90%",
+        "wind_mph": 23
+      },
+      {
+        "time": "10 PM",
+        "temp_c": 11,
+        "condition": "Thunderstorms",
         "rain_chance": "90%",
         "wind_mph": 25
       },
       {
-        "time": "3 PM",
-        "temp_c": 12,
-        "condition": "Rain",
-        "rain_chance": "90%",
-        "wind_mph": 27
-      },
-      {
-        "time": "4 PM",
-        "temp_c": 13,
-        "condition": "Rain",
-        "rain_chance": "85%",
-        "wind_mph": 27
-      },
-      {
-        "time": "5 PM",
-        "temp_c": 13,
-        "condition": "Rain",
-        "rain_chance": "85%",
-        "wind_mph": 24
-      },
-      {
-        "time": "6 PM",
-        "temp_c": 13,
-        "condition": "Rain",
-        "rain_chance": "85%",
-        "wind_mph": 21
-      },
-      {
-        "time": "7 PM",
-        "temp_c": 12,
-        "condition": "Showers",
-        "rain_chance": "52%",
-        "wind_mph": 20
-      },
-      {
-        "time": "8 PM",
-        "temp_c": 12,
-        "condition": "Cloudy",
-        "rain_chance": "48%",
-        "wind_mph": 18
-      },
-      {
-        "time": "9 PM",
-        "temp_c": 13,
-        "condition": "Cloudy",
-        "rain_chance": "49%",
-        "wind_mph": 16
-      },
-      {
-        "time": "10 PM",
-        "temp_c": 13,
-        "condition": "Showers",
-        "rain_chance": "53%",
-        "wind_mph": 14
-      },
-      {
         "time": "11 PM",
-        "temp_c": 13,
-        "condition": "Cloudy",
-        "rain_chance": "49%",
-        "wind_mph": 13
+        "temp_c": 11,
+        "condition": "Thunderstorms",
+        "rain_chance": "90%",
+        "wind_mph": 26
       }
     ],
     "warnings": []
@@ -156,37 +107,37 @@
   "forecast": [
     {
       "date": "2026-11-27",
-      "condition": "Breezy at times in the morning; otherwise, rather cloudy",
-      "temp_min": 6,
+      "condition": "Rather cloudy and breezy at times",
+      "temp_min": 7,
       "temp_max": 12
     },
     {
       "date": "2026-11-28",
-      "condition": "Partly sunny and pleasant",
+      "condition": "Partly sunny and breezy",
       "temp_min": 2,
-      "temp_max": 16
+      "temp_max": 14
     },
     {
       "date": "2026-11-29",
-      "condition": "Beautiful with times of clouds and sun",
+      "condition": "Times of clouds and sun",
       "temp_min": 8,
       "temp_max": 14
     },
     {
       "date": "2026-11-30",
-      "condition": "On-and-off rain and drizzle in the morning; otherwise, mostly cloudy and breezy",
+      "condition": "Partly sunny and windy",
       "temp_min": 3,
       "temp_max": 16
     },
     {
       "date": "2026-12-01",
-      "condition": "Partly sunny",
+      "condition": "Mostly cloudy",
       "temp_min": 2,
       "temp_max": 12
     },
     {
       "date": "2026-12-02",
-      "condition": "Mostly sunny",
+      "condition": "Partly sunny",
       "temp_min": 3,
       "temp_max": 13
     },
@@ -204,9 +155,9 @@
     },
     {
       "date": "2026-12-05",
-      "condition": "Intervals of bright sunshine",
+      "condition": "Rainy times in the morning; otherwise, cloudy",
       "temp_min": 2,
-      "temp_max": 14
+      "temp_max": 13
     },
     {
       "date": "2026-12-06",
